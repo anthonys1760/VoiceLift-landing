@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Microphone symbol + Barbell -->
+  <defs>
+    <style>
+      .logo-bg { fill: #0A0A0A; }
+      .logo-primary { fill: #E8FF47; }
+      .logo-stroke { stroke: #E8FF47; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Microphone capsule (top) -->
+  <ellipse cx="100" cy="60" rx="18" ry="24" class="logo-primary"/>
+
+  <!-- Microphone shaft -->
+  <rect x="97" y="82" width="6" height="35" class="logo-primary"/>
+
+  <!-- Barbell plates (left) -->
+  <ellipse cx="65" cy="135" rx="16" ry="20" class="logo-primary"/>
+  <ellipse cx="65" cy="135" rx="10" ry="14" class="logo-bg"/>
+
+  <!-- Barbell bar -->
+  <rect x="81" y="132" width="38" height="6" class="logo-primary" rx="3"/>
+
+  <!-- Barbell plates (right) -->
+  <ellipse cx="135" cy="135" rx="16" ry="20" class="logo-primary"/>
+  <ellipse cx="135" cy="135" rx="10" ry="14" class="logo-bg"/>
+
+  <!-- Waveform accent (subtle) -->
+  <path d="M 60 105 Q 65 100 70 105 T 80 105 T 90 105 T 100 105 T 110 105 T 120 105 T 130 105 T 140 105" class="logo-stroke" stroke-width="2"/>
+</svg>

@@ -190,8 +190,9 @@ const CSS = [
   ".fade-up.d5 { animation-delay: 0.45s; }",
   "nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; transition: background 0.3s, padding 0.3s; }",
   "nav.scrolled { background: rgba(10,10,10,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 14px 40px; }",
-  ".logo { font-family: var(--font-display); font-size: 26px; letter-spacing: 2px; color: var(--white); text-decoration: none; }",
-  ".logo span { color: var(--lime); }",
+  ".logo { display: flex; align-items: center; text-decoration: none; }",
+  ".logo img { height: 32px; width: 32px; transition: opacity 0.2s; }",
+  ".logo:hover img { opacity: 0.8; }",
   ".nav-links { display: flex; gap: 32px; list-style: none; }",
   ".nav-links a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }",
   ".nav-links a:hover { color: var(--white); }",
@@ -372,7 +373,7 @@ export default function App() {
 
       <nav className={scrolled ? "scrolled" : ""}>
         <a href="#" className="logo">
-          Voice<span>Lift</span>
+          <img src="/logo.svg" alt="VoiceLift" style={{ height: 32, width: 32 }} />
         </a>
         <ul className="nav-links">
           {NAV_LINKS.map((l) => (
