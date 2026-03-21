@@ -1,50 +1,50 @@
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .primary { fill: #E8FF47; }
-      .bg { fill: #0A0A0A; }
-      .stroke { stroke: #E8FF47; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .fill { fill: #E8FF47; }
+      .stroke-base { stroke: #E8FF47; fill: none; stroke-linecap: round; stroke-linejoin: round; }
     </style>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E8FF47;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E8FF47;stop-opacity:0.8" />
-    </linearGradient>
   </defs>
 
-  <!-- Background circle for cohesion -->
-  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#grad1)" stroke-width="1" opacity="0.3"/>
+  <!-- Microphone body - rounded rectangle capsule -->
+  <path d="M 85 35 Q 85 25 100 25 Q 115 25 115 35 L 115 65 Q 115 75 100 75 Q 85 75 85 65 Z" class="fill"/>
 
-  <!-- Microphone capsule -->
-  <ellipse cx="100" cy="55" rx="22" ry="28" class="primary"/>
-  <ellipse cx="100" cy="55" rx="18" ry="24" class="bg"/>
+  <!-- Microphone inner cutout for dimension -->
+  <path d="M 92 40 Q 92 32 100 32 Q 108 32 108 40 L 108 60 Q 108 68 100 68 Q 92 68 92 60 Z" fill="#0A0A0A"/>
 
-  <!-- Microphone inner detail -->
-  <ellipse cx="100" cy="55" rx="14" ry="20" class="primary" opacity="0.6"/>
+  <!-- Microphone stem -->
+  <rect x="95" y="72" width="10" height="18" rx="3" class="fill"/>
 
-  <!-- Microphone shaft -->
-  <rect x="96" y="80" width="8" height="28" rx="2" class="primary"/>
+  <!-- Connector line from mic to barbell -->
+  <line x1="100" y1="90" x2="100" y2="108" stroke="#E8FF47" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
 
-  <!-- Sound wave arcs emanating from mic -->
-  <path d="M 100 105 Q 85 110 80 120" class="stroke" stroke-width="2" opacity="0.7"/>
-  <path d="M 100 105 Q 115 110 120 120" class="stroke" stroke-width="2" opacity="0.7"/>
+  <!-- Left weight plate outer -->
+  <ellipse cx="55" cy="140" rx="20" ry="28" class="fill"/>
 
-  <!-- Left barbell plate -->
-  <ellipse cx="55" cy="145" rx="18" ry="24" class="primary"/>
-  <ellipse cx="55" cy="145" rx="12" ry="16" class="bg"/>
-  <ellipse cx="55" cy="145" rx="8" ry="12" class="primary" opacity="0.5"/>
+  <!-- Left weight plate middle ring -->
+  <ellipse cx="55" cy="140" rx="15" ry="22" fill="#0A0A0A"/>
 
-  <!-- Barbell bar connecting -->
-  <rect x="73" y="140" width="54" height="10" rx="2" class="primary"/>
+  <!-- Left weight plate inner -->
+  <ellipse cx="55" cy="140" rx="10" ry="16" class="fill"/>
 
-  <!-- Bar shine effect -->
-  <rect x="73" y="140" width="54" height="4" rx="2" class="primary" opacity="0.4"/>
+  <!-- Barbell bar -->
+  <rect x="75" y="133" width="50" height="14" rx="3" class="fill"/>
 
-  <!-- Right barbell plate -->
-  <ellipse cx="145" cy="145" rx="18" ry="24" class="primary"/>
-  <ellipse cx="145" cy="145" rx="12" ry="16" class="bg"/>
-  <ellipse cx="145" cy="145" rx="8" ry="12" class="primary" opacity="0.5"/>
+  <!-- Barbell bar shine/highlight -->
+  <rect x="75" y="133" width="50" height="6" rx="3" class="fill" opacity="0.35"/>
 
-  <!-- Accent: small pulse dots suggesting voice/energy -->
-  <circle cx="70" cy="95" r="2" class="primary" opacity="0.6"/>
-  <circle cx="130" cy="95" r="2" class="primary" opacity="0.6"/>
+  <!-- Right weight plate outer -->
+  <ellipse cx="145" cy="140" rx="20" ry="28" class="fill"/>
+
+  <!-- Right weight plate middle ring -->
+  <ellipse cx="145" cy="140" rx="15" ry="22" fill="#0A0A0A"/>
+
+  <!-- Right weight plate inner -->
+  <ellipse cx="145" cy="140" rx="10" ry="16" class="fill"/>
+
+  <!-- Subtle accent lines for grip texture on barbell -->
+  <line x1="80" y1="135" x2="80" y2="148" stroke="#E8FF47" stroke-width="1" opacity="0.4"/>
+  <line x1="90" y1="133" x2="90" y2="150" stroke="#E8FF47" stroke-width="1" opacity="0.4"/>
+  <line x1="110" y1="133" x2="110" y2="150" stroke="#E8FF47" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="135" x2="120" y2="148" stroke="#E8FF47" stroke-width="1" opacity="0.4"/>
 </svg>
