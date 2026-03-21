@@ -373,7 +373,7 @@ export default function App() {
 
       <nav className={scrolled ? "scrolled" : ""}>
         <a href="#" className="logo">
-          <img src="/logo.svg" alt="VoiceLift" style={{ height: 32, width: 32 }} />
+          <img src={import.meta.env.BASE_URL + "logo.svg"} alt="VoiceLift" style={{ height: 32, width: 32 }} />
         </a>
         <ul className="nav-links">
           {NAV_LINKS.map((l) => (
