@@ -247,8 +247,6 @@ const CSS = [
   ".cta-sub { font-size: 17px; color: var(--muted); margin-bottom: 44px; }",
   ".cta-form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; }",
   "footer { padding: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }",
-  ".footer-logo { font-family: var(--font-display); font-size: 20px; color: var(--white); letter-spacing: 2px; }",
-  ".footer-logo span { color: var(--lime); }",
   ".problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }",
   ".problem-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 28px; }",
   ".problem-icon { font-size: 32px; margin-bottom: 12px; }",
@@ -623,9 +621,10 @@ export default function App() {
       </div>
 
       <footer>
-        <span className="footer-logo">
-          Voice<span>Lift</span>
-        </span>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <img src={import.meta.env.BASE_URL + "logo.svg"} alt="VoiceLift" style={{ height: 28, width: 28 }} />
+          <span>VoiceLift</span>
+        </div>
         <span>2026 VoiceLift. Built for lifters, by lifters.</span>
         <span>Privacy · Terms</span>
       </footer>

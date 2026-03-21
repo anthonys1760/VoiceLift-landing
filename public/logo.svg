@@ -1,30 +1,50 @@
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Microphone symbol + Barbell -->
   <defs>
     <style>
-      .logo-bg { fill: #0A0A0A; }
-      .logo-primary { fill: #E8FF47; }
-      .logo-stroke { stroke: #E8FF47; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .primary { fill: #E8FF47; }
+      .bg { fill: #0A0A0A; }
+      .stroke { stroke: #E8FF47; fill: none; stroke-linecap: round; stroke-linejoin: round; }
     </style>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8FF47;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8FF47;stop-opacity:0.8" />
+    </linearGradient>
   </defs>
 
-  <!-- Microphone capsule (top) -->
-  <ellipse cx="100" cy="60" rx="18" ry="24" class="logo-primary"/>
+  <!-- Background circle for cohesion -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#grad1)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Microphone capsule -->
+  <ellipse cx="100" cy="55" rx="22" ry="28" class="primary"/>
+  <ellipse cx="100" cy="55" rx="18" ry="24" class="bg"/>
+
+  <!-- Microphone inner detail -->
+  <ellipse cx="100" cy="55" rx="14" ry="20" class="primary" opacity="0.6"/>
 
   <!-- Microphone shaft -->
-  <rect x="97" y="82" width="6" height="35" class="logo-primary"/>
+  <rect x="96" y="80" width="8" height="28" rx="2" class="primary"/>
 
-  <!-- Barbell plates (left) -->
-  <ellipse cx="65" cy="135" rx="16" ry="20" class="logo-primary"/>
-  <ellipse cx="65" cy="135" rx="10" ry="14" class="logo-bg"/>
+  <!-- Sound wave arcs emanating from mic -->
+  <path d="M 100 105 Q 85 110 80 120" class="stroke" stroke-width="2" opacity="0.7"/>
+  <path d="M 100 105 Q 115 110 120 120" class="stroke" stroke-width="2" opacity="0.7"/>
 
-  <!-- Barbell bar -->
-  <rect x="81" y="132" width="38" height="6" class="logo-primary" rx="3"/>
+  <!-- Left barbell plate -->
+  <ellipse cx="55" cy="145" rx="18" ry="24" class="primary"/>
+  <ellipse cx="55" cy="145" rx="12" ry="16" class="bg"/>
+  <ellipse cx="55" cy="145" rx="8" ry="12" class="primary" opacity="0.5"/>
 
-  <!-- Barbell plates (right) -->
-  <ellipse cx="135" cy="135" rx="16" ry="20" class="logo-primary"/>
-  <ellipse cx="135" cy="135" rx="10" ry="14" class="logo-bg"/>
+  <!-- Barbell bar connecting -->
+  <rect x="73" y="140" width="54" height="10" rx="2" class="primary"/>
 
-  <!-- Waveform accent (subtle) -->
-  <path d="M 60 105 Q 65 100 70 105 T 80 105 T 90 105 T 100 105 T 110 105 T 120 105 T 130 105 T 140 105" class="logo-stroke" stroke-width="2"/>
+  <!-- Bar shine effect -->
+  <rect x="73" y="140" width="54" height="4" rx="2" class="primary" opacity="0.4"/>
+
+  <!-- Right barbell plate -->
+  <ellipse cx="145" cy="145" rx="18" ry="24" class="primary"/>
+  <ellipse cx="145" cy="145" rx="12" ry="16" class="bg"/>
+  <ellipse cx="145" cy="145" rx="8" ry="12" class="primary" opacity="0.5"/>
+
+  <!-- Accent: small pulse dots suggesting voice/energy -->
+  <circle cx="70" cy="95" r="2" class="primary" opacity="0.6"/>
+  <circle cx="130" cy="95" r="2" class="primary" opacity="0.6"/>
 </svg>
