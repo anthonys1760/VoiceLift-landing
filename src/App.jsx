@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 
-const NAV_LINKS = ["Features", "How It Works", "FAQ"];
+const NAV_LINKS = ["Features", "How It Works", "Roadmap", "FAQ"];
 
 const FEATURES = [
   {
     icon: "🎙️",
     title: "Just Say It",
-    desc: 'Say "3 sets of bench at 185, last set was tough" and it\'s logged. No tapping, no scrolling.',
+    desc: 'Say "3 sets of bench at 185, last set was tough" and it\'s logged. Or type it—whatever fits the moment. Voice first, text always available.',
   },
   {
     icon: "🧠",
@@ -19,16 +19,17 @@ const FEATURES = [
     desc: "Visualizes your PRs, volume trends, and weak points – without you lifting a finger to set it up.",
   },
   {
-    icon: "⚡",
-    title: "10-Second Log",
-    desc: "Average log time under 10 seconds. Your rest timer can finally be the slowest thing in your session.",
+    icon: "⌨️",
+    title: "Voice or Text, Your Call",
+    desc: "Prefer to type? You can. VoiceLift is voice-first but never voice-only. Log however you want—no judgment, no friction.",
   },
 ];
 
 const STEPS = [
-  { num: "01", label: "Open the app", detail: "Tap once. That's the hardest part." },
-  { num: "02", label: "Say your set", detail: '"Hit 225 on squat for 5, felt easy."' },
-  { num: "03", label: "Done", detail: "It's logged, tracked, and ready for next time." },
+  { num: "01", label: "Open the app", detail: "Tap once. That's the hardest part.", tag: null },
+  { num: "02", label: "Say your set", detail: '"Hit 225 on squat for 5, felt easy."', tag: null },
+  { num: "03", label: "Done", detail: "It's logged, tracked, and ready for next time.", tag: null },
+  { num: "04", label: 'Say "Hey VoiceLift"', detail: "Skip the tap entirely. Wake the app with your voice and log hands-free, mid-session. Coming soon.", tag: "Coming Soon" },
 ];
 
 const TESTIMONIALS = [
@@ -89,6 +90,45 @@ const FAQS = [
   {
     q: "Will you sell to a big fitness company?",
     a: "No. We're indie, bootstrapped, and staying that way. Your data and experience are sacred.",
+  },
+  {
+    q: "What is wake-word triggering and when is it coming?",
+    a: 'Wake-word triggering lets you say "Hey VoiceLift" to open the app and start logging without touching your phone. It\'s our top-priority feature after launch. Early access members will get it first.',
+  },
+  {
+    q: "Do I have to use my voice? What if I'm in a loud gym or don't want to speak?",
+    a: "Voice is the default, but typing always works. Tap the keyboard icon on any log screen and type your set exactly as you'd say it—the AI processes it the same way. Loud gym, headphones in, crowded space—whatever the situation, you're covered.",
+  },
+];
+
+const ROADMAP = [
+  {
+    icon: "🔊",
+    title: 'Wake Word: "Hey VoiceLift"',
+    status: "coming-soon",
+    statusLabel: "Coming Soon",
+    desc: "Say the wake word anywhere—gym floor, car, kitchen—and the app opens, listens, and logs. Zero taps required.",
+  },
+  {
+    icon: "📵",
+    title: "Full Offline Mode",
+    status: "coming-soon",
+    statusLabel: "Coming Soon",
+    desc: "No signal in your basement gym? No problem. Logs queue locally and sync when you reconnect.",
+  },
+  {
+    icon: "⌚",
+    title: "Apple Watch & Wear OS",
+    status: "planned",
+    statusLabel: "Planned",
+    desc: "Log from your wrist. Raise, speak, done. The most frictionless logging possible.",
+  },
+  {
+    icon: "📊",
+    title: "AI-Driven Program Builder",
+    status: "planned",
+    statusLabel: "Planned",
+    desc: "VoiceLift learns your patterns and suggests progressive overload targets automatically.",
   },
 ];
 
@@ -236,7 +276,24 @@ const CSS = [
   ".faq-toggle.open { transform: rotate(180deg); }",
   ".faq-a { font-size: 15px; color: var(--muted); line-height: 1.6; margin-top: 12px; max-height: 0; overflow: hidden; transition: max-height 0.3s; }",
   ".faq-a.open { max-height: 500px; }",
-  "@media (max-width: 640px) { nav { padding: 16px 20px; } .nav-links { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } }",
+  ".coming-soon-badge { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--black); background: var(--lime); padding: 3px 9px; border-radius: 100px; vertical-align: middle; }",
+  ".step-row--upcoming { opacity: 0.7; border-left: 2px solid rgba(232,255,71,0.25); padding-left: 20px; margin-left: -22px; }",
+  ".step-row--upcoming:hover { opacity: 1; }",
+  ".roadmap-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }",
+  ".roadmap-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 32px 28px; transition: border-color 0.3s, transform 0.3s; }",
+  ".roadmap-card:hover { transform: translateY(-4px); }",
+  ".roadmap-card--coming-soon { border-color: rgba(232,255,71,0.25); background: linear-gradient(135deg, rgba(232,255,71,0.04) 0%, var(--card) 60%); }",
+  ".roadmap-card--coming-soon:hover { border-color: rgba(232,255,71,0.5); }",
+  ".roadmap-card--planned { border-color: var(--border); }",
+  ".roadmap-card--planned:hover { border-color: rgba(232,255,71,0.2); }",
+  ".roadmap-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }",
+  ".roadmap-icon { font-size: 28px; }",
+  ".roadmap-badge { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 10px; border-radius: 100px; }",
+  ".roadmap-badge--coming-soon { color: var(--black); background: var(--lime); }",
+  ".roadmap-badge--planned { color: var(--muted); background: transparent; border: 1px solid var(--border); }",
+  ".roadmap-title { font-size: 17px; font-weight: 600; margin-bottom: 10px; }",
+  ".roadmap-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }",
+  "@media (max-width: 640px) { nav { padding: 16px 20px; } .nav-links { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } }",
 ].join("\n");
 
 export default function App() {
@@ -254,6 +311,7 @@ export default function App() {
   const [pricRef, pricIn] = useInView(0.1);
   const [faqRef, faqIn] = useInView(0.1);
   const [ctaRef, ctaIn] = useInView(0.1);
+  const [roadmapRef, roadmapIn] = useInView(0.1);
 
   const [expandedFaq, setExpandedFaq] = useState(null);
 
@@ -346,7 +404,7 @@ export default function App() {
             <span className="accent">SAY IT.</span>
           </h1>
           <p className={cls("hero-sub fade-up d3", heroIn)}>
-            No more logging between sets. Voice-first AI workout tracking that understands how you actually talk about lifting.
+            No more logging between sets. Voice-first AI workout tracking that understands how you actually talk about lifting — voice or text, whatever fits the moment.
           </p>
           {!submitted ? (
             <form className={cls("waitlist-form fade-up d4", heroIn)} onSubmit={handleSubmit}>
@@ -424,14 +482,17 @@ export default function App() {
       <section id="how-it-works" ref={howRef} style={{ borderTop: "1px solid var(--border)" }}>
         <p className={cls("section-label fade-up d1", howIn)}>How It Works</p>
         <h2 className={cls("section-title fade-up d2", howIn)}>
-          Three steps.<br />One is talking.
+          Three steps today.<br />Zero steps soon.
         </h2>
         <div className={cls("steps-wrap fade-up d3", howIn)}>
           {STEPS.map((s) => (
-            <div className="step-row" key={s.num}>
+            <div className={`step-row${s.tag ? " step-row--upcoming" : ""}`} key={s.num}>
               <div className="step-num">{s.num}</div>
               <div>
-                <div className="step-label">{s.label}</div>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+                  <div className="step-label">{s.label}</div>
+                  {s.tag && <span className="coming-soon-badge">{s.tag}</span>}
+                </div>
                 <div className="step-detail">{s.detail}</div>
               </div>
             </div>
@@ -478,6 +539,25 @@ export default function App() {
                 ))}
               </ul>
               <button className="price-cta">{tier.cta}</button>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section id="roadmap" ref={roadmapRef} style={{ borderTop: "1px solid var(--border)" }}>
+        <p className={cls("section-label fade-up d1", roadmapIn)}>What's Coming</p>
+        <h2 className={cls("section-title fade-up d2", roadmapIn)}>
+          The roadmap.<br />Built in public.
+        </h2>
+        <div className={cls("roadmap-grid fade-up d3", roadmapIn)}>
+          {ROADMAP.map((item) => (
+            <div className={`roadmap-card roadmap-card--${item.status}`} key={item.title}>
+              <div className="roadmap-card-header">
+                <span className="roadmap-icon">{item.icon}</span>
+                <span className={`roadmap-badge roadmap-badge--${item.status}`}>{item.statusLabel}</span>
+              </div>
+              <div className="roadmap-title">{item.title}</div>
+              <div className="roadmap-desc">{item.desc}</div>
             </div>
           ))}
         </div>
