@@ -1,0 +1,13 @@
+# VoiceLift SEO Configuration
+# Allow search engines to crawl all pages
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /private
+
+# Crawl delay to be respectful to server resources (in seconds)
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://voicelift.app/sitemap.xml
