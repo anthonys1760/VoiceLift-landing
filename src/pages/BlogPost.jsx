@@ -1,10 +1,117 @@
 import { useParams, Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { getBlogPostBySlug, blogPosts } from "../data/blogPosts";
+
+const NAV_STYLES = `
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: transparent;
+    transition: all 0.3s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  nav.scrolled {
+    background: rgba(10,10,10,0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+  }
+  .logo:hover {
+    opacity: 0.8;
+  }
+  .logo-img {
+    display: block;
+    height: 180px;
+    width: auto;
+  }
+  .logo-text {
+    display: none;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .logo-text-lift {
+    color: var(--lime);
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  .nav-links a {
+    font-size: 14px;
+    color: var(--muted);
+    transition: color 0.2s;
+  }
+  .nav-links a:hover {
+    color: var(--text);
+  }
+  .nav-cta {
+    background: var(--lime);
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .nav-cta:hover {
+    opacity: 0.88;
+    transform: translateY(-2px);
+  }
+  .grid-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  @media (max-width: 640px) {
+    nav {
+      padding: 16px 20px;
+    }
+    .logo-img {
+      display: none;
+    }
+    .logo-text {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .nav-cta {
+      font-size: 11px;
+      padding: 10px 16px;
+    }
+  }
+`;
 
 export default function BlogPost() {
   const { slug } = useParams();
   const post = getBlogPostBySlug(slug);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     if (post) {
@@ -12,6 +119,14 @@ export default function BlogPost() {
       window.scrollTo(0, 0);
     }
   }, [post]);
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 30);
+    }
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   if (!post) {
     return (
@@ -31,8 +146,27 @@ export default function BlogPost() {
   const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
 
   return (
-    <div style={{ background: "var(--bg)", color: "var(--text)", minHeight: "100vh" }}>
-      <style>{`
+    <>
+      <style>{NAV_STYLES}</style>
+      <div className="grid-overlay" />
+      <nav className={scrolled ? "scrolled" : ""}>
+        <Link to="/" className="logo">
+          <img src={import.meta.env.BASE_URL + "voicelift-logo.png"} alt="VoiceLift" className="logo-img" />
+          <span className="logo-text">Voice<span className="logo-text-lift">Lift</span></span>
+        </Link>
+        <ul className="nav-links">
+          <li><Link to="/#features">Features</Link></li>
+          <li><Link to="/#how-it-works">How It Works</Link></li>
+          <li><Link to="/#roadmap">Roadmap</Link></li>
+          <li><Link to="/#faq">FAQ</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+        </ul>
+        <button className="nav-cta" onClick={() => window.location.href = "/#cta"}>
+          Get Early Access
+        </button>
+      </nav>
+      <div style={{ background: "var(--bg)", color: "var(--text)", minHeight: "100vh" }}>
+        <style>{`
         .blog-post-container {
           max-width: 800px;
           margin: 0 auto;
@@ -137,12 +271,40 @@ export default function BlogPost() {
           font-weight: 600;
           font-size: 16px;
         }
+        .blog-post-featured-image {
+          width: 100%;
+          height: 400px;
+          object-fit: cover;
+          border-radius: 12px;
+          margin: 50px 0;
+        }
         @media (max-width: 640px) {
           .blog-post-container {
             padding: 80px 20px 60px;
+            max-width: 100%;
+          }
+          .blog-post-title {
+            font-size: clamp(24px, 5vw, 32px);
+          }
+          .blog-post-content {
+            font-size: 15px;
+          }
+          .blog-post-content h2 {
+            font-size: 22px;
+          }
+          .blog-post-content h3 {
+            font-size: 18px;
+          }
+          .blog-post-featured-image {
+            height: 250px;
+            margin: 30px 0;
           }
           .blog-post-nav {
             grid-template-columns: 1fr;
+            gap: 20px;
+          }
+          .blog-post-nav a {
+            padding: 16px;
           }
         }
       `}</style>
@@ -164,6 +326,15 @@ export default function BlogPost() {
           </div>
         </div>
 
+        <img
+          src={post.image}
+          alt={post.title}
+          className="blog-post-featured-image"
+          onError={(e) => {
+            e.target.style.display = 'none';
+          }}
+        />
+
         <article className="blog-post-content" dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content) }} />
 
         <hr className="blog-post-divider" />
@@ -184,6 +355,7 @@ export default function BlogPost() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

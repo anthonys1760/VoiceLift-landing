@@ -62,7 +62,7 @@ That's the VoiceLift difference.
     date: "2026-03-27",
     category: "Features",
     readTime: "5 min read",
-    image: "/blog-voice-logging.svg",
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
   },
   {
     id: "ai-understands-gym-slang",
@@ -112,7 +112,7 @@ That's what it means to build for lifters.
     date: "2026-03-24",
     category: "Technology",
     readTime: "6 min read",
-    image: "/blog-ai-slang.svg",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
   },
   {
     id: "losing-data-hurts-progress",
@@ -186,7 +186,7 @@ That's what VoiceLift delivers.
     date: "2026-03-20",
     category: "Training",
     readTime: "4 min read",
-    image: "/blog-data-loss.svg",
+    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop",
   },
 ];
 

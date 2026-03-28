@@ -105,6 +105,7 @@ const FAQS = [
 const ROADMAP = [
   { icon: "🗣️", title: "Wake-Word Triggering", desc: "Say 'Hey VoiceLift' to log hands-free, mid-session.", status: "coming-soon" },
   { icon: "📱", title: "Web App", desc: "Full web experience for logging from any device.", status: "coming-soon" },
+  { icon: "⌚", title: "Apple Watch Support", desc: "Log your sets right from your wrist with native watchOS app.", status: "coming-soon" },
   { icon: "⚡", title: "Offline Mode", desc: "Log without internet. Sync when you're back online.", status: "planned" },
   { icon: "📊", title: "Advanced Analytics", desc: "AI-powered insights on your training patterns and peaks.", status: "planned" },
   { icon: "👥", title: "Social Sharing", desc: "Share PRs and training achievements with friends.", status: "planned" },
@@ -140,17 +141,20 @@ const CSS = [
   "body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; }",
   "a { color: inherit; text-decoration: none; }",
   "button { font-family: inherit; }",
-  "nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; background: transparent; transition: all 0.3s; position: fixed; width: 100%; top: 0; left: 0; right: 0; z-index: 1000; }",
+  "nav { display: flex; align-items: center; justify-content: space-between; padding: 0px 40px; background: transparent; transition: all 0.3s; position: fixed; width: 100%; top: 0; left: 0; right: 0; z-index: 1000; }",
   "nav.scrolled { background: rgba(10,10,10,0.8); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }",
-  ".logo { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; transition: opacity 0.2s; cursor: pointer; }",
+  ".logo { display: inline-flex; align-items: center; font-weight: 700; font-size: 16px; transition: opacity 0.2s; cursor: pointer; }",
   ".logo:hover { opacity: 0.8; }",
   ".nav-links { list-style: none; display: flex; gap: 40px; }",
   ".nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s; }",
   ".nav-links a:hover { color: var(--text); }",
   ".nav-cta { background: var(--lime); color: var(--black); font-size: 12px; font-weight: 600; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s, transform 0.2s; }",
   ".nav-cta:hover { opacity: 0.88; transform: translateY(-2px); }",
+  ".logo-img { display: block; height: 180px; width: auto; }",
+  ".logo-text { display: none; font-weight: 700; font-size: 16px; white-space: nowrap; }",
+  ".logo-text-lift { color: var(--lime); }",
   "section { padding: 100px 40px; max-width: 1200px; margin: 0 auto; }",
-  ".hero { padding: 180px 40px 100px; max-width: 1200px; margin: 0 auto; text-align: center; position: relative; }",
+  ".hero { padding: 220px 40px 20px; max-width: 1200px; margin: 0 auto; text-align: center; position: relative; }",
   ".hero-bg { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(232,255,71,0.1) 0%, transparent 70%); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; }",
   ".grid-overlay { position: fixed; width: 100%; height: 100%; background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 50px 50px; pointer-events: none; z-index: 0; top: 0; left: 0; }",
   ".hero-inner { position: relative; z-index: 1; }",
@@ -158,6 +162,10 @@ const CSS = [
   ".eyebrow.visible { opacity: 1; transform: translateY(0); }",
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
+  ".hero-phones { margin-top: 60px; display: flex; justify-content: center; gap: 40px; flex-wrap: nowrap; }",
+  ".hero-phone-item { display: flex; flex-direction: column; align-items: center; }",
+  ".hero-phone-item img { max-width: 100%; height: auto; max-width: 580px; margin-bottom: 16px; }",
+  ".hero-phone-label { font-size: 15px; color: var(--muted); text-align: center; font-weight: 500; }",
   ".d1 { animation-delay: 0s; }",
   ".d2 { animation-delay: 0.1s; }",
   ".d3 { animation-delay: 0.2s; }",
@@ -165,6 +173,8 @@ const CSS = [
   ".d5 { animation-delay: 0.4s; }",
   ".fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }",
   "@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }",
+  ".pulse-dot { color: var(--lime); animation: pulse 2s ease-in-out infinite; }",
+  "@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }",
   ".hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }",
   ".cta-primary { background: var(--lime); color: var(--black); font-weight: 600; padding: 16px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; }",
   ".cta-primary:hover { opacity: 0.88; transform: translateY(-2px); }",
@@ -207,16 +217,15 @@ const CSS = [
   ".price-features li { font-size: 14px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }",
   ".price-cta { background: var(--lime); color: var(--black); font-family: var(--font-body); font-weight: 600; font-size: 13px; padding: 14px 24px; border: none; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s, transform 0.2s; }",
   ".price-cta:hover { opacity: 0.88; transform: translateY(-2px); }",
-  ".faq-container { max-width: 760px; margin: 0 auto; }",
-  ".faq-item { border-bottom: 1px solid var(--border); padding: 24px 0; }",
-  ".faq-item:first-child { padding-top: 0; }",
-  ".faq-item:last-child { border-bottom: none; padding-bottom: 0; }",
-  ".faq-q { font-size: 17px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }",
+  ".faq-container { max-width: 900px; margin: 0 auto; display: grid; gap: 12px; }",
+  ".faq-item { background: linear-gradient(135deg, rgba(232,255,71,0.03) 0%, transparent 100%); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: all 0.3s; }",
+  ".faq-item:hover { border-color: rgba(232,255,71,0.4); background: linear-gradient(135deg, rgba(232,255,71,0.08) 0%, transparent 100%); }",
+  ".faq-q { font-size: 16px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; color: var(--text); background: transparent; border: none; font-family: inherit; width: 100%; text-align: left; padding: 20px; }",
   ".faq-q:hover { color: var(--lime); }",
-  ".faq-toggle { font-size: 20px; transition: transform 0.3s; }",
+  ".faq-toggle { font-size: 18px; transition: transform 0.3s ease; color: var(--lime); flex-shrink: 0; margin-left: 16px; }",
   ".faq-toggle.open { transform: rotate(180deg); }",
-  ".faq-a { font-size: 15px; color: var(--muted); line-height: 1.6; margin-top: 12px; max-height: 0; overflow: hidden; transition: max-height 0.3s; }",
-  ".faq-a.open { max-height: 500px; }",
+  ".faq-a { font-size: 15px; color: var(--muted); line-height: 1.7; padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }",
+  ".faq-a.open { max-height: 500px; padding: 0 20px 20px; }",
   ".coming-soon-badge { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--black); background: var(--lime); padding: 3px 9px; border-radius: 100px; vertical-align: middle; }",
   ".step-row--upcoming { opacity: 0.7; border-left: 2px solid rgba(232,255,71,0.25); padding-left: 20px; margin-left: -22px; }",
   ".step-row--upcoming:hover { opacity: 1; }",
@@ -234,7 +243,7 @@ const CSS = [
   ".roadmap-badge--planned { color: var(--muted); background: transparent; border: 1px solid var(--border); }",
   ".roadmap-title { font-size: 17px; font-weight: 600; margin-bottom: 10px; }",
   ".roadmap-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }",
-  "@media (max-width: 640px) { nav { padding: 16px 20px; } .nav-links { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } }",
+  "@media (max-width: 640px) { nav { padding: 16px 20px; } .logo-img { display: none; } .logo-text { display: block; } .nav-links { display: none; } .nav-cta { font-size: 11px; padding: 10px 16px; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phone-item img { max-width: 45vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
 ].join("\n");
 
 export default function Home() {
@@ -313,7 +322,8 @@ export default function Home() {
 
       <nav className={scrolled ? "scrolled" : ""}>
         <Link to="/" className="logo">
-          <img src={import.meta.env.BASE_URL + "logo.svg"} alt="VoiceLift" style={{ height: 32, width: 32 }} />
+          <img src={import.meta.env.BASE_URL + "voicelift-logo.png"} alt="VoiceLift" className="logo-img" />
+          <span className="logo-text">Voice<span className="logo-text-lift">Lift</span></span>
         </Link>
         <ul className="nav-links">
           {NAV_LINKS.map((l) => (
@@ -341,7 +351,7 @@ export default function Home() {
         <div className="grid-overlay" />
         <div className="hero-inner">
           <div className={cls("eyebrow fade-up d1", heroIn)}>
-            <span>●</span> Now accepting early access
+            <span className="pulse-dot">●</span> Now accepting early access
           </div>
           <h1 className={cls("fade-up d2", heroIn)}>Log Workouts by Speaking</h1>
           <p className={cls("subtitle fade-up d3", heroIn)}>
@@ -355,6 +365,17 @@ export default function Home() {
             <button className="cta-secondary" onClick={() => document.getElementById("features").scrollIntoView({ behavior: "smooth" })}>
               Learn More
             </button>
+          </div>
+
+          <div className={cls("hero-phones fade-up d5", heroIn)}>
+            <div className="hero-phone-item">
+              <img src={import.meta.env.BASE_URL + "phone-mockup.png"} alt="Log Workouts by Voice" />
+              <div className="hero-phone-label">Log workouts by voice</div>
+            </div>
+            <div className="hero-phone-item">
+              <img src={import.meta.env.BASE_URL + "phone-detail.png"} alt="AI Understands Your Training" />
+              <div className="hero-phone-label">AI understands your training</div>
+            </div>
           </div>
         </div>
       </div>

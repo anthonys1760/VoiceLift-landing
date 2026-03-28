@@ -1,16 +1,152 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { blogPosts } from "../data/blogPosts";
 
+const NAV_STYLES = `
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: transparent;
+    transition: all 0.3s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  nav.scrolled {
+    background: rgba(10,10,10,0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+  }
+  .logo:hover {
+    opacity: 0.8;
+  }
+  .logo-img {
+    display: block;
+    height: 180px;
+    width: auto;
+  }
+  .logo-text {
+    display: none;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .logo-text-lift {
+    color: var(--lime);
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  .nav-links a {
+    font-size: 14px;
+    color: var(--muted);
+    transition: color 0.2s;
+  }
+  .nav-links a:hover {
+    color: var(--text);
+  }
+  .nav-cta {
+    background: var(--lime);
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .nav-cta:hover {
+    opacity: 0.88;
+    transform: translateY(-2px);
+  }
+  .grid-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  @media (max-width: 640px) {
+    nav {
+      padding: 16px 20px;
+    }
+    .logo-img {
+      display: none;
+    }
+    .logo-text {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .nav-cta {
+      font-size: 11px;
+      padding: 10px 16px;
+    }
+  }
+`;
+
 export default function Blog() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 30);
+    }
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <div className="blog-page">
-      <style>{`
-        .blog-page {
-          min-height: 100vh;
-          background: var(--bg);
-          color: var(--text);
-          padding: 120px 40px 80px;
-        }
+    <>
+      <style>{NAV_STYLES}</style>
+      <div className="grid-overlay" />
+      <nav className={scrolled ? "scrolled" : ""}>
+        <Link to="/" className="logo">
+          <img src={import.meta.env.BASE_URL + "voicelift-logo.png"} alt="VoiceLift" className="logo-img" />
+          <span className="logo-text">Voice<span className="logo-text-lift">Lift</span></span>
+        </Link>
+        <ul className="nav-links">
+          <li><Link to="/#features">Features</Link></li>
+          <li><Link to="/#how-it-works">How It Works</Link></li>
+          <li><Link to="/#roadmap">Roadmap</Link></li>
+          <li><Link to="/#faq">FAQ</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+        </ul>
+        <button className="nav-cta" onClick={() => window.location.href = "/#cta"}>
+          Get Early Access
+        </button>
+      </nav>
+      <div className="blog-page">
+        <style>{`
+          .blog-page {
+            min-height: 100vh;
+            background: var(--bg);
+            color: var(--text);
+            padding: 120px 40px 80px;
+          }
         .blog-header {
           max-width: 900px;
           margin: 0 auto 80px;
@@ -85,6 +221,12 @@ export default function Blog() {
           justify-content: center;
           font-size: 48px;
           flex-shrink: 0;
+          overflow: hidden;
+        }
+        .blog-card-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
         @media (max-width: 768px) {
           .blog-page {
@@ -93,10 +235,17 @@ export default function Blog() {
           .blog-card {
             grid-template-columns: 1fr;
             gap: 20px;
+            padding: 20px;
           }
           .blog-card-image {
             width: 100%;
             height: 200px;
+          }
+          .blog-header h1 {
+            font-size: clamp(28px, 6vw, 40px);
+          }
+          .blog-header p {
+            font-size: 16px;
           }
         }
       `}</style>
@@ -125,10 +274,15 @@ export default function Blog() {
                 <span>{post.author}</span>
               </div>
             </div>
-            <div className="blog-card-image">📝</div>
+            <div className="blog-card-image">
+              <img src={post.image} alt={post.title} onError={(e) => {
+                e.target.style.display = 'none';
+              }} />
+            </div>
           </Link>
         ))}
       </div>
     </div>
+    </>
   );
 }
