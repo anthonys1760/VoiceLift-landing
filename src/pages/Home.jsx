@@ -49,19 +49,20 @@ const PRICING = [
   {
     name: "Free",
     price: "Forever",
-    features: ["30-day history", "Voice logging", "Basic exercise tracking"],
+    features: ["10 voice logs/month", "Basic exercise tracking", "30-day history"],
     cta: "Get Started",
   },
   {
     name: "Pro",
     price: "$7.99/mo",
-    features: ["Unlimited history", "PR tracking & alerts", "Volume analytics", "AI insights", "Priority support"],
+    sub: "or $59.99/yr — save 37%",
+    features: ["Unlimited voice logging", "Unlimited history", "PR tracking & alerts", "Volume analytics", "AI insights", "Priority support"],
     cta: "Upgrade",
     highlight: true,
   },
   {
     name: "Founding Member",
-    price: "$29.99",
+    price: "$69.99",
     features: ["Lifetime Pro access", "Early adopter badge", "Direct input on roadmap"],
     cta: "Join (500 slots)",
   },
@@ -211,7 +212,8 @@ const CSS = [
   ".price-card.highlight { border-color: var(--lime); background: linear-gradient(135deg, rgba(232,255,71,0.05) 0%, transparent 100%); transform: scale(1.05); }",
   ".price-card:hover { border-color: rgba(232,255,71,0.3); }",
   ".price-name { font-size: 20px; font-weight: 600; margin-bottom: 8px; }",
-  ".price-amount { font-family: var(--font-display); font-size: 36px; letter-spacing: 1px; color: var(--lime); margin-bottom: 24px; }",
+  ".price-amount { font-family: var(--font-display); font-size: 36px; letter-spacing: 1px; color: var(--lime); margin-bottom: 8px; }",
+  ".price-sub { font-size: 13px; color: var(--muted); margin-bottom: 20px; }",
   ".price-features { flex: 1; margin-bottom: 24px; }",
   ".price-features li { font-size: 14px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }",
   ".price-cta { background: var(--lime); color: var(--black); font-family: var(--font-body); font-weight: 600; font-size: 13px; padding: 14px 24px; border: none; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s, transform 0.2s; }",
@@ -497,6 +499,7 @@ export default function Home() {
             <div key={p.name} className={cls(`price-card fade-up ${p.highlight ? "highlight" : ""}`, pricIn)}>
               <h3 className="price-name">{p.name}</h3>
               <div className="price-amount">{p.price}</div>
+              {p.sub && <div className="price-sub">{p.sub}</div>}
               <ul className="price-features">
                 {p.features.map((f) => (
                   <li key={f}>✓ {f}</li>
