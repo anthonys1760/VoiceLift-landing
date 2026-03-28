@@ -90,26 +90,90 @@ const NAV_STYLES = `
   }
   @media (max-width: 640px) {
     nav {
-      padding: 16px 20px;
+      padding: 8px 10px;
     }
     .logo-img {
       display: none;
     }
     .logo-text {
       display: block;
+      font-size: 13px;
     }
     .nav-links {
       display: none;
     }
     .nav-cta {
-      font-size: 11px;
-      padding: 10px 16px;
+      font-size: 9px;
+      padding: 6px 10px;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+    }
+  }
+  .hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+  }
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(10px);
+    border-left: 1px solid var(--border);
+    width: min(280px, calc(100vw - 20px));
+    z-index: 999;
+  }
+  .mobile-menu.open {
+    display: block;
+  }
+  .mobile-menu a {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    color: var(--muted);
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  .mobile-menu a:hover {
+    color: var(--text);
+  }
+  .mobile-menu-cta {
+    background: var(--lime);
+    color: var(--black);
+    font-weight: 600;
+    margin: 12px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 24px);
+  }
+  .mobile-menu-cta:hover {
+    opacity: 0.88;
+  }
+  @media (max-width: 640px) {
+    .hamburger {
+      display: block;
     }
   }
 `;
 
 export default function Blog() {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     function onScroll() {
@@ -138,7 +202,30 @@ export default function Blog() {
         <button className="nav-cta" onClick={() => window.location.href = "/#cta"}>
           Get Early Access
         </button>
+        <button
+          className="hamburger"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          ☰
+        </button>
       </nav>
+
+      <div className={mobileMenuOpen ? "mobile-menu open" : "mobile-menu"}>
+        <Link to="/#features" onClick={() => setMobileMenuOpen(false)}>Features</Link>
+        <Link to="/#how-it-works" onClick={() => setMobileMenuOpen(false)}>How It Works</Link>
+        <Link to="/#roadmap" onClick={() => setMobileMenuOpen(false)}>Roadmap</Link>
+        <Link to="/#faq" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
+        <Link to="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+        <button
+          className="mobile-menu-cta"
+          onClick={() => {
+            window.location.href = "/#cta";
+            setMobileMenuOpen(false);
+          }}
+        >
+          Get Early Access
+        </button>
+      </div>
       <div className="blog-page">
         <style>{`
           .blog-page {
@@ -246,6 +333,25 @@ export default function Blog() {
           }
           .blog-header p {
             font-size: 16px;
+          }
+          nav {
+            padding: 8px 10px;
+          }
+          .logo-img {
+            display: none;
+          }
+          .logo-text {
+            display: block;
+            font-size: 13px;
+          }
+          .nav-links {
+            display: none;
+          }
+          .nav-cta {
+            display: none;
+          }
+          .hamburger {
+            display: block;
           }
         }
       `}</style>

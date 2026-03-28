@@ -162,9 +162,9 @@ const CSS = [
   ".eyebrow.visible { opacity: 1; transform: translateY(0); }",
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
-  ".hero-phones { margin-top: 60px; display: flex; justify-content: center; gap: 40px; flex-wrap: nowrap; }",
+  ".hero-phones { margin-top: 60px; display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap; }",
   ".hero-phone-item { display: flex; flex-direction: column; align-items: center; }",
-  ".hero-phone-item img { max-width: 100%; height: auto; max-width: 580px; margin-bottom: 16px; }",
+  ".hero-phone-item img { max-width: 100%; height: auto; max-width: 700px; margin-bottom: 16px; }",
   ".hero-phone-label { font-size: 15px; color: var(--muted); text-align: center; font-weight: 500; }",
   ".d1 { animation-delay: 0s; }",
   ".d2 { animation-delay: 0.1s; }",
@@ -243,7 +243,14 @@ const CSS = [
   ".roadmap-badge--planned { color: var(--muted); background: transparent; border: 1px solid var(--border); }",
   ".roadmap-title { font-size: 17px; font-weight: 600; margin-bottom: 10px; }",
   ".roadmap-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }",
-  "@media (max-width: 640px) { nav { padding: 16px 20px; } .logo-img { display: none; } .logo-text { display: block; } .nav-links { display: none; } .nav-cta { font-size: 11px; padding: 10px 16px; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phone-item img { max-width: 45vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
+  ".hamburger { display: none; background: transparent; border: none; color: var(--text); font-size: 24px; cursor: pointer; padding: 0; width: 28px; height: 28px; }",
+  ".mobile-menu { display: none; position: fixed; top: 60px; right: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-left: 1px solid var(--border); width: min(280px, calc(100vw - 20px)); z-index: 999; }",
+  ".mobile-menu.open { display: block; }",
+  ".mobile-menu a { display: block; width: 100%; padding: 16px 20px; color: var(--muted); text-align: left; text-decoration: none; font-size: 15px; cursor: pointer; transition: color 0.2s; }",
+  ".mobile-menu a:hover { color: var(--text); }",
+  ".mobile-menu-cta { background: var(--lime); color: var(--black); font-weight: 600; margin: 12px; padding: 12px 16px; border: none; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; width: calc(100% - 24px); }",
+  ".mobile-menu-cta:hover { opacity: 0.88; }",
+  "@media (max-width: 640px) { nav { padding: 8px 10px; } .logo-img { display: none; } .logo-text { display: block; font-size: 13px; } .hamburger { display: block; } .nav-links { display: none; } .nav-cta { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phones { flex-direction: column; gap: 20px; } .hero-phone-item { width: 100%; } .hero-phone-item img { max-width: 130vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
 ].join("\n");
 
 export default function Home() {
@@ -264,6 +271,7 @@ export default function Home() {
   const [roadmapRef, roadmapIn] = useInView(0.1);
 
   const [expandedFaq, setExpandedFaq] = useState(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     function onScroll() {
@@ -344,7 +352,38 @@ export default function Home() {
         >
           Get Early Access
         </button>
+        <button
+          className="hamburger"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          ☰
+        </button>
       </nav>
+
+      <div className={mobileMenuOpen ? "mobile-menu open" : "mobile-menu"}>
+        {NAV_LINKS.map((l) => (
+          <a
+            key={l}
+            href={"#" + l.toLowerCase().replace(/ /g, "-")}
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            {l}
+          </a>
+        ))}
+        <Link to="/blog" onClick={() => setMobileMenuOpen(false)} style={{ display: "block", padding: "16px 20px", color: "var(--muted)", textDecoration: "none" }}>
+          Blog
+        </Link>
+        <button
+          className="mobile-menu-cta"
+          onClick={() => {
+            const el = document.getElementById("cta");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+            setMobileMenuOpen(false);
+          }}
+        >
+          Get Early Access
+        </button>
+      </div>
 
       <div className="hero" ref={heroRef}>
         <div className="hero-bg" />

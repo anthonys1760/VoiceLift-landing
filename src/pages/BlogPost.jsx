@@ -2,6 +2,8 @@ import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getBlogPostBySlug, blogPosts } from "../data/blogPosts";
 
+const NAV_LINKS = ["Features", "How It Works", "Roadmap", "FAQ"];
+
 const NAV_STYLES = `
   nav {
     display: flex;
@@ -88,22 +90,80 @@ const NAV_STYLES = `
     top: 0;
     left: 0;
   }
+  .hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+  }
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(10px);
+    border-left: 1px solid var(--border);
+    width: min(280px, calc(100vw - 20px));
+    z-index: 999;
+  }
+  .mobile-menu.open {
+    display: block;
+  }
+  .mobile-menu a {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    color: var(--muted);
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  .mobile-menu a:hover {
+    color: var(--text);
+  }
+  .mobile-menu-cta {
+    background: var(--lime);
+    color: var(--black);
+    font-weight: 600;
+    margin: 12px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 24px);
+  }
+  .mobile-menu-cta:hover {
+    opacity: 0.88;
+  }
   @media (max-width: 640px) {
     nav {
-      padding: 16px 20px;
+      padding: 8px 10px;
     }
     .logo-img {
       display: none;
     }
     .logo-text {
       display: block;
+      font-size: 13px;
     }
     .nav-links {
       display: none;
     }
     .nav-cta {
-      font-size: 11px;
-      padding: 10px 16px;
+      display: none;
+    }
+    .hamburger {
+      display: block;
     }
   }
 `;
@@ -112,6 +172,7 @@ export default function BlogPost() {
   const { slug } = useParams();
   const post = getBlogPostBySlug(slug);
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (post) {
@@ -164,7 +225,35 @@ export default function BlogPost() {
         <button className="nav-cta" onClick={() => window.location.href = "/#cta"}>
           Get Early Access
         </button>
+        <button
+          className="hamburger"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          ☰
+        </button>
       </nav>
+
+      <div className={mobileMenuOpen ? "mobile-menu open" : "mobile-menu"}>
+        {NAV_LINKS.map((l) => (
+          <Link
+            key={l}
+            to={"/#" + l.toLowerCase().replace(/ /g, "-")}
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            {l}
+          </Link>
+        ))}
+        <Link to="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+        <button
+          className="mobile-menu-cta"
+          onClick={() => {
+            window.location.href = "/#cta";
+            setMobileMenuOpen(false);
+          }}
+        >
+          Get Early Access
+        </button>
+      </div>
       <div style={{ background: "var(--bg)", color: "var(--text)", minHeight: "100vh" }}>
         <style>{`
         .blog-post-container {
@@ -279,6 +368,25 @@ export default function BlogPost() {
           margin: 50px 0;
         }
         @media (max-width: 640px) {
+          nav {
+            padding: 8px 10px;
+          }
+          .logo-img {
+            display: none;
+          }
+          .logo-text {
+            display: block;
+            font-size: 13px;
+          }
+          .nav-links {
+            display: none;
+          }
+          .nav-cta {
+            display: none;
+          }
+          .hamburger {
+            display: block;
+          }
           .blog-post-container {
             padding: 80px 20px 60px;
             max-width: 100%;
