@@ -162,10 +162,9 @@ const CSS = [
   ".eyebrow.visible { opacity: 1; transform: translateY(0); }",
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
-  ".hero-phones { margin-top: 60px; display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap; }",
+  ".hero-phones { margin-top: 60px; display: flex; justify-content: center; }",
   ".hero-phone-item { display: flex; flex-direction: column; align-items: center; }",
-  ".hero-phone-item img { max-width: 100%; height: auto; max-width: 700px; margin-bottom: 16px; }",
-  ".hero-phone-label { font-size: 15px; color: var(--muted); text-align: center; font-weight: 500; }",
+  ".hero-phone-item img { max-width: 800px; width: 100%; height: auto; }",
   ".d1 { animation-delay: 0s; }",
   ".d2 { animation-delay: 0.1s; }",
   ".d3 { animation-delay: 0.2s; }",
@@ -409,11 +408,6 @@ export default function Home() {
           <div className={cls("hero-phones fade-up d5", heroIn)}>
             <div className="hero-phone-item">
               <img src={import.meta.env.BASE_URL + "phone-mockup.png"} alt="Log Workouts by Voice" />
-              <div className="hero-phone-label">Log workouts by voice</div>
-            </div>
-            <div className="hero-phone-item">
-              <img src={import.meta.env.BASE_URL + "phone-detail.png"} alt="AI Understands Your Training" />
-              <div className="hero-phone-label">AI understands your training</div>
             </div>
           </div>
         </div>
