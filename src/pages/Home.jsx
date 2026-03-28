@@ -54,8 +54,8 @@ const PRICING = [
   },
   {
     name: "Pro",
-    price: "$7.99/mo",
-    sub: "or $59.99/yr — save 37%",
+    price: "$9.99/mo",
+    sub: "or $79.99/yr — save 33%",
     features: ["Unlimited voice logging", "Unlimited history", "PR tracking & alerts", "Volume analytics", "AI insights", "Priority support"],
     cta: "Upgrade",
     highlight: true,
