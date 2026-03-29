@@ -175,11 +175,18 @@ const CSS = [
   ".d3 { animation-delay: 0.2s; }",
   ".d4 { animation-delay: 0.3s; }",
   ".d5 { animation-delay: 0.4s; }",
+  ".d6 { animation-delay: 0.5s; }",
   ".fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }",
   "@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }",
   ".pulse-dot { color: var(--lime); animation: pulse 2s ease-in-out infinite; }",
   "@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }",
-  ".hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }",
+  ".hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }",
+  ".transcript-bubble { display: inline-flex; align-items: center; gap: 12px; background: rgba(232,255,71,0.06); border: 1px solid rgba(232,255,71,0.18); border-radius: 12px; padding: 14px 20px; margin-bottom: 48px; max-width: 520px; }",
+  ".transcript-mic { font-size: 18px; flex-shrink: 0; animation: micPulse 1.4s ease-in-out infinite; }",
+  "@keyframes micPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }",
+  ".transcript-text { font-size: 15px; color: var(--text); text-align: left; line-height: 1.5; min-height: 22px; }",
+  ".transcript-cursor { display: inline-block; width: 2px; height: 15px; background: var(--lime); margin-left: 2px; vertical-align: middle; animation: blink 0.8s step-end infinite; }",
+  "@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }",
   ".cta-primary { background: var(--lime); color: var(--black); font-weight: 600; padding: 16px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; }",
   ".cta-primary:hover { opacity: 0.88; transform: translateY(-2px); }",
   ".cta-secondary { background: transparent; border: 1px solid var(--border); color: var(--text); font-weight: 600; padding: 16px 32px; border-radius: 8px; cursor: pointer; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; }",
@@ -278,6 +285,33 @@ export default function Home() {
   const [expandedFaq, setExpandedFaq] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const videoRef = useRef(null);
+
+  const PHRASES = [
+    "3 sets of bench at 185, last set was tough",
+    "Romanian deads, 4 plates, paused at the bottom",
+    "Hit 225 on squat for 5, felt easy",
+    "Superset: pull-ups and dips, 4 rounds",
+    "Overhead press 135, 3 sets of 8",
+  ];
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [displayed, setDisplayed] = useState("");
+  const [deleting, setDeleting] = useState(false);
+
+  useEffect(() => {
+    const phrase = PHRASES[phraseIndex];
+    let timeout;
+    if (!deleting && displayed.length < phrase.length) {
+      timeout = setTimeout(() => setDisplayed(phrase.slice(0, displayed.length + 1)), 55);
+    } else if (!deleting && displayed.length === phrase.length) {
+      timeout = setTimeout(() => setDeleting(true), 2200);
+    } else if (deleting && displayed.length > 0) {
+      timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 28);
+    } else if (deleting && displayed.length === 0) {
+      setDeleting(false);
+      setPhraseIndex((i) => (i + 1) % PHRASES.length);
+    }
+    return () => clearTimeout(timeout);
+  }, [displayed, deleting, phraseIndex]);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -418,7 +452,16 @@ export default function Home() {
             </button>
           </div>
 
-          <div className={cls("hero-phones fade-up d5", heroIn)}>
+          <div className={cls("fade-up d5", heroIn)} style={{ display: "flex", justifyContent: "center" }}>
+            <div className="transcript-bubble">
+              <span className="transcript-mic">🎙️</span>
+              <span className="transcript-text">
+                {displayed}<span className="transcript-cursor" />
+              </span>
+            </div>
+          </div>
+
+          <div className={cls("hero-phones fade-up d6", heroIn)}>
             <div className="phone-frame">
               <div className="phone-island" />
               <div className="phone-screen">
