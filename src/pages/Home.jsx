@@ -277,6 +277,13 @@ export default function Home() {
 
   const [expandedFaq, setExpandedFaq] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, []);
 
   useEffect(() => {
     function onScroll() {
@@ -415,7 +422,7 @@ export default function Home() {
             <div className="phone-frame">
               <div className="phone-island" />
               <div className="phone-screen">
-                <video autoPlay muted loop playsInline>
+                <video ref={videoRef} autoPlay muted loop playsInline preload="auto">
                   <source src={import.meta.env.BASE_URL + "hero-demo.mp4"} type="video/mp4" />
                 </video>
               </div>
