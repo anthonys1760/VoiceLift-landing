@@ -169,7 +169,6 @@ const CSS = [
   ".phone-frame::after { content: ''; position: absolute; left: -5px; top: 80px; width: 4px; height: 35px; background: #2a2a2a; border-radius: 3px 0 0 3px; box-shadow: 0 50px 0 #2a2a2a, 0 100px 0 #2a2a2a; }",
   ".phone-screen { border-radius: 42px; overflow: hidden; background: #000; aspect-ratio: 9/19.5; position: relative; }",
   ".phone-screen video { width: 100%; height: 100%; object-fit: cover; display: block; }",
-  ".phone-island { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 100px; height: 30px; background: #000; border-radius: 20px; z-index: 10; pointer-events: none; }",
   ".d1 { animation-delay: 0s; }",
   ".d2 { animation-delay: 0.1s; }",
   ".d3 { animation-delay: 0.2s; }",
@@ -463,7 +462,6 @@ export default function Home() {
 
           <div className={cls("hero-phones fade-up d6", heroIn)}>
             <div className="phone-frame">
-              <div className="phone-island" />
               <div className="phone-screen">
                 <video ref={videoRef} autoPlay muted loop playsInline preload="auto">
                   <source src={import.meta.env.BASE_URL + "hero-demo.mp4"} type="video/mp4" />
