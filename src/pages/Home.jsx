@@ -291,11 +291,8 @@ export default function Home() {
   const videoRef = useRef(null);
 
   const PHRASES = [
-    "3 sets of bench at 185, last set was tough",
-    "Romanian deads, 4 plates, paused at the bottom",
-    "Hit 225 on squat for 5, felt easy",
-    "Superset: pull-ups and dips, 4 rounds",
-    "Overhead press 135, 3 sets of 8",
+    "Barbell Bench Press 250lbs, 3 sets of 12",
+    "Barbell Row 250lbs, 3 sets of 12",
   ];
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
@@ -310,7 +307,7 @@ export default function Home() {
     } else if (!deleting && !processing && displayed.length === phrase.length) {
       timeout = setTimeout(() => setProcessing(true), 1000);
     } else if (processing) {
-      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 7000);
+      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 10000);
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 28);
     } else if (deleting && displayed.length === 0) {
