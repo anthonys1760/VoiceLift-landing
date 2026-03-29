@@ -310,7 +310,7 @@ export default function Home() {
     } else if (!deleting && !processing && displayed.length === phrase.length) {
       timeout = setTimeout(() => setProcessing(true), 1000);
     } else if (processing) {
-      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 4500);
+      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 7000);
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 28);
     } else if (deleting && displayed.length === 0) {
