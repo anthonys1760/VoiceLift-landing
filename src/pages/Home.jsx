@@ -303,7 +303,7 @@ export default function Home() {
     const phrase = PHRASES[phraseIndex];
     let timeout;
     if (!deleting && !processing && displayed.length < phrase.length) {
-      timeout = setTimeout(() => setDisplayed(phrase.slice(0, displayed.length + 1)), 55);
+      timeout = setTimeout(() => setDisplayed(phrase.slice(0, displayed.length + 1)), 110);
     } else if (!deleting && !processing && displayed.length === phrase.length) {
       timeout = setTimeout(() => setProcessing(true), 1000);
     } else if (processing) {
