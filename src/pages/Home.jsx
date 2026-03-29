@@ -203,6 +203,11 @@ const CSS = [
   ".feature-icon { font-size: 32px; margin-bottom: 16px; }",
   ".feature-title { font-size: 18px; font-weight: 600; margin-bottom: 10px; }",
   ".feature-desc { font-size: 15px; color: var(--muted); line-height: 1.6; }",
+  ".showcase-grid { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; align-items: flex-start; }",
+  ".showcase-item { display: flex; flex-direction: column; align-items: center; gap: 16px; }",
+  ".showcase-label { font-size: 14px; color: var(--muted); text-align: center; font-weight: 500; letter-spacing: 0.3px; }",
+  ".showcase-item .phone-frame { width: min(260px, 75vw); }",
+  "@media (max-width: 640px) { .showcase-grid { gap: 48px; } .showcase-item .phone-frame { width: min(280px, 78vw); } }",
   ".steps-container { max-width: 900px; margin: 0 auto; }",
   ".step-row { display: grid; grid-template-columns: 80px 1fr; gap: 40px; align-items: start; margin-bottom: 40px; }",
   ".step-num { font-family: var(--font-display); font-size: 64px; font-weight: 700; color: var(--lime); line-height: 1; }",
@@ -280,6 +285,7 @@ export default function Home() {
   const [heroRef, heroIn] = useInView(0.1);
   const [probRef, probIn] = useInView(0.1);
   const [featRef, featIn] = useInView(0.1);
+  const [showcaseRef, showcaseIn] = useInView(0.1);
   const [howRef, howIn] = useInView(0.1);
   const [testRef, testIn] = useInView(0.1);
   const [pricRef, pricIn] = useInView(0.1);
@@ -510,6 +516,41 @@ export default function Home() {
               <p className="feature-desc">{f.desc}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section ref={showcaseRef} style={{ textAlign: "center" }}>
+        <h2 className={cls("fade-up", showcaseIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "16px" }}>
+          Inside the App
+        </h2>
+        <p className={cls("fade-up", showcaseIn)} style={{ fontSize: "18px", color: "var(--muted)", marginBottom: "60px" }}>
+          Everything you need. Nothing you don't.
+        </p>
+        <div className="showcase-grid">
+          <div className={cls("showcase-item fade-up d1", showcaseIn)}>
+            <div className="phone-frame">
+              <div className="phone-screen">
+                <img src={import.meta.env.BASE_URL + "screen-feed.png"} alt="Workout Feed" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              </div>
+            </div>
+            <span className="showcase-label">Weekly volume & workout history</span>
+          </div>
+          <div className={cls("showcase-item fade-up d2", showcaseIn)}>
+            <div className="phone-frame">
+              <div className="phone-screen">
+                <img src={import.meta.env.BASE_URL + "screen-trends.png"} alt="PR Tracking" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              </div>
+            </div>
+            <span className="showcase-label">Personal records & weight over time</span>
+          </div>
+          <div className={cls("showcase-item fade-up d3", showcaseIn)}>
+            <div className="phone-frame">
+              <div className="phone-screen">
+                <img src={import.meta.env.BASE_URL + "screen-recovery.png"} alt="Muscle Recovery" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              </div>
+            </div>
+            <span className="showcase-label">Muscle recovery tracking</span>
+          </div>
         </div>
       </section>
 
