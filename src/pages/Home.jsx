@@ -463,11 +463,7 @@ export default function Home() {
             <div className="transcript-bubble">
               <span className="transcript-mic">🎙️</span>
               <span className="transcript-text">
-                {displayed}
-                {processing
-                  ? <span className="transcript-thinking"><span>.</span><span>.</span><span>.</span></span>
-                  : <span className="transcript-cursor" />
-                }
+                {displayed}<span className="transcript-cursor" />
               </span>
             </div>
           </div>
