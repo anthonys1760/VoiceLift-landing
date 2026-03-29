@@ -291,8 +291,8 @@ export default function Home() {
   const videoRef = useRef(null);
 
   const PHRASES = [
-    "Barbell Bench Press 250lbs, 3 sets of 12",
-    "Barbell Row 250lbs, 3 sets of 12",
+    "Just hit bench, 250 for 3 sets of 12",
+    "Did rows after, same weight, felt easy",
   ];
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
