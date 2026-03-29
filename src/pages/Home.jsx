@@ -107,6 +107,7 @@ const ROADMAP = [
   { icon: "🗣️", title: "Wake-Word Triggering", desc: "Say 'Hey VoiceLift' to log hands-free, mid-session.", status: "coming-soon" },
   { icon: "📱", title: "Web App", desc: "Full web experience for logging from any device.", status: "coming-soon" },
   { icon: "⌚", title: "Apple Watch Support", desc: "Log your sets right from your wrist with native watchOS app.", status: "coming-soon" },
+  { icon: "❤️", title: "Apple Health Sync", desc: "Automatically sync workouts, sets, and volume to Apple Health.", status: "coming-soon" },
   { icon: "⚡", title: "Offline Mode", desc: "Log without internet. Sync when you're back online.", status: "planned" },
   { icon: "📊", title: "Advanced Analytics", desc: "AI-powered insights on your training patterns and peaks.", status: "planned" },
   { icon: "👥", title: "Social Sharing", desc: "Share PRs and training achievements with friends.", status: "planned" },
