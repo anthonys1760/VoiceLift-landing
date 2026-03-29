@@ -445,7 +445,7 @@ export default function Home() {
           <div className={cls("eyebrow fade-up d1", heroIn)}>
             <span className="pulse-dot">●</span> Now accepting early access
           </div>
-          <h1 className={cls("fade-up d2", heroIn)}>Log Workouts by Speaking</h1>
+          <h1 className={cls("fade-up d2", heroIn)}>Train. Don't Type.</h1>
           <p className={cls("subtitle fade-up d3", heroIn)}>
             VoiceLift is voice-first. No forms, no friction. Say your set and it's logged instantly—AI understands gym slang, supersets, and edge cases.
           </p>
