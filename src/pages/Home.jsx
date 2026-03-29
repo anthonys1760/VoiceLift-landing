@@ -381,7 +381,7 @@ export default function Home() {
       <nav className={scrolled ? "scrolled" : ""}>
         <Link to="/" className="logo">
           <img src={import.meta.env.BASE_URL + "voicelift-logo.png"} alt="VoiceLift" className="logo-img" />
-          <span className="logo-text">Voice<span className="logo-text-lift">Lift</span></span>
+          <span className="logo-text">VOICE<span className="logo-text-lift">LIFT</span></span>
         </Link>
         <ul className="nav-links">
           {NAV_LINKS.map((l) => (
