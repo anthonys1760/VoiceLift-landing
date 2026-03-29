@@ -115,6 +115,104 @@ That's what it means to build for lifters.
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
   },
   {
+    id: "progressive-overload-tracking",
+    slug: "progressive-overload-tracking",
+    title: "Progressive Overload: Why Tracking Every Rep Is the Secret to Faster Gains",
+    excerpt: "Progressive overload is the #1 driver of muscle growth — but it only works if you actually know what you lifted last week.",
+    metaDescription: "Learn why progressive overload requires consistent workout tracking, how most lifters fail at it, and how voice logging makes it effortless to apply.",
+    content: `
+# Progressive Overload: Why Tracking Every Rep Is the Secret to Faster Gains
+
+If you've spent any time researching muscle growth, you've heard it: **progressive overload is king**. Add more weight, more reps, or more volume over time, and your muscles have no choice but to adapt and grow.
+
+Simple in theory. Brutally hard in practice.
+
+Here's the part nobody talks about: progressive overload only works if you actually know what you lifted last time. Without that data, you're guessing. And guessing kills gains.
+
+## What Progressive Overload Actually Means
+
+Progressive overload means systematically increasing the demand on your muscles over time. That can look like:
+
+- Adding 5 lbs to your bench every week
+- Hitting one more rep than last session at the same weight
+- Increasing total sets per muscle group each week
+- Decreasing rest time while maintaining load
+
+Any of these methods works. But all of them require one thing: **accurate records of where you've been**.
+
+If you don't know you hit 185 for 8 last week, you have no idea whether today's 185 for 9 is progress—or just you feeling good.
+
+## Why Most Lifters Plateau
+
+Research consistently shows that lifters who track their workouts progress faster than those who don't. Yet the majority of gym-goers still don't log consistently.
+
+The reason isn't laziness. It's **friction**.
+
+- Pulling out your phone between sets interrupts focus
+- Typing into forms takes 45–60 seconds per exercise
+- Complex sets—supersets, drop sets, AMRAP—are hard to enter cleanly
+- Miss a few sessions of logging and the habit breaks
+
+So people guess. They think they remember last week's numbers. They don't. The result is random loading instead of progressive loading, and random loading produces random results.
+
+## The Numbers Don't Lie
+
+Consider two lifters:
+
+**Lifter A** trains without tracking. They add weight when they feel strong, which averages out to roughly random increases. In 6 months, they're somewhere between 10–20 lbs stronger on their main lifts.
+
+**Lifter B** tracks every session. They add 5 lbs to their squat every two weeks. In 6 months, they've added 65 lbs to their squat.
+
+Same gym. Same program. Completely different outcomes—because Lifter B had data to act on.
+
+## How to Apply Progressive Overload Without Losing Your Mind
+
+The most effective method for most intermediate lifters is **double progression**:
+
+1. Pick a rep range, say 6–10 reps
+2. When you can hit the top of the range for all sets, add weight
+3. Drop back to the bottom of the rep range with the new weight
+4. Repeat
+
+This sounds simple. It is simple. But it requires you to know: *Did I hit 10 reps last week, or was it 8?*
+
+Without a log, you're guessing again.
+
+## Where Voice Logging Changes Everything
+
+The reason VoiceLift exists is exactly this problem. The barrier to logging isn't motivation—it's friction.
+
+When you finish a hard squat set, you don't want to navigate menus. You want to get your breathing back.
+
+With voice logging, you just say: **"Squats, 225 for 4 sets of 8, last set was tough."**
+
+Done. It's logged. No phone fumbling. No forms. No interruption to your rest period.
+
+The result? You actually log every set. You have real data. And real data means you can apply real progressive overload.
+
+## Building the Habit
+
+Start with your main compound lifts: squat, bench, deadlift, row, overhead press. Log every working set. Once that's automatic, extend it to accessories.
+
+Within a month, you'll have a baseline. Within three months, you'll be able to look at trends—which lifts are stalling, which are flying, where your weak points are.
+
+That's when training stops being guesswork and starts being a system.
+
+## The Bottom Line
+
+Progressive overload is the mechanism. Tracking is the fuel. Without consistent, complete data, you're training blind.
+
+Voice logging doesn't make progressive overload happen—it removes the one barrier that was stopping you from doing it consistently.
+
+Your next PR is in your logs. Go find it.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-03-29",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "losing-data-hurts-progress",
     slug: "losing-data-hurts-progress",
     title: "The Hidden Cost of Skipping Workout Logs",

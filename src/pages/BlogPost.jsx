@@ -178,6 +178,28 @@ export default function BlogPost() {
     if (post) {
       document.title = `${post.title} | VoiceLift Blog`;
       window.scrollTo(0, 0);
+
+      let metaDesc = document.querySelector('meta[name="description"]');
+      if (!metaDesc) {
+        metaDesc = document.createElement("meta");
+        metaDesc.name = "description";
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.content = post.metaDescription || post.excerpt;
+
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement("link");
+        canonical.rel = "canonical";
+        document.head.appendChild(canonical);
+      }
+      canonical.href = `https://voicelift.app/blog/${post.slug}`;
+
+      let ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) ogTitle.content = `${post.title} | VoiceLift Blog`;
+
+      let ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.content = post.metaDescription || post.excerpt;
     }
   }, [post]);
 
