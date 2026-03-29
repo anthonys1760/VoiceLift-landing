@@ -220,6 +220,15 @@ const CSS = [
   ".testimonial-author { display: flex; align-items: center; gap: 12px; }",
   ".testimonial-avatar { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--lime), #a8e6cf); display: flex; align-items: center; justify-content: center; color: var(--black); font-weight: 700; font-size: 16px; }",
   ".testimonial-handle { font-size: 13px; color: var(--muted); }",
+  ".problems-section { position: relative; background-image: url('/bg-problems.jpg'); background-size: cover; background-position: center top; }",
+  ".problems-section::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.78); pointer-events: none; z-index: 0; }",
+  ".problems-section > * { position: relative; z-index: 1; }",
+  ".testimonials-bg { position: relative; background-image: url('/bg-testimonials.jpg'); background-size: cover; background-position: center; }",
+  ".testimonials-bg::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.85); pointer-events: none; z-index: 0; }",
+  ".testimonials-bg > * { position: relative; z-index: 1; }",
+  ".cta-bg { position: relative; background-image: url('/bg-cta.jpg'); background-size: cover; background-position: center; }",
+  ".cta-bg::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.72); pointer-events: none; z-index: 0; }",
+  ".cta-bg > * { position: relative; z-index: 1; }",
   ".problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }",
   ".problem-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 28px; }",
   ".problem-icon { font-size: 32px; margin-bottom: 12px; }",
@@ -574,7 +583,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section ref={testRef}>
+      <section ref={testRef} className="testimonials-bg">
         <h2 className={cls("fade-up", testIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "40px", textAlign: "center" }}>
           What Lifters Say
         </h2>
@@ -655,7 +664,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta" ref={ctaRef}>
+      <section id="cta" ref={ctaRef} className="cta-bg">
         <div style={{ textAlign: "center", maxWidth: "600px", margin: "0 auto" }}>
           <h2 className={cls("fade-up", ctaIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "24px" }}>
             Join the Waitlist
