@@ -703,12 +703,7 @@ export default function Home() {
       </section>
 
       <footer style={{ background: "var(--card)", border: "1px solid var(--border)", marginTop: "60px", padding: "40px", textAlign: "center", fontSize: "13px", color: "var(--muted)" }}>
-        <p>
-          © 2026 VoiceLift. Indie. Bootstrapped. Yours.{" "}
-          <Link to="/blog" style={{ color: "var(--lime)", textDecoration: "underline" }}>
-            Read our blog
-          </Link>
-        </p>
+        <p>© 2026 VoiceLift</p>
       </footer>
     </div>
   );
