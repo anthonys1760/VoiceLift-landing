@@ -164,7 +164,7 @@ const CSS = [
   ".eyebrow.visible { opacity: 1; transform: translateY(0); }",
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
-  ".hero-phones { margin-top: 40px; display: flex; justify-content: center; width: 100%; }",
+  ".hero-phones { margin-top: 40px; margin-bottom: 80px; display: flex; justify-content: center; width: 100%; }",
   ".phone-frame { position: relative; width: min(420px, 72vw); margin: 0 auto; background: #1a1a1a; border-radius: 50px; padding: 10px; box-shadow: 0 0 0 2px #333, 0 0 0 5px #111, 0 50px 100px rgba(0,0,0,0.7), 0 0 60px rgba(232,255,71,0.06); }",
   ".phone-frame::before { content: ''; position: absolute; right: -5px; top: 110px; width: 4px; height: 55px; background: #2a2a2a; border-radius: 0 3px 3px 0; box-shadow: 0 70px 0 #2a2a2a; }",
   ".phone-frame::after { content: ''; position: absolute; left: -5px; top: 80px; width: 4px; height: 35px; background: #2a2a2a; border-radius: 3px 0 0 3px; box-shadow: 0 50px 0 #2a2a2a, 0 100px 0 #2a2a2a; }",
@@ -220,15 +220,14 @@ const CSS = [
   ".testimonial-author { display: flex; align-items: center; gap: 12px; }",
   ".testimonial-avatar { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--lime), #a8e6cf); display: flex; align-items: center; justify-content: center; color: var(--black); font-weight: 700; font-size: 16px; }",
   ".testimonial-handle { font-size: 13px; color: var(--muted); }",
-  ".problems-section { position: relative; background-image: url('/bg-problems.jpg'); background-size: cover; background-position: center top; }",
-  ".problems-section::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.78); pointer-events: none; z-index: 0; }",
-  ".problems-section > * { position: relative; z-index: 1; }",
-  ".testimonials-bg { position: relative; background-image: url('/bg-testimonials.jpg'); background-size: cover; background-position: center; }",
-  ".testimonials-bg::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.85); pointer-events: none; z-index: 0; }",
-  ".testimonials-bg > * { position: relative; z-index: 1; }",
-  ".cta-bg { position: relative; background-image: url('/bg-cta.jpg'); background-size: cover; background-position: center; }",
-  ".cta-bg::before { content: ''; position: absolute; inset: 0; background: rgba(10,10,10,0.72); pointer-events: none; z-index: 0; }",
-  ".cta-bg > * { position: relative; z-index: 1; }",
+  ".split-section { display: grid; grid-template-columns: 1fr 1fr; min-height: 560px; overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }",
+  ".split-img { position: relative; overflow: hidden; min-height: 400px; }",
+  ".split-img img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; filter: brightness(0.75); }",
+  ".split-content { display: flex; flex-direction: column; justify-content: center; padding: 80px 70px; background: var(--bg); }",
+  ".split-tag { font-size: 11px; color: var(--lime); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; }",
+  ".split-title { font-family: var(--font-display); font-size: clamp(26px, 3.5vw, 40px); font-weight: 600; line-height: 1.2; margin-bottom: 20px; }",
+  ".split-body { font-size: 16px; color: var(--muted); line-height: 1.75; max-width: 460px; }",
+  "@media (max-width: 900px) { .split-section { grid-template-columns: 1fr; } .split-img { min-height: 320px; order: 0; } .split-content { padding: 50px 28px; order: 1; } .split-content .split-body { max-width: 100%; } }",
   ".problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }",
   ".problem-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 28px; }",
   ".problem-icon { font-size: 32px; margin-bottom: 12px; }",
@@ -493,7 +492,18 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="problems-section" id="problems" ref={probRef}>
+      <div className="split-section">
+        <div className="split-img">
+          <img src={import.meta.env.BASE_URL + "bg-problems.jpg"} alt="Athlete mid-set at the gym — voice workout logging eliminates phone friction between sets" width="960" height="560" loading="lazy" />
+        </div>
+        <div className="split-content">
+          <div className="split-tag">The Problem</div>
+          <h2 className="split-title">Fumbling with your phone kills your momentum.</h2>
+          <p className="split-body">Between sets, the last thing you want is a form. You lose focus, your rest runs long, and half your sets go unlogged. Most apps were built by people who don't train. It shows.</p>
+        </div>
+      </div>
+
+      <section id="problems" ref={probRef}>
         <div style={{ maxWidth: "900px", margin: "0 auto", marginBottom: "60px" }}>
           <h2 className={cls("fade-up", probIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "16px" }}>
             The Problem
@@ -563,6 +573,17 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="split-section">
+        <div className="split-content">
+          <div className="split-tag">Your Environment</div>
+          <h2 className="split-title">Built for the gym floor. Not a quiet office.</h2>
+          <p className="split-body">Loud music. Chalk dust. Heavy iron. VoiceLift was designed for real training conditions — not a form field. Speak naturally, log completely, get back to the bar.</p>
+        </div>
+        <div className="split-img">
+          <img src={import.meta.env.BASE_URL + "bg-testimonials.jpg"} alt="Dark moody gym interior — VoiceLift built for real training environments, not quiet offices" width="960" height="560" loading="lazy" />
+        </div>
+      </div>
+
       <section id="how-it-works" ref={howRef}>
         <h2 className={cls("fade-up", howIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "60px", textAlign: "center" }}>
           The Process
@@ -583,7 +604,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section ref={testRef} className="testimonials-bg">
+      <section ref={testRef}>
         <h2 className={cls("fade-up", testIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "40px", textAlign: "center" }}>
           What Lifters Say
         </h2>
@@ -599,6 +620,17 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div className="split-section">
+        <div className="split-img">
+          <img src={import.meta.env.BASE_URL + "bg-cta.jpg"} alt="Athlete gripping barbell — track every rep, superset, and drop set with AI voice workout logging" width="960" height="560" loading="lazy" />
+        </div>
+        <div className="split-content">
+          <div className="split-tag">Every Rep Counts</div>
+          <h2 className="split-title">Supersets. Drop sets. Partials. All of it logged.</h2>
+          <p className="split-body">Complex sets are where most apps fail you. They're too annoying to enter, so you skip them. VoiceLift captures the full picture — one sentence, zero friction.</p>
+        </div>
+      </div>
 
       <section id="pricing" ref={pricRef}>
         <h2 className={cls("fade-up", pricIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "16px", textAlign: "center" }}>
@@ -664,7 +696,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta" ref={ctaRef} className="cta-bg">
+      <div className="split-section">
+        <div className="split-content">
+          <div className="split-tag">Built Different</div>
+          <h2 className="split-title">This is what training without friction looks like.</h2>
+          <p className="split-body">No menus. No dropdowns. No interruptions. Just you, the bar, and your voice. VoiceLift gets out of the way so you can stay locked in.</p>
+        </div>
+        <div className="split-img">
+          <img src={import.meta.env.BASE_URL + "bg-intensity.jpg"} alt="Focused athlete in the gym — hands-free strength training log with VoiceLift AI fitness app" width="960" height="560" loading="lazy" />
+        </div>
+      </div>
+
+      <section id="cta" ref={ctaRef}>
         <div style={{ textAlign: "center", maxWidth: "600px", margin: "0 auto" }}>
           <h2 className={cls("fade-up", ctaIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "24px" }}>
             Join the Waitlist
