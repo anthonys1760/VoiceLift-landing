@@ -186,6 +186,11 @@ const CSS = [
   ".transcript-text { font-size: 15px; color: var(--text); text-align: left; line-height: 1.5; min-height: 22px; }",
   ".transcript-cursor { display: inline-block; width: 2px; height: 15px; background: var(--lime); margin-left: 2px; vertical-align: middle; animation: blink 0.8s step-end infinite; }",
   "@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }",
+  ".transcript-thinking { display: inline-flex; gap: 3px; margin-left: 4px; vertical-align: middle; }",
+  ".transcript-thinking span { display: inline-block; width: 5px; height: 5px; background: var(--lime); border-radius: 50%; animation: thinkDot 1s ease-in-out infinite; }",
+  ".transcript-thinking span:nth-child(2) { animation-delay: 0.2s; }",
+  ".transcript-thinking span:nth-child(3) { animation-delay: 0.4s; }",
+  "@keyframes thinkDot { 0%,80%,100% { opacity: 0.2; transform: scale(0.8); } 40% { opacity: 1; transform: scale(1.2); } }",
   ".cta-primary { background: var(--lime); color: var(--black); font-weight: 600; padding: 16px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; }",
   ".cta-primary:hover { opacity: 0.88; transform: translateY(-2px); }",
   ".cta-secondary { background: transparent; border: 1px solid var(--border); color: var(--text); font-weight: 600; padding: 16px 32px; border-radius: 8px; cursor: pointer; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.2s; }",
@@ -295,14 +300,17 @@ export default function Home() {
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
   const [deleting, setDeleting] = useState(false);
+  const [processing, setProcessing] = useState(false);
 
   useEffect(() => {
     const phrase = PHRASES[phraseIndex];
     let timeout;
-    if (!deleting && displayed.length < phrase.length) {
+    if (!deleting && !processing && displayed.length < phrase.length) {
       timeout = setTimeout(() => setDisplayed(phrase.slice(0, displayed.length + 1)), 55);
-    } else if (!deleting && displayed.length === phrase.length) {
-      timeout = setTimeout(() => setDeleting(true), 2200);
+    } else if (!deleting && !processing && displayed.length === phrase.length) {
+      timeout = setTimeout(() => setProcessing(true), 600);
+    } else if (processing) {
+      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 1800);
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 28);
     } else if (deleting && displayed.length === 0) {
@@ -310,7 +318,7 @@ export default function Home() {
       setPhraseIndex((i) => (i + 1) % PHRASES.length);
     }
     return () => clearTimeout(timeout);
-  }, [displayed, deleting, phraseIndex]);
+  }, [displayed, deleting, processing, phraseIndex]);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -455,7 +463,11 @@ export default function Home() {
             <div className="transcript-bubble">
               <span className="transcript-mic">🎙️</span>
               <span className="transcript-text">
-                {displayed}<span className="transcript-cursor" />
+                {displayed}
+                {processing
+                  ? <span className="transcript-thinking"><span>.</span><span>.</span><span>.</span></span>
+                  : <span className="transcript-cursor" />
+                }
               </span>
             </div>
           </div>
