@@ -164,8 +164,12 @@ const CSS = [
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
   ".hero-phones { margin-top: 60px; display: flex; justify-content: center; }",
-  ".hero-phone-item { display: flex; flex-direction: column; align-items: center; }",
-  ".hero-phone-item img { max-width: 800px; width: 100%; height: auto; }",
+  ".phone-frame { position: relative; width: 300px; background: #1a1a1a; border-radius: 50px; padding: 10px; box-shadow: 0 0 0 2px #333, 0 0 0 5px #111, 0 50px 100px rgba(0,0,0,0.7), 0 0 60px rgba(232,255,71,0.06); }",
+  ".phone-frame::before { content: ''; position: absolute; right: -5px; top: 110px; width: 4px; height: 55px; background: #2a2a2a; border-radius: 0 3px 3px 0; box-shadow: 0 70px 0 #2a2a2a; }",
+  ".phone-frame::after { content: ''; position: absolute; left: -5px; top: 80px; width: 4px; height: 35px; background: #2a2a2a; border-radius: 3px 0 0 3px; box-shadow: 0 50px 0 #2a2a2a, 0 100px 0 #2a2a2a; }",
+  ".phone-screen { border-radius: 42px; overflow: hidden; background: #000; aspect-ratio: 9/19.5; position: relative; }",
+  ".phone-screen video { width: 100%; height: 100%; object-fit: cover; display: block; }",
+  ".phone-island { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 100px; height: 30px; background: #000; border-radius: 20px; z-index: 10; pointer-events: none; }",
   ".d1 { animation-delay: 0s; }",
   ".d2 { animation-delay: 0.1s; }",
   ".d3 { animation-delay: 0.2s; }",
@@ -408,8 +412,13 @@ export default function Home() {
           </div>
 
           <div className={cls("hero-phones fade-up d5", heroIn)}>
-            <div className="hero-phone-item">
-              <img src={import.meta.env.BASE_URL + "phone-mockup.png"} alt="Log Workouts by Voice" />
+            <div className="phone-frame">
+              <div className="phone-island" />
+              <div className="phone-screen">
+                <video autoPlay muted loop playsInline>
+                  <source src={import.meta.env.BASE_URL + "hero-demo.mp4"} type="video/mp4" />
+                </video>
+              </div>
             </div>
           </div>
         </div>
