@@ -308,9 +308,9 @@ export default function Home() {
     if (!deleting && !processing && displayed.length < phrase.length) {
       timeout = setTimeout(() => setDisplayed(phrase.slice(0, displayed.length + 1)), 55);
     } else if (!deleting && !processing && displayed.length === phrase.length) {
-      timeout = setTimeout(() => setProcessing(true), 600);
+      timeout = setTimeout(() => setProcessing(true), 1000);
     } else if (processing) {
-      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 1800);
+      timeout = setTimeout(() => { setProcessing(false); setDeleting(true); }, 4500);
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 28);
     } else if (deleting && displayed.length === 0) {
