@@ -164,7 +164,7 @@ const CSS = [
   ".hero h1 { font-family: var(--font-display); font-size: clamp(48px, 10vw, 84px); font-weight: 700; margin: 24px 0; letter-spacing: -0.02em; line-height: 1.1; }",
   ".hero .subtitle { font-size: clamp(16px, 3vw, 20px); color: var(--muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; }",
   ".hero-phones { margin-top: 16px; display: flex; justify-content: center; }",
-  ".phone-frame { position: relative; width: 300px; background: #1a1a1a; border-radius: 50px; padding: 10px; box-shadow: 0 0 0 2px #333, 0 0 0 5px #111, 0 50px 100px rgba(0,0,0,0.7), 0 0 60px rgba(232,255,71,0.06); }",
+  ".phone-frame { position: relative; width: min(420px, 90vw); background: #1a1a1a; border-radius: 50px; padding: 10px; box-shadow: 0 0 0 2px #333, 0 0 0 5px #111, 0 50px 100px rgba(0,0,0,0.7), 0 0 60px rgba(232,255,71,0.06); }",
   ".phone-frame::before { content: ''; position: absolute; right: -5px; top: 110px; width: 4px; height: 55px; background: #2a2a2a; border-radius: 0 3px 3px 0; box-shadow: 0 70px 0 #2a2a2a; }",
   ".phone-frame::after { content: ''; position: absolute; left: -5px; top: 80px; width: 4px; height: 35px; background: #2a2a2a; border-radius: 3px 0 0 3px; box-shadow: 0 50px 0 #2a2a2a, 0 100px 0 #2a2a2a; }",
   ".phone-screen { border-radius: 42px; overflow: hidden; background: #000; aspect-ratio: 9/19.5; position: relative; }",
