@@ -62,7 +62,7 @@ That's the VoiceLift difference.
     date: "2026-03-27",
     category: "Features",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
   },
   {
     id: "ai-understands-gym-slang",
