@@ -37,7 +37,7 @@ const NAV_STYLES = `
   }
   .logo-img {
     display: block;
-    height: 180px;
+    height: 100px;
     width: auto;
   }
   .logo-text {
@@ -150,11 +150,10 @@ const NAV_STYLES = `
       padding: 8px 10px;
     }
     .logo-img {
-      display: none;
+      height: 60px;
     }
     .logo-text {
-      display: block;
-      font-size: 13px;
+      display: none;
     }
     .nav-links {
       display: none;

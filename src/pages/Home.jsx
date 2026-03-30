@@ -152,7 +152,7 @@ const CSS = [
   ".nav-links a:hover { color: var(--text); }",
   ".nav-cta { background: var(--lime); color: var(--black); font-size: 12px; font-weight: 600; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s, transform 0.2s; }",
   ".nav-cta:hover { opacity: 0.88; transform: translateY(-2px); }",
-  ".logo-img { display: block; height: 180px; width: auto; }",
+  ".logo-img { display: block; height: 100px; width: auto; }",
   ".logo-text { display: none; font-weight: 700; font-size: 16px; white-space: nowrap; }",
   ".logo-text-lift { color: var(--lime); }",
   "section { padding: 100px 40px; max-width: 1200px; margin: 0 auto; }",
@@ -270,7 +270,7 @@ const CSS = [
   ".mobile-menu a:hover { color: var(--text); }",
   ".mobile-menu-cta { background: var(--lime); color: var(--black); font-weight: 600; margin: 12px; padding: 12px 16px; border: none; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; width: calc(100% - 24px); }",
   ".mobile-menu-cta:hover { opacity: 0.88; }",
-  "@media (max-width: 640px) { nav { padding: 8px 10px; } .logo-img { display: none; } .logo-text { display: block; font-size: 13px; } .hamburger { display: block; } .nav-links { display: none; } .nav-cta { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phones { flex-direction: column; gap: 20px; } .hero-phone-item { width: 100%; } .hero-phone-item img { max-width: 130vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
+  "@media (max-width: 640px) { nav { padding: 8px 10px; } .logo-img { height: 60px; } .logo-text { display: none; } .hamburger { display: block; } .nav-links { display: none; } .nav-cta { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phones { flex-direction: column; gap: 20px; } .hero-phone-item { width: 100%; } .hero-phone-item img { max-width: 130vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
 ].join("\n");
 
 export default function Home() {
