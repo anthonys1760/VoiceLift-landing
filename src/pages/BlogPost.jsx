@@ -150,7 +150,7 @@ const NAV_STYLES = `
       padding: 8px 10px;
     }
     .logo-img {
-      height: 60px;
+      height: 80px;
     }
     .logo-text {
       display: none;
