@@ -1,5 +1,93 @@
 export const blogPosts = [
   {
+    id: "deload-week-guide",
+    slug: "deload-week-guide",
+    title: "Deload Week: What It Is, Why You Need It, and How to Do It Right",
+    excerpt: "Most lifters train through fatigue until they break. Deload weeks prevent that — here's the science behind them and how to program one.",
+    metaDescription: "Learn what a deload week is, when to take one, and how to structure it so you recover faster and come back stronger. Essential for serious lifters.",
+    content: `
+# Deload Week: What It Is, Why You Need It, and How to Do It Right
+
+You've been grinding for weeks. Weights are moving, volume is stacking up, you're feeling the accumulation. Then suddenly the bar feels heavier than it should. Your joints are nagging. Sleep feels less restorative. You push through, add more volume, and wonder why you're going backwards.
+
+That's accumulated fatigue. A deload week is the fix.
+
+## What Is a Deload Week?
+
+A deload is a planned, intentional reduction in training stress. It's not a week off. It's not laziness. It's a strategic pullback designed to let your body absorb the training you've already done.
+
+Most serious programs build deloads in every 4–8 weeks. The specifics vary by training age, volume, intensity, and how beat up you feel — but the principle is universal: **you can't keep stacking stress indefinitely without recovery**.
+
+## Why Accumulated Fatigue Is Killing Your Progress
+
+Your body doesn't adapt during training. It adapts during recovery.
+
+When you lift, you create microdamage in muscle tissue, accumulate metabolic stress, and tax the central nervous system. In the short term, this temporarily decreases performance — a concept known as **fitness-fatigue theory**. Your fitness is going up, but fatigue is masking it.
+
+A deload removes that fatigue layer. What you find underneath is often stronger than you expected.
+
+Here's what happens physiologically during a deload:
+- Muscle tissue repairs and fully remodels
+- CNS stress dissipates, improving neural efficiency
+- Connective tissue — tendons and ligaments — catches up to your muscle strength gains
+- Glycogen stores normalize
+- Sleep quality often improves, accelerating everything above
+
+## How to Structure a Deload Week
+
+There's no single formula. Here are the three most common approaches:
+
+### 1. Reduce Volume (Recommended for Most Lifters)
+Keep your working weights the same. Drop total sets by 40–50%.
+
+If you normally do 5 sets of 5 on squat, do 3 sets of 5. Same RPE target, far less accumulated volume. Your nervous system gets a break; the movement pattern stays sharp.
+
+### 2. Reduce Intensity
+Keep your set count but drop load to ~60–70% of your working weights. Works well when joints are more beat up than your energy systems.
+
+### 3. Reduce Both
+Cut volume and intensity simultaneously. Useful if you're seriously overtrained or coming off a competition prep block. Less common for recreational lifters.
+
+**Which to choose?** Most intermediate lifters do best with volume reduction at maintained intensity. It preserves neural drive while cutting total systemic load.
+
+## When to Take a Deload
+
+Two approaches:
+
+**Planned Deloads**: Built into your program from the start — typically every 4th or 5th week of a training block. This is the professional approach. You deload *before* you need it.
+
+**Reactive Deloads**: When the wheels fall off. You're missing lifts, feeling run-down, joints are complaining, motivation craters. This works, but you've usually accumulated more fatigue than necessary by waiting.
+
+For most people, **planned deloads every 4–6 weeks** is the sweet spot. High-frequency or high-volume athletes may need them more often.
+
+## Common Deload Mistakes
+
+- **Turning it into a full week off**: Movement still matters. Low-intensity work maintains the groove; total rest leaves you stiff and rusty.
+- **Not actually reducing**: A deload where you squeeze in "just one more set" isn't a deload.
+- **Going too light**: Dropping to 40% intensity doesn't stimulate anything useful. Keep the weights respectable.
+- **Skipping them because you feel fine**: The whole point of a planned deload is doing it *before* you feel awful. If you wait until you're destroyed, you've already lost training days to poor performance.
+
+## Tracking Your Deload
+
+Here's where logging actually matters. If you don't have records of your normal training loads, you can't deliberately reduce them by 40–50%. You're guessing.
+
+With VoiceLift, your working weights and set counts are logged session by session. When deload week arrives, you can say: **"Deload — squats at 80%, 3 sets of 5"** and it's logged with full context, keeping your trend data clean.
+
+When the deload ends, you pick up exactly where you left off. No reconstructing what your pre-deload numbers were.
+
+## The Bottom Line
+
+Deload weeks aren't a sign of weakness. They're the mechanism by which hard training actually produces results. Fatigue suppresses performance. Remove the fatigue, and your real fitness level surfaces — often higher than before.
+
+Train hard. Recover with intent. Build a system where both happen automatically.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-03-30",
+    category: "Recovery",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1544216963-fbe9be1b6cda?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "voice-logging-benefits",
     slug: "voice-logging-benefits",
     title: "Why Voice Logging is the Future of Workout Tracking",
