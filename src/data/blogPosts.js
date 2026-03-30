@@ -85,7 +85,7 @@ Train hard. Recover with intent. Build a system where both happen automatically.
     date: "2026-03-30",
     category: "Recovery",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1544216963-fbe9be1b6cda?w=800&h=400&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=800&h=400&fit=crop&q=80",
   },
   {
     id: "voice-logging-benefits",
