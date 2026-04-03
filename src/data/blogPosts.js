@@ -1,5 +1,109 @@
 export const blogPosts = [
   {
+    id: "rpe-training-guide",
+    slug: "rpe-training-guide",
+    title: "RPE Training: What It Is and How to Use It for Strength Gains",
+    excerpt: "RPE (Rate of Perceived Exertion) is the most underused tool in strength training. Here's how to apply it to your program and stop leaving gains on the table.",
+    metaDescription: "Learn how to use RPE training to autoregulate intensity, avoid burnout, and break strength plateaus. A practical guide for intermediate lifters.",
+    content: `
+# RPE Training: What It Is and How to Use It for Strength Gains
+
+If you've spent any time on lifting forums or read a modern strength program, you've seen it: **RPE**. Short for Rate of Perceived Exertion, RPE is a 1–10 scale that measures how hard a set felt relative to your maximum effort.
+
+An RPE 10 means you couldn't have done another rep. An RPE 8 means you had roughly 2 reps left in the tank. An RPE 6 means the set was comfortable — 4 more reps were available if you pushed.
+
+Simple concept. But applying RPE correctly is what separates lifters who continually progress from those who either overtrain or leave too much on the table.
+
+## Why Percentage-Based Programming Falls Short
+
+Traditional percentage-based programs tell you to lift at 75% of your 1RM on a given day. That sounds precise. The problem is **your 1RM changes daily**.
+
+Factors that affect your performance on any given training session:
+- Sleep quality and total sleep duration
+- Nutrition timing and caloric intake
+- Accumulated fatigue from earlier in the week
+- Life stress (CNS impact is real and measurable)
+- Minor illness, hydration, hormonal fluctuation
+
+A 75% day when you're well-rested and fueled feels completely different from a 75% day after poor sleep and a stressful week. Same number on paper, different actual effort in practice.
+
+RPE solves this. Instead of chasing a fixed percentage, you're targeting a specific effort level — and letting your body dictate the actual load.
+
+## How the RPE Scale Works in Practice
+
+The RPE scale most strength athletes use is derived from Mike Tuchscherer's adaptation of the Borg CR10 system for powerlifting:
+
+- **RPE 10**: Max effort. No reps left.
+- **RPE 9**: Could have done 1 more rep.
+- **RPE 8**: Could have done 2 more reps.
+- **RPE 7**: Could have done 3 more reps.
+- **RPE 6**: Moderate effort. 4+ reps in reserve.
+
+For strength work, most training lives in the **RPE 7–9 range**. RPE 6 and below is warm-up and technique work territory. RPE 10 is reserved for true max efforts — not something you program into every session.
+
+### Reading RPE Accurately
+
+Calibration takes time. New lifters consistently underestimate their RPE — they think they have 4 reps left when they have 1. That's normal. The more training history you accumulate, the more accurate your perception becomes.
+
+A reliable method: after a set, ask yourself "how many more reps could I have completed with good form?" That number is your **Reps in Reserve (RIR)**, and it maps directly onto RPE. Two reps left = RPE 8.
+
+## Autoregulation: The Core Benefit of RPE Training
+
+The real power of RPE-based training is **autoregulation** — adjusting your training load based on how you actually feel that day rather than what a spreadsheet prescribes.
+
+Here's what that looks like in practice:
+
+You program squats at RPE 8 for sets of 5. You warm up, find the weight where 5 reps lands at an honest RPE 8, and that's your working set. Some sessions that's 315 lbs. Some sessions it's 295 lbs. Both are correct — because both represent the same training stimulus relative to your current capacity.
+
+Benefits of autoregulation with RPE:
+- **You avoid grinding through sessions when your body isn't primed** — reducing injury risk and excess fatigue
+- **You don't artificially cap yourself on high-performance days** — you can push when conditions are right
+- **You accumulate load more efficiently** over a training block without overshooting recovery capacity
+
+## RPE vs. Percentage: Which Should You Use?
+
+Both have a place in a smart program.
+
+**Percentage-based training** works well for beginners because their 1RM is relatively stable week to week and the structure reduces decision fatigue. **RPE-based training** becomes increasingly valuable as you advance, because fatigue management gets more complex and individual variation grows.
+
+Many elite powerlifting programs now use a hybrid approach: percentage ranges with RPE caps. For example, "Work up to 3 sets of 5 at 70–75%, stopping when effort hits RPE 8." You get structural consistency and real-time flexibility simultaneously.
+
+If you're an intermediate or advanced lifter still using rigid percentages with no RPE component, you're likely overtraining on bad days and underperforming on good ones.
+
+## How to Start Using RPE in Your Training
+
+You don't need to overhaul your program. Start with this:
+
+1. **Log your RPE after every working set.** Just note the effort: RPE 7, 8, 9. That's it.
+2. **After 4–6 weeks, review the data.** Are RPE numbers consistent with load? Are heavy days coinciding with high-effort readings, or is your RPE 9 showing up at weights that should feel like a 7?
+3. **Adjust loads in real time.** If your first set landed at RPE 9 when you expected 8, reduce weight slightly for subsequent sets. If it was RPE 7, add load.
+
+The key is **logging**. RPE without a record is just a feeling you'll forget by next week. RPE with a log becomes a training tool with compounding value.
+
+This is where voice logging removes the last obstacle. After a heavy set, you can say: **"Squat, 315 for 5 at RPE 8, felt controlled"** — and that context is captured without you touching your phone or interrupting your rest. Over time, VoiceLift builds a history of your effort levels alongside your loads. When your RPE at a given weight starts creeping up week over week, that's an early signal that fatigue is accumulating — often before your performance visibly drops.
+
+## Common RPE Mistakes
+
+- **Using RPE 10 too often**: True max effort sets are expensive to recover from. Reserve them for peaking and testing, not regular training.
+- **Ignoring RPE on lighter sets**: Even warm-up and moderate sets give you calibration data that improves your self-assessment over time.
+- **Overreacting to a bad day**: If your RPE is higher than expected, drop load slightly — don't slash 20% off the bar. Small adjustments.
+- **Comparing your RPE to someone else's**: Your RPE is personal. A training partner's RPE 8 tells you nothing about what your RPE 8 should be at that weight.
+
+## The Bottom Line
+
+**RPE training gives serious lifters a feedback loop that rigid percentages can't provide.** It won't replace consistent effort or intelligent programming — but it makes both more precise and sustainable.
+
+Track your RPE. Log every set. Over a few months, you'll develop a calibrated sense of your own effort and capacity that pays off in both performance and training longevity.
+
+Hard training isn't just about working harder. It's about working at the right effort, on the right day, toward the right outcome.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-03",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "deload-week-guide",
     slug: "deload-week-guide",
     title: "Deload Week: What It Is, Why You Need It, and How to Do It Right",
