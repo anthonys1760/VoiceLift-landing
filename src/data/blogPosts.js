@@ -1,5 +1,127 @@
 export const blogPosts = [
   {
+    id: "how-to-break-strength-plateau",
+    slug: "how-to-break-strength-plateau",
+    title: "How to Break a Strength Plateau: What's Actually Holding You Back",
+    excerpt: "Stuck on the same weight for weeks? A strength plateau isn't random — it has causes you can identify and fix. Here's how to diagnose and break through yours.",
+    metaDescription: "Learn how to break a strength plateau with proven strategies: fixing fatigue, adjusting programming, improving technique, and using training data to identify the real cause.",
+    content: `
+# How to Break a Strength Plateau: What's Actually Holding You Back
+
+If you've been stuck on the same weight for four, six, or ten weeks, you've hit a **strength plateau**. The bar isn't moving, your motivation is tanking, and you're starting to wonder if you've just hit your ceiling.
+
+You haven't. Strength plateaus are almost always diagnostic problems masquerading as physiological limits. The question isn't whether you can break through — it's figuring out *why* you stopped progressing in the first place.
+
+## What a Strength Plateau Actually Is
+
+A plateau is a sustained failure to improve despite continued training. The key word is "sustained." One bad session isn't a plateau. Three to four weeks of stalled or regressing numbers on a lift you've been training consistently — that's a plateau.
+
+The distinction matters because the cause determines the fix. Plateaus fall into a handful of categories, and lumping them all together leads to the wrong intervention.
+
+## Cause #1: Accumulated Fatigue Masking Fitness
+
+The most common plateau cause — and the most misdiagnosed — is accumulated fatigue. You're actually getting fitter, but you're so beat up that your performance can't express it.
+
+**Signs this is your problem:**
+- You're hitting your workouts hard but numbers aren't moving
+- Sleep feels less restorative than usual
+- Joints are nagging more than normal
+- Motivation has taken a dip
+- Warm-up sets feel heavier than they should
+
+The fix here isn't more training — it's a deliberate deload. Take a week at 50–60% of your normal volume, keep intensity similar, and come back the following week. Most lifters discover their "plateau" lifts move immediately. The fitness was there. The fatigue was hiding it.
+
+## Cause #2: Insufficient Progressive Overload
+
+You can't break a strength plateau without knowing exactly what you've been lifting. This sounds obvious, but it's where most lifters quietly fall apart.
+
+Without accurate training logs, you might think you're progressing when you're actually loading the same weight at the same rep ranges, week after week, because you can't remember what you lifted last week. **Random loading produces random results.**
+
+Go back and look at your logs. If you genuinely can't see a pattern of increasing load, reps, or volume over the past 6–8 weeks, the plateau isn't a training adaptation problem — it's a programming problem. You haven't been overloading. The fix is re-establishing a clear progression model: double progression, linear periodization, or wave loading are all solid options.
+
+This is exactly why consistent logging matters. With VoiceLift, you can say **"Bench, 195 for 3 sets of 7, second set was an RPE 8"** between sets and your full training history is right there when you need to audit a stall.
+
+## Cause #3: Technical Breakdown Under Load
+
+Technique degrades as loads increase. This is normal. The problem is that most lifters don't notice it until someone else points it out — or they get hurt.
+
+A technical breakdown doesn't just increase injury risk. It changes the mechanics of the lift enough that you're no longer training the intended muscles at the intended length and leverage. Progress stalls because the movement pattern is inefficient at higher loads.
+
+**What to do:**
+- Film your lifts. Watch the video. Do this regardless of how uncomfortable it is.
+- Look for: bar path drift, depth changes, grip width, stance width, bracing inconsistencies
+- Take weight off — 10 to 15% — and rebuild the pattern before pushing load again
+
+Dropping weight to fix technique feels like going backward. It isn't. It's what breaking the plateau actually requires.
+
+## Cause #4: Weak Point in the Kinetic Chain
+
+Most strength plateaus have a specific sticking point: a position in the range of motion where the lift dies. That sticking point tells you something.
+
+### Common Sticking Points and What They Mean
+
+- **Squat: fails at parallel** → Likely quad weakness. Add paused squats and front squats.
+- **Bench: fails off the chest** → Pec and lat drive issue. Add pause bench and chest-supported rows.
+- **Bench: fails at lockout** → Tricep weakness. Add close-grip bench and board presses.
+- **Deadlift: fails below the knee** → Hip and lower back strength. Add Romanian deadlifts and deficit pulls.
+- **Deadlift: fails above the knee** → Lockout weakness. Add rack pulls from the sticking point.
+
+Identifying the weak point and directly training it with accessory work is one of the most reliable ways to break a strength plateau. Specificity matters — general volume won't fix a specific mechanical weakness.
+
+## Cause #5: Lack of Variation
+
+The nervous system adapts to specific stimuli. If you've been doing the same movement, same rep range, and same loading scheme for months, adaptation slows even if volume technically increases.
+
+Strategic variation can restart progress without abandoning your main lifts:
+
+- **Tempo manipulation**: Add a 2–3 second eccentric to increase time under tension and build strength through the full range
+- **Rep range cycling**: Spend 3–4 weeks in the 3–5 rep range, then shift to 6–10, then back
+- **Variation of the main lift**: Replace flat bench with incline for 4–6 weeks; sub conventional deadlift for sumo
+
+The goal isn't to constantly change things — consistency builds strength. The goal is to introduce enough variation to present a new stimulus when the old one has stopped producing adaptation.
+
+## Cause #6: Not Enough Food
+
+Often overlooked, but frequently relevant: **you can't build strength in a consistent caloric deficit**.
+
+If you've been eating at maintenance or below for an extended period while trying to push strength numbers, your body simply lacks the resources to drive adaptation. Muscle protein synthesis requires a surplus. Glycogen replenishment requires carbohydrates.
+
+This doesn't mean you need to bulk aggressively. A modest surplus — 200 to 300 calories above true maintenance — is often enough to restart progress on lifts that have stalled. If you're uncertain whether food is a factor, track intake for two weeks and compare it against your expenditure.
+
+## How to Diagnose Your Plateau
+
+Before you change anything, answer these questions:
+
+1. **Do I have complete training logs for the past 6–8 weeks?** If not, start there.
+2. **Am I sleeping 7+ hours consistently?** Fatigue accumulation often traces back here.
+3. **Have I taken a deload in the past 6 weeks?** If not, do it before changing anything else.
+4. **Can I identify a specific sticking point in the lift?** If yes, address the weak point.
+5. **Has my technique stayed consistent as load increased?** Film and check.
+6. **Am I eating enough to support strength gains?** Audit your intake.
+
+Work through the list. Most plateaus reveal themselves before you hit question 5.
+
+## Tracking Your Way Out
+
+Breaking a strength plateau requires data. You need to know where you've been to figure out where the progression fell apart. If your logs are incomplete — if you skipped logging complex sets, didn't note RPE, or missed sessions entirely — your diagnostic ability is compromised.
+
+VoiceLift was built for exactly this: capturing every set without friction, so when a plateau hits, you have the complete picture. A voice log takes seconds. Over months, it becomes the record that tells you whether fatigue, programming, nutrition, or technique is the culprit.
+
+## The Bottom Line
+
+**A strength plateau is information, not a ceiling.** It's telling you that something in your training, recovery, or nutrition equation is out of calibration.
+
+Diagnose before you prescribe. Audit your logs, assess your recovery, identify your sticking point, and make targeted adjustments. The lifters who break through plateaus fastest aren't the ones who train hardest in response — they're the ones who figure out what's actually wrong.
+
+Fix the cause. The progress follows.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-06",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "rpe-training-guide",
     slug: "rpe-training-guide",
     title: "RPE Training: What It Is and How to Use It for Strength Gains",
