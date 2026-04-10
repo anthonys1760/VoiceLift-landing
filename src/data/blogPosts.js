@@ -1,5 +1,138 @@
 export const blogPosts = [
   {
+    id: "best-workout-split-for-muscle-growth",
+    slug: "best-workout-split-for-muscle-growth",
+    title: "Best Workout Split for Muscle Growth: PPL vs Upper Lower",
+    excerpt: "The best workout split for muscle growth depends on your schedule, training frequency, and how well you recover. Here's a clear breakdown of push pull legs vs upper lower — and how to pick the right one.",
+    metaDescription: "Compare the best workout splits for muscle growth: push pull legs vs upper lower, why training frequency matters most, and how to choose the right split for your schedule.",
+    content: `
+# Best Workout Split for Muscle Growth: PPL vs Upper Lower
+
+The **best workout split for muscle growth** isn't a universal answer — but it's closer to one than most people think. The split you choose determines how often each muscle group gets trained per week, how much fatigue accumulates per session, and whether you can sustain the volume needed to actually grow.
+
+Most lifters spend years on the wrong split — either undertraining with a once-a-week bro split, or maxing out fatigue with a high-frequency program they can't recover from. Here's what the evidence supports and how to choose what actually fits your life.
+
+## What a Workout Split Is and Why Frequency Is the Key Variable
+
+A workout split is how you distribute your training across the week. It controls three things:
+
+- **How often each muscle group gets trained** (training frequency)
+- **How much volume lands in each session** before quality degrades
+- **How much recovery time exists** between sessions hitting the same muscle
+
+Training frequency matters because **muscle protein synthesis (MPS)** — the cellular signal for muscle growth — returns to baseline 36–72 hours after a training stimulus. Train a muscle once a week, and you generate one growth signal every seven days. Train it twice, and you get two.
+
+Research consistently shows that **training each muscle group at least twice per week produces greater hypertrophy** than once per week, when total volume is equated. That single fact should anchor every split decision you make.
+
+## The Four Main Workout Splits Compared
+
+### Push Pull Legs (PPL)
+
+The push pull legs split divides training by movement pattern:
+- **Push days**: Chest, shoulders, triceps
+- **Pull days**: Back, biceps, rear delts
+- **Leg days**: Quads, hamstrings, glutes, calves
+
+Typically run as a 6-day split (PPL / rest / PPL), though a 3-day version exists.
+
+**Pros:**
+- 6-day version trains every muscle group twice per week automatically
+- Natural groupings create minimal session-to-session interference
+- Scales well with volume — adding sets doesn't crowd the weekly structure
+
+**Cons:**
+- Requires 6 training days; most people can't sustain this long-term
+- 3-day version drops frequency to once per week, which is suboptimal for intermediates
+- Sessions run long when volume is high
+
+### Upper Lower Split
+
+Divides training into upper and lower body days, typically run 4 days per week (Upper / Lower / Off / Upper / Lower / Off / Off).
+
+**Pros:**
+- 4 training days — sustainable for the majority of lifters
+- Each muscle group hits 2x per week built into the structure
+- Recovery is well-managed; upper and lower sessions don't compete for the same muscles
+- Easy to adjust volume per session without disrupting the week
+
+**Cons:**
+- Less specificity — each session covers more ground, limiting sets per individual muscle
+- Shoulder and chest fatigue can accumulate on back-to-back upper days if programming isn't careful
+
+### Full Body Training
+
+Every session trains all major muscle groups. Typically run 3 days per week.
+
+**Pros:**
+- High frequency — each muscle gets three stimuli per week
+- Time-efficient and schedule-friendly
+- Works well for beginners and lifters returning from time off
+
+**Cons:**
+- Session volume per muscle group is capped; you can't do 5 quality sets of squats, 5 sets of bench, and 5 sets of rows in one session without something giving
+- Total weekly volume per muscle group can be lower if you're not deliberately managing it
+
+### The Bro Split (Body Part Split)
+
+One muscle group per day: chest Monday, back Tuesday, legs Wednesday, shoulders Thursday, arms Friday.
+
+**The problem**: Each muscle group gets one anabolic signal every seven days. For beginners, any stimulus drives growth. For intermediate and advanced lifters, once-per-week frequency is consistently outperformed by higher-frequency splits in the research — volume equated.
+
+If you've been on a bro split for years and wondering why progress has stalled, frequency is likely part of the answer.
+
+## PPL vs Upper Lower: Which Produces More Muscle Growth?
+
+When run correctly, **both produce comparable results**. The difference is lifestyle fit, not physiology.
+
+**Choose Push Pull Legs if:**
+- You can train 5–6 days per week consistently for months at a time
+- You want the ability to specialize volume for specific muscle groups (e.g., lagging back or chest)
+- Your recovery capacity supports high weekly volume
+
+**Choose Upper Lower if:**
+- You can realistically commit to 4 training days per week without schedule conflicts
+- You want a structure that doesn't require maximum gym availability to work
+- You're focused on consistent progressive overload over a long training block
+
+**The split you actually stick to wins.** A 6-day PPL you run for six weeks then abandon is worse than a 4-day upper lower you run for a year. Consistency compounds in ways that optimal programming can't overcome.
+
+## How Much Volume You Need Inside Any Split
+
+Frequency is the foundation. Volume is what gets built on top.
+
+Current evidence suggests most intermediate lifters need **10–20 working sets per muscle group per week** to drive meaningful hypertrophy. Beginners can grow on less; advanced lifters may need more.
+
+The advantage of higher-frequency splits is that you can distribute that volume across multiple sessions, keeping quality high in each one. Cramming 18 sets of chest into a single Monday session produces diminishing returns compared to 9 sets on Monday and 9 on Thursday.
+
+**Distribute volume. Don't stack it.**
+
+## Tracking Your Split: Where Most Lifters Fall Apart
+
+The split doesn't matter if execution is inconsistent. Missed sessions, unlogged sets, forgotten weights — these destroy the data you need to apply progressive overload.
+
+With VoiceLift, you can log each session in seconds between sets: **"push day — bench 195 for 3 sets of 8, incline dumbbell 70s for 3 sets of 10, cable flyes to finish"** — and the full session is captured before your rest period ends. No menus, no forms, no fumbling.
+
+After 8–12 weeks on a new split, your training log tells you which muscle groups are falling behind, which movements are stalling, and whether your frequency and volume targets are actually being hit. Without the data, you're guessing. With it, you can make targeted adjustments instead of overhauling the entire split.
+
+## The Bottom Line
+
+**The best workout split for muscle growth trains each muscle group at least twice per week, fits your actual schedule, and can be sustained for months.**
+
+- **4 days per week**: Upper Lower
+- **5–6 days per week**: Push Pull Legs
+- **3 days per week**: Full Body
+
+Pick the structure that matches your life. Run it consistently. Apply progressive overload each week. Log every session so you can see what's actually working.
+
+The split is the container. Effort, consistency, and data are what fill it.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-10",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-break-strength-plateau",
     slug: "how-to-break-strength-plateau",
     title: "How to Break a Strength Plateau: What's Actually Holding You Back",
