@@ -1,5 +1,102 @@
 export const blogPosts = [
   {
+    id: "rest-time-between-sets",
+    slug: "rest-time-between-sets",
+    title: "Rest Time Between Sets: How Long for Strength vs Hypertrophy",
+    excerpt: "Rest time between sets is one of the most mismanaged training variables. Here's exactly how long to rest for strength gains, muscle growth, and everything in between.",
+    metaDescription: "How long should you rest between sets? Get evidence-based rest period guidelines for strength (3–5 min) and hypertrophy (90 sec–3 min) to maximize every session.",
+    content: `
+# Rest Time Between Sets: How Long to Rest for Strength vs Hypertrophy
+
+**Rest time between sets** is one of the most mismanaged variables in training. Most lifters either rest by feel — which means too short when pushed and too long when distracted — or default to whatever the person next to them does. Neither approach is optimal, and both quietly limit your results over time.
+
+The evidence on rest periods is cleaner than most training debates. Here's what it says and how to apply it.
+
+## Why Rest Periods Actually Affect Your Gains
+
+Rest periods control how recovered you are before the next set. That matters because **training quality is the mechanism of adaptation** — whether you're chasing strength or size, you need to perform your working sets with enough neuromuscular capacity to produce the required stimulus.
+
+Short rest periods (under 60 seconds) lead to:
+- Incomplete phosphocreatine (PCr) resynthesis
+- Elevated blood lactate going into the next set
+- Reduced rep output and lower loads on working sets
+
+These effects compound across a session. A lifter who rests 60 seconds between squat sets instead of 3 minutes will do less total volume at lower loads — blunting both strength and hypertrophy outcomes without realizing it.
+
+## How Long to Rest Between Sets for Strength
+
+For **strength-focused work** — sets in the 1–5 rep range at 85–100% of 1RM — rest periods should be **3–5 minutes between sets**.
+
+Here's the physiology: maximal strength expression depends on the phosphocreatine system, which requires approximately 3 minutes to replenish ~95% of stores after a near-maximal effort. Start your next set before that window closes and you're working from a depleted system. The result: missed reps, reduced load, or compensated technique.
+
+Practical guidelines by intensity:
+- **Heavy singles and doubles (90–100% 1RM)**: 4–5 minutes
+- **Working sets at 80–87% 1RM**: 3–4 minutes
+- **Backoff sets at 70–75%**: 2–3 minutes
+
+The goal isn't just "resting enough to go again" — it's **resting enough to match or exceed the previous set's performance**. That distinction matters for tracking progressive overload week to week.
+
+## How Long to Rest Between Sets for Hypertrophy
+
+For **hypertrophy work** in the 6–20 rep range, the science has shifted significantly in the past decade.
+
+The old conventional wisdom said short rest periods (60–90 seconds) maximized metabolic stress, which was believed to be a primary driver of muscle growth. More recent meta-analyses have overturned this. Research by Schoenfeld et al. (2016) demonstrated that **longer rest periods (3 minutes) produced greater hypertrophy than 1-minute rest periods**, even when total volume was equated.
+
+The mechanism is straightforward: longer rests allow you to maintain rep quality and load across all sets, delivering more total mechanical tension per session — which is the primary driver of hypertrophy.
+
+Practical rest guidelines for muscle growth:
+- **Compound movements (squats, rows, bench, overhead press)**: 2–3 minutes
+- **Isolation exercises (curls, lateral raises, pushdowns)**: 90 seconds–2 minutes
+- **High-rep pump work (15–25 reps)**: 60–90 seconds is acceptable — loads are lighter, PCr depletion is less severe, and the metabolic component of these sets is intentional
+
+The exception: **rest-pause sets and myo-reps** are deliberately built around short intra-set rest. In those protocols, the short rest is the technique, not a shortcut.
+
+## Rest Periods: Compound vs Isolation Exercises
+
+Not all exercises demand the same recovery window, and that asymmetry is worth exploiting.
+
+**Compound movements** — deadlifts, squats, bench press, overhead press, barbell rows — recruit more total muscle mass and tax the central nervous system heavily. They require longer rest regardless of rep range. Shortchanging rest on these lifts costs you the most.
+
+**Isolation movements** — bicep curls, tricep extensions, lateral raises, leg curls — are lower in CNS demand and recover faster. Shorter rest here is fine and helps control overall session length without sacrificing performance on the exercises that matter most.
+
+A simple working rule: **compounds get 2–4 minutes, isolations get 60–90 seconds**. Apply this consistently and your sessions will run more productively without necessarily running longer.
+
+## Active Recovery vs Passive Rest
+
+Most lifters stand around or check their phone between sets. Passive rest is fine. But **light active recovery** — walking slowly, foam rolling the opposing muscle group, controlled diaphragmatic breathing — can improve blood flow and keep you primed without adding fatigue.
+
+What to avoid during rest periods:
+- **Heavy static stretching of the muscle you're about to train** — acutely reduces force output for 10–15 minutes
+- **Cardio that meaningfully elevates heart rate** — competes with phosphocreatine resynthesis
+- **Anything cognitively or physically taxing** — especially relevant if you're logging, texting, or scrolling
+
+## Timing Rest Periods Without Breaking Focus
+
+The practical problem with rest period prescription is execution: most lifters don't time their rests at all, and those who do often lose the thread mid-session.
+
+**Voice logging** removes the friction here. With a tool like VoiceLift, you log your set immediately after finishing it — no phone fumbling, no typing — which makes it natural to start a timer at the exact moment your rest begins. You stay in training mode rather than shifting to administrative mode between sets.
+
+Consistent rest periods also make your training data cleaner. If you rested 90 seconds one week and 3 minutes the next, any load comparison between those sessions is meaningless. **Standardizing rest is a form of data hygiene that makes progressive overload legible over time.** When your rest periods are consistent, a PR is actually a PR — not a byproduct of accidentally resting longer.
+
+## The Practical Takeaway
+
+Match your rest to your goal and the exercise type:
+
+| Goal | Compound Lifts | Isolation Work |
+|------|---------------|----------------|
+| **Strength (1–5 reps)** | 3–5 minutes | 2–3 minutes |
+| **Hypertrophy (6–15 reps)** | 2–3 minutes | 90 sec–2 min |
+| **High-rep pump (15–25 reps)** | 90 sec–2 min | 60–90 seconds |
+
+Don't treat rest periods as wasted time you're trying to minimize. They're a training variable as deliberate as load, volume, or frequency. Standardize them, track them, and let consistent data tell you whether your programming is working.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-13",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "best-workout-split-for-muscle-growth",
     slug: "best-workout-split-for-muscle-growth",
     title: "Best Workout Split for Muscle Growth: PPL vs Upper Lower",
