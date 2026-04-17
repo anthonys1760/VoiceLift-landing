@@ -1,5 +1,126 @@
 export const blogPosts = [
   {
+    id: "compound-vs-isolation-exercises",
+    slug: "compound-vs-isolation-exercises",
+    title: "Compound vs Isolation Exercises: What to Prioritize for Gains",
+    excerpt: "Most lifters treat compound vs isolation exercises as an either-or debate. It's not — but knowing how to prioritize them is what separates structured programs from random training.",
+    metaDescription: "Compound vs isolation exercises explained: why compounds come first, where isolation adds value, and how to structure both for maximum muscle growth.",
+    content: `
+# Compound vs Isolation Exercises: What to Prioritize for Gains
+
+**Compound vs isolation exercises** is one of the most debated topics in strength training — and one of the most misunderstood. Most beginners treat it as a binary choice. It isn't. Both have a place in a well-structured program, but they don't carry equal weight, and most lifters don't know which to emphasize or when.
+
+Here's how to think about it clearly.
+
+## What Are Compound Exercises?
+
+Compound exercises involve multiple joints moving simultaneously, recruiting large amounts of total muscle mass in a single movement.
+
+The foundational compound lifts:
+- **Squat**: Quads, glutes, hamstrings, core, upper back
+- **Deadlift**: Posterior chain — hamstrings, glutes, lower back, traps, lats
+- **Bench press**: Pectorals, front deltoids, triceps
+- **Overhead press**: Deltoids, triceps, upper traps, core stabilizers
+- **Barbell row**: Lats, rhomboids, rear delts, biceps
+- **Weighted pull-up**: Lats, biceps, rear delts, mid-back
+
+What makes these lifts special isn't just muscle recruitment — it's the **mechanical loading they allow**. You can squat and deadlift multiples of your bodyweight. You cannot do that with a leg extension or a lateral raise, and that gap in loading capacity translates directly into a gap in growth stimulus.
+
+## What Are Isolation Exercises?
+
+Isolation exercises target a single muscle group — usually crossing one joint — with a much narrower range of muscles involved.
+
+Common isolation exercises:
+- **Bicep curl**: Biceps primarily
+- **Tricep pushdown**: Triceps
+- **Leg extension**: Quads (no hip involvement)
+- **Hamstring curl**: Hamstrings (no hip involvement)
+- **Lateral raise**: Medial deltoid
+- **Cable fly**: Pectoral stretch and peak contraction
+
+The value of isolation movements isn't load — it's targeted stimulus. You can train a specific muscle through its full range of motion, at the right angle, without other muscles limiting your output or compensating.
+
+## Why Compound Exercises Should Come First
+
+**Compound lifts are the primary driver of strength and muscle growth** for most trainees. This is nearly universal across evidence-based programs, and the reasons are straightforward.
+
+### More Muscle Recruited Per Set
+
+A compound lift trains multiple muscle groups simultaneously. One set of squats stimulates quads, glutes, hamstrings, and stabilizers. One set of leg extensions stimulates quads. If your training time is limited, compound movements produce more total stimulus per unit of time — by a wide margin.
+
+### Higher Loading Potential Equals Greater Mechanical Tension
+
+Mechanical tension — load applied to muscle across a range of motion — is the primary driver of hypertrophy. Compound movements allow you to use the most absolute weight. More weight means more tension. More tension means a greater growth signal. This is why the squat and deadlift produce more total muscle mass than any isolation substitute ever could.
+
+### Neural Adaptations That Carry Over
+
+Compound lifts require full-body coordination, proprioception, and neural efficiency. These adaptations transfer to sport performance, daily function, and your capacity to handle heavier loads over time. Isolation work doesn't build this foundation to any comparable degree.
+
+## Where Isolation Exercises Earn Their Place
+
+Compound movements can't solve every problem. Here's where targeted isolation work adds genuine value.
+
+### Fixing Lagging Muscle Groups
+
+If your biceps aren't keeping pace with your rowing strength, adding direct curl work is the fix. The same applies to any muscle that's visually or functionally behind: lateral raises for shoulder width, rear delt flies for posture, leg curls for hamstring balance.
+
+You can't bring up a lagging bicep with more barbell rows — the stronger muscles handle most of the load. **Isolation work removes the limiting factor** by targeting the weak link directly.
+
+### Accumulating Volume Without Taxing Recovery
+
+Heavy compound work is expensive. Squats and deadlifts are demanding on the central nervous system, joints, and connective tissue. You can only do so many heavy compound sets before quality degrades.
+
+Isolation exercises are cheap by comparison. They let you add targeted sets for a specific muscle — pushing weekly volume into the productive range — without adding significant CNS stress. That's exactly why accessory work appears in every serious strength program, from powerlifting templates to bodybuilding prep.
+
+### Addressing Imbalances Before They Become Injuries
+
+Many common training injuries trace back to muscle imbalances. Knee pain often correlates with weak VMO or a quad-to-hamstring strength gap. Shoulder issues frequently involve underdeveloped rotator cuff and rear delts. Targeted isolation work corrects these imbalances before they become structural problems that take you out of training.
+
+## How to Structure Compound and Isolation Work in a Session
+
+The standard approach in evidence-based programming follows a clear hierarchy:
+
+1. **Open with compound lifts** — you're fresh, neural drive is high, and the heavy work that matters most gets your best effort
+2. **Follow with isolation accessories** — lower load, targeted, accumulate remaining volume without competing with compound performance
+3. **Never skip compounds in favor of isolation** — this is the most common beginner mistake, and it caps progress early
+
+A sample upper body session:
+- **Bench press** (compound) — 4 sets × 6–8 reps
+- **Barbell row** (compound) — 4 sets × 6–8 reps
+- **Overhead press** (compound) — 3 sets × 8–10 reps
+- **Cable fly** (isolation) — 3 sets × 12–15 reps
+- **Bicep curl** (isolation) — 3 sets × 10–12 reps
+- **Lateral raise** (isolation) — 3 sets × 15–20 reps
+
+The compounds deliver the stimulus that drives most of your growth. The isolation work fills the gaps and accumulates volume where compounds leave off.
+
+## Applying Progressive Overload Differently to Each
+
+Progressive overload works differently for compound and isolation movements, and conflating the two leads to poor programming decisions.
+
+**For compound lifts**: Track load and reps precisely. A 5 lb increase on your squat over two weeks is measurable and meaningful. Small strength increases in compound movements compound into significant muscle and strength gains over a full training block.
+
+**For isolation work**: Track reps and volume, but don't fixate on small load increases. Isolation progress often shows as more reps at the same load, improved muscle activation, or better pump at the same volume. The goal is adequate stimulus — not chasing PRs every session on bicep curls.
+
+This distinction is where logging precision matters. After a heavy compound set, you want to record load, reps, and effort level. After isolation work, you're tracking volume and feel. With VoiceLift, you capture both in seconds by speaking naturally — the AI handles parsing compound sets and accessory work without you changing how you describe them. Over months, that data tells you which compound lifts are stalling and which muscle groups need more isolation volume.
+
+## The Bottom Line
+
+**Compound exercises build the foundation. Isolation exercises refine it.**
+
+Structure your training sessions around the compound movements that move the most weight and recruit the most muscle. Treat isolation work as the add-on that brings lagging muscles up to par and pushes total volume into the productive range.
+
+Don't skip compounds because isolation feels safer. Don't skip isolation because you think compound work covers everything. Both premises are partially true: compounds are more important, and isolation still matters.
+
+Build your program around that hierarchy, log both consistently, and apply progressive overload where the returns are highest. That's how you get results that compound over years, not just weeks.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-17",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "rest-time-between-sets",
     slug: "rest-time-between-sets",
     title: "Rest Time Between Sets: How Long for Strength vs Hypertrophy",
