@@ -587,6 +587,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Pricing section hidden during waitlist phase
       <section id="pricing" ref={pricRef}>
         <h2 className={cls("fade-up", pricIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "16px", textAlign: "center" }}>
           Simple Pricing
@@ -610,6 +611,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      */}
 
       <section id="faq" ref={faqRef}>
         <h2 className={cls("fade-up", faqIn)} style={{ fontSize: "clamp(28px, 6vw, 48px)", fontWeight: 600, marginBottom: "40px", textAlign: "center" }}>
