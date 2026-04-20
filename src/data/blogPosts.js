@@ -1,5 +1,119 @@
 export const blogPosts = [
   {
+    id: "muscle-recovery-time-between-workouts",
+    slug: "muscle-recovery-time-between-workouts",
+    title: "Muscle Recovery Time: How Long Between Workouts Per Muscle Group",
+    excerpt: "Muscle recovery time isn't a fixed number — it depends on which muscle you trained, how hard you went, and factors most lifters overlook. Here's what the research shows.",
+    metaDescription: "How long do muscles take to recover between workouts? Recovery timelines by muscle group, the DOMS myth debunked, and how to optimize training frequency.",
+    content: `
+# Muscle Recovery Time: How Long Between Workouts Per Muscle Group
+
+**Muscle recovery time** is one of the most searched training questions — and one of the most misunderstood. Ask five coaches and you'll get five different answers. That's not because nobody knows; it's because recovery isn't a fixed number. It depends on training volume, intensity, training age, sleep, nutrition, and which muscle group you just trained.
+
+Here's what the research actually shows, and how to apply it without turning recovery into a pseudoscience rabbit hole.
+
+## What "Recovered" Actually Means
+
+Recovery has two components that most lifters conflate:
+
+**Muscle protein synthesis (MPS)** — the signaling process that drives muscle growth — elevates for 24–48 hours after a training session, then returns to baseline. This is the growth window people talk about.
+
+**Structural tissue repair** — the actual rebuilding of damaged muscle fibers, connective tissue, and glycogen stores — can take 48–72+ hours depending on training intensity and volume.
+
+A muscle can feel fine before it's structurally recovered. A muscle can feel destroyed while MPS is already declining. DOMS is a rough proxy for damage, but an unreliable indicator of readiness to train again. More on that below.
+
+## DOMS vs. Actual Recovery
+
+**DOMS — delayed onset muscle soreness** — peaks 24–72 hours after training, usually after sessions involving heavy eccentric loading (the lowering phase of lifts), novel movements, or high volume.
+
+Here's the critical distinction: **DOMS and recovery are not the same thing.**
+
+You can be significantly sore and still be adequately recovered to train that muscle group again. Research shows that muscle force output often returns to baseline well before soreness fully resolves. Elite athletes train through DOMS regularly. The soreness isn't the signal to stop — it's just inflammation and metabolic byproduct clearance.
+
+Conversely, you can feel completely fine while CNS fatigue is still elevated. This is the trickier problem. Central nervous system recovery can lag behind local muscle recovery, especially after maximal-effort compound lifts like heavy deadlifts or squat variations near your 1RM.
+
+## Recovery Time by Muscle Group
+
+Not all muscles recover at the same rate. Size, fiber type composition, and typical training volume all play a role.
+
+### Large Muscle Groups (Slower Recovery)
+
+- **Quads, hamstrings, glutes**: 48–72 hours for moderate training; 72–96 hours after very high-volume or high-intensity leg sessions
+- **Back (lats, traps, erectors)**: 48–72 hours; heavy posterior chain work (deadlifts, heavy rows) can push this toward 96 hours
+- **Chest and pectorals**: 48–72 hours at high intensity
+
+These muscles generate the most total mechanical work per session and exact the highest systemic toll. Heavy squats and deadlifts leave accumulated fatigue that extends well beyond local muscle soreness.
+
+### Smaller Muscle Groups (Faster Recovery)
+
+- **Biceps and triceps**: 24–48 hours
+- **Deltoids**: 24–48 hours
+- **Calves**: 24–48 hours (though this varies widely between individuals)
+- **Forearms**: 24 hours
+
+Smaller muscles recover faster partly because they do less absolute work per session and generate less systemic fatigue. This is why training arms twice a week feels sustainable in a way that training legs twice a week may not — at least initially.
+
+## Factors That Affect Your Recovery Rate
+
+Two lifters can run the exact same program and recover at meaningfully different speeds. Key variables:
+
+**Training age**: More experienced lifters recover faster from equivalent stimuli. Their connective tissue is more resilient, neural efficiency is higher, and their physiology is better calibrated to repair training stress.
+
+**Sleep**: **Sleep is the primary recovery mechanism**, full stop. Even a few nights of sleep deprivation measurably reduces muscle protein synthesis, elevates cortisol, and impairs glycogen replenishment. You cannot train around poor sleep.
+
+**Nutrition**: Total caloric intake, protein availability, and carbohydrate sufficiency all affect recovery speed. Consistent caloric deficit slows recovery significantly. Adequate protein (1.6–2.2g per kg of bodyweight daily) accelerates it.
+
+**Training intensity**: RPE matters here. An RPE 9 session takes meaningfully longer to recover from than an RPE 7 session at equal volume. Heavy eccentric loading — slow negatives, paused reps — causes more muscle damage and extends timelines accordingly.
+
+**Volume per session**: Cramming 25 sets of chest into a single Monday session doesn't recover faster than 12 well-executed sets. It takes significantly longer and likely produces less hypertrophy per set due to quality degradation at high fatigue.
+
+## How Often Can You Train Each Muscle Group?
+
+For most intermediate lifters, **training each muscle group twice per week** hits the optimal balance between frequency and recovery.
+
+The math is straightforward: if recovery takes 48–72 hours, a twice-weekly schedule with 72+ hours between sessions fits cleanly inside that window. You get two MPS spikes per week instead of one — without training into an incompletely recovered muscle.
+
+- **Twice per week**: The evidence-based default for intermediates. Works for all major muscle groups with appropriate per-session volume.
+- **Three times per week**: Viable for smaller muscles (arms, shoulders) and lifters with lower per-session volume. Less practical for high-volume quad or posterior chain training.
+- **Once per week**: Adequate for complete beginners, who grow from almost any stimulus. For anyone past the novice stage, once-weekly frequency leaves growth on the table by extending the gap between anabolic signals to seven days.
+
+## Signs You're Not Recovered Yet
+
+Rather than following a rigid clock, watch for these practical signals before loading a muscle group again:
+
+- **Warm-up sets feel heavier than they should** — load perception is a reliable same-day recovery indicator
+- **Joint stiffness or tenderness** (not muscle soreness — actual joint discomfort) — reduce load or take an extra day
+- **Performance is trending down** session over session on the same movement — accumulated fatigue, not just a bad day
+- **RPE at a given load is creeping up week to week** — your body is signaling that recovery isn't keeping pace with training stress
+
+This is exactly where consistent logging earns its value. With VoiceLift, you log RPE alongside every working set — by voice, in seconds, without interrupting your rest period. Over weeks, that data lets you spot rising effort trends before they become stalled progress or an overuse injury. When your RPE at the same weight climbs three sessions in a row, that's a measurable signal to back off — not a guess.
+
+## Practical Guidelines for Different Goals
+
+| Muscle Group | Minimum Recovery | Optimal Frequency |
+|---|---|---|
+| **Quads / Posterior Chain** | 72 hrs | 2x/week |
+| **Back (heavy rows/pulls)** | 48–72 hrs | 2x/week |
+| **Chest / Shoulders** | 48 hrs | 2x/week |
+| **Arms / Calves** | 24–48 hrs | 2–3x/week |
+
+These are starting points, not rules. Your actual recovery capacity — shaped by sleep, nutrition, training age, and stress load — determines where you land within these ranges.
+
+## The Practical Takeaway
+
+**48–72 hours is the evidence-based guideline for most muscle groups.** Larger muscles and higher-intensity sessions push toward the upper end. Smaller muscles and moderate-intensity work fall on the lower end.
+
+Use twice-per-week training frequency as your starting point. Log your RPE and track performance trends over time to determine whether your recovery is adequate — or whether you're either undertrained (recovering too fast, leaving frequency gains on the table) or overreached (not recovering fast enough, accumulating fatigue).
+
+Recovery is not passive. Sleep quality, protein intake, and intelligent volume management are active levers you control. Optimize them, and you'll consistently train in the productive window. Neglect them, and no programming adjustment will compensate for the deficit.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-20",
+    category: "Recovery",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "compound-vs-isolation-exercises",
     slug: "compound-vs-isolation-exercises",
     title: "Compound vs Isolation Exercises: What to Prioritize for Gains",
