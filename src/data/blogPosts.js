@@ -1,5 +1,111 @@
 export const blogPosts = [
   {
+    id: "how-many-sets-per-muscle-group-per-week",
+    slug: "how-many-sets-per-muscle-group-per-week",
+    title: "How Many Sets Per Muscle Group Per Week to Build Muscle",
+    excerpt: "How many sets per muscle group per week actually drives muscle growth? The research has a clear answer — and most lifters are either well below it or stacking too much into a single session.",
+    metaDescription: "How many sets per muscle group per week for muscle growth? Learn MEV, MAV, and MRV, see volume guidelines by muscle group, and stop guessing your training volume.",
+    content: `
+# How Many Sets Per Muscle Group Per Week to Build Muscle
+
+**How many sets per muscle group per week** is one of the most Googled training questions — and one of the few with a genuinely data-backed answer. It's not a wide-open debate like training to failure or optimal rep ranges. The research has converged on a clear framework. Most lifters just don't know what it says, or they've heard the range without understanding why it exists.
+
+The short answer: **most intermediate lifters need 10–20 working sets per muscle group per week to drive meaningful hypertrophy**. That range is wide for a reason, and where you land within it depends on training age, recovery capacity, and how you distribute volume across the week.
+
+## What "Working Sets" Actually Means
+
+Before counting anything, get clear on what you're counting. A working set is a challenging set that meaningfully contributes to your training stimulus — typically performed at RPE 7 or above (3 or fewer reps in reserve).
+
+Working sets do **not** include:
+- Warm-up sets
+- Feeder sets used to build up to working weight
+- Sets performed below RPE 6 (too easy to produce a meaningful growth stimulus)
+
+This distinction matters because most lifters significantly overcount their volume. If you count three warm-up sets of bench press alongside your two working sets at 225, you've logged "5 sets" when you've accumulated roughly 2 sets of actual training stimulus. Your real volume is lower than you think.
+
+## The Volume Framework: MEV, MAV, MRV
+
+The most useful framework comes from sport science research on training volume thresholds. Three landmarks define where your volume should land:
+
+**Minimum Effective Volume (MEV)**: The lowest weekly set count that still produces measurable muscle growth. For most intermediates, this is 6–10 sets per muscle group per week. Train below MEV and you're maintaining at best — not growing.
+
+**Maximum Adaptive Volume (MAV)**: The volume range where you're growing optimally — not just surviving the training. For intermediates, MAV typically falls between 10–20 sets per week per muscle group, depending on the muscle. This is your training target.
+
+**Maximum Recoverable Volume (MRV)**: The upper limit your recovery system can absorb. Exceed MRV and fatigue accumulates faster than you recover — performance stalls or declines, joints get irritated, and motivation tanks. This is overreaching territory.
+
+Your goal is to **train consistently in your MAV range**: high enough to drive adaptation, low enough to recover between sessions. The challenge is that MEV, MAV, and MRV are not fixed numbers — they change with training age, sleep quality, nutrition, and overall life stress.
+
+## Sets Per Muscle Group Per Week: Specific Guidelines
+
+Volume tolerance isn't uniform across muscle groups. Larger muscles with higher fatigue costs need different management than smaller accessory muscles.
+
+### Larger Muscle Groups
+- **Quads**: 12–20 sets/week
+- **Back (lats + mid-back)**: 14–22 sets/week
+- **Hamstrings**: 10–16 sets/week
+- **Chest**: 10–20 sets/week
+
+### Smaller Muscle Groups
+- **Shoulders (all three heads combined)**: 12–18 sets/week
+- **Biceps**: 10–16 sets/week
+- **Triceps**: 10–16 sets/week
+- **Calves**: 8–16 sets/week (significant individual variation here)
+
+One critical adjustment to make: **compound lifts contribute volume to multiple muscle groups simultaneously**. Four sets of barbell rows count toward both your lat volume and your bicep volume. Four sets of bench press count toward chest and triceps. Accounting for this, most lifters need far less direct isolation work than they initially program — the compound sets are already carrying substantial volume for the secondary muscles.
+
+## Why Weekly Distribution Matters as Much as the Weekly Total
+
+Hitting 16 sets of chest in a single Monday session is not equivalent to 8 sets on Monday and 8 sets on Thursday — even when the weekly total is identical.
+
+Per-session volume has diminishing returns. **Beyond roughly 8–10 hard sets per muscle per session**, additional sets generate disproportionately more fatigue while contributing progressively less stimulus. The muscle can't respond productively to that much volume in a single bout.
+
+This is why training frequency is inseparable from the volume question. Distributing weekly volume across multiple sessions lets you hit your weekly target without exceeding what a single session can absorb:
+
+| Frequency | Per Session | Weekly Total |
+|---|---|---|
+| 1x/week | 16 sets | 16 sets |
+| 2x/week | 8 sets each | 16 sets |
+| 3x/week | 5–6 sets each | 16 sets |
+
+The 2x/week option produces better outcomes than 1x/week at the same total volume — this is one of the most consistent findings in hypertrophy research. **Twice-per-week training frequency for each muscle group is the evidence-based standard** for intermediate lifters.
+
+## How to Find Your Personal Volume Landmarks
+
+The ranges above are population averages. Your MEV, MAV, and MRV are personal — shaped by genetics, training history, sleep, nutrition, and everything outside the gym. Here's a practical method for finding yours:
+
+1. **Start at the lower end of the MEV range** at the beginning of a training block — roughly 8–10 sets per week for major muscle groups.
+2. **Add 2 working sets per muscle group per week** across the block (this is volume periodization — progressive overload applied to training volume, not just load).
+3. **Track performance session to session.** If reps are holding or improving at the same load, you're recovering adequately and within your MAV.
+4. **Watch for MRV signals**: persistent soreness that doesn't resolve, RPE climbing at the same loads week over week, joint irritation, stalled or declining reps. When these appear, you've reached your MRV ceiling for that muscle. Deload and start the next block slightly below that volume.
+
+## Tracking Volume: Why the Data Is Non-Negotiable
+
+Volume management only works when you can see the numbers. If you're estimating how many working sets of quads you've accumulated this week, you can't make intelligent adjustments when performance stalls or fatigue builds beyond what you expected.
+
+This is where consistent logging becomes the difference between guessing and programming. After a squat session, saying **"four sets of squats at 275, RPE 8"** and having that captured immediately means your weekly quad volume is visible and accurate — not reconstructed from memory at the end of the week.
+
+With VoiceLift, that log happens between sets, in seconds, without interrupting your rest period. Over a training block, the data reveals whether you're training below your MEV (chronically undertrained with volume to add), within your MAV (growing), or pushing into MRV territory (accumulating fatigue faster than you're recovering). Most lifters who feel stuck and suspect they need to train harder actually discover they're doing 6–8 working sets per muscle group per week — consistently below MEV. The data makes that visible.
+
+## The Actionable Takeaway
+
+**Start here for most intermediate lifters:**
+- **Chest, back, quads**: 12–16 working sets/week, split across 2 sessions
+- **Hamstrings, shoulders, biceps, triceps**: 10–14 working sets/week
+- **Count compound sets toward the muscles they train** — don't blindly stack isolation volume on top
+
+Start at the lower end of the range, add volume gradually across a training block, and back off when performance signals you've hit your ceiling. Track every working set so the data is real, not estimated.
+
+The 10–20 set range isn't arbitrary — it's where research consistently shows hypertrophy for intermediate lifters. Get into that range, stay there, and let the data tell you where to adjust.
+
+That's how you stop guessing and start programming.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-04-27",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1549476464-37392f717541?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "training-to-failure",
     slug: "training-to-failure",
     title: "Training to Failure: Should You Take Every Set to Failure?",
