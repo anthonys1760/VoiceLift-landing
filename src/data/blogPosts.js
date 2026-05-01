@@ -1,5 +1,97 @@
 export const blogPosts = [
   {
+    id: "how-much-protein-per-day-to-build-muscle",
+    slug: "how-much-protein-per-day-to-build-muscle",
+    title: "How Much Protein Per Day to Build Muscle: Evidence-Based Guide",
+    excerpt: "How much protein per day to build muscle is one of the most debated questions in fitness — and the research has a clearer answer than most people realize. Here's the evidence-backed target, why timing matters less than total intake, and how to consistently hit your number.",
+    metaDescription: "How much protein per day to build muscle? The evidence-backed answer is 1.6–2.2g/kg. Learn targets, timing, and practical strategies to hit your intake.",
+    content: `
+# How Much Protein Per Day to Build Muscle: Evidence-Based Guide
+
+**How much protein per day to build muscle** is one of the most Googled questions in fitness — and one of the most confidently answered wrong. Broscience says one gram per pound of bodyweight, minimum. Some coaches go higher. Others insist anything above 0.8g/kg is overkill. The result is a debate with more noise than signal.
+
+The research has largely settled this question. Here's what it actually says, why the popular numbers are close but not precise, and how to apply it without turning nutrition into a second job.
+
+## The Evidence-Based Daily Protein Target
+
+The current research puts the optimal protein intake for muscle growth at **1.6–2.2 grams per kilogram of bodyweight per day (0.73–1g per pound)**.
+
+That's the range where studies consistently show maximum stimulation of muscle protein synthesis (MPS) in individuals doing regular resistance training. Going below 1.6g/kg leaves protein as a potential limiting factor for recovery and adaptation. Going above 2.2g/kg produces diminishing returns — not harm, just excess calories your body oxidizes rather than uses for tissue synthesis.
+
+For a 180 lb (82 kg) lifter:
+- **Lower end**: 82 × 1.6 = **131g protein/day**
+- **Upper end**: 82 × 2.2 = **180g protein/day**
+- **Practical target**: 150–170g/day
+
+If you're consistently hitting this range, you're not leaving protein gains on the table. The popular "1g per pound" rule maps to roughly 2.2g/kg — the top of the optimal range, not a magic number with special properties.
+
+## Does Protein Timing Actually Matter?
+
+The "anabolic window" — the idea that you must consume protein immediately post-workout or lose gains — has been largely debunked. MPS remains elevated for several hours after training, and what matters far more than exact timing is your **total daily protein intake distributed across the day**.
+
+That said, a few timing principles hold up:
+
+**Distribute protein across 3–5 meals**: Each meal should contain enough protein to meaningfully stimulate MPS — roughly 20–40g per sitting, depending on your size and the protein source. Research shows that spreading protein across multiple meals produces greater MPS stimulation over 24 hours than front-loading or back-loading the same total intake.
+
+**Pre- and post-workout protein**: Having protein within a few hours before or after training is useful — not because of a tight anabolic window, but because it ensures amino acid availability during the period of highest training-induced MPS. Eating a normal high-protein meal within 1–2 hours post-training is sufficient.
+
+**Don't train completely fasted if you can avoid it**: When you train fasted, MPS is still stimulated but muscle protein breakdown is also elevated. Having protein before or shortly after limits net breakdown. It's not catastrophic occasionally, but it's a variable worth managing if you're optimizing.
+
+## Protein Quality: Not All Sources Are Equal
+
+**Leucine content drives MPS**. Leucine is the amino acid that triggers the MPS signaling cascade. Animal proteins — chicken, beef, eggs, dairy, fish — are leucine-dense and complete (containing all essential amino acids). They're the most efficient protein sources for muscle growth per gram consumed.
+
+Plant proteins work but typically require more total intake to deliver an equivalent leucine dose:
+- **Soy, quinoa, hemp**: Complete amino acid profiles, closer to animal proteins in efficiency
+- **Legumes, grains**: Incomplete individually; effective when combined across meals throughout the day
+- **If you eat primarily plant proteins**: Target the upper end of the range (2.0–2.2g/kg) to compensate for lower per-gram leucine availability
+
+For omnivores, prioritizing animal protein sources makes hitting your targets easier. For vegetarians and vegans, targeting higher in the range and combining multiple protein sources across the day ensures sufficient leucine distribution.
+
+## How Body Composition Affects the Target
+
+The 1.6–2.2g/kg range is based on **total bodyweight** in research, but for individuals carrying significant body fat, this inflates the target unnecessarily. Fat mass has minimal protein turnover and doesn't contribute to MPS the way lean tissue does.
+
+**If you're at higher body fat**: Calculate protein from your **lean body mass (LBM)** or a realistic goal weight rather than total bodyweight. A 250 lb lifter at 30% body fat has ~175 lbs of LBM — a protein target based on 175 lbs is more appropriate than one based on 250 lbs total.
+
+For most lifters in the 15–25% body fat range, total bodyweight is a close enough proxy. The distinction matters most at higher body fat percentages where the gap between total weight and lean mass is significant.
+
+## How to Hit Your Daily Protein Target
+
+For most lifters, the bottleneck isn't knowing how much protein to eat — it's consistently hitting the number. A few practical strategies:
+
+- **Anchor every meal around protein first**: Plan protein first, then build carbs and fats around it. This prevents the end-of-day deficit that requires a large shake to patch.
+- **Know your default sources cold**: Identify 3–5 high-protein foods you eat regularly and know exactly how much each delivers. Chicken breast (~30g/100g cooked), Greek yogurt (~17g/170g), eggs (~6g each), cottage cheese (~25g/cup), canned tuna (~25g per 3oz serving). These carry your daily volume.
+- **Protein shakes supplement, they don't replace**: Shakes are convenient for closing the gap late in the day or post-training when a meal isn't immediately available. They shouldn't be your protein foundation.
+- **Track for 2–4 weeks**: Consistent protein intake is a silent progress killer when it's off. Most lifters who feel like they're "eating enough protein" are landing 30–50g short of their target daily. Tracking for even a short window reveals the gap.
+
+With VoiceLift, you can log meal protein content by voice alongside your training data — keeping nutrition and workout records in one place without adding the overhead of a separate tracking app.
+
+## Common Protein Myths
+
+**"More protein is always better"**: Above ~2.2g/kg, excess protein is oxidized for energy, not used for additional muscle synthesis. Surplus calories at that point are more productively allocated to carbohydrates for training performance and glycogen replenishment.
+
+**"You can only absorb 30g of protein per meal"**: Largely debunked. Digestion rate varies by protein source, but your body doesn't discard protein exceeding an arbitrary per-meal ceiling. Distribution across meals matters for MPS optimization — not because of an absorption limit.
+
+**"Protein is all you need to build muscle"**: Protein enables MPS, but total caloric intake, training volume and intensity, sleep quality, and consistency all drive the result. Protein is necessary. It's not sufficient on its own.
+
+## The Actionable Takeaway
+
+**Target 1.6–2.2g of protein per kilogram of bodyweight per day**, distributed across 3–5 meals with 20–40g per sitting.
+
+For most intermediate lifters, this means **140–200g of protein per day** depending on size. Prioritize animal protein sources for efficiency. Focus on total daily intake before obsessing over timing windows. And if you're not sure you're actually hitting the target, track intake for two to four weeks — the data usually reveals whether protein is a limiting variable or a non-issue.
+
+Muscle growth doesn't happen without adequate protein. But once you're consistently in the 1.6–2.2g/kg range, the marginal return from further optimization is small compared to the impact of consistent training and progressive overload over months.
+
+Hit the protein. Do the work.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-01",
+    category: "Nutrition",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-many-sets-per-muscle-group-per-week",
     slug: "how-many-sets-per-muscle-group-per-week",
     title: "How Many Sets Per Muscle Group Per Week to Build Muscle",
