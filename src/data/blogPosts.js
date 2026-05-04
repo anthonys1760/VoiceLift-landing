@@ -1,5 +1,112 @@
 export const blogPosts = [
   {
+    id: "optimal-rep-range-for-muscle-growth",
+    slug: "optimal-rep-range-for-muscle-growth",
+    title: "How Many Reps to Build Muscle: Optimal Rep Range Guide",
+    excerpt: "The question of how many reps to build muscle has a more nuanced answer than the classic '8–12 rep rule.' Here's what the research actually shows — and how to apply it without overcomplicating your programming.",
+    metaDescription: "How many reps to build muscle? Research shows the 5–30 rep range all drives hypertrophy. Learn which rep ranges optimize strength, size, and training efficiency.",
+    content: `
+# How Many Reps to Build Muscle: Optimal Rep Range Guide
+
+The question of **how many reps to build muscle** sounds like it should have a clean answer. For decades, it did: the "hypertrophy zone" was 8–12 reps. That was the prescription handed to every lifter who walked into a gym. Do 3 sets of 10, build muscle. Simple.
+
+The problem is the research has moved on. The 8–12 rep rule isn't wrong — it's just incomplete.
+
+## The Myth of the "Hypertrophy Zone"
+
+The 8–12 rep range became gospel because early exercise science research showed it produced strong hormonal responses and meaningful muscle damage. That's still true. But the implicit assumption — that only this range produces hypertrophy — has been thoroughly tested and largely refuted.
+
+A landmark study by Schoenfeld et al. (2017) directly compared low-load (25–35 reps) versus high-load (8–12 reps) training equated for effort and found **comparable muscle growth in both groups**. The heavy group got stronger. The light group built just as much muscle. Same hypertrophy outcome, different rep ranges.
+
+This finding has been replicated across multiple studies. The current evidence says that **any rep range from roughly 5 to 30+ reps can drive hypertrophy**, provided sets are taken close to failure.
+
+## What Rep Ranges Actually Control
+
+Rep ranges aren't the primary determinant of muscle growth. **Effort relative to failure is**.
+
+A set of 5 reps at near-maximal load recruits high-threshold motor units, generates high mechanical tension, and produces a significant hypertrophy stimulus. A set of 20 reps at a lighter load does the same thing via metabolic stress and sustained time under tension — provided you take it close to failure.
+
+What rep ranges actually control:
+
+- **Absolute load on the bar**: High-rep sets use less weight; low-rep sets use more
+- **Mechanical tension vs. metabolic stress**: Low reps favor mechanical tension; high reps favor metabolic fatigue — both drive hypertrophy through distinct pathways
+- **CNS demand vs. local fatigue**: Lower-rep sets tax the nervous system more; higher-rep sets accumulate more metabolic byproducts
+- **Volume accumulation**: Higher-rep sets make it easier to stack total working sets at a lower systemic cost per set
+
+None of these factors makes one rep range categorically superior for muscle growth. The mechanism is different. The outcome is comparable.
+
+## Practical Rep Range Recommendations
+
+While the research shows flexibility, different rep ranges still have practical strengths in specific contexts.
+
+### 1–5 Reps (Strength-Focused)
+- **Best for**: Building maximal strength on compound movements
+- **Hypertrophy**: Still drives muscle growth, especially with heavy compound lifts. Lower reps per set means you'll need more total sets to match the volume of higher-rep work.
+- **Use it on**: Main compound lifts — squat, bench, deadlift, overhead press — when strength is the explicit priority
+
+### 6–12 Reps (The Middle Ground)
+- **Best for**: Balancing mechanical tension and metabolic stress in a single rep range
+- **Why it still holds**: Not because it's uniquely optimal, but because it's highly efficient. Loads are heavy enough for substantial mechanical tension; rep counts are high enough to accumulate volume without excessive set counts.
+- **Use it on**: Primary compound work and first-tier accessory movements
+
+### 12–30 Reps (Metabolic and Volume Work)
+- **Best for**: Accumulating volume with lower joint stress, isolation work, high-frequency training
+- **Hypertrophy**: Fully effective when taken within 1–2 reps of failure. Less systemic cost makes these ideal for adding volume without wrecking recovery.
+- **Use it on**: Isolation exercises (curls, lateral raises, flyes), volume sets at the end of sessions, supersets
+
+## How This Changes Your Programming
+
+The practical implication isn't "ignore rep ranges and do whatever feels good." It's that you should **vary rep ranges intentionally across your program** rather than defaulting rigidly to one zone.
+
+**Rep Range Cycling Within a Block**: Run primary compound work at 4–6 reps in the first phase of a training block, shift to 8–12 at mid-block, and finish with 12–15 rep backoff sets. Strength builds on the heavier work; volume accumulates on the lighter work. Both phases contribute to hypertrophy through different mechanisms.
+
+**Exercise-Specific Matching**: Match rep ranges to the exercise's loading capacity. Deadlifts at 25-rep sets are rarely practical or safe for most lifters. Lateral raises at 3-rep sets are nearly useless for shoulder development. Use low reps on movements that support heavy loading; use higher reps on isolation work where absolute load is inherently limited.
+
+**Isolation Work in Higher Rep Ranges**: Research supports using 15–25+ reps for most isolation movements. Cable curls, lateral raises, pushdowns, leg extensions — take these to 12–20 reps and push close to failure. Similar growth stimulus, far less joint stress, and easier to recover from session to session.
+
+## The One Thing Rep Range Can't Fix
+
+No rep range drives hypertrophy without sufficient proximity to failure. This is where most lifters lose the equation.
+
+A set of 12 reps at RPE 6 — where you could have done 16 — isn't producing meaningful hypertrophy regardless of how "optimal" that rep range looks on paper. A set of 5 reps at RPE 9 — one rep from failure — is producing a real stimulus. **Effort level determines whether the stimulus is real, not the number of reps**.
+
+This is the most common error in "hypertrophy programs": lifters follow an 8–12 rep scheme at RPE 6–7 consistently, wonder why they're not growing, and assume they need a different rep range. They don't. They need to train harder at the rep range they're already in.
+
+Tracking your RPE alongside rep counts is what makes the data actionable. If you log "bench 185 for 10" but not the effort level, you don't know whether that set was productive or a glorified warm-up. With VoiceLift, you can say **"bench 185 for 10 at RPE 8"** between sets in seconds — effort data and volume data captured together, without interrupting your rest period. Over weeks, that record tells you whether you're consistently in the productive zone or consistently leaving reps on the table.
+
+## A Practical Rep Range Framework
+
+| Exercise Type | Recommended Rep Range | Proximity to Failure |
+|---|---|---|
+| **Heavy compound lifts** | 4–8 reps | 1–3 RIR |
+| **Moderate compound work** | 6–12 reps | 1–2 RIR |
+| **Isolation exercises** | 12–20 reps | 0–2 RIR |
+| **Volume/pump sets** | 15–30 reps | 0–1 RIR |
+
+Run primary compound movements at the lower end. Accumulate volume with lighter, higher-rep sets. Log effort levels alongside rep counts every session so you know when sets are genuinely hard — and when they just feel like effort.
+
+## Common Rep Range Mistakes
+
+- **Treating 8–12 as the only valid range**: Limits your ability to develop maximal strength and accumulate high-rep volume for isolation work
+- **Going heavy on isolation exercises**: A 5-rep lateral raise trains your joints, not your medial deltoid
+- **High reps without high effort**: The most common issue. If your 15-rep sets never feel hard, they're not doing much
+- **Switching rep ranges constantly**: Jumping ranges every week prevents the progression that makes any rep range work. Run a range for 4–6 weeks before assessing results.
+
+## The Actionable Takeaway
+
+**The optimal rep range for muscle growth is whatever range you can sustain with high effort across a full training block.**
+
+The research supports hypertrophy across a wide spectrum — 5 reps to 30+ — so long as sets are taken close enough to failure to recruit the high-threshold motor units driving adaptation. The 8–12 "hypertrophy zone" isn't wrong; it's just not the only zone, and for many exercises it's not even the best choice.
+
+Use lower rep ranges for heavy compound movements where mechanical tension is the goal. Use higher rep ranges for isolation work and volume accumulation. Train close to failure across all of them. Log your rep counts, your loads, and your effort levels every session — because the rep range is just the tool. Consistent effort and accurate data are what make it produce results.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-04",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-much-protein-per-day-to-build-muscle",
     slug: "how-much-protein-per-day-to-build-muscle",
     title: "How Much Protein Per Day to Build Muscle: Evidence-Based Guide",
