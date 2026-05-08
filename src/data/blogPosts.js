@@ -1,5 +1,94 @@
 export const blogPosts = [
   {
+    id: "training-frequency-muscle-group",
+    slug: "training-frequency-muscle-group",
+    title: "How Often to Train Each Muscle Group for Muscle Growth",
+    excerpt: "Training frequency is one of the most debated variables in lifting. Here's what the research says about how often you should train each muscle group — and how to apply it without tanking your recovery.",
+    metaDescription: "How often should you train each muscle group? Research supports 2x per week for most lifters. Learn the optimal training frequency for muscle growth.",
+    content: `
+# How Often to Train Each Muscle Group for Muscle Growth
+
+If you've been training for any length of time, you've heard conflicting answers on **how often to train each muscle group**. Bro-split devotees insist once a week is plenty. Full-body advocates train everything three times per week. Both camps have real-world results. So what does the research actually say — and what should you do with it?
+
+The short answer: **most lifters are undertrained, hitting each muscle group only once per week when twice would produce meaningfully better results.**
+
+## What the Research Says About Training Frequency
+
+A meta-analysis by Schoenfeld, Ogborn, and Krieger (2016) looked directly at muscle group frequency and hypertrophy outcomes. The finding was clear: **training a muscle group twice per week produced significantly greater muscle growth than once per week**, when total weekly volume was equated across conditions.
+
+The mechanism isn't complicated. Muscle protein synthesis (MPS) — the cellular process that drives repair and growth — spikes after a training session and returns to baseline within roughly 24–48 hours. Training a muscle once per week means the majority of the week passes with that muscle in maintenance mode, not growth mode. **Two sessions per week gives you two MPS spikes instead of one.**
+
+### Does 3x Per Week Beat 2x?
+
+Honestly: **maybe, for some lifters in specific contexts.** Studies comparing 2x vs. 3x frequency show mixed results. When they do show a benefit to higher frequency, the effect size is small. More likely, 3x per week spreads volume thinner across sessions — each session becomes lower stimulus, which offsets the frequency advantage.
+
+For most natural lifters, **2x per week per muscle group is the practical optimum**: enough frequency to accelerate muscle protein synthesis, enough volume per session to generate a real training stimulus.
+
+## Why Bro Splits Persist Despite the Evidence
+
+The body-part split (chest Monday, back Tuesday, legs Wednesday...) became the default gym template for a reason: it works. If your volume and intensity are sufficient, even once-a-week frequency drives meaningful growth — especially early in your training career.
+
+The issue is **efficiency**. A lifter running a bro split and a lifter running upper/lower with equivalent total weekly volume will converge in muscle development over time — but the bro-split lifter is leaving frequency-driven gains on the table. For natural lifters without pharmaceutical support for extended protein synthesis windows, frequency is a lever worth using.
+
+Bro splits also tend to push excessive single-session volume: 20+ sets for chest on Monday, with diminishing returns after the first 10–12 hard sets. That same volume is more productive distributed across two sessions.
+
+## Training Splits and Their Frequency Per Muscle Group
+
+Not all splits support the same training frequency. Here's how common structures compare:
+
+### Full Body (3 days/week)
+- **Frequency per muscle group**: ~3x per week
+- **Best for**: Beginners, athletes with limited gym days, advanced lifters peaking a specific lift
+- **Trade-off**: Per-session volume is low; each muscle gets only a few sets per workout
+
+### Upper/Lower (4 days/week)
+- **Frequency per muscle group**: 2x per week
+- **Best for**: Intermediate to advanced lifters training 4 days per week
+- **Trade-off**: Requires consistent 4-day availability; both lower days must be completed
+
+### Push/Pull/Legs (6-day double cycle)
+- **Frequency per muscle group**: 2x per week across a 6-day PPL rotation
+- **Best for**: Experienced lifters who can handle and recover from high weekly volume
+- **Trade-off**: High session commitment; poor fit for lifters who can only train 3–4 days
+
+### Bro Split / Body-Part Split (5–6 days)
+- **Frequency per muscle group**: 1x per week
+- **Best for**: Experienced lifters with strong recovery capacity, or specific plateau-breaking phases
+- **Trade-off**: Leaves frequency-driven hypertrophy gains on the table for most natural lifters
+
+## Does the Muscle Group Matter?
+
+Yes. Optimal frequency varies based on muscle size, fiber type composition, and recovery demands.
+
+- **Large compound groups** (quads, lats, chest): Recover well at 2x per week; most research on frequency uses these as the primary outcome measure
+- **Smaller isolation muscles** (biceps, triceps, lateral deltoids): May benefit from 2–3x per week given their lower recovery cost; they're frequently trained indirectly through compound pressing and pulling anyway
+- **Hamstrings and glutes**: Often undertrained in frequency; these groups respond well to deliberate 2x-per-week programming and are commonly the weak link in lower-body development
+
+Tracking your actual per-muscle volume is where most lifters' data falls apart. You may think you're hitting back twice a week — but one of those sessions is dominated by trap and rear-delt work that barely touches your lats. **Knowing your real training distribution requires a consistent log.**
+
+## Increasing Frequency Without Wrecking Recovery
+
+The most common mistake when improving frequency: **adding sessions without adjusting total volume.**
+
+If you move from 1x per week (20 sets per session) to 2x per week (20 sets per session × 2), you've doubled volume without doubling recovery capacity. The result is accumulated fatigue, not accelerated growth.
+
+The correct approach: **redistribute your existing volume across more sessions rather than stacking new volume on top.** If you were doing 18 sets of chest work on Monday, shift to 9 sets Monday and 9 sets Thursday. Same weekly volume, better stimulus distribution, equivalent recovery demand.
+
+Logging each session accurately is what makes frequency management possible. With VoiceLift, you can say **"incline press, 4 sets of 8 at 175, RPE 8"** between sets and your weekly chest volume is captured in real time — including indirect volume from overhead pressing and fly work. Over weeks, the log shows whether your frequency distribution matches what you intended, or whether one muscle is getting three times the attention of another.
+
+## The Actionable Takeaway
+
+**Train each major muscle group at least twice per week.** If you're currently on a bro split or one-muscle-per-day program, restructure to upper/lower, push/pull/legs (double cycle), or full-body and keep total weekly volume the same. Most natural lifters will see improved hypertrophy from the frequency shift alone.
+
+Track your sessions consistently — including indirect volume from compound movements that carry across muscle groups. Frequency is only a meaningful variable when you know what you actually did in each session.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-08",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "optimal-rep-range-for-muscle-growth",
     slug: "optimal-rep-range-for-muscle-growth",
     title: "How Many Reps to Build Muscle: Optimal Rep Range Guide",
