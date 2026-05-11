@@ -1,5 +1,103 @@
 export const blogPosts = [
   {
+    id: "bulking-and-cutting-guide",
+    slug: "bulking-and-cutting-guide",
+    title: "Bulking and Cutting: A Complete Guide for Natural Lifters",
+    excerpt: "Bulking and cutting are the two foundational phases of natural bodybuilding — but most lifters run them wrong. Here's how to structure each phase, when to switch, and what actually moves the needle.",
+    metaDescription: "Learn how to bulk and cut effectively as a natural lifter. When to switch phases, how much to eat, and how to preserve muscle while cutting.",
+    content: `
+# Bulking and Cutting: A Complete Guide for Natural Lifters
+
+If you've spent any time in lifting communities, you've heard the terms. **Bulking and cutting** are the two phases that serious natural lifters cycle through to build muscle and manage body fat. The concept is straightforward. The execution is where most people go wrong — either spinning their wheels in an endless "maintenance" limbo or running a bulk that's really just an excuse to eat like a college freshman.
+
+This guide breaks down exactly how to structure both phases, when to transition between them, and what to track so you know whether it's working.
+
+## What Bulking and Cutting Actually Mean
+
+**Bulking** means eating in a caloric surplus — consistently consuming more calories than you burn — to give your body the raw material it needs to build muscle. Muscle tissue requires energy to synthesize. Without a surplus, your capacity for muscle growth is sharply limited, especially past the beginner stage.
+
+**Cutting** means eating in a caloric deficit to reduce body fat while preserving as much lean mass as possible. You can't selectively lose fat without some muscle risk, but proper programming and sufficient protein intake minimize the damage.
+
+The underlying logic: build muscle more efficiently in a surplus, then reveal it by reducing fat in a deficit. Repeat over years. That's natural bodybuilding in its simplest form.
+
+## Should You Bulk or Cut First?
+
+This is the most common question beginners ask, and the honest answer depends on where you're starting.
+
+- **If you're above ~18–20% body fat (men) or ~28–30% (women)**: Cut first. Starting a bulk at high body fat reduces insulin sensitivity and increases the ratio of fat gain to muscle gain during a surplus. Get leaner, then build.
+- **If you're under ~15% body fat (men) or ~25% (women)**: Bulk first. You have the body composition to run a clean surplus and you'll see better muscle-to-fat gain ratios.
+- **If you're a true beginner with no training history**: Run at maintenance or a very small surplus (~200 calories). Beginners gain muscle at an accelerated rate even without a significant surplus. A huge caloric surplus as a novice just adds unnecessary fat.
+
+One thing to avoid: **body recomposition paralysis**. Some lifters hover near maintenance indefinitely, hoping to gain muscle and lose fat simultaneously. Recomposition is real — particularly for beginners and detrained lifters — but for intermediate and advanced lifters, the rate of change is so slow that deliberate bulk/cut phases produce meaningfully better results over a 12-month period.
+
+## How to Run a Proper Bulk
+
+The goal of a bulk is to maximize muscle gain while minimizing unnecessary fat accumulation. That means a **controlled surplus**, not an all-out eating binge.
+
+### Setting Your Surplus
+
+**200–400 calories above maintenance** is the standard recommendation for natural lifters. This rate of gain typically produces:
+
+- **Beginners**: 1–2 lbs of scale weight per month
+- **Intermediate lifters**: 0.5–1 lb per month
+- **Advanced lifters**: 0.25–0.5 lbs per month
+
+Faster weight gain than these benchmarks means you're accumulating more fat than muscle. The "dirty bulk" — eating in a massive surplus to maximize muscle gain — doesn't work the way people think. Your body can only synthesize so much muscle tissue per unit of time. Calories beyond that threshold convert to fat, not muscle.
+
+### Body Fat Ceiling for a Bulk
+
+**Stop bulking and transition to a cut when you reach approximately 18% body fat (men) or 28% (women).** Running a bulk past these thresholds diminishes returns: fat gain accelerates relative to muscle gain, hormonal environment worsens, and you're setting yourself up for a longer, harder cut.
+
+Most productive bulks run 3–6 months. Beyond that, you're likely accumulating fat faster than muscle anyway.
+
+## How to Run a Proper Cut
+
+The objective of a cut is fat loss with muscle preservation. This is where training discipline and protein intake matter most.
+
+### Setting Your Deficit
+
+**300–500 calories below maintenance** is the effective range for most lifters. This produces roughly 0.5–1 lb of fat loss per week.
+
+- Cuts faster than 1% of bodyweight per week consistently result in muscle loss — even with high protein intake and continued resistance training
+- A slower deficit preserves more muscle, though it takes longer
+- Aggressive cuts (700+ calorie deficit) are only appropriate for very overweight individuals or short-term peaking before a specific event
+
+### Protein During a Cut
+
+**Increase protein when cutting, not decrease it.** The standard recommendation for muscle preservation is 0.8–1.0g per pound of bodyweight per day. Some research supports going higher — up to 1.2g/lb — during aggressive deficits. The extra protein provides substrate for muscle protein synthesis when caloric energy is restricted.
+
+### Training During a Cut
+
+Don't completely switch to high-rep "toning" work during a cut. **Continue training with progressive overload as the priority.** The muscle you built was built through mechanical tension and progressive challenge — those same signals are what tell your body to retain it when calories drop. Lifters who switch to light, circuit-style training during cuts lose muscle faster.
+
+Tracking performance on your main lifts through a cut is one of the best indicators of whether you're preserving muscle or losing it. With a tool like VoiceLift, logging strength benchmarks by voice between sets makes it easy to spot strength trends over weeks — a steady decline on your primary compounds during a cut usually signals the deficit is too aggressive.
+
+## Tracking Progress Through Both Phases
+
+Scale weight alone doesn't tell you enough. During a bulk, you want to confirm the weight gain is producing strength increases — if the scale is going up but your lifts are stagnant, you're getting fatter without building muscle. During a cut, you want to confirm the weight loss is coming from fat, not muscle — if lifts are dropping sharply, you're losing more lean mass than acceptable.
+
+The metrics that matter most:
+
+- **Weekly average scale weight** (daily fluctuations are noise)
+- **Primary compound lift numbers** — squat, deadlift, bench, overhead press
+- **Body measurements or progress photos** at 4-week intervals
+- **Workout volume and intensity logs** to confirm you're maintaining training stimulus
+
+This is where consistent workout logging pays off. VoiceLift lets you log every set by voice in real time — weight, reps, RPE — so your strength data is complete and easy to review. Over a 12-week cut, the trend line on your lifts tells you more about muscle retention than the mirror does on any given day.
+
+## The Actionable Takeaway
+
+**Pick a phase and commit to it.** Assess your current body fat honestly. If you're lean, run a controlled bulk with a 200–300 calorie surplus and stop when you approach 18% (men) or 28% (women). If you're above those thresholds, cut to ~12–15% / ~22–25% before building again. Each phase should last at least 8–12 weeks to be worth running — shorter cycles don't give your body enough time to respond.
+
+Track your lifts throughout both phases. The number on the bar is the best real-time feedback you have.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-11",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "training-frequency-muscle-group",
     slug: "training-frequency-muscle-group",
     title: "How Often to Train Each Muscle Group for Muscle Growth",
