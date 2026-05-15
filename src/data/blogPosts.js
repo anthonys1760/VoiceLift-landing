@@ -1,5 +1,103 @@
 export const blogPosts = [
   {
+    id: "pre-post-workout-nutrition",
+    slug: "pre-post-workout-nutrition",
+    title: "What to Eat Before and After a Workout to Build Muscle",
+    excerpt: "Workout nutrition timing directly affects training performance and recovery. Here's exactly what to eat before and after lifting — and when — to support muscle growth without overthinking it.",
+    metaDescription: "What to eat before and after a workout to build muscle. Optimal pre and post workout nutrition timing, macro targets, and meal examples for serious lifters.",
+    content: `
+# What to Eat Before and After a Workout to Build Muscle
+
+**Pre and post workout nutrition** gets more attention than almost any other variable in lifting culture — and for good reason. What you eat around training directly affects performance, recovery, and long-term muscle growth. Get it right and you train harder, recover faster, and build more. Get it wrong and you're leaving gains on the table.
+
+This guide covers what to eat, how much, and when — without the supplement industry hype.
+
+## Does Workout Nutrition Timing Actually Matter?
+
+Yes, but not as dramatically as most fitness marketing suggests. The research on nutrient timing has gone back and forth over the past two decades. Here's where the evidence currently lands:
+
+- **Total daily protein and calorie intake** is the primary driver of muscle growth — far more important than precise timing
+- **Eating protein and carbohydrates around training** does meaningfully support performance and recovery, but the window is wider than the old "30 minutes or bust" dogma
+- **Training fasted** isn't fatal to your gains, but it's not optimal if maximizing muscle growth is the goal
+
+The practical implication: total intake drives the majority of your results. Timing optimizes on the margins — but those margins compound over years of consistent training.
+
+## What to Eat Before a Workout
+
+The goal of your pre-workout meal is two things: **fuel your training session** and **prime muscle protein synthesis**. That means carbohydrates for energy and protein for muscle maintenance.
+
+### How Long Before Training Should You Eat?
+
+**60–120 minutes before training** is the practical sweet spot for most people. A large meal needs time to digest; eating too close to training causes sluggishness or GI discomfort. Eating too early means blood glucose has returned to baseline before you start.
+
+If you're pressed for time, **a small, easily digestible snack 30–45 minutes before training** still works — just keep fat and fiber low, since both slow gastric emptying.
+
+### Pre-Workout Macro Targets
+
+- **Protein**: 20–40g from a fast-digesting source — whey, egg whites, or lean chicken or turkey
+- **Carbohydrates**: 30–60g depending on session length and intensity; simple carbs are fine this close to training
+- **Fat**: Keep it low. Fat slows digestion and can make you feel heavy during heavier compound movements.
+
+**Pre-workout meal examples:**
+- Greek yogurt + banana + scoop of protein powder
+- Rice cakes with a light layer of peanut butter and a protein shake
+- 4–6oz chicken breast with white rice
+- Oats with protein powder and a piece of fruit
+
+## What to Eat After a Workout
+
+Post-workout nutrition serves two purposes: driving muscle protein synthesis and replenishing muscle glycogen. Your muscles are primed to absorb nutrients after training — the question is how urgently you need to deliver them.
+
+### The "Anabolic Window" — How Real Is It?
+
+The concept of a narrow post-workout window — where you must consume protein within 30 minutes or forfeit your gains — is mostly a myth. Or at minimum, massively overstated.
+
+**The research reality**: If you ate a solid pre-workout meal 1–2 hours before training, amino acid levels in your blood remain elevated during and after your session. The urgency to slam a shake the moment you re-rack is largely a supplement marketing invention.
+
+That said, don't blow off post-workout nutrition entirely. If your pre-workout meal was small or you trained fasted, **getting protein in within 60–90 minutes of finishing is genuinely useful**. If you ate a full meal 90 minutes before training, you have a 2–3 hour post-workout window before timing becomes a meaningful factor.
+
+### Post-Workout Macro Targets
+
+- **Protein**: 30–40g from a complete protein source. Research by Dr. Stuart Phillips suggests 40g may be more effective than 20g post-workout for maximizing muscle protein synthesis, particularly for larger individuals.
+- **Carbohydrates**: 40–80g. Post-workout carbs replenish muscle glycogen — most important if you train twice a day or have another session within 24 hours. For most lifters training once daily, the urgency is lower.
+- **Fat**: No need to restrict post-workout. A normal mixed meal is fine.
+
+**Post-workout meal examples:**
+- Protein shake + banana immediately, followed by a full meal within 1–2 hours
+- Chicken, rice, and vegetables
+- Cottage cheese with fruit and honey
+- Eggs with whole grain toast
+
+## Hydration: The Overlooked Variable
+
+Every discussion of workout nutrition needs to include **hydration**, because it's the variable most directly correlated with acute performance. **A 2% reduction in body weight from dehydration produces measurable decreases in strength and power output.**
+
+Practical targets:
+- Drink 16–20oz of water 1–2 hours before training
+- Sip throughout your session
+- Replace fluid lost during training — roughly 16oz per pound of bodyweight lost during the session
+
+## Tracking Nutrition Alongside Your Training
+
+The problem with optimizing nutrition around training is that your training needs to be consistently logged for nutrition adjustments to mean anything. If your workout data is incomplete — missing sessions, rough rep counts — you can't tell whether a nutrition change helped or hurt performance.
+
+This is where consistent logging pays off. A tool like VoiceLift lets you log every set by voice between your working sets, so your strength and volume data is accurate without interrupting the session. When you're testing whether a different pre-workout meal improves performance, you need clean training data to compare against. Otherwise you're guessing.
+
+Log consistently. Then test nutrition variables one at a time and watch the trend on your lifts.
+
+## The Actionable Takeaway
+
+**Pre-workout**: Eat 20–40g protein and 30–60g carbs 60–120 minutes before training. Keep fat and fiber low if eating within an hour of starting. **Post-workout**: Get 30–40g protein within 2 hours of finishing — sooner if you trained fasted or your pre-workout meal was minimal. Replenish carbs based on session volume.
+
+Build your total daily intake first. Then optimize timing around training. In that order.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-15",
+    category: "Nutrition",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "bulking-and-cutting-guide",
     slug: "bulking-and-cutting-guide",
     title: "Bulking and Cutting: A Complete Guide for Natural Lifters",
