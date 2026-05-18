@@ -1,5 +1,103 @@
 export const blogPosts = [
   {
+    id: "body-recomposition-guide",
+    slug: "body-recomposition-guide",
+    title: "Body Recomposition: How to Lose Fat and Build Muscle at the Same Time",
+    excerpt: "Body recomposition — losing fat while building muscle simultaneously — is possible for the right lifter under the right conditions. Here's exactly how to do it.",
+    metaDescription: "Learn how body recomposition works, who it's best for, and the exact nutrition and training approach to lose fat and build muscle at the same time.",
+    content: `
+# Body Recomposition: How to Lose Fat and Build Muscle at the Same Time
+
+**Body recomposition** — losing fat while simultaneously building muscle — is the goal most lifters actually want but rarely state directly. The fitness industry has conditioned people to think you must pick a lane: bulk to build muscle, cut to lose fat. The reality is more nuanced. For the right person under the right conditions, true body recomposition is achievable. Here's who it works for, how to structure it, and how to know if it's actually happening.
+
+## Is Body Recomposition Actually Possible?
+
+Yes. Muscle growth and fat loss operate through different metabolic pathways. You build muscle by stimulating protein synthesis through progressive resistance training. You lose fat by maintaining a mild caloric deficit or by using stored body fat as fuel during periods of low energy availability. The two can happen simultaneously — just not as fast as either would in isolation.
+
+The net result is slower progress than a dedicated bulk or cut. But the composition changes are real and the approach suits lifters who don't want to run significant surpluses or deficits.
+
+## Who Benefits Most from Body Recomposition
+
+Body recomp isn't equally effective for everyone. **These groups see the most pronounced results:**
+
+- **Beginners** (under 1–2 years of consistent training): Untrained muscle responds strongly to resistance stimulus even in a mild deficit — commonly called "newbie gains"
+- **Returning lifters** after a significant break: Muscle memory enables rapid strength regain with minimal added fat
+- **Those carrying higher body fat** (20%+ for men, 28%+ for women): More stored fat means the body has fuel to support muscle protein synthesis even in a deficit
+
+If you're an advanced, already-lean lifter (sub-12% body fat for men, sub-20% for women), recomposition becomes much harder. At that stage, dedicated bulk and cut phases are usually more time-efficient.
+
+## Nutrition for Body Recomposition
+
+The nutritional approach for recomp sits at the intersection of muscle-building and fat-loss protocols.
+
+### Calories: A Modest Deficit
+
+You don't need an aggressive cut to lose fat during recomp. **A 100–300 calorie daily deficit** from your true maintenance intake is the typical target. Deeper deficits increase muscle loss risk and impair recovery — the opposite of what you're after.
+
+Some lifters use calorie cycling: eating at or slightly above maintenance on training days, in a moderate deficit on rest days. The evidence for this over a straight mild deficit is limited, but adherence is what matters most. Use whichever approach you can sustain consistently over 10–16 weeks.
+
+### Protein: The Non-Negotiable Variable
+
+**High protein intake is the most critical nutritional factor for body recomposition.** Protein:
+
+- Drives muscle protein synthesis when combined with adequate training
+- Has a thermic effect of roughly 25–30% (a meaningful portion of protein calories are burned during digestion)
+- Is the most satiating macronutrient, helping manage hunger in a mild energy deficit
+
+**Target: 0.8–1.1g of protein per pound of bodyweight per day** — at the upper end of general muscle-building recommendations. Research suggests intakes toward 1.1–1.2g/lb may further limit muscle loss during fat loss phases.
+
+### Carbohydrates and Fat
+
+After hitting your protein targets, adjust carbs and fat to reach your calorie goals. Prioritize carbohydrates around training sessions to fuel performance. Don't drop fat below 0.3g/lb of bodyweight — fat is essential for hormone production, including testosterone.
+
+Don't overthink macro ratios beyond these guardrails. Total calorie intake and training stimulus are the primary drivers.
+
+## Training for Body Recomposition
+
+Nutrition creates the conditions for recomp. Training is what causes muscle growth. Without adequate training stimulus, a mild deficit just produces weight loss — not recomposition.
+
+### Progressive Overload Is Everything
+
+**Progressive overload** — consistently increasing the mechanical stress on your muscles over time — is what drives muscle protein synthesis. In a recomp context, this means tracking your lifts precisely so you know what you lifted last week and targeting small, consistent improvements in weight, reps, or volume.
+
+This is where training logs matter. If you don't know what you lifted three weeks ago, you can't know whether you're progressing. VoiceLift lets you log every set by voice during rest periods, so your training data is complete and queryable — particularly important during recomp when the margin for error on training stimulus is smaller.
+
+### Training Frequency
+
+**Train each muscle group at least twice per week.** A 3-day upper/lower split, 4-day PPL, or 4-day upper/lower all work. The specific split matters less than consistent execution with progressive overload tracked session to session.
+
+Don't pile on excessive cardio during recomp. A mild deficit already places your body in an energy-restricted state. **1–2 low-intensity cardio sessions per week** (20–30 minutes) is sufficient if you want the cardiovascular work. More than that increases recovery demands and the risk of muscle breakdown without meaningfully accelerating fat loss.
+
+### Weekly Volume Per Muscle Group
+
+Aim for **10–18 working sets per muscle group per week**. During a mild deficit, recovery capacity is slightly reduced, so start at the lower end and monitor how your performance holds up. If you're consistently losing strength week over week, you've likely drifted into too deep a deficit or aren't hitting protein targets.
+
+## How to Know If Body Recomposition Is Working
+
+Scale weight is a poor metric for recomp. If you're building muscle and losing fat simultaneously, the scale may move little — which can feel discouraging when it's actually a sign things are working correctly.
+
+**Better metrics to track:**
+
+- **Progress photos every 2–4 weeks**: Composition changes show up visually before the scale reflects them
+- **Tape measurements**: Waist, hips, chest, arms, thighs — a shrinking waist with growing arms is the signature of recomp
+- **Strength performance**: If your lifts are trending up over 8–12 weeks, you're building muscle regardless of what the scale says
+- **DEXA scan or bod pod quarterly**: Objective lean mass vs fat mass data if you want hard numbers
+
+Logging workout performance consistently is the most practical way to track the strength trend. VoiceLift's session history lets you scroll back through your logged sets and see whether your key compound lifts are trending up or stagnating — without needing to manually transcribe anything.
+
+## The Actionable Takeaway
+
+**Body recomposition works best for beginners, returning lifters, and those with higher body fat.** The formula is straightforward: a mild 100–300 calorie deficit, 0.8–1.1g protein per pound of bodyweight, and consistent resistance training with progressive overload tracked precisely every session.
+
+Don't anchor to scale weight. Track strength trends and body measurements instead. If your lifts are moving up over 8–12 weeks and your waist is shrinking, body recomposition is happening — the scale is just slow to show it.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-18",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "pre-post-workout-nutrition",
     slug: "pre-post-workout-nutrition",
     title: "What to Eat Before and After a Workout to Build Muscle",
