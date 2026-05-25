@@ -1,5 +1,122 @@
 export const blogPosts = [
   {
+    id: "creatine-for-muscle-growth",
+    slug: "creatine-for-muscle-growth",
+    title: "Creatine for Muscle Growth: Benefits, Dosage, and How to Take It",
+    excerpt: "Creatine is the most researched supplement in sports science — and one of the few that actually delivers. Here's how it works, how much to take, and what results to realistically expect.",
+    metaDescription: "Creatine for muscle growth: how it works, optimal dosage (3–5g/day), loading vs. no loading, timing, and what to expect. Evidence-based guide for lifters.",
+    content: `
+# Creatine for Muscle Growth: Benefits, Dosage, and How to Take It
+
+**Creatine for muscle growth** is the most researched question in sports supplementation — and unlike most fitness supplements, the research has a clear answer. Creatine works. It's been studied in hundreds of trials across multiple decades, and the evidence for its effectiveness is about as clean as anything in exercise science.
+
+What most people don't know is *why* it works, exactly how to take it, and what realistic results actually look like. Here's everything you need.
+
+## What Creatine Is and How It Works
+
+Creatine is a compound your body synthesizes naturally from amino acids, primarily in the liver and kidneys. It's also found in meat and fish. Your muscles store creatine as phosphocreatine — a rapidly available energy substrate for high-intensity efforts lasting under 10 seconds.
+
+The mechanism is direct: **phosphocreatine donates a phosphate group to ADP to regenerate ATP**, the primary energy currency for muscle contraction. During heavy lifting, ATP stores deplete quickly. More phosphocreatine means faster regeneration, which lets you:
+
+- Complete more total reps at the same load
+- Recover faster between heavy sets
+- Sustain higher power output across a full training session
+
+The result is more training volume accumulated per session. More volume, applied consistently, drives muscle growth over time. The mechanism is performance, not chemistry.
+
+## What the Research Actually Shows
+
+The evidence base for creatine is unusually solid for a supplement. A comprehensive meta-analysis by Lanhers et al. (2017) reviewed 22 randomized controlled trials and found that **creatine supplementation combined with resistance training produced significantly greater strength gains** than training alone, across both upper and lower body movements.
+
+Specific outcomes consistently supported by research:
+
+- **Lean mass**: Average of ~1.4 kg more lean mass over 4–8 week supplementation periods compared to placebo
+- **Maximal strength**: Approximately 8% greater strength increase versus placebo
+- **Power output**: Consistent improvements in repeated high-intensity sprint and lift performance
+- **Recovery markers**: Lower post-exercise creatine kinase levels, suggesting reduced muscle damage and faster recovery between sessions
+
+One critical distinction: **creatine doesn't directly build muscle**. It enhances training performance, which creates greater mechanical tension on muscle tissue, which drives hypertrophy. The muscle growth from creatine is downstream of performance — not a direct biochemical trigger. That's why consistent, hard training is still the requirement.
+
+## How Much Creatine to Take
+
+The standard evidence-based dose is **3–5 grams of creatine monohydrate per day**.
+
+This amount is sufficient to saturate muscle creatine stores over time — approximately 3–4 weeks of consistent use — and is the dose used in the majority of research showing positive outcomes. Taking more than 5g provides no additional benefit; excess creatine is simply excreted.
+
+### Loading Phase: Do You Need It?
+
+A creatine loading protocol means taking 20–25g daily (split into 4–5 doses) for 5–7 days to rapidly saturate muscle stores, then dropping to a 3–5g maintenance dose.
+
+**Loading does accelerate saturation**: full creatine stores in 5–7 days instead of 3–4 weeks. Whether that matters depends on how urgently you need the effect. The end state — fully saturated muscles — is identical either way.
+
+The trade-off: **GI distress is common at 20–25g/day**. Bloating, cramping, and loose stools appear frequently at loading doses. Most lifters skip the loading phase entirely and use 3–5g daily from the start.
+
+**Recommendation**: Skip loading unless you have a specific short-term reason to accelerate. Five grams daily is simpler and produces identical long-term outcomes.
+
+## Which Form of Creatine to Buy
+
+**Creatine monohydrate is the only form with extensive research support**, and it should be your default. It's the cheapest, best-studied, and most effective form on the market.
+
+Other forms — creatine hydrochloride (HCl), buffered creatine (Kre-Alkalyn), creatine ethyl ester — are marketed as superior. The research doesn't support those claims. Studies comparing alternative forms to monohydrate consistently show comparable or inferior results at meaningfully higher prices.
+
+The one legitimate edge case: if you experience significant GI distress with monohydrate, creatine HCl has better solubility and may cause less stomach upset. But this is rare — most people tolerate monohydrate at 3–5g without any issue.
+
+**Buy generic creatine monohydrate in bulk. Skip the expensive branded blends.**
+
+## Creatine Timing: Does It Matter?
+
+The short answer: **timing matters less than consistency**.
+
+Research comparing pre-workout, post-workout, and random timing shows small, inconsistent differences across studies. The most important variable is whether you take it daily — maintaining saturated muscle creatine stores requires consistent intake, not optimized timing.
+
+That said, a study by Antonio and Ciccone (2013) found a modest advantage to **post-workout creatine intake** compared to pre-workout, potentially reflecting improved uptake alongside post-training glycogen replenishment. If you want to optimize: take creatine post-workout with a protein and carbohydrate meal.
+
+For most people: **pick a time you'll actually remember and do it every day**. That's the real answer.
+
+## Who Responds Best to Creatine
+
+Creatine benefits most people, but response magnitude varies:
+
+**Baseline dietary creatine intake**: Individuals eating less meat and fish have naturally lower baseline muscle creatine stores and tend to see the most pronounced performance gains from supplementation. **Vegetarians and vegans typically show the largest responses** because their dietary creatine intake is near zero.
+
+**Training status**: Beginners show strong strength and lean mass responses. Intermediate and advanced lifters see smaller effect sizes, but the benefit remains real — particularly for sustaining performance intensity during high-volume training blocks.
+
+**Non-responders**: Approximately 25–30% of people show minimal response to creatine supplementation. This likely reflects naturally high baseline creatine stores rather than a true non-response. If you've taken 3–5g daily for 4–6 weeks without any noticeable change in training capacity, this may apply to you.
+
+## What to Realistically Expect: A Timeline
+
+- **Days 1–7**: Initial weight gain of 0.5–2kg from intramuscular water retention. This is normal and not fat — creatine draws water into muscle cells as part of how it increases phosphocreatine storage. It's a structural change, not bloat.
+- **Weeks 2–3**: Creatine stores approach saturation; performance effects become noticeable — extra reps at the same load, faster recovery between heavy sets.
+- **Weeks 4–8+**: Accumulated training volume from enhanced performance translates into measurable strength and lean mass increases.
+
+Tracking your training during this window is what makes the effect legible. If you're supplementing creatine but not logging your lifts, you can't see whether your rep counts are actually improving — which is the mechanism you're trying to leverage. With VoiceLift, you capture every working set by voice between sets, so you have a clean before/after record of how training performance changes week over week. Over a 6-week creatine period, the trend on your logged reps tells you more than the mirror does.
+
+## Safety: Addressing the Common Myths
+
+Creatine monohydrate has one of the strongest long-term safety records of any supplement studied in exercise science:
+
+- **No evidence of kidney damage** in healthy individuals at standard doses. The myth persists because creatine metabolism elevates creatinine levels in blood tests — which is misread as kidney stress. Elevated creatinine from creatine supplementation is expected and not a sign of organ damage.
+- **No negative cardiovascular effects** in healthy populations across decades of research
+- **Water retention** is intramuscular, not subcutaneous — it doesn't add visible puffiness
+- **GI distress** is rare at 3–5g doses; primarily associated with loading protocols
+
+If you have pre-existing kidney disease or are on medications that affect kidney function, consult a physician. For healthy individuals, there is no meaningful safety concern with indefinite daily use at standard doses.
+
+## The Actionable Takeaway
+
+**Creatine monohydrate, 3–5g daily, taken consistently.** No loading phase required. No special timing tricks. No expensive proprietary forms.
+
+It's the single best-researched performance supplement available, costs almost nothing per serving in bulk, and requires no complexity to implement correctly. For serious lifters who aren't already taking it, the calculus is simple: the evidence is strong, the cost is minimal, the safety profile is clear, and the downside risk is essentially zero.
+
+Take it daily. Train hard. Log your lifts every session so you can see the rep count increases that accumulate over the following weeks — because those extra reps, compounded across months of training, are where the muscle actually comes from.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-25",
+    category: "Nutrition",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "periodization-for-beginners",
     slug: "periodization-for-beginners",
     title: "Periodization for Beginners: How to Structure Your Training Program",
