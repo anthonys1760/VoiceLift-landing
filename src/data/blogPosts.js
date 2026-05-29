@@ -1,5 +1,138 @@
 export const blogPosts = [
   {
+    id: "how-to-warm-up-for-lifting",
+    slug: "how-to-warm-up-for-lifting",
+    title: "How to Warm Up for Lifting: A Complete Pre-Workout Protocol",
+    excerpt: "Most lifters either skip the warm-up entirely or waste 20 minutes on one that doesn't prepare them to train. Here's the four-phase protocol that actually primes performance — in 10–15 minutes.",
+    metaDescription: "How to warm up for lifting: a research-backed protocol covering dynamic warm-up, activation, and warm-up set progressions to maximize every session.",
+    content: `
+# How to Warm Up for Lifting: A Complete Pre-Workout Protocol
+
+**How to warm up for lifting** is one of the most searched training questions — and one of the most universally mishandled. Some lifters spend 20 minutes on a treadmill and skip the bar entirely. Others jump straight to working weight and wonder why their first set feels like a grinder. Most land somewhere in between, doing five minutes of whatever they saw on YouTube before loading the bar.
+
+The result is either wasted time, underperformed working sets, or an avoidable injury — none of which you're here for.
+
+A proper warm-up does three things: raises core temperature to improve tissue extensibility, activates the neuromuscular patterns required for your main movements, and potentiates your nervous system so your first working set isn't your worst one. Here's the protocol that accomplishes all three in 10–15 minutes.
+
+## Why Static Stretching Before Lifting Hurts Performance
+
+Before covering what works, clear up the most common mistake: static stretching cold muscles before heavy lifting.
+
+**Static stretching** — holding a stretch in place for 30+ seconds — has been shown in multiple studies to acutely reduce force output for 10–20 minutes after application. A 2013 meta-analysis by Simic et al. found that static stretching before strength activities produced an average 5.5% reduction in strength and 8.1% reduction in explosive performance. You're trading short-term tissue compliance for reduced force production right when you need it most.
+
+The exception: severely restricted areas (hip flexors, thoracic spine) where a single 15-second hold addresses a genuine range-of-motion limiter. That level of intervention won't meaningfully impair performance. Five minutes of full-body static stretching will.
+
+**Save your static stretching for post-session.** Use your pre-session window for movement that prepares you to produce force — not reduce it.
+
+## Phase 1: General Warm-Up (3–5 Minutes)
+
+The purpose of general warm-up is simple: elevate core temperature and heart rate to improve tissue extensibility, nerve conduction velocity, and blood flow to working muscles.
+
+**Effective options:**
+- Rowing machine at moderate pace
+- Jump rope: 2–3 minutes at comfortable rhythm
+- Incline treadmill walk at 3.5–4 mph
+- Stationary bike at low resistance
+
+**What to avoid:**
+- Running at high intensity before heavy squats or deadlifts — it pre-fatigues your lower body
+- Anything that takes more than 5 minutes — this is temperature elevation, not conditioning
+
+Get mildly warm and lightly sweaty. That's the signal you've done what this phase requires.
+
+## Phase 2: Dynamic Warm-Up and Mobility (4–5 Minutes)
+
+Dynamic warm-up prepares the specific joints and ranges of motion your training session demands. This isn't a generic flexibility routine — it should mirror the movement patterns of your actual session.
+
+### For a Lower Body Session (Squats, Deadlifts)
+- Hip circles: 10 each direction
+- Leg swings (forward/back and lateral): 10 each leg
+- Bodyweight deep squat with 2-second pause at bottom: 8–10 reps
+- Romanian deadlift with bodyweight: 10 reps, full hip hinge
+- Glute bridges: 15 reps
+- World's Greatest Stretch: 5 each side (combines hip flexor, thoracic rotation, and ankle mobility in one movement)
+
+### For an Upper Body Session (Bench, Overhead Press, Rows)
+- Arm circles: 10 forward, 10 back
+- Band pull-aparts or face pulls: 15–20 reps
+- Shoulder controlled articular rotation (CAR): 5 each direction
+- Scapular push-ups: 10 reps
+- Cat-cow for thoracic extension: 8 reps
+- Light cable row or band row: 15 reps
+
+The goal is **controlled movement through full range of motion** — not ballistic swinging. You're waking up the neuromuscular connections between your brain and the muscles you're about to load.
+
+## Phase 3: Activation Work (2–3 Minutes)
+
+Activation targets the specific muscles you're about to train — particularly those that become neurally inhibited after extended periods of sitting or desk work. Glutes, rotator cuff, and scapular stabilizers are the most common culprits.
+
+**Common activation exercises by session type:**
+- **Before squats/deadlifts**: Banded clamshells, banded hip thrusts, or monster walks (15–20 reps) to ensure glute recruitment in the bottom position
+- **Before pressing**: Band external rotation and face pulls (15–20 reps) to pre-activate rotator cuff before shoulder loading
+- **Before rows/pull-ups**: Band pull-aparts and Y/T/W raises (12 reps each) to activate scapular retractors and depress the scapula
+- **Before any heavy spinal loading**: Dead bugs or hollow body holds (3 × 8) to engage deep core stabilizers
+
+**Two to three sets of 12–20 reps is sufficient.** These should feel like you're "waking up" the muscle — not fatiguing it. If your glutes are burning before you've touched a barbell, you've overdone it.
+
+## Phase 4: Movement-Specific Warm-Up Sets
+
+This is where the warm-up connects directly to your working sets — and where most lifters have no system at all.
+
+The goal is to work up to your working weight in steps that prime the movement pattern without accumulating pre-fatigue. **Rep count drops as load increases.**
+
+A practical progression for a working weight of 225 lbs on squat:
+
+| Set | Weight | Reps | Purpose |
+|-----|--------|------|---------|
+| 1 | Bar (45 lbs) | 8 | Pattern, breathing, depth check |
+| 2 | 95 lbs | 5 | Light load, technique calibration |
+| 3 | 135 lbs | 4 | Increasing load, bar speed |
+| 4 | 175 lbs | 2 | Approaching work zone |
+| 5 | 205 lbs | 1 | Near working weight |
+| **Working set** | **225 lbs** | **Target reps** | **Full effort** |
+
+By the time you hit your working weight, it should feel familiar — not novel. You're coating the pattern, not rehearsing fatigue.
+
+For heavier working weights, add more steps with smaller load jumps. For lighter working weights or higher-rep work, condense to 2–3 warm-up sets.
+
+### Rest Between Warm-Up Sets
+
+Keep rest short — 60–90 seconds between most warm-up sets. Only the final warm-up set (closest to working weight) warrants 2+ minutes of rest before the first true working set. Moving efficiently through warm-up sets keeps core temperature elevated and gets you to your training without dead time.
+
+## Common Warm-Up Mistakes
+
+- **Skipping straight to working weight**: If your first set consistently feels terrible and your third feels great, your warm-up is inadequate — you're burning your best working sets as warm-up sets
+- **Too many reps at near-working loads**: Five sets of 5 at 80% before heavy triples is pre-fatigue, not preparation. Reduce rep counts as load increases.
+- **The same generic warm-up regardless of session**: Upper body and lower body sessions have completely different joint demands. Your warm-up should match the day.
+- **Skipping activation work**: If glutes chronically don't fire at the bottom of your squat, five minutes of banded activation work changes that. Don't skip it because it feels remedial — chronic underactivation is one of the most common contributors to knee and lower back pain in lifters.
+- **Treating warm-up sets as easy filler**: Your final warm-up set should be executed with the same technical precision as your working sets. This is calibration, not coasting.
+
+## Using Warm-Up Data in Your Training Log
+
+Warm-up sets are where your working weight decisions start. If the final warm-up set landed at an unexpected RPE, that's information — your actual working weight for the day may need adjusting up or down.
+
+With VoiceLift, saying **"bar and 135 warm-up, felt stiff, moving slow today, dropping working weight to 215"** takes five seconds and gives your training log critical context that explains a session's numbers. When you review weeks later and see a performance dip, you'll know whether it reflected fitness regression or just a rough day you correctly managed. That distinction makes your historical data far more useful than raw weight and rep numbers alone.
+
+## The Actionable Takeaway
+
+**A proper lifting warm-up has four phases and takes 10–15 minutes:**
+
+1. **General warm-up** (3–5 min): Elevate temperature with low-intensity cardio
+2. **Dynamic mobility** (4–5 min): Movement-specific joint preparation matching your session
+3. **Activation work** (2–3 min): Wake up chronically inhibited muscles before loading them
+4. **Movement-specific warm-up sets**: Progressive loading up to working weight with decreasing rep counts
+
+Skip phase one and your tissues aren't ready for load. Skip phases two and three and the first heavy set is your warm-up. Skip phase four and your first working set is an unpleasant surprise.
+
+Do all four, in order, and your working sets start from a primed position — not from a cold stop.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-05-29",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "creatine-for-muscle-growth",
     slug: "creatine-for-muscle-growth",
     title: "Creatine for Muscle Growth: Benefits, Dosage, and How to Take It",
