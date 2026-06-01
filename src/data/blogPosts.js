@@ -1,5 +1,126 @@
 export const blogPosts = [
   {
+    id: "how-to-build-a-workout-plan",
+    slug: "how-to-build-a-workout-plan",
+    title: "How to Build a Workout Plan: Step-by-Step for Lifters",
+    excerpt: "Building a workout plan doesn't have to be complicated. Here are the six steps that separate programs that produce results from the ones that stall — and the one thing most lifters skip.",
+    metaDescription: "How to build a workout plan: choose the right split, set volume per muscle group, apply progressive overload, and log consistently. A step-by-step guide for lifters.",
+    content: `
+# How to Build a Workout Plan: Step-by-Step for Lifters
+
+**How to build a workout plan** is one of the most searched questions in fitness — and one that programs and apps tend to overcomplicate. A good plan answers five questions in the right order: how many days per week, which muscle groups on which days, what exercises, how much volume, and how to progress. Everything else is refinement.
+
+Here's how to answer those questions, step by step.
+
+## Step 1: Anchor to Your Realistic Training Schedule
+
+Before choosing a split, exercises, or volume targets, **decide how many days per week you can actually train** — consistently, over months. The most effective plan is the one you execute, not the optimal one you miss sessions on.
+
+Common structures by frequency:
+- **3 days/week**: Full-body training. All major muscle groups in every session. Best for beginners or anyone with limited availability.
+- **4 days/week**: Upper/lower split. Two upper body days, two lower body days. The evidence-based standard for intermediate lifters.
+- **5–6 days/week**: Push/pull/legs (PPL). Every muscle group trained twice per week across six sessions.
+
+One principle that applies at every frequency: **train each major muscle group at least twice per week.** Research consistently shows twice-weekly frequency outperforms once-weekly for hypertrophy when total volume is equated. A classic five-day bro split where each muscle sees one session per week leaves meaningful frequency-driven gains on the table.
+
+## Step 2: Choose a Split That Fits Your Frequency
+
+Match your training days to a structure that builds in twice-weekly frequency automatically:
+
+- **3 days → Full body**: Squat pattern, hip hinge, push, pull every session with different emphasis each day
+- **4 days → Upper/lower**: Upper A (horizontal push/pull focus), Lower A (squat focus), Upper B (vertical push/pull focus), Lower B (hinge focus)
+- **6 days → PPL double cycle**: Push (chest/shoulders/triceps), Pull (back/biceps), Legs repeated twice per week
+
+The split is the structure. Volume and exercise selection are what you build inside it.
+
+## Step 3: Build Each Session Around Compound Movements
+
+**Compound lifts should anchor every session.** Compound exercises recruit multiple muscle groups simultaneously and allow the heaviest absolute loads — producing the greatest mechanical tension, which is the primary driver of muscle growth.
+
+The foundational compound movements:
+- **Squat pattern**: Back squat, front squat, Bulgarian split squat, goblet squat
+- **Hip hinge**: Barbell deadlift, Romanian deadlift, trap bar deadlift
+- **Horizontal push**: Bench press, dumbbell press, incline press
+- **Horizontal pull**: Barbell row, cable row, dumbbell row
+- **Vertical push**: Overhead press, dumbbell shoulder press
+- **Vertical pull**: Weighted pull-up, lat pulldown
+
+Program one or two compound movements per pattern per session. Put them first when neural drive is highest. Give them your best sets.
+
+**Isolation exercises are accessory work, not the foundation.** Bicep curls, lateral raises, leg extensions, tricep pushdowns — these add targeted volume to specific muscles after your compound work is done. They fill the gaps; they don't build the base.
+
+## Step 4: Set Weekly Volume Per Muscle Group
+
+For most intermediate lifters, **10–20 working sets per major muscle group per week** is the range where hypertrophy research consistently shows results. Working sets are sets taken at RPE 7 or above — warm-up and feeder sets don't count.
+
+**Starting targets by muscle group:**
+- Quads, back, chest: 10–12 working sets/week to start
+- Hamstrings, shoulders, biceps, triceps: 8–10 working sets/week
+- Calves: 6–10 sets/week (individual variation is high)
+
+One critical adjustment: **compound sets count toward all muscles they train.** Four sets of bench press count toward chest volume and tricep volume. Four sets of rows count toward back and bicep volume. Don't stack 12 sets of direct tricep work on top of 16 sets of pressing — you'll overshoot recovery capacity fast.
+
+Distribute volume across your weekly sessions rather than cramming it into one. Ten hard sets per session twice a week produces better results than 20 sets in a single session. Per-session volume has sharp diminishing returns beyond roughly 8–10 challenging sets per muscle group.
+
+## Step 5: Set Up a Progression Model
+
+A workout plan without a progression model is just a workout. **Progressive overload** — systematically increasing the demand on your muscles over time — is what turns consistent training into consistent gains.
+
+The simplest effective model for most lifters: **double progression.**
+
+1. Pick a rep range — for example, 6–10 reps
+2. When you can hit the top of the range for all sets, add weight
+3. Drop back to the bottom of the rep range with the new weight
+4. Repeat
+
+This only works if you know what you lifted last session. Without accurate records, you're loading by feel — which produces random results, not progressive ones. With VoiceLift, you log every working set by voice in seconds between sets: **"bench 185 for 4 sets of 8, last set RPE 8"** — and the data is there when you need it for the next session.
+
+## Step 6: Build Deloads Into the Plan
+
+Even well-designed plans accumulate fatigue. **Schedule a deload week every 4–6 weeks** — reduce training volume by 40–50% while keeping loads similar, then return to full training the following week.
+
+Lifters who skip planned deloads tend to plateau unnecessarily. Those who build them in consistently report their best training of a block comes the week after a deload. Fatigue was masking fitness; the deload removes the mask.
+
+## A Simple 4-Day Upper/Lower Template
+
+If you want a starting point:
+
+**Upper A (horizontal emphasis):** Bench press 4×6–8, barbell row 4×6–8, incline dumbbell press 3×10–12, cable row 3×10–12, lateral raise 3×15–20, bicep curl 2×12–15
+
+**Lower A (squat emphasis):** Back squat 4×5–8, Romanian deadlift 3×8–10, leg press 3×10–12, leg curl 3×10–12, calf raises 4×12–15
+
+**Upper B (vertical emphasis):** Overhead press 4×6–8, pull-up or lat pulldown 4×6–8, dumbbell shoulder press 3×10–12, cable row 3×10–12, face pull 3×15–20, tricep pushdown 2×12–15
+
+**Lower B (hinge emphasis):** Deadlift or trap bar deadlift 4×4–6, front squat or split squat 3×8–10, leg press 3×12–15, leg curl 3×10–12, calf raises 4×12–15
+
+Run this structure for 4–6 weeks, apply double progression on your main compound lifts, then deload and begin the next block at a slightly higher starting point.
+
+## The Non-Negotiable: Log Every Session
+
+The best workout plan produces nothing if you can't see whether it's working. Consistent, accurate logging — not perfect training, not expensive supplements — is the variable most lifters skip that costs them the most.
+
+You need working weights, rep counts, and effort levels for every session. Without that, progressive overload becomes guesswork. With it, you have a clear record of what's trending up, what's stalling, and exactly where to adjust.
+
+## The Actionable Takeaway
+
+**A sound workout plan covers six things:**
+
+1. **Frequency**: 3, 4, or 6 days based on what you'll actually sustain
+2. **Split**: A structure that trains each muscle group at least twice per week
+3. **Exercises**: Compound movements first, isolation work to fill the gaps
+4. **Volume**: 10–20 working sets per major muscle group per week, distributed across sessions
+5. **Progression**: Double progression — add weight when you hit the top of your rep range
+6. **Deloads**: One week every 4–6 weeks, built in from the start
+
+Start with the template above. Log every session. Run it for a full block before changing anything. The plan isn't the hard part — executing it consistently and knowing what happened in every session is.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-01",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-warm-up-for-lifting",
     slug: "how-to-warm-up-for-lifting",
     title: "How to Warm Up for Lifting: A Complete Pre-Workout Protocol",
