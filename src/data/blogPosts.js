@@ -1,5 +1,107 @@
 export const blogPosts = [
   {
+    id: "sleep-and-muscle-growth",
+    slug: "sleep-and-muscle-growth",
+    title: "Sleep and Muscle Growth: How Much Sleep You Actually Need",
+    excerpt: "Sleep is the most neglected recovery variable in lifting. Here's how much you need, what it does to your hormones, and why inadequate sleep limits your gains no matter how hard you train.",
+    metaDescription: "Sleep and muscle growth: how growth hormone, testosterone, and protein synthesis all depend on sleep quality — and the evidence-backed target for lifters.",
+    content: `
+# Sleep and Muscle Growth: How Much Sleep You Actually Need
+
+**Sleep and muscle growth** are more directly linked than most lifters realize. You can dial in nutrition to the gram, run a solid periodization block, and log every working set — but consistently sleeping six hours a night will blunt your adaptation regardless of how hard you train. This isn't motivational advice. It's physiology.
+
+## Why Sleep Is the Primary Recovery Mechanism
+
+Muscle growth doesn't happen during training. It happens during recovery — and the most productive recovery window is deep sleep.
+
+The mechanism: **growth hormone (GH) secretion is heavily concentrated in slow-wave sleep (SWS)**. Research shows 60–70% of daily GH release occurs during the first few cycles of deep sleep. GH directly stimulates muscle protein synthesis, drives amino acid uptake into muscle tissue, and supports fat oxidation.
+
+When sleep is shortened or fragmented, the downstream effects are direct:
+- GH secretion drops significantly
+- Cortisol (a catabolic hormone) remains elevated longer
+- Muscle protein synthesis is impaired
+- Glycogen replenishment slows
+- CNS recovery lags behind local muscle recovery
+
+The training stimulus is unchanged. The adaptation it drives is blunted.
+
+## What the Research Shows
+
+A landmark study by Dattilo et al. (2011) established a direct link between sleep deprivation and muscle catabolism — not just reduced gain, but actual muscle breakdown. Even mild sleep restriction elevated cortisol and reduced testosterone, creating a hormonal environment that actively works against muscle protein synthesis.
+
+Research from Leproult and Van Cauter (2011) found that **one week of sleep restriction to 5 hours per night reduced testosterone levels by 10–15%** in young healthy men. Testosterone is a primary anabolic hormone. A 10–15% reduction sustained over weeks isn't trivial — it's the difference between a productive training block and a frustrating one.
+
+On the opposite end: sleep extension studies on athletes found that deliberately increasing sleep toward 9–10 hours improved sprint times, reaction time, mood, and self-reported exertion at equivalent workloads. More quality sleep consistently produces better performance outputs.
+
+## How Much Sleep to Build Muscle
+
+The general population target of 7–9 hours applies. For serious lifters running high training volumes, the practical target is the upper end:
+
+- **7 hours: the hard minimum** for maintaining adequate hormonal function and baseline muscle protein synthesis
+- **8–9 hours: the target during high-volume training blocks** for optimal recovery
+
+Consistently below 6 hours? You're training against your own physiology — doing the work for partial adaptation.
+
+**Sleep quality matters as much as duration.** Six hours of uninterrupted slow-wave sleep outperforms nine hours of fragmented, shallow sleep for hormonal recovery. Alcohol, late-night stimulants, inconsistent sleep timing, and a poor sleep environment all reduce your effective recovery time below the clock hours you're logging.
+
+## Signs of Chronic Sleep Debt in Your Training
+
+Most lifters don't recognize how under-recovered they are. The adaptation is gradual and the signals are subtle enough to rationalize away:
+
+- **Warm-up sets consistently feel heavier than expected** — a reliable indicator of fatigue that isn't clearing overnight
+- **RPE creeping up at fixed loads week over week** — you're working harder to produce the same output
+- **Persistent motivation decline** — sleep deprivation reduces dopamine sensitivity, presenting as flatness rather than tiredness
+- **Elevated baseline resting heart rate** — 5+ bpm above your normal baseline is a measurable stress signal
+- **Low-grade soreness that doesn't fully resolve between sessions** — incomplete muscle repair from inadequate recovery windows
+
+None of these individually screams "sleep more." Combined with a training log that shows stalling performance, they reveal a recovery problem rather than a programming problem.
+
+## Practical Sleep Optimization for Lifters
+
+### Consistent Sleep and Wake Timing
+
+Your circadian rhythm drives hormonal secretion on a predictable daily schedule. Irregular sleep timing disrupts GH pulse patterns and blunts recovery benefits regardless of total hours. **Same bedtime and wake time daily — including weekends** — is the highest-ROI sleep intervention available and costs nothing.
+
+### Caffeine Timing
+
+Caffeine has a half-life of approximately 5–6 hours. A 200mg pre-workout dose at 6pm leaves 100mg circulating at midnight. **Cut caffeine intake 8–10 hours before your target sleep time** if falling asleep is a consistent problem.
+
+### Evening Training and Sleep Onset
+
+High-intensity late training elevates core temperature and cortisol for 2–3 hours post-session, delaying sleep onset. If you train late in the day, a brief low-intensity cool-down, a cool shower, and avoiding additional stimulants post-session all accelerate the transition to sleep readiness. This matters more the closer your training falls to midnight.
+
+## Reading Sleep Debt in Your Training Log
+
+This is where consistent workout tracking pays a second dividend. With accurate RPE data logged over a training block, patterns emerge: when your effort at a fixed load spikes reliably in weeks where sleep is short, that's visible in your data rather than buried in feel.
+
+With VoiceLift, RPE is captured alongside every working set in seconds by voice. Over weeks, rising effort at fixed loads is often sleep debt becoming legible in your training data before performance visibly collapses. That early signal is one of the most practically useful things a training log can surface — not just for progressive overload, but for diagnosing when recovery is the limiting variable, not programming.
+
+## Sleep and Injury Prevention
+
+Two distinct mechanisms connect sleep deprivation to injury risk:
+
+**Neuromuscular impairment**: Reaction time, coordination, and proprioception all degrade with sleep restriction. Under heavy compound loads, those margins are the ones that protect your joints and connective tissue.
+
+**Tissue repair deficit**: Tendons and ligaments rebuild during sleep. Chronic sleep restriction means chronic partial repair. A 2012 study of adolescent athletes found those sleeping under 8 hours per night were **1.7 times more likely to experience a sports injury** than those sleeping 8 or more hours. Similar patterns appear in adult athletic populations, particularly for overuse injuries that develop gradually.
+
+## The Actionable Takeaway
+
+**Target 8 hours of consistent, quality sleep as the baseline for serious lifting.** Below 7 hours consistently blunts adaptation regardless of how well your program is structured.
+
+Three highest-impact interventions:
+1. **Consistent sleep/wake timing** — same time daily, including weekends
+2. **Cut caffeine 8–10 hours before bed** — or sooner if sleep onset is difficult
+3. **Monitor RPE trends in your training log** — rising effort at fixed loads is the early warning that recovery isn't keeping pace with training stress
+
+Sleep isn't passive recovery time. It's where the adaptation you worked for actually gets built. Give it the same intentionality you apply to your programming, and your performance data will reflect the difference.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-05",
+    category: "Recovery",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-build-a-workout-plan",
     slug: "how-to-build-a-workout-plan",
     title: "How to Build a Workout Plan: Step-by-Step for Lifters",
