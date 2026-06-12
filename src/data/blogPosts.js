@@ -1,5 +1,129 @@
 export const blogPosts = [
   {
+    id: "how-to-increase-bench-press",
+    slug: "how-to-increase-bench-press",
+    title: "How to Increase Your Bench Press: The Complete Guide",
+    excerpt: "Stuck on the same bench press weight for weeks? Here's how to identify exactly why your bench is stalling and build a program — from setup fixes to targeted accessory work — that actually breaks through it.",
+    metaDescription: "How to increase your bench press: fix your setup, identify your sticking point, and apply a progression model that works. Evidence-based guide for intermediate lifters.",
+    content: `
+# How to Increase Your Bench Press: The Complete Guide
+
+**How to increase your bench press** is one of the most searched questions in lifting — and one of the most consistently answered with generic advice that doesn't move the needle. "Work your triceps more" isn't a diagnosis. "Bench more often" isn't a program.
+
+Your bench press stalls for specific, fixable reasons. Here's how to identify which one is holding you back and build a program that breaks through it.
+
+## Why Your Bench Press Stops Progressing
+
+Bench press plateaus are almost always one of four things: accumulated fatigue masking actual strength, a specific weak point in the movement, technical inefficiency costing pounds you've already built, or insufficient volume to drive continued adaptation.
+
+The mistake most lifters make: adding more of whatever they're already doing. If your bench is stuck at 225, doing more sets at 225 doesn't address why it's stuck. Diagnosis comes first.
+
+## Fix Your Setup Before You Fix Your Program
+
+The single highest-return intervention for most lifters stuck on their bench is setup correction — and it doesn't require changing your program at all.
+
+A proper bench press setup:
+- **Foot position**: Flat on the floor or elevated, but actively generating leg drive into the bar. Passive feet waste force.
+- **Scapular retraction and depression**: Pull your shoulder blades back and down before unracking. This creates a stable platform and protects the shoulder joint.
+- **Back arch**: A natural arch in the lower back is correct and standard. This shortens the range of motion and increases lat involvement — both legal and useful.
+- **Bar path**: The bar should touch the lower chest (roughly nipple level) and press in a slight arc back toward the face — not straight up. This keeps the triceps loaded at lockout.
+- **Grip width**: A hand position that puts the forearms vertical (or close to it) at the bottom of the press is mechanically efficient. Too wide stresses the shoulder; too narrow reduces pec involvement.
+
+Film a set from the side. If your forearms aren't close to vertical at the bottom, your grip width is off and you're leaking force on every rep.
+
+## Identify Your Sticking Point
+
+**Where does the lift fail when you miss a rep?** That location identifies the specific weakness to address.
+
+### Fails off the chest
+You have a bottom-position weakness. The pecs are the primary mover here, but lat tension matters too — the lats should actively create a stable shelf to press off. Add **paused bench press** (2-second pause at the chest) to build bottom-position strength and **chest-supported rows** to reinforce lat tension.
+
+### Fails mid-range
+Usually a front delt and upper pec issue. **Incline bench press** at 30–45 degrees targets this zone directly. Running incline as your primary movement for a 4–6 week block, then returning to flat bench, often breaks this specific plateau.
+
+### Fails at lockout
+Tricep weakness — the triceps drive the final 30–40% of the movement. Add **close-grip bench press** (hands 1–2 inches narrower than your normal grip) as a secondary movement, and **overhead tricep extensions** for direct isolation volume.
+
+## Build a Progression Model That Actually Overloads
+
+Most bench press plateaus come down to one thing: **no real progression model**. The same weight, same reps, week after week isn't progressive overload — it's maintenance.
+
+### Double Progression (Best Starting Point)
+Pick a rep range of 5–8. When you hit the top of the range for all working sets at your current weight, add 5 lbs and drop back to the bottom of the range. Simple, effective, and sustainable for most intermediate lifters.
+
+Working sets: **4 × 5–8 at RPE 8**. The final set should have roughly 2 reps left in reserve. When all four sets hit 8 clean reps at that effort level, the weight goes up next session.
+
+### Wave Loading (When Linear Stalls)
+For lifters who've hit the ceiling on double progression:
+- **Week 1**: 4 × 6 at ~75% 1RM
+- **Week 2**: 4 × 5 at ~80% 1RM
+- **Week 3**: 4 × 4 at ~85% 1RM
+- **Week 4**: Deload, then repeat with slightly higher starting weights
+
+Wave loading introduces deliberate variation in intensity that prevents the adaptation stall that flat linear progression eventually hits.
+
+## Accessory Work That Actually Moves the Number
+
+Generic accessory work produces generic results. **Match your accessories to your sticking point.**
+
+**For bottom-position and pec strength:**
+- Incline dumbbell press: 3 × 10–12
+- Weighted dips (chest-forward lean): 3 × 8–10
+- Cable fly: 3 × 15–20 (prioritize the stretch at the bottom)
+
+**For lockout and tricep strength:**
+- Close-grip bench press: 3 × 6–10
+- Skull crushers or overhead tricep extension: 3 × 12–15
+- Tricep pushdowns: 3 × 15–20
+
+**For shoulder health and stability (non-negotiable):**
+- Face pulls: 3 × 20 — run these year-round if you're pressing heavy
+- Band pull-aparts: 2 × 20 between pressing sets
+- External rotation work with a band or light cable
+
+Face pulls and pull-aparts are mandatory, not optional, for any serious pressing program. Shoulder health is the variable that determines long-term bench press progress.
+
+## Training the Bench Press Twice Per Week
+
+Current research supports training a movement pattern **at least twice per week** for maximum hypertrophy and strength development. The bench press responds well to frequency.
+
+A practical two-day structure:
+- **Day 1 (heavy)**: Bench press 4 × 4–6, close-grip bench 3 × 6–8, accessory work
+- **Day 2 (moderate)**: Bench press 4 × 8–10, incline dumbbell press 3 × 10–12, accessory work
+
+Different rep ranges, different stimuli, same movement pattern practiced twice. Over a training block, this combination builds both strength and volume base simultaneously.
+
+## How to Know If Your Program Is Working
+
+A bench press plateau is often invisible when you're training without records. Many lifters who believe they've been "stuck at 225 for six months" discover, when they actually review their logs, that they've had no progression model in place at all — not a plateau, just a failure to overload.
+
+**The metrics that matter:**
+- Are working weights trending up over 8–12 weeks?
+- Is RPE holding steady at fixed loads (not climbing)?
+- Is your sticking point improving — are you missing reps in a different position than before?
+
+With VoiceLift, logging your bench sets takes seconds between working sets: "bench 215 for 4 sets of 6, RPE 8, paused the last one." Over weeks, the trend on your pressing data tells you whether the program is working or whether fatigue, technique, or a specific weak point needs addressing. Rising RPE at a fixed load week over week is the early signal — visible in your data before performance visibly collapses.
+
+## The Actionable Takeaway
+
+**To increase your bench press, address these in order:**
+
+1. **Fix your setup** — scapular retraction, leg drive, forearms vertical at the bottom
+2. **Identify your sticking point** — chest, mid-range, or lockout each has a specific fix
+3. **Install a progression model** — double progression or wave loading, not random loading
+4. **Add targeted accessories** — matched to your weak point, not generic volume
+5. **Train it twice per week** — one heavy day, one moderate-volume day
+6. **Log every session with RPE** — so trends are visible and plateaus are diagnosable
+
+The bench press responds predictably to intelligent programming. Most stalled lifters aren't at a physiological ceiling — they're running a maintenance protocol and calling it progress. Fix the structure, match the accessories to the weakness, and the number will move.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-12",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-long-to-build-muscle",
     slug: "how-long-to-build-muscle",
     title: "How Long Does It Take to Build Muscle: A Realistic Timeline",
