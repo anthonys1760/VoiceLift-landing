@@ -1,5 +1,139 @@
 export const blogPosts = [
   {
+    id: "how-to-increase-squat",
+    slug: "how-to-increase-squat",
+    title: "How to Increase Your Squat: Programming and Accessories",
+    excerpt: "Stuck on the same squat weight for months? Here's how to identify exactly why your squat is stalling — from technique breakdowns to weak-point accessories — and build a program that actually moves the number.",
+    metaDescription: "How to increase your squat: fix your setup, identify your sticking point, and apply a progression model that breaks through squat plateaus. Evidence-based.",
+    content: `
+# How to Increase Your Squat: Programming and Accessories
+
+**How to increase your squat** is one of the most searched questions in strength training — and one of the most consistently answered with advice that doesn't actually diagnose anything. "Do more squats" isn't a program. "Strengthen your posterior chain" isn't a fix.
+
+Your squat stalls for specific, fixable reasons. Here's how to identify which one is holding you back and build a program that breaks through it.
+
+## Why Your Squat Stops Progressing
+
+Squat plateaus almost always come from one of four places: accumulated fatigue masking actual strength, a specific weak point in the movement, technical inefficiency stealing pounds you've already built, or an insufficient volume structure to drive continued adaptation.
+
+The mistake most lifters make: adding more squatting to fix a squatting plateau. If your back squat is stuck at 275, grinding more sets at 275 doesn't address why it's stuck. Diagnosis comes first.
+
+## Fix Your Setup Before You Fix Your Program
+
+The highest-return intervention for most stuck squatters isn't a new program — it's a technique audit. A proper squat setup:
+
+- **Foot position**: Just outside shoulder-width, toes turned out 15–30 degrees. Your anatomy determines your best stance — the goal is reaching depth without hip impingement or heel rise.
+- **Bar position**: High bar (upper traps) keeps the torso more upright and is more quad dominant. Low bar (rear delts, 2–3 inches lower) allows more forward lean and typically moves more load. Neither is wrong — they're different tools.
+- **Bracing**: **Intra-abdominal pressure is the most important technical variable for heavy squatting.** Take a deep belly breath, expand 360 degrees, brace as if absorbing a punch, and hold that brace through the entire rep. Most lifters who report lower back stress during squats are losing brace at the bottom.
+- **Knee tracking**: Knees should track over the toes throughout the descent. Cue "screw your feet into the floor" — actively rotating feet creates external rotation at the hip and drives knees outward. If knees cave consistently, targeted glute work matters more than the cue alone.
+
+Film a set from the side and from 45 degrees in front. If your chest collapses forward at the bottom, it's either a bracing failure, a thoracic mobility limitation, or both. Address bracing first.
+
+## Identify Your Squat Sticking Point
+
+**Where does the lift fail when you miss a rep?** That location tells you exactly where to direct your training.
+
+### Fails Out of the Hole (Bottom Position)
+
+The descent is fine but you lose drive immediately coming out. This is a quad-dominant weakness — the position where knee extension is maximized and the quads are under peak demand. Add **pause squats** (2-second hold at depth) to build starting strength and force leg drive out of the bottom. **Front squats** shift load forward and are even more quad-dominant if bottom-position weakness persists.
+
+### Fails Mid-Range
+
+The torso pitches forward and you essentially "good-morning" the squat up. This is a posterior chain failure — the hip extensors and lower back aren't strong enough to maintain position through the sticking zone. Add **Romanian deadlifts**, **hip thrusts**, and **back extensions** to directly train the posterior chain in this range.
+
+### Fails Near Lockout
+
+Less common, but usually reflects glute activation dropping off or general fatigue accumulation at the top. **Box squats** — sitting back to a box at just below parallel — eliminate the stretch reflex and require pure muscular strength to stand, specifically training the lockout and teaching proper hip drive.
+
+## Build a Progression Model That Actually Overloads
+
+Most squat plateaus come down to one thing: **no real progression model in place**. Lifting by feel — adding weight when it feels right — produces maintenance, not progressive overload.
+
+### Double Progression (The Best Starting Point)
+
+Pick a rep range: 4–6. When you hit the top of the range for all working sets at your current weight, add 5–10 lbs and drop back to the bottom of the range. Simple, systematic, and sustainable for most intermediate lifters.
+
+Working sets: **3–4 × 4–6 at RPE 8**. The last set should have roughly 2 reps left in reserve. When all sets hit 6 clean reps at that effort level, the weight goes up next session.
+
+### Wave Loading (When Linear Progression Stalls)
+
+For lifters who've exhausted double progression:
+
+- **Week 1**: 4 × 5 at ~75% 1RM
+- **Week 2**: 4 × 4 at ~80% 1RM
+- **Week 3**: 4 × 3 at ~85% 1RM
+- **Week 4**: Deload, then restart with slightly higher working weights
+
+Wave loading cycles intensity in a way that prevents the flat adaptation response extended linear progression eventually hits.
+
+## Accessory Work That Moves the Squat Number
+
+Generic accessory work produces generic results. **Match your accessories to your sticking point.**
+
+**For bottom-position and quad strength:**
+- Pause squat: 3 × 3–5 (2-second pause at depth)
+- Front squat: 3 × 5–8
+- Leg press: 3 × 10–12 at full depth
+
+**For mid-range and posterior chain:**
+- Romanian deadlift: 3 × 8–10
+- Hip thrust: 3 × 10–12
+- Back extension: 3 × 12–15
+
+**For glute recruitment and knee stability:**
+- Banded clamshells: 2 × 20 pre-session (activation, not fatigue)
+- Bulgarian split squat: 3 × 8–10 each leg
+- Single-leg Romanian deadlift: 3 × 8 each side
+
+**For core bracing and lower back stability:**
+- Dead bug: 3 × 8–10 (slow and controlled)
+- Pallof press: 3 × 12 each side
+- Plank: 3 × 30–45 seconds
+
+The accessories should feel like they directly address your weak position — not random volume.
+
+## Train the Squat Twice Per Week
+
+Current research supports training a movement pattern **at least twice per week** for maximum strength and hypertrophy development. The squat responds well to frequency.
+
+A practical two-day structure:
+
+- **Day 1 (heavy)**: Back squat 4 × 3–5, pause squat 3 × 3–4, posterior chain accessory work
+- **Day 2 (volume)**: Back squat 3 × 8–10, leg press 3 × 10–12, single-leg work
+
+Different rep ranges, different stimuli, same pattern trained twice. Over a training block, this builds both max-strength and hypertrophy base simultaneously.
+
+## How to Know If Your Program Is Working
+
+A squat plateau is often invisible when you're training without records. Many lifters who believe they've been "stuck at 275 for months" discover on review that they've had no progression model at all — not a plateau, just a failure to apply overload.
+
+**The metrics that matter:**
+- Are working weights trending up over 8–12 weeks?
+- Is RPE holding steady at fixed loads, or climbing week over week?
+- Is your sticking point improving — failing in a different position than before?
+
+With VoiceLift, logging your squat sets takes seconds between rest periods: "back squat 265 for 4 sets of 5, RPE 8, knee cave on the last rep." Over weeks, the trend in your data tells you whether the program is working — or whether fatigue, technique, or a specific weak point needs addressing. Rising RPE at a fixed load is the early signal, visible in your logs long before a missed rep confirms the problem.
+
+## The Actionable Takeaway
+
+**To increase your squat, address these in order:**
+
+1. **Fix your setup** — bracing, foot position, bar placement, knee tracking
+2. **Identify your sticking point** — hole, mid-range, or lockout each has a specific fix
+3. **Install a progression model** — double progression or wave loading, not loading by feel
+4. **Add targeted accessories** — matched to your weak position, not generic volume
+5. **Train it twice per week** — one heavy session, one volume session
+6. **Log every set with RPE** — so trends are visible and plateaus are diagnosable
+
+A stalled squat isn't a ceiling. It's a diagnostic problem. Fix the structure, match the accessories to your specific weakness, and the weight will move.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-15",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-increase-bench-press",
     slug: "how-to-increase-bench-press",
     title: "How to Increase Your Bench Press: The Complete Guide",
