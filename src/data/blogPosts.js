@@ -1,5 +1,145 @@
 export const blogPosts = [
   {
+    id: "how-to-increase-deadlift",
+    slug: "how-to-increase-deadlift",
+    title: "How to Increase Your Deadlift: Programming and Troubleshooting",
+    excerpt: "Stuck on the same deadlift for months? Here's how to diagnose exactly why your pull is stalling — from setup errors to weak-point accessories — and build a program that actually moves your max.",
+    metaDescription: "How to increase your deadlift: fix your setup, identify your sticking point, and apply a progression model that breaks through plateaus. Evidence-based guide.",
+    content: `
+# How to Increase Your Deadlift: Programming and Troubleshooting
+
+**How to increase your deadlift** is one of the most searched questions in strength training — and one of the most poorly answered. "Pull more" isn't a program. "Strengthen your posterior chain" is too vague to act on.
+
+Your deadlift stalls for specific, diagnosable reasons. Here's how to identify which one is holding you back and build a program that actually breaks through it.
+
+## Why Your Deadlift Stops Progressing
+
+Deadlift plateaus almost always trace back to one of four root causes: accumulated fatigue suppressing strength that's already there, a specific positional or muscular weakness, technical inefficiency leaking force on every rep, or insufficient progression structure to drive continued adaptation.
+
+The most common mistake: adding more heavy deadlifting to a stalled deadlift. If your pull is stuck at 365, grinding more sets at 365 doesn't diagnose why it's stuck. Diagnosis comes first.
+
+## Fix Your Setup Before You Fix Your Program
+
+The highest-return intervention for most stalled deadlifters is a setup audit. Technical errors compound under load — small inefficiencies at 135 lbs become missed lifts at 90% of your max.
+
+**A sound conventional deadlift setup:**
+
+- **Bar position**: The bar should start directly over the mid-foot (roughly 1 inch from your shins when you stand close to it). Most lifters set up too far forward. When the bar drifts away from the body on the pull, the lever arm grows and your lower back takes the load.
+- **Hip height**: Don't squat the deadlift. Set your hips higher than a squat but lower than a Romanian deadlift — hip height is determined by your proportions, not a fixed angle. A simple cue: bring your shins to the bar until they touch, then hinge your hips down until your hands meet the bar.
+- **Back position**: **A neutral spine under tension is the goal — not a perfectly flat back.** Some thoracic rounding is normal and not dangerous in trained lifters. Lumbar rounding under load is the problem. Cue a big chest, brace 360 degrees, and maintain that position off the floor.
+- **Lat engagement**: The lats protect the lower back and keep the bar tight to your body throughout the pull. Before pulling, cue "protect your armpits" or "bend the bar around your legs." If the bar drifts forward off the floor, lats are failing to engage.
+- **Breathing and bracing**: Take a full belly breath before the pull, brace your core as if absorbing a punch, and hold that brace for the entire rep. Most lower back incidents on the deadlift happen from losing intra-abdominal pressure mid-pull, not from weight being too heavy.
+
+Film a pull from the side. If the bar drifts away from your body on the way up, that's a lat problem. If your hips shoot up before the bar breaks the floor, your setup positioning is off.
+
+## Identify Your Sticking Point
+
+**Where does the lift fail when you miss?** That location tells you exactly what to train.
+
+### Fails Off the Floor
+
+The bar breaks the floor slowly or not at all. This is a starting strength and leg drive problem — the quads and glutes aren't generating sufficient force in the initial pull from a dead stop. The stretch reflex plays no role in a deadlift (unlike a squat), so bottom-position weakness is common.
+
+Prescription: **deficit deadlifts** — pulling from a 1–2 inch elevation that increases the range of motion and demands more from the starting position. **Paused deadlifts** just above the floor (1–2 second pause at mid-shin) train the same position. **Leg press** and **hack squat** add quad volume without spinal loading.
+
+### Fails at the Knee
+
+The bar moves well off the floor but stalls at or just above the knee. This is the most common sticking point. It typically reflects either a hip extension weakness (glutes and hamstrings) or a breakdown in the bar path — the bar swings around the knees instead of staying close to the body.
+
+Prescription: **Romanian deadlifts (RDLs)** — the most direct accessory for hip extension strength in this range. **Rack pulls from just below the knee** train the specific position where you're failing. **Barbell hip thrusts** provide direct glute loading. If the bar is sweeping forward at the knee, address lat engagement first.
+
+### Fails in the Lockout (Hip Extension)
+
+The bar passes the knee but you can't lock out. This is a hip extension and upper back endurance issue. Some lifters with long torsos also have a structural disadvantage at lockout requiring additional glute and upper back strength.
+
+Prescription: **Rack pulls from just above the knee** or **block pulls** allow you to overload the top range. **Hip thrusts** directly train the glute contribution to lockout. **Face pulls and band pull-aparts** address upper back rounding that causes early lockout failure.
+
+## Build a Progression Model That Actually Overloads
+
+Most deadlift plateaus aren't physiological ceilings — they're the absence of any real progression system. Loading by feel produces maintenance, not progress.
+
+### Double Progression (The Most Practical Starting Point)
+
+Set a rep range — 3–5 or 4–6. When you hit the top of the range for all working sets at your current weight, add 10 lbs and drop back to the bottom of the range. Simple and sustainable for most intermediate deadlifters.
+
+Working sets: **3 × 3–5 at RPE 8**. The last rep should have roughly 1–2 reps left in reserve. When all sets hit 5 clean reps at that effort level, the weight goes up next session.
+
+### Wave Loading (When Linear Stalls)
+
+For lifters who've maxed out double progression:
+
+- **Week 1**: 3 × 5 at ~75% 1RM
+- **Week 2**: 3 × 4 at ~80% 1RM
+- **Week 3**: 3 × 3 at ~85% 1RM
+- **Week 4**: Deload, then restart with slightly higher working weights
+
+Wave loading introduces deliberate intensity variation that prevents the flat adaptation response that extended linear progression hits.
+
+## Accessory Work That Moves the Deadlift Number
+
+Generic back volume doesn't fix a specific deadlift weakness. **Match your accessories to your sticking point.**
+
+**For off-the-floor and starting strength:**
+- Deficit deadlift: 3 × 3–4 (1–2 inch deficit)
+- Paused deadlift (pause at mid-shin): 3 × 3–4
+- Leg press: 3 × 10–12
+
+**For mid-range and hip extension:**
+- Romanian deadlift: 3 × 8–10
+- Hip thrust: 3 × 10–12
+- Rack pull (just below the knee): 3 × 4–6
+
+**For lockout and upper back:**
+- Block pull or rack pull (above the knee): 3 × 3–5 (use 5–10% more than your working deadlift weight)
+- Barbell or dumbbell row: 3 × 8–10
+- Face pull: 3 × 20 (not optional if you're pulling heavy)
+
+**For lat strength and bar path:**
+- Straight-arm lat pulldown: 3 × 12–15
+- Chest-supported row: 3 × 10–12
+- Single-arm dumbbell row: 3 × 10 each side
+
+## How Often to Deadlift
+
+The deadlift is the most neurologically and structurally demanding lift. Most intermediate lifters do best with **one heavy deadlift session per week** and one lighter accessory-focused session.
+
+A practical structure:
+- **Day 1 (primary)**: Conventional deadlift 3–4 × 3–5, RDL 3 × 8–10, targeted accessory work
+- **Day 2 (accessory)**: Deficit deadlift or RDL as the main movement at 70–75% of working weight, back-focused accessories
+
+This hits the pattern twice weekly without accumulating excessive fatigue from multiple near-maximal deadlift sessions — which tend to require 5–7 days of recovery at moderate to high loads.
+
+## How to Know If Your Program Is Working
+
+A deadlift plateau is often invisible when you're training without records. Many lifters who believe they've been "stuck at 365 for six months" discover on review that they've had no progression model at all — not a plateau, just a failure to overload.
+
+**The metrics that matter:**
+- Are working weights trending up over 8–12 weeks?
+- Is RPE holding steady at fixed loads, or climbing week over week?
+- Is your sticking point shifting — failing in a different position than six weeks ago?
+
+With VoiceLift, logging your deadlift sets takes seconds between rest periods: "conventional 355 for 3 sets of 4, RPE 8, bar drifted at the knee on the last rep." Over weeks, the data tells you whether the program is working — or whether fatigue, a specific technical breakdown, or a weak-point gap needs addressing. Rising RPE at a fixed load is the earliest signal, visible in your logs before a missed rep confirms the problem.
+
+## The Actionable Takeaway
+
+**To increase your deadlift, address these in order:**
+
+1. **Fix your setup** — bar over mid-foot, lat engagement, full brace before the pull
+2. **Identify your sticking point** — floor, knee, or lockout each has a specific fix
+3. **Install a progression model** — double progression or wave loading, not loading by feel
+4. **Add targeted accessories** — matched to your sticking point, not generic back volume
+5. **Train it twice per week** — one heavy session, one lighter accessory-focused session
+6. **Log every set with RPE** — so trends are visible and sticking points are diagnosable
+
+A stalled deadlift is a diagnostic problem, not a ceiling. Fix the setup, identify the weak position, apply overload systematically, and the pull will move.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-19",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-increase-squat",
     slug: "how-to-increase-squat",
     title: "How to Increase Your Squat: Programming and Accessories",
