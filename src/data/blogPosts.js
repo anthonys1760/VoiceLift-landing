@@ -1,5 +1,140 @@
 export const blogPosts = [
   {
+    id: "how-to-increase-overhead-press",
+    slug: "how-to-increase-overhead-press",
+    title: "How to Increase Your Overhead Press: Technique and Programming",
+    excerpt: "Stuck on the same overhead press for months? Here's how to identify exactly why your OHP is stalling — from setup errors to weak-point accessories — and build a program that actually breaks through it.",
+    metaDescription: "How to increase your overhead press: fix your setup, find your sticking point, and apply a progression model that works. Evidence-based OHP guide for lifters.",
+    content: `
+# How to Increase Your Overhead Press: Technique and Programming
+
+**How to increase your overhead press** is one of the most common strength training questions — and one of the most poorly answered. The OHP is notoriously slow to progress, responds poorly to brute force effort, and has sticking points that require targeted diagnosis to fix.
+
+Your press isn't stuck because the lift is just hard for everyone. It's stuck because of something specific — a setup error, a weak-point gap, an insufficient progression model, or accumulated fatigue suppressing strength you've already built. Here's how to find which one applies and fix it.
+
+## Fix Your Setup Before You Fix Your Program
+
+Most overhead press plateaus have a technical component. The OHP tolerates less inefficiency than the squat or bench because the loading is cantilevered — small positional errors are amplified under load.
+
+**A sound standing overhead press setup:**
+
+- **Bar position**: The bar starts resting on your front deltoids (just below your chin) with your elbows slightly forward of the bar, not flared wide. Elbows directly below the bar reduce lat tension and make the lift less stable.
+- **Grip**: Just outside shoulder-width. Too wide reduces tricep involvement at lockout; too narrow limits shoulder rotation through the top.
+- **Wrist position**: Wrists stacked directly over the forearms — not bent back. Bent wrists under load stress the joint and bleed force transfer.
+- **Core and glutes**: **Before every press, brace your core 360 degrees and squeeze your glutes hard.** The lower body isn't just standing there — it's the platform everything launches from. Lifters who aren't bracing fully through the lower body are compressing the spine unnecessarily and losing force into the floor.
+- **Head position**: The bar path goes straight up vertically. Your head must move slightly back to clear the bar, then returns to neutral at lockout. Pressing the bar in an arc around your head makes the movement longer and less efficient.
+
+Film a set from the side. If the bar is tracking forward rather than vertically, that's a path efficiency problem. If your lower back is hyperextending visibly, your brace isn't holding — reduce load and rebuild the pattern before adding weight.
+
+## Identify Your Overhead Press Sticking Point
+
+**Where the lift fails when you miss a rep tells you exactly where to direct your training.**
+
+### Fails Off the Shoulder (Bottom Position)
+
+The bar can barely break off the front delts. This is a raw bottom-position pressing strength deficit — the anterior deltoid and upper pec have to initiate the movement, and they're the limiting factor.
+
+Prescription: **Paused overhead press** (2–3 second pause at chin level) eliminates the stretch reflex and demands pure starting strength. **Seated dumbbell press** trains the pressing pattern without the bar path constraint, allowing each shoulder to work through its full natural range. **Incline bench press at 30–45 degrees** is the most direct overload for the upper pec contribution to the early press.
+
+### Fails Mid-Range (Around Forehead Level)
+
+The bar comes off the shoulder but dies halfway up. This is the most common overhead press sticking point and usually reflects a transitional weakness — the point where the movement shifts from deltoid-dominant to tricep-dominant.
+
+Prescription: **Close-grip overhead press** (hands 1–2 inches narrower than normal) isolates the tricep contribution more directly. **Overhead tricep extensions** (cable or EZ-bar) add direct tricep volume through the end range. **Pin press from the sticking point** — set safety bars where you're failing and press from a dead stop at that height — trains specifically the position where you're losing the lift.
+
+### Fails at Lockout (Top of the Press)
+
+The bar gets most of the way up but won't complete. This is a lockout tricep weakness combined with upper back stability failure.
+
+Prescription: **Rack presses from just above head level** — set safety pins at forehead height and press from that shortened range, allowing meaningful overload in the specific position where you're failing. **JM press** targets the tricep lockout position directly. **Face pulls and band pull-aparts** address upper back weakness that lets the shoulder roll forward at the top, preventing a clean lockout.
+
+## Build a Progression Model That Actually Overloads
+
+The overhead press is the slowest of the main lifts to progress, and it requires a tighter progression model. Loading by feel almost never produces consistent OHP gains — the increments are too small to notice without accurate records.
+
+### Double Progression (The Right Starting Point)
+
+Set a rep range of 4–6. When you hit the top of the range for all working sets, add 5 lbs and drop back to the bottom. Once progress slows, switch to 2.5 lb increments — fractional plates are worth the investment for the OHP specifically, because 5 lb jumps start exceeding what the lift can absorb week to week.
+
+Working sets: **3–4 × 4–6 at RPE 8.** The last rep should leave roughly 2 reps in the tank. When all sets hit 6 clean reps at that effort level, the weight goes up.
+
+### Wave Loading (When Linear Progress Stalls)
+
+For lifters who've exhausted double progression:
+
+- **Week 1**: 3 × 6 at ~70% 1RM
+- **Week 2**: 3 × 5 at ~75% 1RM
+- **Week 3**: 3 × 4 at ~80% 1RM
+- **Week 4**: Deload at 60%, then restart with higher starting weights
+
+Wave loading cycles intensity to prevent the flat adaptation response that the OHP hits faster than most other lifts due to its lower absolute load and greater CNS sensitivity.
+
+## Accessory Work That Moves the Overhead Press
+
+**Match your accessories to your sticking point — not a generic shoulder volume protocol.**
+
+**For bottom-position and deltoid strength:**
+- Paused overhead press: 3 × 4–5 (2-second pause at chin)
+- Seated dumbbell press: 3 × 10–12
+- Incline bench press (30–45°): 3 × 8–10
+
+**For mid-range and tricep strength:**
+- Close-grip bench press: 3 × 6–10
+- Overhead tricep extension (cable or EZ-bar): 3 × 12–15
+- Pin press from sticking point: 3 × 3–5
+
+**For lockout and upper back stability:**
+- Rack press (from above forehead height): 3 × 3–5 (use 10–15% more than working OHP weight)
+- Face pulls: 3 × 20 (non-negotiable for shoulder health and long-term pressing capacity)
+- Band pull-aparts: 2 × 20
+
+**For shoulder health and injury prevention:**
+- Cable external rotation: 3 × 15 each side
+- Y/T/W raises: 3 × 12 each position
+
+Face pulls and pull-aparts are not optional. Heavy pressing without dedicated rear-delt and rotator cuff work is a reliable path to shoulder impingement — and impingement ends OHP training blocks abruptly.
+
+## How Often to Train the Overhead Press
+
+The OHP is demanding on the shoulder and tricep but recovers faster than squats or deadlifts. Most intermediate lifters respond well to **two overhead press sessions per week** — one heavy, one lighter and more volume-focused.
+
+A practical two-day structure:
+- **Day 1 (heavy)**: Overhead press 3–4 × 4–6, close-grip bench 3 × 6–8, targeted accessories
+- **Day 2 (volume)**: Overhead press 3 × 8–10 at ~70–75% of working weight, seated dumbbell press 3 × 10–12, shoulder health work
+
+The second session keeps frequency high without accumulating the fatigue of two near-maximal pressing sessions, which tend to require 4–5 days of recovery at high loads.
+
+## How to Know If Your Program Is Working
+
+The overhead press makes progress invisible when you're training without accurate records. Because gains are measured in 2.5–5 lb increments over months, the data matters more on this lift than almost any other.
+
+**The metrics that matter:**
+- Are working weights trending up over 8–12 weeks, even in small steps?
+- Is RPE holding steady at fixed loads, or creeping upward week over week?
+- Is your sticking point shifting — failing in a different position than six weeks ago?
+
+With VoiceLift, logging your OHP sets takes seconds between rest periods: "overhead press 145 for 4 sets of 5, RPE 8, mid-range stall on the last rep." Over a full training block, that data tells you whether the program is working — and whether the sticking point is shifting or fixed. Rising RPE at the same load is the earliest signal that fatigue is limiting expression rather than that you've hit a true strength ceiling.
+
+## The Actionable Takeaway
+
+**To increase your overhead press, address these in order:**
+
+1. **Fix your setup** — vertical bar path, full brace and glute engagement, elbows forward not flared
+2. **Identify your sticking point** — bottom position, mid-range, or lockout each has a specific fix
+3. **Install a progression model** — double progression with 2.5–5 lb increments, or wave loading when linear stalls
+4. **Add targeted accessories** — matched to your sticking point, not generic shoulder volume
+5. **Train it twice per week** — one heavy session, one moderate-volume session
+6. **Log every set with RPE** — the OHP demands precise tracking because progress is measured in fractions of pounds per week
+
+The overhead press is the hardest main lift to progress — not because of the shoulder joint, but because of how precisely it must be programmed. Fix the setup, diagnose the sticking point, and apply overload with a tight progression model. The number will move.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-22",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-increase-deadlift",
     slug: "how-to-increase-deadlift",
     title: "How to Increase Your Deadlift: Programming and Troubleshooting",
