@@ -1,5 +1,132 @@
 export const blogPosts = [
   {
+    id: "how-to-calculate-one-rep-max",
+    slug: "how-to-calculate-one-rep-max",
+    title: "How to Calculate Your One Rep Max (1RM) Without Maxing Out",
+    excerpt: "Most lifters don't need to grind a true 1RM test to know their max. Here's how to calculate your one rep max from sets you've already done — and how to use that number to program your training.",
+    metaDescription: "How to calculate your one rep max (1RM) using the Epley and Brzycki formulas, when to test vs estimate, and how to use percentages to program your training.",
+    content: `
+# How to Calculate Your One Rep Max (1RM) Without Maxing Out
+
+**One rep max (1RM)** — the maximum weight you can lift for a single rep — is the foundation of percentage-based programming. Most strength programs express their loads as a percentage of 1RM. Without knowing your max, you're guessing at intensity.
+
+The good news: you don't need to attempt a true maximum lift to know your 1RM. Estimation formulas derived from research let you calculate a reliable max from any heavy set you've already performed — with far less fatigue, injury risk, and nervous system demand than grinding out a true single.
+
+Here's how to calculate it, which formula to use, and how to actually apply the number.
+
+## The Epley Formula: The Most Widely Used 1RM Estimate
+
+The Epley formula is the most common 1RM estimation method and the one used in most online calculators:
+
+**1RM = Weight × (1 + Reps / 30)**
+
+Example: You bench pressed 225 lbs for 5 reps.
+1RM = 225 × (1 + 5/30) = 225 × 1.167 = **~262 lbs**
+
+The formula works best in the **1–10 rep range**. Accuracy degrades significantly above 10 reps — a set of 15 or 20 introduces too many variables (endurance, fatigue management, pacing) that aren't representative of true maximal strength.
+
+**For best results: use a set of 3–6 reps at near-maximal effort (RPE 8–9).** This range produces the most accurate estimates because you're close enough to your ceiling that rep count is constrained by strength, not conditioning.
+
+## The Brzycki Formula: A Conservative Alternative
+
+The Brzycki formula is slightly more conservative and often preferred for lower-rep ranges (1–5):
+
+**1RM = Weight × (36 / (37 − Reps))**
+
+Using the same example: 225 lbs for 5 reps
+1RM = 225 × (36 / 32) = 225 × 1.125 = **~253 lbs**
+
+The Brzycki estimate runs slightly lower than Epley at 5 reps. The gap widens as reps increase — at higher rep counts, Brzycki becomes increasingly conservative. At 1–3 reps, the two formulas converge closely.
+
+**Which to use?** For sets of 3–5 reps, Brzycki is slightly more accurate. For 6–10 reps, Epley holds up better. In practice, the difference is usually 5–10 lbs — not large enough to matter for programming purposes. Pick one and use it consistently.
+
+## Should You Ever Test Your Actual 1RM?
+
+A true 1RM test — working up to a genuine maximum single — has legitimate uses:
+
+- **Powerlifting competition**: Meet performance is a true 1RM by definition
+- **Long-term calibration**: Testing an estimated max against a true max every 3–4 months confirms your formula's accuracy
+- **End of peaking blocks**: Some periodization models call for a true 1RM attempt at the end of a strength peak
+
+But for most training purposes, **estimated 1RM is sufficient and preferable**:
+- No CNS depletion (a true max test takes 3–5 days to fully recover from)
+- No injury risk from grinding a truly maximal rep
+- Can be calculated from any heavy training set without scheduling a separate testing session
+
+Testing your true 1RM frequently is a training cost — it takes recovery capacity away from your actual program. Estimating from rep PRs is effectively free.
+
+## How to Use Your 1RM to Set Training Loads
+
+Once you have your estimated 1RM, percentage-based programming becomes straightforward. Here are the training zones that apply to most strength programming:
+
+| % of 1RM | Approx. Reps Possible | Training Zone |
+|---|---|---|
+| 60–65% | 15–20 | Endurance / technique work |
+| 70–75% | 10–12 | Hypertrophy |
+| 75–80% | 8–10 | Hypertrophy / strength |
+| 80–85% | 5–7 | Strength |
+| 85–90% | 3–4 | Maximal strength |
+| 90–95% | 1–3 | Peaking |
+| 95–100% | 1 | Max effort |
+
+A standard hypertrophy block runs 70–80% of 1RM. A strength block moves into 80–90%. A peaking block pushes 90%+. These percentages let you anchor loads to your actual capacity rather than selecting weights arbitrarily.
+
+### The Practical Calculation
+
+If your estimated bench press 1RM is 260 lbs:
+- **Hypertrophy work at 75%**: 260 × 0.75 = 195 lbs
+- **Strength work at 85%**: 260 × 0.85 = 221 lbs
+- **Peaking work at 90%**: 260 × 0.90 = 234 lbs
+
+Round to the nearest available plate increment. Within 5 lbs is close enough — don't chase the exact number.
+
+## 1RM vs RPE: Which Should You Use?
+
+**Percentage-based training and RPE-based training both work** — they're solving the same problem from different angles.
+
+Percentage-based programming is rigid and predictable: you know exactly what weight to put on the bar before you arrive at the gym. It works well when your strength is stable and day-to-day variation is low.
+
+RPE-based programming adjusts dynamically: if you're well-rested and strong, you'll naturally push to a heavier load that still lands at RPE 8. If you're fatigued, you'll use less weight to hit the same effort level. The prescription flexes with your actual state.
+
+**The most practical approach for most intermediate lifters: use estimated 1RM to set baseline loads, then adjust by RPE within sessions.** Start at your programmed percentage, but if the warm-ups feel unusually heavy or light, recalibrate before your working sets. The percentage sets the target; the RPE confirms whether you hit it.
+
+## Tracking Your Estimated 1RM Over Time
+
+Your 1RM changes as you get stronger — which means your training percentages should update accordingly. Recalculating your estimated 1RM every 4–6 weeks keeps your programming anchored to current capacity rather than where you were six weeks ago.
+
+The most practical way to do this: **log every heavy set with weights, reps, and RPE.** When you complete 4 reps at 275 lbs, you can calculate an updated estimate immediately. If that's 10 lbs higher than your previous estimate, your work sets across the board go up proportionally.
+
+With VoiceLift, logging "275 for 4, RPE 9" takes three seconds between rest periods — no pen, no phone screen, no momentum break. Over a training block, watching your estimated max trend upward is one of the clearest indicators that progressive overload is actually happening and adaptation is following.
+
+## Practical Limitations to Know
+
+1RM estimates are approximations, not ground truth. A few things that reduce accuracy:
+
+- **Sets above 10 reps**: The more reps involved, the more the estimate depends on conditioning rather than maximal strength
+- **Significant reps in reserve**: If you had 3 reps left on your logged set, your estimated max is understated — get closer to failure on the set you're estimating from
+- **Exercise specificity**: An estimated 1RM from a barbell back squat won't translate directly to a front squat — different movements have different strength curves
+- **Day-to-day variation**: True 1RM can fluctuate 5–10% based on sleep, nutrition, and accumulated fatigue; an estimate on a depleted day will understate your ceiling
+
+For programming purposes, a 5–10 lb inaccuracy doesn't matter. The structure — training at consistent percentages relative to your capacity — is what drives adaptation. The number is a tool, not a goal.
+
+## The Actionable Takeaway
+
+**To calculate your one rep max without a true max test:**
+
+1. Use a set of 3–8 reps at RPE 8–9 (close to failure)
+2. Apply the Epley formula: **1RM = Weight × (1 + Reps / 30)**
+3. Use the result to set your training percentages using the table above
+4. Recalculate every 4–6 weeks using your heaviest recent working sets
+
+Every heavy working set is 1RM data. Log your lifts consistently and you'll always have an accurate estimate to program from — without ever having to grind a true maximum single.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-26",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-increase-overhead-press",
     slug: "how-to-increase-overhead-press",
     title: "How to Increase Your Overhead Press: Technique and Programming",
