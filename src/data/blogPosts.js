@@ -1,5 +1,128 @@
 export const blogPosts = [
   {
+    id: "how-to-get-bigger-arms",
+    slug: "how-to-get-bigger-arms",
+    title: "How to Get Bigger Arms: Biceps and Triceps Training That Works",
+    excerpt: "Most lifters chasing bigger arms have a volume and progression problem — not an exercise selection problem. Here's what actually drives arm growth, how to structure it, and why most arm training fails.",
+    metaDescription: "How to get bigger arms: fix your bicep and tricep volume, target the long head with overhead extensions, and apply progression that actually builds size.",
+    content: `
+# How to Get Bigger Arms: Biceps and Triceps Training That Works
+
+If you've searched **how to get bigger arms**, you've found a wall of generic curl and pushdown routines that ignore the actual problem: most lifters don't have an exercise selection issue — they have a volume, progression, and prioritization problem.
+
+Here's what actually drives arm growth, how to structure it, and why most arm training stalls.
+
+## Why Your Arms Aren't Growing
+
+Before adding more curls, diagnose the real issue.
+
+The most common one: **compound pressing and pulling movements train your biceps and triceps at low-to-moderate relative intensity, leaving them under-stimulated for growth.** Heavy rows and pull-ups fatigue the back before your biceps are close to their limit. Heavy bench and dips tax your chest and shoulders before your triceps have done meaningful independent work.
+
+This doesn't mean compound movements are useless for arms — it means they're not substituting for direct isolation work.
+
+Three diagnostic questions to answer first:
+- Are you doing **12+ weekly direct sets of bicep work**?
+- Are you doing **12+ weekly direct sets of tricep work** beyond what your pressing already covers?
+- Are those sets actually taken close to failure — or just loosely performed filler at the end of a session?
+
+If any answer is no, that's where you start.
+
+## The Anatomy That Determines Arm Size
+
+Understanding which structures drive size makes exercise selection logical rather than arbitrary.
+
+**Biceps**: Two heads (long and short), plus the **brachialis** — a distinct muscle sitting underneath the bicep that contributes significantly to arm thickness and is often underdeveloped in lifters who exclusively do supinated curls. The brachialis responds best to hammer curls and neutral-grip variations.
+
+**Triceps**: Three heads — long, lateral, and medial. The **long head** is the largest portion and sits on the inner upper arm. This is where most visible arm mass lives, and it's the head most often neglected. The long head crosses the shoulder joint and is only fully stretched when your arm is overhead. Lifters who build their tricep training around pushdowns and kickbacks are leaving the biggest head understimulated.
+
+**Practical implication**: Flat arms viewed from behind = long-head tricep gap. Good peak, limited thickness = brachialis gap.
+
+## How Much Direct Volume Do Arms Need?
+
+Hypertrophy research consistently points to **10–20 working sets per muscle group per week** for intermediate lifters. The mistake most lifters make is doing 3–4 tacked-on sets at the end of a session when energy is depleted, taken well short of failure. That's maintenance stimulus for a muscle you've barely developed — not a growth signal.
+
+**A reasonable starting target for direct arm work:**
+- Biceps and brachialis: 12–16 sets per week
+- Triceps (with long-head emphasis): 12–16 sets per week
+
+Distribute this across at least two sessions per week. Frequency matters — the same volume spread across two sessions outperforms a single arm-focused day when total sets are equated.
+
+## Bicep Training: Coverage Across What Actually Matters
+
+For complete bicep development, you need exercises that address the long head, the brachialis, and provide efficient higher-rep volume.
+
+### Long Head and Peak Development
+**Incline dumbbell curl**: With the arm positioned behind the body on the incline, the long head is placed under full stretch at the bottom. Research increasingly supports loaded stretching as a particularly potent hypertrophy signal — this exercise delivers it.
+
+**Barbell curl or EZ-bar curl**: The primary mass builder for the biceps. More total loading potential than dumbbells. Do these early in the session.
+
+### Brachialis Thickness
+**Hammer curl**: Neutral grip shifts the primary load to the brachialis and brachioradialis. This should be a dedicated exercise in your program — not just a change-up from barbell curls.
+
+**Reverse curl**: Pronated grip further targets the brachialis. Consistently under-programmed.
+
+### Additional Volume
+**Cable curl or preacher curl**: Constant tension and removal of momentum make these efficient for higher-rep sets (15–20) that accumulate volume without taxing joints.
+
+## Tricep Training: Fix the Long Head Problem First
+
+The long head of the tricep is only under full stretch when the arm is overhead. **Standard pushdowns keep the arm down by your side and never meaningfully stretch the long head.** This is the most common structural gap in tricep training.
+
+### Long Head Priority
+**Overhead tricep extension** (cable, EZ-bar, or dumbbell): Arm fully overhead, maximum long-head stretch achieved. If you're not doing this movement in some form, that's the first addition to make.
+
+**Skull crusher / lying tricep extension**: More long-head involvement than pushdowns, heavier loading than most overhead variations. A staple in any serious arm program.
+
+### Overall Tricep Mass
+**Close-grip bench press**: The most effective compound movement for tricep mass. Allows meaningful overload and trains through a longer effective range than isolation work. Run this as a primary tricep movement, not an afterthought.
+
+**Rope pushdown**: Useful for the lateral and medial heads and efficient for metabolic stress volume at the end of a session. Effective where it's programmed — just not sufficient on its own.
+
+## How to Fit Arm Work Into Your Program
+
+**Option 1 — Frequency through placement**: Train biceps at the end of pull sessions, triceps at the end of push sessions. Each gets two exposures per week without adding a dedicated arm day. For most lifters running a push/pull/legs or upper/lower split, this is the most practical approach.
+
+**Option 2 — Dedicated arm session**: One focused arm day per week in addition to indirect compound work. Fits naturally into 5–6 day programs where an additional session is available.
+
+The compound movements pre-fatigue the target muscles, which makes subsequent isolation work more efficient — less weight needed to reach the same relative effort. This is a feature, not a bug.
+
+## Progression: The Variable Most Arm Training Ignores
+
+Arms respond to progressive overload exactly like every other muscle group. The error most lifters make is rotating through new exercises every few weeks rather than applying overload to the same exercises consistently. A curl variation you haven't improved on isn't a muscle that doesn't respond — it's a movement you haven't actually progressed.
+
+**Double progression for arm isolation work**: Run curls in a 10–15 rep range. When you hit 15 clean reps across all sets, add 5 lbs and drop back to 10. Apply the same model to tricep extensions. Consistent strength increases in isolation exercises are a direct proxy for hypertrophy in the targeted muscle.
+
+Log your arm training with the same discipline you apply to your main lifts. With VoiceLift, logging "incline curl 35s for 3 sets of 12, RPE 8" takes five seconds between sets and gives you the baseline to beat next session. Without it, you're loading by feel — which produces random results, not progressive ones.
+
+## A Sample Weekly Arm Volume Structure
+
+For an upper/lower split training four days per week:
+
+**Pull Day (upper):** Barbell curl 3 × 8–10, hammer curl 3 × 10–12, incline dumbbell curl 2 × 12–15
+
+**Push Day (upper):** Close-grip bench press 3 × 6–8, overhead cable tricep extension 3 × 10–12, rope pushdown 2 × 15–20
+
+This delivers 8 direct bicep sets and 8 direct tricep sets per push/pull cycle. Run two upper sessions per week and you're hitting 16 sets per muscle — solidly in the hypertrophy-producing range. Log the weights and progress them consistently.
+
+## The Actionable Takeaway
+
+**To build bigger arms, address these in order:**
+
+1. **Fix the volume**: 12–16 direct weekly sets per muscle, taken close to failure — not tacked on casually at the end of a depleted session
+2. **Train the brachialis**: Hammer curls and reverse curls, not just supinated variations
+3. **Prioritize the long head**: Overhead tricep extensions are non-negotiable — pushdowns alone won't develop the largest head of the tricep
+4. **Apply double progression**: Add weight when you hit the top of your rep range, log the numbers, and beat them next session
+5. **Train each muscle at least twice per week**: Two sessions of exposure outperforms one in hypertrophy research
+
+Arm growth follows the same principle as everything else in lifting: systematic overload applied consistently over a full training block. Set a volume target, track your working weights with VoiceLift or a notebook, and progress them. The arm that's not growing is almost certainly the one you're not actually overloading — and without accurate records, you won't know it until you're already months behind.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-06-29",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-calculate-one-rep-max",
     slug: "how-to-calculate-one-rep-max",
     title: "How to Calculate Your One Rep Max (1RM) Without Maxing Out",
