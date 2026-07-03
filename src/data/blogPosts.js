@@ -1,5 +1,123 @@
 export const blogPosts = [
   {
+    id: "how-to-build-bigger-legs",
+    slug: "how-to-build-bigger-legs",
+    title: "How to Build Bigger Legs: Quads, Hamstrings, and Glutes",
+    excerpt: "Most lifters have underdeveloped legs because they underload the movements or skip the hard work entirely. Here's the anatomy, volume targets, and exercise selection that actually builds leg mass.",
+    metaDescription: "How to build bigger legs: the right volume, exercises, and structure for quads, hamstrings, and glutes. Evidence-based leg training guide for serious lifters.",
+    content: `
+# How to Build Bigger Legs: Quads, Hamstrings, and Glutes
+
+If you've searched **how to build bigger legs**, you already know that leg training is the part of the gym most people shortcut — and that the legs show it. Underdeveloped quads, flat hamstrings, and inactive glutes aren't a genetics problem. They're a programming and effort problem.
+
+Here's what drives leg size, how to structure training for all three muscle groups, and the volume targets that produce results.
+
+## Why Most Leg Training Stalls
+
+Before fixing the program, understand the two reasons most leg training fails to produce size:
+
+**Underloading on compound movements.** The squat and the deadlift are the heaviest absolute loads most lifters ever use — but leg day is also the session people rush, sandbag, or skip entirely. A set of 12 on the leg press at a load you could do 20 reps with isn't a working set. It's a warm-up with bad branding.
+
+**Neglecting the hamstrings.** Most leg day programs are quad-dominant by default — squats, leg press, leg extensions. Hamstrings are an afterthought if they're trained at all. The result is a lower body that looks disproportionate from behind and performs disproportionately in everything that requires hip extension.
+
+Fixing both issues is where meaningful leg development starts.
+
+## The Anatomy That Determines Leg Size
+
+Understanding which structures drive lower body size makes exercise selection logical rather than arbitrary.
+
+**Quadriceps**: Four muscles on the front of the thigh. The **rectus femoris** and **vastus lateralis** are the most visible contributors to leg size from the front and outside. The quads are the primary movers in knee extension — squats, leg press, and split squats are where the bulk of quad volume should come from.
+
+**Hamstrings**: Three muscles running down the back of the thigh (biceps femoris, semimembranosus, semitendinosus). They perform two functions — **hip extension** (Romanian deadlifts, good mornings) and **knee flexion** (leg curls). Training only one of these functions leaves half the hamstring under-stimulated. Most programs only include knee flexion work, missing the hip extension half entirely.
+
+**Glutes**: The gluteus maximus is the largest muscle in the body and a primary hip extensor alongside the hamstrings. Compound hip extension movements (deadlifts, hip thrusts, RDLs) train the glutes heavily. Hip thrusts specifically place peak load on the glute at full extension — the position where squats are least effective — making them a meaningful complement to squat-pattern training.
+
+## How Much Volume Do Legs Need?
+
+Research supports **10–20 working sets per major muscle group per week** for intermediate lifters. For legs specifically:
+
+- **Quads**: 10–14 sets per week (4–6 sets of compound work, remainder from isolation)
+- **Hamstrings**: 10–12 sets per week, split between hip-dominant and knee-dominant work
+- **Glutes**: 8–10 direct sets per week; heavy compound work adds indirect volume
+
+A common error is over-counting compound sets. Four sets of back squats contribute quad volume and some glute volume — but they don't fully cover hamstrings. **Program hamstrings directly, not as an afterthought of squat volume.**
+
+Distribute this across at least two leg sessions per week. The same total volume split across two sessions consistently outperforms a single exhaustive leg day.
+
+## Quad Training: Best Exercises
+
+Build quad training around movements that allow progressive loading and reach a deep knee bend.
+
+### Primary Quad Mass Builders
+**Back squat**: The foundational quad builder. High-bar squat position emphasizes quads over the low-bar posterior chain focus. Load these heavy and progress them with the same discipline you'd apply to your bench.
+
+**Leg press**: Allows safe loading volume beyond what the squat can handle on high-frequency programs. Full range of motion — all the way down — is what makes this effective for quads. Partial-range leg press is a different exercise entirely.
+
+**Bulgarian split squat**: Single-leg quad work that exposes side-to-side imbalances. Brutal to perform, highly effective for producing quad hypertrophy through a long range of motion.
+
+### Isolation and Finishing Volume
+**Leg extension**: Direct quad isolation with constant tension. Useful for adding volume at the end of a session without spinal load. Run at 12–20 reps.
+
+## Hamstring Training: The Part Most Lifters Miss
+
+Hamstrings require both types of loading to develop fully.
+
+### Hip-Dominant Hamstring Work
+**Romanian deadlift (RDL)**: The single best hamstring exercise most lifters underuse. A controlled hinge with a slight knee bend, loading the hamstring through a full stretch at the bottom. Run these at 8–10 reps with a slow eccentric. The hamstring responds exceptionally well to loaded stretch — this exercise delivers it.
+
+**Good morning**: Directly loads the hamstring and erectors through hip extension. Underused and effective, particularly for lifters who find RDLs uncomfortable under load.
+
+### Knee-Dominant Hamstring Work
+**Lying or seated leg curl**: Direct knee flexion that the hip-dominant movements don't cover. **Train both variations** — seated leg curls load the hamstring in a lengthened position, while lying curls load it at shorter lengths. Research shows meaningful differences in muscle activation between the two.
+
+**Nordic hamstring curl**: One of the highest-stimulus exercises for hamstring growth, producing significant hypertrophy and injury prevention benefit. Difficult to start — begin with slow negatives and progress from there.
+
+## Glute Training That Goes Beyond Squats
+
+Squats train glutes in a shortened position. Hip thrusts train them at full extension under load — the position where they produce the most force.
+
+**Barbell hip thrust**: Load it heavy, drive the hips to full extension at the top, and squeeze hard for one second at lockout. **Running 3–4 sets of 8–12 weekly** adds meaningful glute volume that squatting alone doesn't cover.
+
+**Cable pull-through or Romanian deadlift with a long step**: Both keep the glute loaded through a longer range than hip thrusts allow. Useful as a second glute movement in a leg day that already includes hip thrusts.
+
+## A Practical Two-Day Leg Structure
+
+**Leg Day A (Quad Emphasis):**
+Back squat 4 × 5–8, leg press 3 × 10–12, Bulgarian split squat 3 × 8–10 each leg, lying leg curl 3 × 10–12, leg extension 2 × 15–20
+
+**Leg Day B (Posterior Chain Emphasis):**
+Romanian deadlift 4 × 8–10, barbell hip thrust 3 × 10–12, leg press 3 × 12–15, seated leg curl 3 × 10–12, Nordic hamstring curl negative 3 × 5
+
+This structure covers quads, both types of hamstring loading, and direct glute work across two sessions — all without relying on a single marathon leg day.
+
+## Progress Requires Logging Leg Work With the Same Rigor as Your Main Lifts
+
+Leg training is where most lifters let progression discipline slip. Squat sets get tracked; RDL weights are loaded by feel. That inconsistency is why hamstrings often lag.
+
+**Apply double progression to every leg exercise**: run your RDLs in an 8–10 rep range, add weight when you hit 10 clean reps across all sets, and log the session. With VoiceLift, logging "RDL 185 for 4 sets of 9, RPE 8" takes five seconds between sets — the same approach that works for bench press works for everything in your leg day.
+
+Over a 10–12 week block, rising strength on your squat, RDL, and hip thrust is the clearest indicator that the lower body is actually growing. Flat logs at the same weights aren't a sign the program isn't working — they're a sign you haven't applied overload.
+
+## The Actionable Takeaway
+
+**To build bigger legs, address these in order:**
+
+1. **Train quads with depth and load**: Back squat, leg press, and split squat — full range, progressively heavier
+2. **Add hip-dominant hamstring work**: RDLs are non-negotiable; most programs skip them entirely
+3. **Add knee-dominant hamstring work**: Leg curls in both seated (lengthened) and lying positions
+4. **Train glutes directly**: Hip thrusts, not just squats — different loading position, different stimulus
+5. **Train legs twice per week**: One quad-emphasis day, one posterior chain day
+6. **Log and progress every exercise**: The same discipline you bring to your bench applies here
+
+Bigger legs don't come from harder leg days. They come from structured, progressively loaded training across all three muscle groups — logged and overloaded consistently across full training blocks.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-03",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1549476464-37392f717541?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-get-bigger-arms",
     slug: "how-to-get-bigger-arms",
     title: "How to Get Bigger Arms: Biceps and Triceps Training That Works",
