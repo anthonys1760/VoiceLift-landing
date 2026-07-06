@@ -1,5 +1,110 @@
 export const blogPosts = [
   {
+    id: "does-cardio-kill-gains",
+    slug: "does-cardio-kill-gains",
+    title: "Does Cardio Kill Gains? What the Research Actually Says",
+    excerpt: "The idea that cardio kills gains has kept lifters off the treadmill for decades. Here's what concurrent training research actually shows — and how to add cardio without sacrificing muscle.",
+    metaDescription: "Does cardio kill gains? The research on concurrent training shows it depends on type, timing, and volume. Here's how to add cardio without losing muscle.",
+    content: `
+# Does Cardio Kill Gains? What the Research Actually Says
+
+**Does cardio kill gains?** It's one of the most persistent myths in lifting culture — and it's kept a lot of lifters permanently avoiding anything that elevates their heart rate. The real answer is more nuanced, and practically more useful: cardio doesn't kill gains. Poorly programmed cardio, poorly timed relative to lifting, and excessive cardio volume can all blunt muscle growth. Done right, cardio doesn't conflict with it.
+
+Here's what the research on concurrent training actually shows, and how to fit cardio into a lifting program without sacrificing the results you're training for.
+
+## What "Concurrent Training" Research Actually Measures
+
+The scientific term for combining strength training and cardio in the same program is **concurrent training**. Researchers have studied this extensively since the 1980 Hickson study — the first to formally document what's now called the **interference effect**: the observation that adding endurance training to a strength program can reduce strength and hypertrophy gains compared to strength training alone.
+
+The interference effect is real. But context matters enormously, and the original Hickson study used a particularly aggressive protocol — six days per week of both heavy strength training and 40-minute cycling or running sessions. That's not representative of how most lifters use cardio.
+
+More recent meta-analyses show a cleaner picture:
+
+- **Low-to-moderate cardio volume doesn't meaningfully interfere with muscle growth** in most intermediate lifters
+- **The interference effect is largest when cardio volume is high, sessions are long, and running is the modality**
+- **Cycling produces less interference than running** in studies that directly compare modalities
+- **Cardio performed well after lifting — or on separate days — produces less interference than cardio performed before lifting**
+
+The upshot: the question isn't whether to do cardio. It's how much, what kind, and when.
+
+## Why Running Interferes More Than Cycling
+
+Not all cardio creates equal interference with strength gains. **The primary mechanism behind the interference effect is residual fatigue** — specifically, eccentric muscle damage and cumulative fatigue in the lower body that impairs force production in subsequent training sessions.
+
+Running is an eccentric-dominant activity. Every foot strike produces significant eccentric loading through the quads, hamstrings, and calves — the same muscle groups used heavily in squatting and deadlifting. Doing 30 minutes of running before a leg session taxes the very muscles you're about to train hard. Even on separate days, high running volume accumulates fatigue that doesn't fully resolve before the next lower body session.
+
+**Cycling is concentric-dominant**. The push phase produces force; there's minimal eccentric loading during the return stroke. Studies comparing running versus cycling at equivalent intensities consistently show less lower body fatigue and less interference with subsequent strength performance from cycling. If you're going to add steady-state cardio to a lifting program, cycling (stationary or outdoor) is the better choice for muscle preservation.
+
+## How Much Cardio Is Too Much?
+
+Research suggests the interference effect becomes meaningful above approximately **3–4 weekly sessions of 30–45 minutes of moderate-intensity cardio**, particularly if those sessions involve running and are performed close in time to lifting.
+
+A practical framework by cardio volume:
+
+- **1–2 sessions per week, 20–30 minutes, cycling or rowing**: Essentially no interference with muscle growth for most lifters
+- **3 sessions per week, 30–40 minutes, low-impact**: Minimal interference; monitor for performance regression
+- **4+ sessions per week or any session over 45 minutes**: Elevated interference risk, especially if running; requires closer management of recovery and nutrition
+- **Daily high-volume cardio while lifting heavy**: The Hickson scenario — meaningful blunting of strength adaptation
+
+The threshold varies by training age, recovery capacity, and caloric intake. A lifter in a caloric surplus with high protein intake tolerates concurrent training better than one running a caloric deficit.
+
+## The Most Important Variable: Timing
+
+**When you do cardio relative to lifting matters as much as how much you do.**
+
+The worst scenario is cardio immediately before a heavy strength session. Elevated heart rate, depleted glycogen, and accumulated fatigue directly impair force production — your working weights will be lower, your RPE will be higher, and the training stimulus will be compromised.
+
+The best options, in order:
+
+1. **Separate days entirely**: No interference at all if recovery between sessions is adequate
+2. **Same day, post-lifting**: Strength performance isn't compromised; some fatigue carries into cardio, but that's a far smaller cost than the reverse
+3. **Same day, pre-lifting with several hours between**: Workable for low-intensity cardio sessions; not ideal for high-intensity work
+
+If you're doing cardio on the same day as a leg session, always lift first. If you're doing cardio on a separate day, that's the cleanest option for preserving strength performance.
+
+## Cardio While Bulking vs. Cutting: Does It Change the Calculation?
+
+**During a bulk**: Cardio is almost never a problem at reasonable volumes. You're in a caloric surplus with abundant substrate for both training and recovery. 2–3 moderate cardio sessions per week can actually improve conditioning, support cardiovascular health, and make the eventual cut easier without meaningfully impacting muscle gain.
+
+**During a cut**: The interference calculus shifts. You're already in a caloric deficit, which reduces recovery capacity. High cardio volume on top of a caloric deficit and full lifting volume is a triple stressor. Most experienced lifters reduce cardio session intensity and duration during cuts rather than loading more volume — relying more on the caloric deficit than on cardio to drive fat loss.
+
+**The practical rule**: If you're cutting, reduce cardio intensity before you reduce it volume, and prioritize protein and sleep above all else to preserve muscle. Monitor your strength numbers closely — a meaningful RPE spike or weight drop on your main lifts is a signal to pull back somewhere.
+
+## Reading Cardio's Impact in Your Training Log
+
+This is where accurate training data becomes directly useful. **If cardio is blunting your lifting performance, it will show up in your logs before you feel it anecdotally.**
+
+The signal to watch: RPE creeping up at fixed loads on your compound lifts, or working weights stagnating, in weeks where cardio volume increased. That's the interference effect becoming legible in data — not theory, not feel, actual logged sets with effort ratings. If you added two extra cardio sessions this week and your squat felt notably harder than last week at the same load, your log captures that.
+
+With VoiceLift, logging "squat 275 for 4 sets of 5, RPE 9, legs felt dead" takes five seconds between sets. Over a block, those RPE trends tell you exactly whether your cardio load is interfering with recovery — and whether to dial it back or adjust timing before performance visibly degrades.
+
+## Practical Guidelines for Adding Cardio to a Lifting Program
+
+- **Choose cycling or rowing over running** when lower body fatigue management matters
+- **Do cardio after lifting, or on separate days** — never before a heavy session
+- **Start with 1–2 sessions of 20–30 minutes** and monitor RPE trends on your main lifts for 2–3 weeks before adding more
+- **Increase protein slightly** when adding cardio during a cut — 2.2g/kg bodyweight is a reasonable upper target
+- **If strength starts stalling, audit cardio volume first** before changing programming
+
+## The Actionable Takeaway
+
+**Cardio doesn't kill gains. How you program it determines whether it interferes.**
+
+The key variables:
+1. **Modality**: Cycling and rowing produce less interference than running — favor them when training lower body heavy
+2. **Timing**: Always lift before cardio on the same day; separate days are ideal
+3. **Volume**: 1–3 sessions of 20–40 minutes per week is the range where most lifters see no meaningful interference
+4. **Monitoring**: Track RPE on your main lifts — an upward trend at fixed loads is the earliest signal that cardio load needs adjusting
+
+Add cardio for health, conditioning, and caloric management. Program it around your lifting, not in competition with it, and your strength numbers will tell you if you've gotten the balance right.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-06",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-build-bigger-legs",
     slug: "how-to-build-bigger-legs",
     title: "How to Build Bigger Legs: Quads, Hamstrings, and Glutes",
