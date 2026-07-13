@@ -1,5 +1,113 @@
 export const blogPosts = [
   {
+    id: "how-to-build-a-bigger-back",
+    slug: "how-to-build-a-bigger-back",
+    title: "How to Build a Bigger Back: Exercises for Width and Thickness",
+    excerpt: "Most lifters have lagging backs because they train one plane of pull and can't feel the target muscles working. Here's the complete breakdown of exercises and programming to build real lat width and mid-back thickness.",
+    metaDescription: "The complete guide to building a bigger back: best exercises for lat width and thickness, optimal volume, and how to program your pulling movements.",
+    content: `
+# How to Build a Bigger Back: Exercises for Width and Thickness
+
+**Building a bigger back** is one of the most commonly searched training topics — and one of the most poorly executed. The back is anatomically complex, contains multiple muscle groups pulling in different directions, and is notoriously hard to feel during training until you've put in time developing the neural connection. Most lifters default to one or two exercises and wonder why their back stays flat. Here's what actually drives back development: exercise selection, angle of pull, volume, and consistent progressive overload.
+
+## Why Most Lifters Have Lagging Backs
+
+Before the exercise list, it's worth diagnosing the common reasons back development stalls:
+
+- **Weak mind-muscle connection**: Without a clear lat or mid-back activation pattern, most "back" exercises get done by the biceps and traps instead of the target muscles
+- **Training through a limited range of motion**: Partial reps on rows and pulldowns skip the stretch position and the peak contraction — both contribute to hypertrophy
+- **Ignoring unilateral work**: Most lifters have a dominant side handling the majority of the load on bilateral movements; the weaker side underperforms and never catches up
+- **Insufficient volume**: The back is a large muscle group with multiple distinct regions — one or two exercises per session isn't enough stimulus to develop it fully
+
+## Width vs. Thickness: Different Muscles, Different Movements
+
+The most important concept in back training is that **lat width and mid-back thickness require different exercises**:
+
+**Width** — the V-taper appearance — comes primarily from the latissimus dorsi. The lats are responsible for shoulder adduction: pulling the arms down and in toward the torso. **Vertical pulling movements** (pull-ups, lat pulldowns, cable pullovers) are the primary driver of lat width.
+
+**Thickness** — the dense, layered look visible from behind — comes from the rhomboids, lower and mid traps, and mid-lat fibers. **Horizontal pulling movements** (barbell rows, dumbbell rows, cable rows) are the primary driver of mid-back thickness.
+
+A complete back program requires both planes of pull. Doing only rows produces a thick but narrow back. Doing only pulldowns produces width without density. Training one plane exclusively is the most common mistake in back programming.
+
+## Best Exercises for Lat Width
+
+### Pull-Ups and Chin-Ups
+
+**Pull-ups are the gold standard for lat development.** The combination of a full stretch at the bottom (scapular depression, shoulder slightly elevated) and complete adduction at the top creates a thorough stimulus across the full range. As you get stronger, add load via a dip belt rather than reducing range of motion.
+
+Cue: Think "pull your elbows toward your hip pockets," not "pull your chin over the bar." The movement is shoulder adduction driven by the lats, with the arms acting as hooks.
+
+### Lat Pulldowns
+
+The machine equivalent of a pull-up, and valuable for controlling load across a full range — especially useful for lifters who can't yet perform weighted pull-ups for volume. **Wide grip targets the outer lats; neutral or close grip allows a longer pull-through and reduces the bicep dominance** seen with supinated grips.
+
+Use the same elbow-to-hip-pocket cue. Don't let the bar stop above the chin — pull all the way to upper chest for full contraction.
+
+## Best Exercises for Mid-Back Thickness
+
+### Barbell Rows
+
+**Barbell rows are the mass builder for the mid-back.** Heavy load, full range, significant mechanical stress across the entire posterior chain. The most effective setup for most lifters: **45-degree torso angle, bar touching the lower abdomen** — this loads the lats through the horizontal pull while also recruiting the mid-back muscles. Pulling to the belly button rather than the chest keeps more lat involvement.
+
+Avoid excessively upright torso angles; those shift the emphasis to the upper traps and turn the row into something closer to an upright row.
+
+### Dumbbell Rows
+
+Dumbbell rows allow a **greater range of motion than a barbell** and force each side to work independently, eliminating the dominant-side compensation problem. A supported variation — chest against an incline bench, knee on a flat bench — eliminates momentum from the lower back and keeps tension on the target muscles throughout the set.
+
+### Cable Rows
+
+Cable rows provide **constant tension through the entire range** — unlike free weights where tension drops at certain points of the movement. The angle of pull matters: a low cable with a neutral grip targets the lower lats and mid-back; a high cable mimics a pulldown angle and emphasizes the upper back. Vary attachment point and body position to hit different regions across a training week.
+
+### Seal Rows
+
+The **seal row** (lying face-down on a raised bench, rowing a barbell hanging beneath it) is the most cheat-proof horizontal pull available. There's no lower back involvement, no momentum, and no way to use the hips to complete a rep. The mid-back does all the work. It's underused and brutally effective.
+
+## How to Program Back Training
+
+### Volume
+
+The back responds well to higher volume than most other muscle groups because of its size and the number of distinct muscle groups involved. **12–20 weekly sets is the working range for most intermediate lifters**, split across at least two sessions per week. Beginners can develop well at the lower end; more advanced lifters can push toward 20+ sets.
+
+Distribute volume across both pulling planes in each session: at minimum, one vertical pull and one horizontal pull per back day.
+
+### Progressive Overload and Tracking
+
+Back training lives and dies by **consistent progressive overload** — the same principle that drives all muscle growth. Track your pull-up weight, your row numbers, your cable row load, session over session. This is harder to execute in the back than for bench or squat because back exercises are often done with a pump and between other exercises where it's easy to lose track of the numbers.
+
+This is where VoiceLift is genuinely useful: after a heavy row set, you're not reaching for a pen. A quick voice log — "barbell row, 185 for 8, controlled tempo, elbows stayed close" — captures both the load and the qualitative note before it's gone. Over a training block, that data is what tells you whether your back is actually progressing or just staying comfortable.
+
+### Frequency
+
+**Two back sessions per week is the minimum for serious development.** The back recovers well relative to the legs, and the stimulus-to-fatigue ratio on most pulling exercises is favorable enough to train twice weekly without digging a recovery hole. On a push/pull/legs split, this happens naturally.
+
+## Common Programming Mistakes
+
+**Loading rows before establishing the movement**: Ego-loading on rows turns them into a hip-hinge and shrug. Start at a weight where you can maintain a clean pattern for all reps, then add load progressively.
+
+**Skipping the stretch**: The end-range stretched position — bottom of a pull-up, full extension at the start of a row — is a key driver of the hypertrophic stimulus. Limiting range of motion to avoid the stretch shortchanges the exercise.
+
+**Training biceps before back**: If biceps are pre-fatigued, they can't assist effectively during rows and pulldowns, and the back ends up doing less work per set. Always train back before biceps.
+
+## The Practical Takeaway
+
+Building a bigger back requires:
+
+1. **Both vertical and horizontal pulls** — lat width and mid-back thickness need different exercises
+2. **Full range of motion** — the stretch and contraction both matter
+3. **12–20 weekly sets, two sessions minimum** — volume is higher than most lifters currently do
+4. **Tracked, progressive loading** — back progress is slow enough that you need data to confirm it's happening
+5. **Consistent, patient programming** — lats and mid-back development are measured in training cycles, not weeks
+
+The lifters with impressive backs are almost universally the ones who've been logging their pull-up weight and row numbers for years and adding load gradually across every block. That's not exciting — but it's what actually builds a bigger back.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-13",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "mind-muscle-connection-guide",
     slug: "mind-muscle-connection-guide",
     title: "Mind Muscle Connection: How to Get More From Every Rep",
