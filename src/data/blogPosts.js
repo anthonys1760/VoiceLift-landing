@@ -1,5 +1,99 @@
 export const blogPosts = [
   {
+    id: "how-to-build-a-bigger-chest",
+    slug: "how-to-build-a-bigger-chest",
+    title: "How to Build a Bigger Chest: Best Exercises and Programming",
+    excerpt: "Building a bigger chest takes more than adding weight to bench press. Here's the complete breakdown of chest anatomy, the best exercises for mass, and how to program your pushing movements for real hypertrophy.",
+    metaDescription: "Learn how to build a bigger chest with the best exercises for mass and thickness, optimal volume, programming tips, and progressive overload strategies.",
+    content: `
+# How to Build a Bigger Chest: Best Exercises and Programming
+
+**Building a bigger chest** is one of the most-searched training topics for a reason: the chest responds well to the right stimulus, but most lifters train it monotonously, hit it from one angle, and wonder why progress stalls after the first year. The answer almost always comes down to exercise selection, range of motion, volume, and whether you're actually tracking progressive overload session to session.
+
+## Understanding Chest Anatomy
+
+The chest is made up of two primary sections:
+
+- **Pectoralis major** — the large fan-shaped muscle that creates the bulk of chest size. It has a clavicular head (upper chest) and a sternal head (lower and mid chest). These two portions have different fiber directions, which is why angle of press matters.
+- **Pectoralis minor** — sits beneath the pec major and assists with scapular movement. It's not directly trained by pressing but contributes to overall chest appearance.
+
+**The key takeaway**: because the pec major has different fiber directions across its upper and lower portions, you can't develop a full chest by training one angle. Most benching programs hit the sternal head well and underwork the clavicular head — which is why upper chest lagging is so common.
+
+## Best Chest Exercises for Mass
+
+### Flat Barbell Bench Press
+
+The flat bench is the most effective overall chest mass builder for most lifters. Heavy load, full range of motion, and bilateral pressing through the muscle's strongest line of pull. **The key to getting more out of flat bench** is a slight arch, shoulder blades retracted and depressed, and a controlled eccentric — 2-3 seconds on the way down, not bouncing off the chest or cutting the range short.
+
+Flat bench can stall if you're not tracking it carefully. A log that shows you've pressed the same weight for six weeks is data. A log you're not keeping is an assumption.
+
+### Incline Barbell or Dumbbell Press
+
+**Upper chest development requires incline work** — flat pressing alone won't fill the clavicular head. The incline should be moderate: 30-45 degrees. Steeper angles push the load onto the front delts and reduce chest involvement significantly.
+
+Dumbbell incline press allows a greater range of motion than the barbell variation and forces each side to work independently — important if you have a strength imbalance.
+
+### Dumbbell Flat Press
+
+The dumbbell flat press allows a **deeper stretch at the bottom** than the barbell, because the elbows can travel below chest level without restriction. This end-range stretch is a key driver of chest hypertrophy. Use dumbbells as a secondary press after your main compound lift, not as a replacement for it.
+
+### Cable Chest Flyes
+
+Cables provide **constant tension throughout the entire range of motion** — something dumbbells can't match in the fully contracted position where dumbbell tension drops near zero. Cable flyes are the most effective isolation movement for the chest. Set up at low, mid, or high cable positions to hit different portions of the pec:
+
+- **Low cable fly**: pulls upward — hits upper chest
+- **Mid cable fly**: horizontal pull — hits mid chest
+- **High cable fly**: pulls downward — hits lower chest
+
+### Chest Dips
+
+**Weighted chest dips are an underrated mass builder.** By leaning slightly forward and letting the elbows flare slightly outward, dips become a strong lower chest movement with significant loading potential. As you get stronger, add weight with a dip belt rather than reducing depth.
+
+## How to Program Chest Training
+
+### Volume
+
+**10–16 weekly sets is the effective range** for most intermediate lifters, spread across two sessions. Distribute volume across angles: don't concentrate all pressing volume on the flat bench. A balanced session includes at least one incline movement and one isolation movement per session.
+
+### Frequency
+
+**Two chest sessions per week is optimal** for most lifters. Muscle protein synthesis from a chest session peaks and returns to baseline within 48-72 hours — training twice weekly keeps you inside that window without overlapping recovery. On a push/pull/legs split, this happens naturally.
+
+### Progressive Overload and Tracking
+
+**Chest progress is easy to misread** without session-by-session data. You feel the pump and the fatigue, but unless you're tracking weight, reps, and tempo over time, you don't know if you're actually stronger than you were six weeks ago.
+
+This is where VoiceLift pays for itself: after a heavy incline dumbbell set, you don't want to be writing anything — you want to log it and rest. Saying "incline dumbbell press, 85s, 9 reps, controlled" takes three seconds and gives you a data point. Stack those across a training block and you can see whether you're progressing or staying comfortable.
+
+## Common Chest Training Mistakes
+
+**Training flat bench only**: develops the sternal head while leaving the clavicular head underdeveloped. Add incline work from your first training cycle.
+
+**Cutting the range of motion**: partial reps skip the most important part of the movement — the stretched position at the bottom. Lower the weight and use full range.
+
+**Ignoring the eccentric**: a one-second drop and rebound is wasted work. Two to three seconds down, controlled, allows the hypertrophic stimulus from the eccentric to actually happen.
+
+**Skipping isolation work after pressing**: pressing alone won't fully fatigue pec fibers. One cable fly or machine fly movement per session adds volume at the end range where free weights are weakest.
+
+## The Practical Takeaway
+
+To build a bigger chest:
+
+1. **Train both angles** — flat and incline pressing in every chest session
+2. **Add isolation movements** — cables or flies for constant tension pressing can't provide
+3. **Use full range of motion** — the stretch position is where growth happens
+4. **Train it twice a week** — frequency matters as much as volume
+5. **Track every session** — progressive overload requires data, not memory
+
+The lifters with the best chest development are the ones who treated bench press like a deadlift — numbers written down, load added deliberately, nothing left to chance. Logging through VoiceLift makes that discipline effortless: you're talking between sets anyway, and a three-second voice log captures everything before you lose it.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-17",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-build-a-bigger-back",
     slug: "how-to-build-a-bigger-back",
     title: "How to Build a Bigger Back: Exercises for Width and Thickness",
