@@ -1,5 +1,118 @@
 export const blogPosts = [
   {
+    id: "best-shoulder-exercises-for-mass",
+    slug: "best-shoulder-exercises-for-mass",
+    title: "Best Shoulder Exercises for Mass: Build Boulder Shoulders",
+    excerpt: "Most lifters have flat, underdeveloped shoulders because pressing alone doesn't hit all three deltoid heads. Here's the complete breakdown of the best shoulder exercises for mass and how to program them.",
+    metaDescription: "The best shoulder exercises for mass, including overhead press, lateral raises, and rear delt work. Build capped, 3D shoulders with this complete guide.",
+    content: `
+# Best Shoulder Exercises for Mass: Build Boulder Shoulders
+
+**The best shoulder exercises for mass** work all three deltoid heads — anterior, lateral, and posterior — through a combination of pressing and isolation work. Most lifters get anterior delt volume from every pressing session they do and let lateral and rear delt work slide. That's why their shoulders look flat from the front and nonexistent from the back.
+
+Building serious shoulder mass requires targeting each head intentionally. Here's the complete breakdown.
+
+## Understanding Deltoid Anatomy
+
+The shoulder is made of three distinct heads:
+
+- **Anterior deltoid** (front): handles forward flexion and contributes heavily to pressing movements. Most lifters overtrain this head without realizing it — every bench press and overhead press hits the front delt.
+- **Lateral deltoid** (middle): what creates the wide, capped look that makes shoulders impressive from the front. Can only be fully developed with lateral raise variations.
+- **Posterior deltoid** (rear): critical for shoulder health, posture, and the 3D look that separates developed physiques from flat ones. Consistently undertrained.
+
+**The practical takeaway**: pressing alone builds anterior delts. If you're not doing lateral raises and rear delt work, two of your three deltoid heads are undertrained.
+
+## Best Shoulder Exercises for Mass
+
+### Seated Dumbbell Overhead Press
+
+The seated dumbbell overhead press is the **best mass builder for overall shoulder development**. The dumbbell variation allows a natural arc of motion that's harder to achieve with a barbell, reduces joint stress at the top of the movement, and forces both sides to work independently — important since shoulder strength imbalances are common.
+
+Sit upright with back supported. Press from ear level, not from in front of the face. Full lockout at the top, controlled descent. If you're losing track of sets mid-workout, logging between sets keeps the data accurate without breaking your rest period.
+
+### Barbell Overhead Press (OHP)
+
+**The OHP is the foundational strength builder for the shoulder.** Higher loads are achievable than with dumbbells, making it the primary movement for progressive overload. Use the barbell OHP as your main shoulder compound if strength is the priority, then follow with dumbbell presses or machine work for volume.
+
+Key cue: **elbows slightly in front of the bar**, not flared to the sides. Flaring elbows under heavy load is a rotator cuff injury waiting to happen.
+
+### Lateral Raises
+
+No exercise builds the lateral deltoid like lateral raises. **The lateral delt is almost exclusively activated by lateral raises** — pressing movements primarily hit the front delt, not the side. If you want shoulders that look wide and capped, lateral raises are non-negotiable.
+
+Do them correctly:
+- **Lead with your elbows**, not your hands
+- Raise to just above parallel — not above your head
+- **Control the descent** — 2-3 seconds down. The eccentric is where most of the growth stimulus lives.
+- Use lighter weight than you think you need. Most lateral raise weight is shrug and momentum, not actual deltoid work.
+
+Cable lateral raises often beat dumbbells here because the cable provides constant tension even in the bottom position where dumbbells have zero resistance.
+
+### Rear Delt Work (Face Pulls and Bent-Over Flyes)
+
+**Rear delt training is non-negotiable for shoulder health and appearance.** Undertrained rear delts lead to rounded shoulders, internal rotation posture, and a flat look from any angle other than directly front-on.
+
+The best rear delt movements:
+
+- **Face pulls**: cable set at face height, pull toward your face with elbows high. Trains the rear delt and external rotators simultaneously.
+- **Bent-over dumbbell flyes**: hinge forward, arms hanging, raise out to the sides. Keep a slight bend in the elbow and lead with your elbows, not your hands.
+- **Reverse pec deck**: the machine version of the bent-over fly. More stable and easier to load progressively.
+
+### Machine Shoulder Press
+
+**Machine pressing is underrated for shoulder hypertrophy.** A fixed path removes the stability demand of dumbbell pressing and lets you focus entirely on driving load through the deltoids. Use machines as secondary pressing work, especially toward the end of a session when stabilizer fatigue limits free-weight performance.
+
+## How to Program Shoulder Training
+
+### Volume
+
+**10–14 working sets per week** covers most intermediate lifters. Distribute across three categories:
+
+- Pressing (OHP or dumbbell press): 4–6 sets
+- Lateral raises: 3–5 sets
+- Rear delt work: 3–5 sets
+
+The lateral and rear delt sets are the ones most lifters skip or undercount. They're the difference between flat shoulders and capped ones.
+
+### Frequency
+
+Shoulders can be trained 2–3 times per week. Front delts recover fast and get indirect volume from chest pressing. Lateral and rear delts can handle more frequency than most lifters give them — they're relatively small muscles that don't require the same recovery window as a quad or lat session.
+
+### Tracking
+
+**Shoulder training is easy to phone-in.** The weights are lighter than compound movements, the feedback loop is slower, and it's hard to tell session to session whether you actually added a rep or a pound. Logging shoulder sessions precisely — variation, weight, reps — is the only way to know if you're progressing or spinning wheels.
+
+VoiceLift works particularly well here: lateral raises done without long rest periods benefit from a quick voice log between sets, which is faster than writing anything down and more accurate than recalling it after you've moved on.
+
+## Common Shoulder Training Mistakes
+
+**Front delt dominance**: if your program is bench + overhead press with no lateral or rear delt isolation, you're overbuilding the most-trained part of the shoulder while ignoring the parts that make it look impressive.
+
+**Too much weight on laterals**: ego-loading lateral raises turns the movement into a trapezoidal shrug. Drop the weight and own the movement.
+
+**Skipping rear delt work**: rear delts affect posture, shoulder health, and the 3D look of the physique. Three sets of face pulls twice a week is enough — there's no excuse for leaving them out.
+
+**Not tracking lateral raise progression**: because the weights are light and the exercise feels isolated, lifters assume it doesn't need to be logged. It does. Staying at 15 lb laterals for twelve months isn't shoulder training — it's maintenance.
+
+## The Practical Takeaway
+
+To build bigger, capped shoulders:
+
+1. **Press heavy** — OHP or seated dumbbell press as your primary compound
+2. **Do lateral raises every session** — 3–5 sets, controlled, light enough to actually feel the lateral delt
+3. **Add rear delt work** — face pulls or bent-over flyes, 3–5 sets per session
+4. **Train shoulders 2x per week** — frequency drives lateral and rear delt progress
+5. **Track every session** — progressive overload on isolation work is where shoulder development actually happens
+
+The most common reason lifters have underdeveloped shoulders is trusting pressing to do all the work. It doesn't. Lateral raises and rear delt training build the capped, 3D look — and they only work if you're actually overloading them week to week.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-20",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-build-a-bigger-chest",
     slug: "how-to-build-a-bigger-chest",
     title: "How to Build a Bigger Chest: Best Exercises and Programming",
