@@ -1,5 +1,117 @@
 export const blogPosts = [
   {
+    id: "how-to-fix-muscle-imbalances",
+    slug: "how-to-fix-muscle-imbalances",
+    title: "How to Fix Muscle Imbalances: Identify, Correct, and Prevent",
+    excerpt: "Muscle imbalances get worse the longer they go unaddressed — and bilateral exercises hide them. Here's how to identify which side is lagging, close the gap, and prevent it from coming back.",
+    metaDescription: "Learn how to fix muscle imbalances with unilateral training, weaker-side prioritization, and data-driven tracking. Close the strength gap for good.",
+    content: `
+# How to Fix Muscle Imbalances: Identify, Correct, and Prevent
+
+**Muscle imbalances** happen when one side of your body — or one muscle group — is significantly stronger or larger than its counterpart. They're more common than most lifters realize, and they get worse the longer they go unaddressed.
+
+The bigger problem: **bilateral exercises hide them**. When you bench press with a barbell, your stronger side compensates silently. You hit your rep PR without knowing your left pec did 60% of the work.
+
+## What Causes Muscle Imbalances
+
+Most imbalances trace back to a few predictable patterns:
+
+- **Dominant-side compensation**: your stronger side takes over on bilateral movements, accumulating stimulus while the weaker side drifts behind
+- **Imbalanced programming**: training push without enough pull, or quad-dominant leg work with minimal hamstring development
+- **Reinforcing your strengths**: most lifters program what they're already good at, which makes strong muscles stronger and weak muscles fall further behind
+- **Posture and daily patterns**: sitting asymmetrically, carrying loads on one side, or sport-specific movement patterns that load one side more than the other
+
+## How to Identify a Muscle Imbalance
+
+### Visual Comparison
+
+Stand in front of a mirror with relaxed posture. Compare shoulder height, arm hang position, and side-by-side development in the chest, lats, and quads. Obvious differences are easy to spot. Strength imbalances often exist before visible size differences appear.
+
+### Unilateral Strength Testing
+
+Replace bilateral movements with single-limb versions for one session and **log each side separately**:
+
+- Barbell bench → single-arm dumbbell press
+- Barbell squat → Bulgarian split squat or single-leg leg press
+- Pull-ups → single-arm cable row each side
+
+**A 10%+ strength difference between sides is significant.** Anything over 15% is likely affecting your bilateral lifts without you knowing it.
+
+If you've been logging unilateral exercises by side, you may already have this data. If not, start now. A quick voice log between sets — "left arm, 50 lbs, 10 reps. Right arm, 50 lbs, 8 reps." — takes two seconds and gives you the trend data to actually measure the gap over time. This is exactly the kind of detail VoiceLift is built to capture without breaking your rest period.
+
+### Tracking Patterns Over Time
+
+One session is a data point. Months of logs reveal the pattern. If your right-side dumbbell curls have increased by 10 lbs over three months and the left hasn't moved, that's an imbalance developing in real time — and you need your training log to catch it.
+
+## How to Fix Muscle Imbalances
+
+### Lead With the Weaker Side
+
+On all unilateral exercises, **start with the weaker limb first**. Complete your full set on the weaker side, then match the same weight and reps on the stronger side. The stronger side does not exceed what the weak side can handle.
+
+This caps total load at the weaker side's current ability, which frustrates most lifters at first. It also closes the gap fast.
+
+### Add Unilateral Volume to the Weaker Side Only
+
+After your bilateral and standard unilateral work, add 1–2 extra sets to the weaker side. No additional sets for the dominant side.
+
+- **Weaker chest**: extra set of single-arm cable fly or single-arm dumbbell press
+- **Weaker leg**: extra set of single-leg leg curl or split squat
+- **Weaker lat**: extra set of single-arm dumbbell row
+
+Keep these extra sets submaximal — around 60–70% effort. You're adding volume, not grinding near-max intensity.
+
+### Prioritize Unilateral Exercises
+
+Replace bilateral movements with unilateral versions until the imbalance closes:
+
+- **Dumbbell bench instead of barbell bench**
+- **Bulgarian split squats instead of barbell back squat**
+- **Single-leg Romanian deadlifts instead of bilateral RDL**
+- **Alternating dumbbell curls instead of barbell curls**
+
+Dumbbells force both sides to work independently. Most lifters avoid them because the ego load is lower. Use them anyway.
+
+### Address Activation, Not Just Strength
+
+Sometimes an imbalance is a recruitment problem — the muscle is capable but not activating properly. This is common with:
+
+- **Glutes**: one side fires, the other goes along for the ride
+- **Chest**: anterior delt dominance on one side suppresses pec activation
+- **Lats**: traps and teres major compensate for lat weakness
+
+Warm-up activation work before your session helps: single-leg glute bridges before leg day, band pull-aparts before pressing, single-arm cable pull-downs before back training. Five minutes of targeted activation changes what actually fires during your working sets.
+
+## How Long Does It Take to Fix a Muscle Imbalance?
+
+**Expect 6–12 weeks of consistent unilateral focus to close a moderate imbalance.** Severe gaps — 20%+ strength difference — can take longer. Newer trainees close imbalances faster than advanced lifters.
+
+The key variable is consistency. Four weeks of weaker-side priority work followed by a return to bilateral-only training doesn't fix anything. Maintain the approach until sides equalize, then train symmetrically to keep them that way.
+
+**Track the gap directly.** Log each side separately on your key unilateral movements. When the weaker side is within 5% of the stronger on a consistent basis, the imbalance is closed. Without the data, you're guessing.
+
+## Preventing Muscle Imbalances Long-Term
+
+Once corrected, keeping imbalances closed requires ongoing attention:
+
+1. **Include at least one unilateral exercise per muscle group each week** — this catches drift before it compounds
+2. **Log each side separately** — early warning signs only show up in your data
+3. **Check form on bilateral movements** — if you grip harder with one hand or drive through one leg more, you're accumulating an imbalance rep by rep
+4. **Alternate which side goes first** — always starting with the same side reinforces dominant-side patterns over time
+
+## The Takeaway
+
+Muscle imbalances don't fix themselves, and they're invisible if you're only training with bilateral movements. The correction is straightforward: lead with the weaker side, add extra sets to the deficit side, and prioritize unilateral exercises until the gap closes.
+
+None of that works without tracking. You need to log each side separately so you know whether the gap is actually shrinking or just feels like it is. If you're not capturing that data today, start — the trend over 8–12 weeks is what tells you whether your approach is working.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-24",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "best-shoulder-exercises-for-mass",
     slug: "best-shoulder-exercises-for-mass",
     title: "Best Shoulder Exercises for Mass: Build Boulder Shoulders",
