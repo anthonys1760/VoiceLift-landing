@@ -1,5 +1,111 @@
 export const blogPosts = [
   {
+    id: "overtraining-syndrome-signs-and-recovery",
+    slug: "overtraining-syndrome-signs-and-recovery",
+    title: "Overtraining Syndrome: Signs, Symptoms, and How to Recover",
+    excerpt: "Most lifters who feel overtrained are actually overreaching — a recoverable state with a clear fix. Here's how to recognize overtraining syndrome symptoms and get back on track.",
+    metaDescription: "Learn to recognize overtraining syndrome symptoms before they tank your performance. Discover evidence-based recovery strategies and how to prevent it for good.",
+    content: `
+# Overtraining Syndrome: Signs, Symptoms, and How to Recover
+
+**Overtraining syndrome (OTS)** is what happens when training stress consistently exceeds your recovery capacity — not for a day or a week, but for months — until performance, mood, and physical health deteriorate together. It's one of the most misunderstood conditions in recreational lifting.
+
+Most lifters never reach true clinical OTS. But functional overreaching — a milder, reversible form of accumulated training fatigue — is common enough that most serious lifters will hit it at some point. The difference between the two matters, because the treatment is very different.
+
+## Understanding the Spectrum: Overreaching vs. Overtraining Syndrome
+
+Exercise scientists distinguish three states along the same continuum:
+
+- **Functional overreaching**: short-term performance decrease after a hard training block. Resolves in days to two weeks with adequate recovery. This is normal during high-volume phases and is part of planned periodization.
+- **Non-functional overreaching**: performance decrease that persists for weeks to months despite reduced training, with mood disturbance and persistent fatigue. Requires 4–8 weeks of significantly reduced training to resolve.
+- **Overtraining syndrome (OTS)**: prolonged performance decline lasting months, with systemic neuroendocrine disruption. Requires complete rest from structured training for weeks or months.
+
+If you've had one brutal week and you're wrecked, that's not OTS — that's normal training fatigue. True overtraining syndrome develops slowly, over weeks of insufficient recovery, and doesn't resolve with a single rest day.
+
+## Signs and Symptoms of Overtraining
+
+The defining feature of overtraining syndrome is **unexpected performance decline that doesn't resolve with normal recovery**. If you're sleeping enough, eating enough, and your numbers are still going backwards week over week, that's the primary signal.
+
+Additional warning signs include:
+
+- **Persistent fatigue** that doesn't improve after a rest day or a normal deload
+- **Mood disturbances**: irritability, anxiety, loss of motivation — often the earliest signs
+- **Elevated resting heart rate**: 5–10+ bpm above your typical morning baseline for several consecutive days
+- **Disrupted sleep**: difficulty falling or staying asleep despite feeling exhausted
+- **Increased illness frequency**: chronic training overload suppresses immune function
+- **Strength decreases across multiple sessions**, not just one bad day
+- **Loss of appetite** or unexpected changes in body weight
+- **Muscle and joint aches** that feel disproportionate to your training load
+
+No single symptom confirms OTS. The pattern — multiple overlapping symptoms persisting over several weeks — is what distinguishes it from a rough training block.
+
+## The Most Common Cause: Volume Spikes, Not Absolute Load
+
+True overtraining syndrome in recreational lifters almost always comes from accumulated volume that outpaces adaptation — particularly sudden volume increases without adequate base fitness.
+
+Common patterns:
+
+- Adding a new training program on top of existing training rather than replacing it
+- Running an intense peaking block without the preceding base work
+- Skipping deloads for multiple consecutive months during high-volume phases
+- Aggressive caloric deficit combined with high training volume
+- Consistently poor sleep compounding insufficient recovery between sessions
+
+If you're tracking your sessions consistently, volume spikes are visible before they become a problem. Knowing your weekly sets per muscle group — even as a rough number — lets you catch when you've ramped too fast and dial back before the damage accumulates. Logging each workout with VoiceLift takes seconds and gives you that data without the friction of writing sets down between exercises.
+
+## How to Rule Out Other Causes First
+
+Before concluding you're overtrained, eliminate more common causes of poor performance:
+
+- **Insufficient sleep**: even mild chronic sleep debt tanks strength and recovery more than most lifters expect
+- **Caloric deficit too aggressive**: cutting too hard impairs recovery and creates fatigue that closely mimics overtraining
+- **Low carbohydrate intake**: carbs fuel high-intensity work; severe restriction hurts performance independently of total calories
+- **Recent illness**: any viral infection causes weeks of reduced capacity — this isn't overtraining
+- **Dehydration**: consistent underhydration reduces performance by 5–10%
+
+Address these first. If performance improves, you weren't overtrained — you were under-recovered for a fixable reason. This is the case for most lifters who suspect OTS.
+
+## How to Recover from Overtraining Syndrome
+
+Recovery approach depends on where you are on the overreaching-to-OTS spectrum:
+
+**Functional overreaching**: a structured deload — 50–60% of normal volume at reduced intensity — for 7–14 days usually resolves it. Most lifters bounce back fully within two weeks.
+
+**Non-functional overreaching**: expect 4–8 weeks of significantly reduced training. Volume should drop substantially, not just intensity. Light activity — walking, easy cardio — is better than complete rest for mood and metabolic function.
+
+**True OTS**: weeks to months of near-complete rest from structured training. This is rare and typically only occurs in people who have ignored non-functional overreaching symptoms for an extended period.
+
+Across all three:
+
+- **Eat at maintenance or above** — a caloric deficit during recovery is counterproductive
+- **Prioritize sleep** — most repair happens during sleep, not during rest days
+- **Reduce life stress where possible** — training stress and psychological stress draw from the same recovery pool
+- **Return gradually** — going from two weeks off back to full volume immediately restarts the problem
+
+## Prevention: Track Your Load Before It Tracks You
+
+Overtraining syndrome is almost entirely preventable with a few consistent practices:
+
+- **Schedule deloads every 4–8 weeks** during hard training blocks — don't wait until you need one
+- **Increase volume incrementally**, not in large jumps; 1–2 sets per week maximum ramp
+- **Monitor RPE over time**: if the same weights feel heavier week over week, that's a leading indicator of accumulated fatigue
+- **Track resting heart rate and sleep quality** as early warning signals before performance drops
+
+When you have consistent training records, you can see the pattern emerging. Session notes like "felt unusually heavy" or "RPE felt off," logged consistently over weeks, reveal trends invisible in any single workout. That's data you can act on before performance tanks. VoiceLift makes it easy to capture those quick notes mid-workout without breaking your flow — so when you look back at three weeks of sessions, the pattern is clear.
+
+## The Takeaway
+
+**Overtraining syndrome is real but uncommon.** Most lifters experiencing persistent fatigue and declining performance are dealing with functional overreaching — a completely recoverable problem caused by insufficient recovery, not excessive training volume alone.
+
+Take the symptoms seriously, eliminate the common fixable causes first, implement a structured deload, and track your training load so volume spikes don't sneak up on you. Consistency beats intensity every time — and staying healthy enough to train consistently is the whole game.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-07-31",
+    category: "Recovery",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "delayed-onset-muscle-soreness-doms",
     slug: "delayed-onset-muscle-soreness-doms",
     title: "DOMS Explained: What Causes Muscle Soreness and How to Recover",
