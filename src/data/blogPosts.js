@@ -1,5 +1,158 @@
 export const blogPosts = [
   {
+    id: "pull-up-progression-guide",
+    slug: "pull-up-progression-guide",
+    title: "Pull-Up Progression: How to Go from Zero to 10 Reps",
+    excerpt: "Most people never crack 10 pull-ups because they repeat the same few reps with no plan. Here's a step-by-step pull-up progression that actually works.",
+    metaDescription: "Step-by-step pull-up progression guide: negatives, band-assisted reps, grease-the-groove, and how to go from zero pull-ups to 10 clean reps in 8-16 weeks.",
+    content: `
+# Pull-Up Progression: How to Go from Zero to 10 Reps
+
+**Pull-ups** are one of the most searched exercises online — and one of the most avoided at the gym. If you can't do one yet, you're not weak: you've just never been given a real pull-up progression that works. If you can do a few but can't crack 10 clean reps, you're missing a structured approach.
+
+This guide gives you a concrete, step-by-step path from zero to 10 solid reps — no gimmicks.
+
+## Why Pull-Ups Are Worth Building Toward
+
+Pull-ups build the latissimus dorsi, biceps, rear deltoids, rhomboids, and lower traps simultaneously under significant load — your own bodyweight. No cable machine fully replicates that combination of strength and control.
+
+For anyone training to build a wider back and stronger arms, the pull-up is the most efficient movement available. **A set of 10 strict pull-ups represents a meaningful strength base that transfers directly to rows, deadlifts, and any overhead work.**
+
+The problem is most people skip the progressions that actually get them there.
+
+## Where to Start: Assess Your Current Level
+
+Before picking a phase, know where you're starting:
+
+- **0 pull-ups**: Start with Phase 1 (base pulling strength)
+- **1–3 reps**: Start with Phase 2 (negatives)
+- **4–6 reps**: Start with Phase 3 (greasing the groove and volume)
+- **7–9 reps**: Start with Phase 4 (closing the gap to 10)
+
+Use honest standards: dead hang start, chin clearly above bar at the top, full elbow extension at the bottom. A kip or a half-rep doesn't count.
+
+## Phase 1: Build Base Pulling Strength (0 Pull-Ups)
+
+Before you can pull yourself up, you need to build the pulling muscles in a controlled way.
+
+### Lat Pulldown (Primary)
+
+The lat pulldown mirrors the pull-up movement pattern and lets you control the load precisely. Use a shoulder-width neutral or supinated grip.
+
+- Sets: 3–4 × 8–12 reps
+- Load: 70–75% of bodyweight to start
+- Frequency: 2x per week
+
+**Progression rule:** Increase load when you can complete all reps with a 2–3 second lowering phase. Aim to lat pulldown close to your bodyweight before advancing.
+
+### Inverted Row (Secondary)
+
+Set a barbell at waist height in a rack, grip it overhand, and row your chest to the bar with your body angled below. The more horizontal your body, the harder the movement.
+
+- Sets: 3 × 8–10 reps
+- Frequency: 2x per week
+
+This builds mid-back strength and scapular retraction — both required for pull-ups.
+
+### Dead Hangs
+
+Grip a bar and hang for time. Builds grip strength and shoulder stability.
+
+- Duration: 3 × 20–30 seconds
+- Frequency: 2–3x per week
+
+## Phase 2: Negatives (1–3 Pull-Ups)
+
+Once you have a pulling base — or can already squeeze out 1–3 reps — negatives are your primary tool.
+
+### Negative Pull-Ups
+
+Jump or step to the top position (chin above bar), then lower yourself over 4–5 seconds. **This eccentric-only method builds pull-up specific strength faster than any substitute.**
+
+- Sets: 4–5 × 3–5 negatives
+- Tempo: 4–5 seconds down, controlled all the way to dead hang
+- Rest: 2–3 minutes between sets
+- Frequency: 2x per week
+
+Negatives are the single best tool for going from 0 to 5 pull-ups. Don't replace them with band-assisted reps — they're not the same stimulus.
+
+### Band-Assisted Pull-Ups (Supplementary)
+
+A resistance band looped around the bar and under your knee reduces effective bodyweight. **Use the lightest band that allows clean reps.**
+
+- Sets: 3 × 5–8 reps
+- Rest: 2 minutes
+- Frequency: 1x per week as a supplement to negatives
+
+Track which band you're using and your rep count each session. With VoiceLift, a spoken note between sets — "band pull-ups, red band, 6 reps, RPE 8" — keeps your progression visible without reaching for your phone mid-rest.
+
+## Phase 3: Building Volume (4–6 Pull-Ups)
+
+At this stage you can do pull-ups — the goal is to accumulate enough volume to drive adaptation without grinding to failure every session.
+
+### Grease the Groove
+
+Perform sets well below your max (40–50% of top set) multiple times throughout the day, never approaching failure.
+
+**Example:** If your max is 5, do sets of 2–3 every hour at home. This builds total weekly volume without central fatigue.
+
+- Frequency: Daily or near-daily
+- Intensity: Stop well before failure
+- Duration: 3–4 weeks
+
+### Gym Sessions: Submaximal Volume
+
+In the gym, structure pull-up work like this:
+
+- 5 sets × 60–70% of your max reps
+- 2–3 minutes rest between sets
+- 2–3x per week
+
+If your max is 6, do sets of 4. Add one rep per set when all sets feel controlled.
+
+## Phase 4: Closing the Gap to 10 (7–9 Pull-Ups)
+
+### Rep Goal Method
+
+Pick a total rep target and hit it in as few sets as possible, resting 2–3 minutes between sets.
+
+- Week 1: 25 total reps per session
+- Week 2: 30 total reps
+- Week 3: 35 total reps
+- Week 4: Deload — 2 sets × 50% of max
+
+This protocol self-adjusts as you get stronger and naturally increases density over time.
+
+### Add Load
+
+Once you're hitting 8+ clean reps, a small weight (5–10 lb dumbbell held between feet, or a dip belt) builds strength that rapidly increases your bodyweight max.
+
+**One weighted pull-up session per week is enough.** Continue bodyweight volume work on other days.
+
+## Track Every Session
+
+Pull-up progress is easy to misread without records. You'll feel stuck when you're actually improving — small rep gains week to week compound into 8–10 reps over a mesocycle.
+
+**Track every session:** max reps, band used, added load, RPE. Logging takes three seconds verbally — "pull-ups, 7 reps, bodyweight, RPE 9" — and over 8–12 weeks, the trend line becomes unmistakable. VoiceLift captures that data in real time so you can review your pull-up history the same way you review your bench or squat.
+
+## The Takeaway
+
+**Pull-up progression follows a clear path when you actually follow it:**
+
+- Build base pulling strength with lat pulldowns and inverted rows before attempting pull-ups
+- Use negatives aggressively — they're the fastest strength builder for this movement
+- Accumulate volume with grease-the-groove protocols, not daily grinding to failure
+- Add load once you can hit 8+ reps, and track every session
+
+Most people stall at 3–5 pull-ups because they repeat the same reps with no progression plan. Follow the phases, log the numbers, and 10 clean reps is a realistic 8–16 week target starting from zero.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-08-10",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "time-under-tension-muscle-growth",
     slug: "time-under-tension-muscle-growth",
     title: "Time Under Tension for Muscle Growth: Does TUT Actually Work?",
