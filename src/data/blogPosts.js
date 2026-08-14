@@ -1,5 +1,127 @@
 export const blogPosts = [
   {
+    id: "core-training-for-lifters",
+    slug: "core-training-for-lifters",
+    title: "How to Build Core Strength: Essential Exercises for Lifters",
+    excerpt: "Most lifters limit core work to crunches and call it done. Here's how to build the anti-extension, anti-rotation, and bracing strength that actually transfers to your squat, deadlift, and press.",
+    metaDescription: "How to build core strength for lifters: anti-extension, anti-rotation, and bracing exercises that directly improve squats, deadlifts, and pressing performance.",
+    content: `
+# How to Build Core Strength: Essential Exercises for Lifters
+
+Your core isn't your abs. That misunderstanding is why most lifters spend time doing crunches and still wonder why their squat feels unstable at heavy weights.
+
+**Core strength for lifters** means the ability to generate and resist force through the torso under load — bracing against a heavy squat, staying rigid through a deadlift pull, maintaining position during any compound movement. If your core can't hold position when things get heavy, the lift fails. Or worse, you get hurt.
+
+This guide covers the core exercises that actually matter for lifting performance and how to program them without adding another hour to your sessions.
+
+## What "Core" Actually Means for Lifting
+
+The core includes every muscle that stabilizes the spine and pelvis:
+
+- **Rectus abdominis** — front abs, spinal flexion
+- **Transverse abdominis** — the deep stabilizer, your "inner belt"
+- **Obliques** (internal and external) — rotation and lateral stability
+- **Erector spinae** — lower back extensors
+- **Quadratus lumborum** — lateral stabilizers of the lumbar spine
+- **Glutes and hip flexors** — often classified as core for lifting purposes
+
+Crunches train one piece: the rectus abdominis in spinal flexion. But squats, deadlifts, rows, and pressing all require **anti-movement** — resisting extension, flexion, and rotation while force is applied to the system.
+
+That's the basis of intelligent core training for strength athletes.
+
+## The Four Core Functions Worth Training
+
+### 1. Anti-Extension
+
+Resisting the lower back from arching under load. This is the most critical function for anyone doing heavy barbell work.
+
+**Best exercises:**
+
+- **Ab wheel rollout** — the gold standard. Extend forward on your knees or toes, return under control. 3–4 sets of 6–10 reps. If you can't hold a neutral spine at full extension, regress to a shorter range.
+- **RKC plank** — Not a standard plank. Squeeze everything at once — glutes, quads, abs — and hold for 10–20 seconds. Far more demanding and specific to bracing under load.
+- **Dead bug** — Lying on your back, press your lower back flat and extend the opposite arm and leg simultaneously. Trains the ability to brace before loading. 3 × 6–8 reps per side.
+
+**Why it matters:** Anti-extension directly trains what happens under a heavy squat or deadlift when the load tries to collapse your lumbar spine into extension.
+
+### 2. Anti-Lateral Flexion
+
+Resisting the torso from bending sideways. Relevant for any unilateral carry or loaded single-leg work.
+
+**Best exercises:**
+
+- **Suitcase carry** — Walk with a heavy dumbbell or kettlebell in one hand. The demand on the lateral core to stay upright is extreme. 3 × 30–40m per side.
+- **Single-arm overhead carry** — Carries a loaded implement overhead with one hand. Combines shoulder stability and anti-lateral flexion simultaneously.
+
+### 3. Anti-Rotation
+
+Resisting twisting forces. Essential for any rowing, asymmetric pressing, or single-arm work.
+
+**Best exercises:**
+
+- **Pallof press** — Set a cable or band at chest height. Stand perpendicular to the anchor, press your arms straight out, and resist the rotational pull. **One of the most specific and underused core exercises for strength athletes.** 3 × 8–12 reps per side.
+- **Single-arm cable row** — A pulling exercise that requires active anti-rotation to execute properly. Two-for-one.
+
+### 4. Hip Flexion Under Tension
+
+The one flexion-dominant movement that transfers directly to lifting — but it needs to be controlled.
+
+**Best exercises:**
+
+- **Hanging knee or leg raise** — Dead hang from a bar, raise knees to 90 degrees or higher. Focus on posterior pelvic tilt — not just momentum. 3 × 8–12 reps.
+- **Copenhagen plank** — Lying on your side, place your top foot on a bench and raise your hips. Brutal adductor and oblique exercise that addresses a weak point most lifters never train. 3 × 8–15 seconds per side.
+
+## How to Program Core Work for Strength
+
+Core training for lifting performance doesn't need its own day. Here's how to integrate it efficiently:
+
+- **Post-main-lift, pre-accessory** is the most common placement. Your core is fresh enough to train well without interfering with your main movements.
+- **2–3 times per week** is sufficient for most lifters. Your core already trains hard on every heavy compound set — more isn't always better.
+- **Progressive overload applies.** Treat core exercises like any other lift. Add reps, then resistance. Log your ab wheel sessions the same way you log your squat. With VoiceLift, you can call out your core sets between main lifts without touching your phone — "ab wheel, 8 reps, bodyweight" — and it stays in your training log with everything else.
+
+### Sample Core Block (15 Minutes, 2–3x Per Week)
+
+| Exercise | Sets | Reps / Duration |
+|---|---|---|
+| Dead bug | 3 | 6 per side |
+| Ab wheel rollout | 3 | 8–10 |
+| Pallof press | 3 | 10 per side |
+| Suitcase carry | 3 | 30m per side |
+
+Run this block at the end of any upper or lower body day. After 4–6 weeks, add resistance to the ab wheel and increase carry load.
+
+## Core Training Mistakes Lifters Make
+
+**Training only flexion.** Crunches aren't useless — but if that's your entire core program, you're missing anti-extension and anti-rotation entirely. These are the qualities that break down under heavy loads.
+
+**Going to failure on everything.** Core stability training is about quality and tension, not grinding out reps. Stop 1–2 reps short of failure on loaded movements. Sloppy fatigue reps don't transfer to bracing under a barbell.
+
+**Ignoring the lower back.** The erector spinae are part of the core. Good mornings, Romanian deadlifts, and back extensions build posterior chain core strength. Your squat and deadlift numbers depend on a strong lower back as much as strong abs.
+
+**Skipping progression.** Most people do the same plank for the same duration for months. There are harder variations — the RKC plank, feet-elevated plank, ab wheel from toes instead of knees, full Copenhagen planks. Apply the same progression logic you use on your main lifts.
+
+## How Core Strength Shows Up Under the Bar
+
+A strong core is invisible until its absence causes a problem. You'll notice it when:
+
+- Your upper body doesn't collapse forward at the bottom of a heavy squat
+- Your lower back stays neutral when pulling from the floor on a difficult set
+- You can maintain a rigid position on sets that would have broken your form six months ago
+
+**The core is the transmission between your legs and your upper body.** Every pound of force produced below transfers through it. A weak transmission leaks force — and that's what limits your total output at the barbell.
+
+## Takeaway
+
+Core training for lifters comes down to four qualities: resisting extension, lateral flexion, rotation, and controlled hip flexion. Two to three focused 15-minute blocks per week — with real progression built in — is enough to meaningfully improve bracing under heavy load and reduce your injury risk.
+
+Treat it like any other training variable. Log it, progress it, and watch your main lifts improve as a direct result. If you're already tracking squats and deadlifts with VoiceLift, adding your core work by voice takes seconds and keeps your entire training session in one place.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-08-14",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "pull-up-progression-guide",
     slug: "pull-up-progression-guide",
     title: "Pull-Up Progression: How to Go from Zero to 10 Reps",
