@@ -1,5 +1,144 @@
 export const blogPosts = [
   {
+    id: "push-pull-legs-routine-guide",
+    slug: "push-pull-legs-routine-guide",
+    title: "Push Pull Legs Routine: The Complete PPL Training Guide",
+    excerpt: "The push pull legs routine is one of the most effective training splits for building muscle. Here's exactly how to structure it, what to train each day, and how to make it work for your schedule.",
+    metaDescription: "Push pull legs routine explained: how to structure PPL training, what exercises to use on each day, and how to optimize frequency for maximum muscle growth.",
+    content: `
+# Push Pull Legs Routine: The Complete PPL Training Guide
+
+The **push pull legs routine** — commonly called PPL — is one of the most popular and effective training splits for intermediate lifters. It organizes your training by movement pattern rather than muscle group, which allows you to train each muscle 2x per week without scheduling conflicts or excessive overlap.
+
+If you've outgrown a 3-day full-body program or feel like a bro split isn't giving you enough frequency, PPL is usually the next logical step.
+
+## What Is the Push Pull Legs Split?
+
+PPL divides your training week into three types of sessions:
+
+- **Push day** — chest, shoulders, triceps (all pressing and pushing movements)
+- **Pull day** — back, biceps, rear delts (all pulling and rowing movements)
+- **Legs day** — quads, hamstrings, glutes, calves
+
+You run this cycle twice per week (6 days), or once through (3 days) if you need more recovery. The logic is clean: muscles that work together train together, and muscles that rest while others work get adequate recovery.
+
+## Why PPL Works for Muscle Growth
+
+### Twice-Weekly Frequency Per Muscle Group
+
+Research consistently shows that **training each muscle group twice per week** produces more hypertrophy than once-weekly training at the same total volume. A 6-day PPL gives you exactly that — each muscle hits two full sessions per week, spaced roughly 48–72 hours apart.
+
+### Logical Groupings Minimize Overlap
+
+On push day, your triceps assist your chest and shoulder pressing. On pull day, your biceps assist your rows and pull-downs. This is already how your muscles work — PPL just makes the groupings explicit. You're not double-taxing biceps on chest day like you might in a poorly designed bro split.
+
+### Scalable Volume
+
+PPL gives you 2 full sessions per week per muscle group. You can start at 10–12 sets per session and adjust based on recovery. That makes it significantly easier to hit the **10–20 sets per muscle per week** that research identifies as the effective volume range for hypertrophy.
+
+## Sample Push Pull Legs Routine (6-Day)
+
+### Push Day A
+
+| Exercise | Sets | Reps |
+|---|---|---|
+| Barbell Bench Press | 4 | 5–8 |
+| Incline Dumbbell Press | 3 | 8–12 |
+| Overhead Press | 3 | 8–10 |
+| Lateral Raises | 3 | 12–15 |
+| Tricep Pushdown | 3 | 10–15 |
+| Overhead Tricep Extension | 2 | 12–15 |
+
+### Pull Day A
+
+| Exercise | Sets | Reps |
+|---|---|---|
+| Deadlift | 3 | 4–6 |
+| Barbell Row | 3 | 6–10 |
+| Lat Pulldown | 3 | 8–12 |
+| Cable Row | 3 | 10–12 |
+| Face Pulls | 3 | 15–20 |
+| Barbell or Dumbbell Curl | 3 | 10–15 |
+
+### Legs Day A
+
+| Exercise | Sets | Reps |
+|---|---|---|
+| Barbell Squat | 4 | 5–8 |
+| Romanian Deadlift | 3 | 8–10 |
+| Leg Press | 3 | 10–15 |
+| Leg Curl | 3 | 10–15 |
+| Leg Extension | 3 | 12–15 |
+| Standing Calf Raise | 4 | 12–20 |
+
+Run Push A / Pull A / Legs A / Push B / Pull B / Legs B, with your B sessions using different exercise variations (incline pressing on Push B instead of flat bench, for example). This gives you variety while maintaining frequency.
+
+## How to Schedule Your PPL Week
+
+**6-Day PPL:**
+Mon / Tue / Wed / Thu / Fri / Sat — Push / Pull / Legs / Push / Pull / Legs — with Sunday off.
+
+**3-Day PPL** (if you need more recovery):
+Mon / Wed / Fri — Push / Pull / Legs — running each session once per week. Less optimal for frequency but far better than doing nothing.
+
+**4-Day PPL** (a practical middle ground):
+Push / Pull / Rest / Legs / Push / Rest / Rest — running the cycle on a rolling 7-day basis. Good if you can't commit to 6 days consistently.
+
+Most intermediate lifters do best starting with the 3-day version and progressing to 6 days as conditioning and recovery capacity improve.
+
+## Common Push Pull Legs Mistakes
+
+### Skipping Legs Twice a Week
+
+Legs day is hard. It's why people skip it. On a 6-day PPL, that means you're running Push / Pull / Push / Pull in an endless cycle and wondering why your lower body isn't growing. Legs twice a week is non-negotiable for balanced development.
+
+### Turning Push Day Into Chest Day
+
+Push day covers chest, shoulders, and triceps. If you're doing six chest exercises and two tricep exercises, you're doing chest day with extra steps. **Balance your push day:** two chest movements, one or two shoulder movements, one or two tricep movements.
+
+### Overloading Pull Day
+
+Pull day can balloon fast — back has a lot of muscles (lats, mid-back, rear delts) and you want to train them all. Keep it under 6–7 exercises. Quality over quantity; supersets and cables can add volume efficiently without inflating session length.
+
+### Not Tracking Progress
+
+PPL only works if you're progressing. Adding a small amount of weight or reps each week — **progressive overload** — is what drives actual muscle growth. If you're not tracking your lifts, you have no way to know whether you're progressing.
+
+With VoiceLift, you can log your entire PPL session hands-free between sets. "Bench press, 4 sets, 185 for 6, 185 for 5, 185 for 5, 185 for 4" takes two seconds to say. The app parses the whole sequence and stores it against last week's numbers, so you can see exactly where you need to add weight.
+
+## Who PPL Is For
+
+**PPL works best for:**
+
+- Intermediate lifters (6+ months of consistent training) who've outgrown a 3-day full-body program
+- People who can train 6 days a week or want a flexible 3-day structure
+- Anyone who wants a clear, logical framework that separates muscle groups sensibly
+
+**PPL is not ideal for:**
+
+- Complete beginners — a full-body program with lower frequency builds the skill and base strength needed first
+- People with less than 4 days available — upper/lower is a better split at 4 days
+- Advanced lifters — often need more specialization than a general PPL provides
+
+## Making PPL Work Long-Term
+
+The best training split is the one you actually run consistently. PPL has an edge here — the structure is clear, the sessions feel complete, and you always know what you're training that day.
+
+Run it for 8–12 weeks. Track every session. Add weight when you hit the top of your rep range. When progress stalls, deload for a week, then reassess volume. The split itself isn't the variable — progressive overload and recovery are.
+
+## The Bottom Line
+
+The **push pull legs routine** hits every major muscle group twice per week, keeps recovery clean, and scales from 3 to 6 days depending on what your life allows. It's earned its reputation as one of the most balanced and effective training splits for natural lifters trying to build muscle consistently.
+
+Set up your template, track your numbers, and add weight to the bar every week you can. That's what makes any split work.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-08-21",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "drop-sets-for-muscle-growth",
     slug: "drop-sets-for-muscle-growth",
     title: "Drop Sets for Muscle Growth: How and When to Use Them",
