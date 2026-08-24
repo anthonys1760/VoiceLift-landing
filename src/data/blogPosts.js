@@ -1,5 +1,99 @@
 export const blogPosts = [
   {
+    id: "training-volume-vs-intensity",
+    slug: "training-volume-vs-intensity",
+    title: "Training Volume vs Intensity: What Actually Builds More Muscle",
+    excerpt: "Training volume and intensity both drive muscle growth, but they work through different mechanisms. Here's how to balance them based on your actual goal.",
+    metaDescription: "Learn how training volume and intensity each drive muscle growth and strength. Find out the right balance for your goal — hypertrophy, strength, or both.",
+    content: `
+# Training Volume vs Intensity: What Actually Builds More Muscle
+
+The debate over **training volume vs intensity** has been running since people started lifting with a purpose. Should you train heavy — low reps, high weight? Or pile on sets at moderate loads? The answer depends on what you're optimizing for, and understanding how these two variables interact is what separates lifters who progress from those who spin their wheels.
+
+## Defining the Terms First
+
+Before comparing them, get clear on what these words actually mean in a training context:
+
+- **Volume**: the total amount of work performed — most practically measured as the number of hard sets per muscle group per week
+- **Intensity**: in strength training, this refers to the percentage of your one-rep max (1RM) you're lifting, not how difficult the session feels subjectively
+
+A set of 3 reps at 90% 1RM is **high intensity, low volume**.
+A set of 15 reps at 60% 1RM is **low intensity, higher volume**.
+
+Most programs sit somewhere between these extremes — and both variables matter, for different reasons.
+
+## What the Research Actually Says
+
+### Intensity Drives Strength Adaptations
+
+Heavy loads (≥80% 1RM) are the primary driver of **neural adaptations** — your nervous system becomes more efficient at recruiting motor units. This is why powerlifters, who train heavy with low reps, tend to be stronger relative to their muscle size than bodybuilders training at higher reps and similar body weight.
+
+A 2017 Schoenfeld meta-analysis confirmed that **strength gains are maximized by heavier loading**, though a wide rep range can build comparable muscle mass.
+
+### Volume Drives Hypertrophy
+
+For muscle growth, **volume is the primary driver**. The dose-response relationship is well established: more hard sets per muscle per week equals more muscle, up to your recovery ceiling.
+
+The effective range for most lifters is **10–20 hard sets per muscle group per week**. Within that range, intensity matters less for hypertrophy than people think — you can build muscle across a broad rep range (5–30 reps) as long as you're training close to failure on each set.
+
+## Why This Isn't a Binary Choice
+
+The best programs use both levers, not one. Here's the practical logic:
+
+- **Heavy compound work** (3–5 reps, 80–90% 1RM) builds the strength base that lets you eventually move more weight for more reps in your hypertrophy work
+- **Moderate-rep accessory work** (8–15 reps) accumulates the volume needed for growth without excessive joint stress
+
+Think of it as a pyramid: intensity lifts the ceiling of what you can eventually do with volume.
+
+## How to Bias Your Training Based on Goal
+
+**If your primary goal is strength:**
+- Lead with heavy compound movements (squat, deadlift, press, row) in the 3–6 rep range
+- Keep accessory volume moderate — 3–4 sets per exercise
+- Train each lift more frequently at lower volume per session (2–3x per week)
+
+**If your primary goal is muscle size:**
+- Include some heavy work for strength base, but emphasize 6–15 reps for most sets
+- Push weekly sets per muscle group higher — 12–16 hard sets per week is a solid target
+- Prioritize getting close to failure on each set; load is secondary
+
+**If you want both:**
+- **Periodize.** Run 4–6 week blocks emphasizing strength (lower reps, heavier loads), then shift to blocks emphasizing volume. This is called undulating periodization, and it's what most solid intermediate programs already do implicitly.
+
+## Common Mistakes With Both Variables
+
+### Treating Intensity Techniques as Volume
+
+Drop sets, supersets, and rest-pause sets increase **effective fatigue**, not equivalent training volume. A drop set doesn't count as two full sets for programming purposes. Use these techniques to add density when time is limited — not as a justification to cut total sets.
+
+### Ignoring Progression on Either Variable
+
+Both volume and intensity need to progress over time. That means:
+
+- Gradually adding weight to the bar (intensity progression)
+- Gradually adding sets per week across a training block (volume progression)
+
+If neither variable is moving, you're not giving your body a reason to adapt.
+
+## Tracking Both Variables Accurately
+
+You can't optimize what you don't measure. Most lifters underestimate how much (or how little) volume they're actually accumulating per muscle group. And if you're guessing what percentage of your 1RM you worked at last session, you have no intensity baseline to build from.
+
+Voice logging between sets is the fastest way to capture both numbers accurately in real time — weight, reps, and set count — without pulling out a phone mid-set or guessing later. VoiceLift tracks this session by session so you can see your actual weekly volume per muscle and watch intensity trends across a training block, not just assume everything is progressing.
+
+## The Bottom Line
+
+**Training volume vs intensity** is a false choice. Intensity sets the weight on the bar; volume determines how much total work your muscles receive. Both matter, and the optimal blend shifts based on your goal.
+
+Bias toward intensity for strength. Bias toward volume for size. Build in both across a periodized program. Track both variables consistently. That's the formula — and it works precisely because it doesn't force you to pick one.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-08-24",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "push-pull-legs-routine-guide",
     slug: "push-pull-legs-routine-guide",
     title: "Push Pull Legs Routine: The Complete PPL Training Guide",
