@@ -1,5 +1,138 @@
 export const blogPosts = [
   {
+    id: "upper-lower-split-workout-program",
+    slug: "upper-lower-split-workout-program",
+    title: "Upper Lower Split: The 4-Day Program for Strength and Size",
+    excerpt: "The upper lower split hits every muscle group twice a week in just four sessions — making it one of the most efficient programs for building strength and size simultaneously.",
+    metaDescription: "Learn how to run an upper lower split: 4-day structure, sample workouts, progressive overload tips, and why it builds strength and size faster than most splits.",
+    content: `
+# Upper Lower Split: The 4-Day Program for Strength and Size
+
+The **upper lower split** divides your training into upper-body and lower-body days, rotating through four sessions per week. It's not flashy, but it consistently outperforms more complex splits for intermediate lifters because of one key advantage: it hits every muscle group twice per week without requiring five or six training days.
+
+If you're past the beginner phase and running a 3-day full-body program isn't cutting it anymore — or you're on a bro split and only hitting each muscle once a week — the upper lower split is probably your next step.
+
+## What Is the Upper Lower Split?
+
+The structure is simple:
+
+- **Upper A** — Strength-focused upper body (horizontal push/pull emphasis)
+- **Lower A** — Strength-focused lower body (squat pattern emphasis)
+- **Upper B** — Volume-focused upper body (vertical push/pull emphasis)
+- **Lower B** — Volume-focused lower body (hip hinge emphasis)
+
+A standard weekly layout looks like this:
+
+- Monday: Upper A
+- Tuesday: Lower A
+- Wednesday: Rest
+- Thursday: Upper B
+- Friday: Lower B
+- Saturday/Sunday: Rest
+
+You hit chest, back, shoulders, and arms twice weekly. You hit quads, hamstrings, glutes, and posterior chain twice weekly. The split between A and B days lets you vary the stimulus — one session biased toward strength (3–6 reps, heavier loads), one toward hypertrophy (8–15 reps, more volume).
+
+## Who Benefits Most From an Upper Lower Split
+
+This program is designed for **intermediate lifters** — people who've been training consistently for 12+ months and have a foundation of strength. If you're new, full-body 3x/week programs still produce faster progress. If you've been training for years, more advanced periodization might be warranted.
+
+The upper lower split is ideal if you:
+
+- Can train 4 days per week consistently
+- Have baseline strength (e.g., squatting ~1.5x bodyweight, benching ~1x bodyweight)
+- Want to continue building both strength and muscle simultaneously
+- Have been plateauing on a 3-day or bro-split program
+
+## Sample Upper Lower Split Workouts
+
+### Upper Day A (Strength Focus)
+
+| Exercise | Sets x Reps |
+|---|---|
+| Barbell Bench Press | 4 x 4–6 |
+| Barbell Row | 4 x 4–6 |
+| Overhead Press | 3 x 5–7 |
+| Weighted Pull-Up or Lat Pulldown | 3 x 5–7 |
+| Tricep Dips or Pushdown | 3 x 8–10 |
+| Barbell Curl | 3 x 8–10 |
+
+### Lower Day A (Strength Focus)
+
+| Exercise | Sets x Reps |
+|---|---|
+| Barbell Back Squat | 4 x 4–6 |
+| Romanian Deadlift | 3 x 6–8 |
+| Leg Press | 3 x 8–10 |
+| Leg Curl | 3 x 10–12 |
+| Calf Raises | 4 x 12–15 |
+| Ab Work | 3 sets |
+
+### Upper Day B (Hypertrophy Focus)
+
+| Exercise | Sets x Reps |
+|---|---|
+| Incline Dumbbell Press | 4 x 8–12 |
+| Cable Row or Machine Row | 4 x 10–12 |
+| Dumbbell Shoulder Press | 3 x 10–12 |
+| Pull-Up or Assisted Pull-Up | 3 x 8–12 |
+| Cable Fly or Pec Deck | 3 x 12–15 |
+| Face Pulls | 3 x 15–20 |
+| Hammer Curls | 3 x 10–12 |
+
+### Lower Day B (Hip Hinge Focus)
+
+| Exercise | Sets x Reps |
+|---|---|
+| Conventional Deadlift | 4 x 3–5 |
+| Hack Squat or Front Squat | 3 x 8–10 |
+| Bulgarian Split Squat | 3 x 10–12 each |
+| Leg Curl | 3 x 12–15 |
+| Hip Thrust | 3 x 12–15 |
+| Calf Raises | 3 x 15–20 |
+
+## How to Progress on an Upper Lower Split
+
+**Progressive overload is non-negotiable.** The split only works if the numbers go up over time. Here's a simple approach:
+
+- On strength days (A): when you hit the top of your rep range on all sets, add 5 lbs (upper body) or 10 lbs (lower body) next session
+- On hypertrophy days (B): when you hit the top of your rep range with good form, add 5 lbs or add a rep before adding weight
+- Every 4–6 weeks, take a deload — drop volume and intensity by ~40% for one week
+
+**Tracking every session is what makes or breaks this.** It's easy to think you're progressing when you're actually repeating the same weights and rep counts for weeks. The only way to know is to log your sets in real time — weight, reps, and how close to failure each set was.
+
+VoiceLift makes this frictionless between sets: say what you lifted and the app captures it, so your next session you can pull up exactly what you did and know precisely what to beat.
+
+## Common Mistakes to Avoid
+
+### Skipping the A/B Day Variation
+
+Both days hitting the same exercises removes the variation that makes the split effective. Upper A and Upper B should use **different movement patterns and different rep ranges**. Don't just repeat Monday's workout on Thursday with the same exercises.
+
+### Turning Every Set Into a Max Effort
+
+Strength days are not max-out days. A 4x5 at 80–85% 1RM should feel hard but controlled. **Grinding reps to failure on compound movements** increases injury risk and slows long-term progression. Save true failure-adjacent effort for isolation work at the end of sessions.
+
+### Not Eating Enough to Recover
+
+Four training days per week with twice-a-week frequency per muscle group demands adequate nutrition. If you're in a significant caloric deficit, your recovery will suffer and progress will stall. You don't need to bulk aggressively, but you need maintenance calories at minimum to sustain this volume.
+
+### Programming Only What You Like
+
+Most lifters over-program push and under-program pull. The upper lower split structure naturally addresses this, but only if you actually do the rows, pull-ups, and face pulls with the same effort you put into bench and overhead press.
+
+## The Bottom Line
+
+The **upper lower split** is one of the most battle-tested programs for intermediate lifters. Four days, twice-a-week frequency per muscle, and a built-in mechanism to develop both strength and size in the same training block.
+
+The keys to making it work: separate your A and B days by stimulus (strength vs. volume), progress every session, and track your numbers consistently. What gets measured gets moved.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-08-28",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1549476464-37392f717541?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "training-volume-vs-intensity",
     slug: "training-volume-vs-intensity",
     title: "Training Volume vs Intensity: What Actually Builds More Muscle",
