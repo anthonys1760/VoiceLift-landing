@@ -1,5 +1,99 @@
 export const blogPosts = [
   {
+    id: "powerlifting-vs-bodybuilding",
+    slug: "powerlifting-vs-bodybuilding",
+    title: "Powerlifting vs Bodybuilding: Which One Is Right for You?",
+    excerpt: "Powerlifting and bodybuilding share barbells and sweat, but they train for completely different goals. Here's how the two methods differ and how to choose the right one for what you actually want.",
+    metaDescription: "Powerlifting vs bodybuilding: understand the key differences in training, rep ranges, exercise selection, and goals — and which approach fits your objectives.",
+    content: `
+# Powerlifting vs Bodybuilding: Which One Is Right for You?
+
+If you've spent any time in the gym, you've heard both terms. **Powerlifting vs bodybuilding** is one of the most common debates in strength training — and for good reason. These are two of the most popular approaches to resistance training in the world, but they optimize for different outcomes, use different methods, and produce different results. Knowing the distinction helps you stop guessing and start training with a clear purpose.
+
+## What Is Powerlifting?
+
+Powerlifting is a strength sport with a single objective: **lift as much weight as possible in the squat, bench press, and deadlift**. Competition is judged on the total load across three attempts at each lift. Every decision in powerlifting programming — exercise selection, rep ranges, periodization — points back to maximizing force production in those three movements.
+
+Powerlifters train for **neurological efficiency**: teaching the central nervous system to recruit maximum motor units simultaneously. This means heavy loads, low rep counts, and long rest periods between sets. Muscle mass is a byproduct of years under heavy load, not an explicit goal.
+
+## What Is Bodybuilding?
+
+Bodybuilding is a physique sport. The competitive goal is **maximizing muscle mass, symmetry, and definition**, judged on stage under lights. Off-stage, most people who train with a bodybuilding approach aren't competing — they want to look better, build muscle, and improve their proportions.
+
+Bodybuilders train for **hypertrophy** — the cellular growth of muscle fibers in response to mechanical tension and metabolic stress. Load matters less than stimulus. A perfectly executed 12-rep set at 65% of your max produces more hypertrophy than a sloppy grinder at 90% if your form broke down halfway through.
+
+## Key Training Differences
+
+### Rep Ranges and Intensity
+
+| | Powerlifting | Bodybuilding |
+|---|---|---|
+| **Primary rep range** | 1–5 reps | 6–15 reps |
+| **Training intensity** | 80–100% of 1RM | 60–80% of 1RM |
+| **Rest between sets** | 3–5 minutes | 60–120 seconds |
+
+Powerlifting lives at the top of the intensity spectrum. Most working sets exceed 80% of 1RM. Bodybuilding thrives in the moderate rep ranges where both **mechanical tension and metabolic stress** — the two primary drivers of muscle hypertrophy — are simultaneously elevated.
+
+### Exercise Selection
+
+Powerlifters rotate around the big three and their close variations. A typical powerlifting block might include: competition squat, pause squat, box squat, close-stance variation. Everything maps back to the competition movements.
+
+Bodybuilders use a far wider exercise library. Cables, machines, dumbbells, unilateral movements, and isolation exercises all have a place — the only requirement is that the movement effectively trains the target muscle through a full range of motion. There's no competition lift to preserve.
+
+### Volume per Session
+
+- **Powerlifters** train the competition lifts frequently (often 3–6 times per week across squat, bench, deadlift) with lower volume per session
+- **Bodybuilders** hit each muscle group 1–2 times per week with higher per-session volume — multiple exercises, more angles, higher total set count
+
+## The Overlap Most People Miss
+
+Here's the reality: **the best programs in both sports converge significantly at the intermediate level.**
+
+Research on hypertrophy consistently shows that strength and muscle growth are tightly coupled — you can't build a fully developed muscle without getting meaningfully stronger over time. Conversely, powerlifters who add muscle mass can sustain higher training intensities for longer. The tools aren't in opposition; they reinforce each other.
+
+Many elite powerlifters run structured hypertrophy phases in the off-season before returning to competition-specific work. Many experienced bodybuilders periodize deliberate strength blocks to push their baseline strength higher, then use that new ceiling to drive harder hypertrophy work. This is not a coincidence — it's smart programming.
+
+## How to Choose Between Powerlifting and Bodybuilding
+
+Ask yourself one direct question: **what result do you actually want?**
+
+- **If you want maximum strength in the squat, bench, and deadlift** — and competition interests you — powerlifting specificity is the right path. Every set should serve those three lifts.
+- **If you want maximum muscle mass and better proportions** — bodybuilding training gives you the volume, exercise variety, and rep ranges to drive hypertrophy across all muscle groups.
+- **If you're early in your training** — it doesn't matter much yet. A solid program built around compound lifts and progressive overload accomplishes both goals simultaneously. The difference becomes meaningful only once you're experienced enough to need more specificity.
+
+## Can You Train Like Both?
+
+Yes — and most intermediate lifters benefit from exactly that. **Powerbuilding** is a hybrid approach that prioritizes heavy compound work at low-to-moderate reps while adding bodybuilding-style isolation volume. It's an effective middle ground when you want to get stronger AND build more muscle without fully committing to either sport.
+
+A powerbuilding session might look like:
+
+- **Squat**: 4 x 3 at 85% 1RM
+- **Leg press**: 3 x 12
+- **Romanian deadlift**: 3 x 10
+- **Leg curl**: 3 x 15
+- **Calf raises**: 4 x 20
+
+The competition movement stays the anchor, but the accessory volume drives hypertrophy in the supporting musculature.
+
+## Tracking Progress in Either Approach
+
+Whether you're a powerlifter or a bodybuilder, **progress only happens when you can measure it clearly**. Powerlifters track percentages, training maxes, and volume load by lift. Bodybuilders track weight and reps across dozens of exercises across multiple sessions per week.
+
+That's a significant logging burden when you're mid-set and don't want to break focus. VoiceLift handles this hands-free — log your working weight and reps by voice the second you finish each set, so your next session has accurate data to build on instead of rough estimates.
+
+## The Bottom Line
+
+**Powerlifting trains force production. Bodybuilding trains hypertrophy.** Both require progressive overload over time, and both benefit from tracking what you did last week so this week is harder.
+
+Choose the style that matches what you actually want, run it consistently for at least 3–6 months before drawing conclusions, and log your progress with enough detail to know whether you're actually improving. That's where results come from — not the label you put on your training.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-04",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-increase-grip-strength",
     slug: "how-to-increase-grip-strength",
     title: "How to Increase Grip Strength: The Complete Training Guide",
