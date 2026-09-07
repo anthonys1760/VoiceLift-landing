@@ -1,5 +1,112 @@
 export const blogPosts = [
   {
+    id: "intermittent-fasting-for-muscle-growth",
+    slug: "intermittent-fasting-for-muscle-growth",
+    title: "Intermittent Fasting for Muscle Growth: What Actually Works",
+    excerpt: "Intermittent fasting compresses when you eat, not what gains are possible — but only if calories and protein are handled right. Here's what the research says.",
+    metaDescription: "Can you build muscle with intermittent fasting? Learn how 16:8 affects protein synthesis, training performance, and muscle growth — and what to do differently.",
+    content: `
+# Intermittent Fasting for Muscle Growth: What Actually Works
+
+**Intermittent fasting (IF)** is one of the most searched nutrition approaches in fitness — and one of the most misapplied. The core question serious lifters ask is simple: can you build muscle while intermittent fasting, or does compressing your eating window undermine hypertrophy?
+
+The answer isn't a clean yes or no. It depends on what you're doing with your calories, your training timing, and your protein intake within that window.
+
+## What Is Intermittent Fasting?
+
+Intermittent fasting is an eating pattern, not a diet. It specifies **when** you eat, not necessarily **what** you eat. The most common protocols:
+
+- **16:8** — 16 hours fasted, 8-hour eating window (the most popular and most studied)
+- **18:6** — 18 hours fasted, 6-hour eating window
+- **OMAD (One Meal A Day)** — 23:1, an extreme version with very limited research in athletic populations
+- **5:2** — 5 days of normal eating, 2 days restricted to roughly 500 calories
+
+Most body composition research on IF uses the 16:8 protocol. Conclusions about 18:6 and OMAD are extrapolated with far less direct evidence.
+
+## Can You Build Muscle While Intermittent Fasting?
+
+**Yes — but with a meaningful asterisk.** Research shows that muscle protein synthesis (MPS) can be effectively stimulated within a compressed eating window, provided you hit adequate total protein over the day and distribute it across enough meals within that window.
+
+The challenge: **muscle protein synthesis is maximized by spacing protein doses throughout the day**. Multiple studies suggest that 3–5 feedings of 0.4–0.6g of protein per kilogram of bodyweight optimally stimulate MPS. Cramming all your protein into a 6–8 hour window compresses that stimulus, which may reduce total MPS compared to more evenly distributed intake.
+
+For practical purposes:
+
+- **16:8 is likely fine for muscle building** — you can fit 3 meaningful protein doses into an 8-hour window
+- **18:6 and OMAD become increasingly limiting** — fewer doses, less total MPS stimulation, and harder to hit calorie needs when trying to build
+
+## Training Timing and the Fasted Workout Question
+
+The biggest practical problem for lifters using IF is **when to train**. Most people fast from evening into late morning, which means morning workouts happen in a fasted state.
+
+**Fasted training isn't disqualifying, but it has real costs:**
+
+- Muscle protein breakdown is elevated during a fasted state
+- Perceived exertion tends to be higher at the same absolute load
+- Performance on high-volume, high-rep work suffers more than low-rep strength work
+
+### The Pragmatic Fix
+
+If you must train fasted, take 10–20g of whey protein or an essential amino acid (EAA) supplement before your session. This blunts muscle protein breakdown without meaningfully breaking the metabolic effects of fasting, and the anabolic stimulus primes the training session. This approach is widely used in research protocols.
+
+If your schedule allows it, train at the start of your eating window. First meal → workout → second meal. This puts your training in the best metabolic position without requiring supplements or workarounds.
+
+## Protein Targets Don't Change
+
+**Intermittent fasting doesn't lower your protein requirements.** Building muscle still requires 0.7–1g of protein per pound of bodyweight (roughly 1.6–2.2g/kg) regardless of your eating window.
+
+On 16:8, that means loading most of your daily protein into 8 hours. For a 185lb lifter targeting 180g of protein, that's three meals averaging 60g each — achievable, but it requires deliberate planning, not passive eating.
+
+What fails most people on IF isn't the protocol itself — it's **failing to hit total protein within the compressed window**, then attributing poor results to timing when the real problem was inadequate intake.
+
+## Calorie Surplus Still Drives Muscle Growth
+
+You cannot build muscle in a sustained caloric deficit. Intermittent fasting changes when you eat, but if it also causes you to eat significantly less than your total daily energy expenditure (TDEE), you've effectively turned a neutral approach into a cut.
+
+Track your total daily intake honestly for at least two weeks. If IF is consistently causing you to under-eat, either:
+
+1. Add more calorie-dense foods within the eating window (nuts, whole milk, olive oil, oats)
+2. Widen the eating window by 1–2 hours
+3. Abandon IF during a muscle-building phase and return to it during a cut
+
+Many lifters do IF successfully during cuts — the appetite suppression effect is an advantage when eating less. Fewer do it successfully during aggressive bulks, where reliably eating **enough** is the harder problem.
+
+## Tracking IF Alongside Your Training
+
+Intermittent fasting adds a layer of complexity to workout logging because training, nutrition timing, and recovery all interact. In the first 4–6 weeks of combining IF with lifting, you need to know:
+
+- Was this a fasted or fed session?
+- Were your working weights up, flat, or down compared to last week?
+- How did RPE feel at the same loads versus non-fasted sessions?
+
+If you're mid-set and don't want to break focus to log this data, VoiceLift handles it by voice — call out your weight and reps the second you finish, and the pattern becomes visible across sessions without the friction of typing between sets. After a few weeks, you'll know clearly whether IF is affecting your performance — or whether it isn't.
+
+## Who Should Use IF for Muscle Building (and Who Shouldn't)
+
+### Good candidates for IF:
+- Lifters who aren't hungry in the morning and naturally skip breakfast anyway
+- People who prefer 2–3 large meals over 5–6 smaller ones
+- Those doing IF primarily during a maintenance or mild surplus phase
+
+### Poor candidates for IF:
+- Lifters who struggle to eat enough calories even on an unrestricted schedule
+- People who train in the morning and don't want to supplement around fasted sessions
+- Anyone doing very high volume work where calorie demands are extreme
+
+## The Bottom Line
+
+**Intermittent fasting is a neutral tool for muscle building when calories and protein are hit within the window.** The window's timing doesn't matter much; what happens inside it does.
+
+Run 16:8 if it fits your schedule and appetite. Don't use it if it causes you to consistently under-eat or under-train. And if your performance starts declining in weeks 3–4, check total intake before blaming the approach.
+
+Compressed eating doesn't make gains impossible — poor execution does.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-07",
+    category: "Nutrition",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "powerlifting-vs-bodybuilding",
     slug: "powerlifting-vs-bodybuilding",
     title: "Powerlifting vs Bodybuilding: Which One Is Right for You?",
