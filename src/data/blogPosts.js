@@ -1,5 +1,130 @@
 export const blogPosts = [
   {
+    id: "how-to-calculate-macros-muscle-building",
+    slug: "how-to-calculate-macros-muscle-building",
+    title: "How to Calculate Macros for Muscle Building: Complete Guide",
+    excerpt: "Macros determine whether you build muscle, maintain, or lose fat — but most lifters skip the math. Here's a simple, accurate way to calculate your macros for muscle growth.",
+    metaDescription: "Learn how to calculate macros for muscle building: set your caloric surplus, protein, fat, and carb targets using your TDEE. Step-by-step guide for lifters.",
+    content: `
+# How to Calculate Macros for Muscle Building: Complete Guide
+
+**Macronutrients** — protein, carbohydrates, and fat — are the three categories all food calories come from. Knowing how to calculate macros for muscle building isn't just useful for competitive athletes; it's the difference between training hard and actually making progress. Most lifters who stall do so because their nutrition is as structured as their diet app usage — inconsistent and untracked.
+
+This guide covers exactly how to set your macros to build muscle, using your own numbers.
+
+## Step 1: Calculate Your TDEE (Total Daily Energy Expenditure)
+
+**Your TDEE is the total calories your body burns in a day**, including exercise. This is your nutritional starting point — every macro target is derived from it.
+
+To find your TDEE:
+
+1. **Calculate your Basal Metabolic Rate (BMR)** using the Mifflin-St Jeor equation:
+   - Men: BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age) + 5
+   - Women: BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age) − 161
+
+2. **Multiply by your activity level:**
+   - Sedentary (desk job, no training): × 1.2
+   - Lightly active (1–3 days/week of training): × 1.375
+   - Moderately active (3–5 days/week): × 1.55
+   - Very active (6–7 days/week of hard training): × 1.725
+
+**Example:** A 25-year-old male, 180 lb (82 kg), 5'11" (180 cm), training 4 days/week:
+- BMR = (10 × 82) + (6.25 × 180) − (5 × 25) + 5 = **1,825 kcal**
+- TDEE = 1,825 × 1.55 = **2,829 kcal/day**
+
+## Step 2: Set Your Caloric Surplus for Muscle Growth
+
+**You cannot build muscle in a sustained caloric deficit.** Muscle synthesis requires raw material — calories above maintenance provide the energy and substrate for new tissue.
+
+The research-supported range for muscle building is a **moderate caloric surplus of 250–500 calories above TDEE**:
+
+- **+250 kcal/day** — slower growth, minimal fat gain; better for intermediate and advanced lifters
+- **+500 kcal/day** — faster growth potential, some additional fat; good for beginners or those underweight
+
+Aggressive "dirty bulks" of +1,000 kcal/day primarily add fat beyond a certain point. Extra calories don't accelerate muscle protein synthesis proportionally once protein and training stimulus are adequate.
+
+Using the example: **2,829 + 350 = 3,179 kcal/day** as a building target.
+
+## Step 3: Set Your Protein Target
+
+Protein is the most important macro for muscle building. It provides the amino acids muscle tissue is made of, and without enough of it, training stimulus produces no growth.
+
+**Target: 0.7–1g of protein per pound of bodyweight (1.6–2.2g/kg)**
+
+- For a 180 lb lifter: **126–180g of protein per day**
+- Most research clusters around 0.8g/lb as the practical effective threshold
+- Higher intakes (up to 1g/lb) carry marginal additional benefit but aren't harmful
+
+**Protein calories:** 1g of protein = 4 calories
+At 160g protein: 160 × 4 = **640 calories from protein**
+
+## Step 4: Set Your Fat Intake
+
+**Dietary fat is essential for hormone production** — including testosterone and growth hormone, both directly relevant to building muscle. Cutting fat too low undermines this.
+
+**Target: 20–35% of total calories from fat, or at minimum 0.35–0.5g per pound of bodyweight**
+
+- For a 180 lb lifter at 3,179 kcal/day: aim for **70–110g of fat daily**
+
+**Fat calories:** 1g of fat = 9 calories
+At 80g fat: 80 × 9 = **720 calories from fat**
+
+## Step 5: Fill Remaining Calories with Carbohydrates
+
+Carbohydrates are your **primary fuel for intense training**. After protein and fat targets are set, the remaining calories come from carbs. This is intentional — carbs are flexible, while protein and fat floors are not.
+
+**Remaining calories = Total target − Protein calories − Fat calories**
+
+Using the example: 3,179 − 640 − 720 = **1,819 calories from carbs**
+1,819 ÷ 4 = **~455g of carbohydrates per day**
+
+### Final Macro Split (180 lb male, 3,179 kcal)
+
+| Macro | Grams | Calories |
+|---|---|---|
+| **Protein** | 160g | 640 kcal |
+| **Fat** | 80g | 720 kcal |
+| **Carbohydrates** | 455g | 1,819 kcal |
+| **Total** | — | 3,179 kcal |
+
+## How to Track Macros Without Losing Your Mind
+
+Tracking sounds tedious. It is, until it becomes routine:
+
+- **Weigh food for the first 4–6 weeks** to calibrate portion sense — after that, eyeballing is usually close enough
+- **Batch cook protein sources** so hitting your protein target doesn't require effort every meal
+- **Track within ±10%** — 145–175g on a 160g target is effective; obsessing over single grams is wasted attention
+- **Log how your training feels** alongside what you're eating — the correlation matters more than the number itself
+
+This is where consistent workout logging pays off. If your calories are dialed but sessions feel flat, the problem is usually carbohydrate availability or meal timing around training. Tools like VoiceLift let you note energy levels and RPE by voice right after each set, so correlating nutrition choices with training output becomes visible across weeks — not just a vague feeling you can't act on.
+
+## Common Macro Mistakes That Stall Muscle Growth
+
+### Hitting protein but missing total calories
+Lifters who track protein religiously but estimate everything else often run a quiet 200–400 calorie deficit. The scale doesn't move, training stalls, and protein gets blamed when the real problem is total intake.
+
+### Under-eating carbohydrates while building
+Fat and carbs are frequently swapped in popular approaches. For heavy compound work and high-rep hypertrophy sets, **glycolytic output runs on muscle glycogen** — chronically low-carb training produces worse sessions regardless of what the scale shows.
+
+### Ignoring weekends
+A surplus maintained Monday–Friday but abandoned Saturday–Sunday averages out to maintenance or below by Sunday night. Your body accumulates a 7-day average. Track the full week or don't count it.
+
+### Adjusting too quickly
+**Give any macro setup 3–4 weeks before changing anything.** Body weight fluctuates 1–4 lb daily from water, glycogen, and digestion. Use a 7-day rolling average weight, not yesterday's number.
+
+## The Bottom Line
+
+**Calculating macros for muscle building takes under 10 minutes:** find your TDEE, add 250–500 calories, set protein at 0.7–1g/lb, fat at 20–35% of calories, carbs fill the rest.
+
+Run that setup for 4 consistent weeks, track your training performance alongside body weight, and adjust based on actual data — not daily scale noise or how you feel mid-week. The math is straightforward. Most people fail at execution, not calculation.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-11",
+    category: "Nutrition",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "intermittent-fasting-for-muscle-growth",
     slug: "intermittent-fasting-for-muscle-growth",
     title: "Intermittent Fasting for Muscle Growth: What Actually Works",
