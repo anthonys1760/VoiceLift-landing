@@ -1,5 +1,139 @@
 export const blogPosts = [
   {
+    id: "full-body-workout-routine",
+    slug: "full-body-workout-routine",
+    title: "Full Body Workout Routine: Build Strength 3 Days a Week",
+    excerpt: "A full body workout routine trains every major muscle group in each session — making it one of the most efficient structures for building strength and muscle, especially for lifters training 3 days per week.",
+    metaDescription: "Learn how to run a full body workout routine: 3-day program, exercise selection, progression, and how to structure it for consistent strength and muscle gains.",
+    content: `
+# Full Body Workout Routine: Build Strength 3 Days a Week
+
+A **full body workout routine** trains every major muscle group — chest, back, legs, shoulders, and arms — in a single session rather than dividing them across dedicated days. It's one of the most evidence-backed training structures available, particularly for lifters who train 3 days per week or anyone whose schedule can't reliably support 4–5 gym days without missed sessions stacking up.
+
+This guide covers the science behind full body training, a complete 3-day program, and how to progress it over time.
+
+## Why Full Body Training Builds Muscle Efficiently
+
+When you train a muscle group, muscle protein synthesis spikes and remains elevated for roughly 24–48 hours. Training the same muscle 2–3 times per week keeps synthesis elevated more of the time compared to once-per-week splits — meaning more total time in a growth-favorable state.
+
+**The key advantages of a full body workout routine:**
+
+- **Higher training frequency per muscle group** — 2–3x per week vs. 1x with dedicated splits
+- **Resilience to missed sessions** — missing one day doesn't cut an entire muscle group for the week
+- **Faster strength skill acquisition** — compound lifts improve faster when practiced more often
+- **Efficient for limited schedules** — three sessions delivers nearly the training stimulus of four or five, if structured correctly
+
+Meta-analyses on training frequency consistently show that hitting a muscle group twice per week produces roughly 30–40% more hypertrophy than once per week at matched volume. Full body training achieves this naturally.
+
+## Who Should Run a Full Body Routine
+
+Full body training is best suited for:
+
+- **Beginners and early intermediates** — when the stimulus threshold for growth is low, frequency drives progress faster than specialization
+- **Lifters training 3 days per week** — maximizes frequency within a compressed schedule
+- **Those returning from a layoff** — reactivates multiple muscle groups simultaneously
+- **Strength-focused lifters** — practicing the squat, deadlift, and press 2–3x per week accelerates motor pattern development
+
+If you're advanced and training 5–6 days per week with specific lagging groups to bring up, a Push/Pull/Legs or Upper/Lower split may suit you better. Full body training isn't inferior — it's the right tool for a specific context.
+
+## The 3-Day Full Body Workout Routine
+
+**Schedule:** Monday / Wednesday / Friday — or any 3 non-consecutive days.
+
+Alternate between Day A and Day B each week. Week 1: A/B/A. Week 2: B/A/B. This ensures all movements get roughly equal frequency without identical sessions back to back.
+
+---
+
+### Day A
+
+| Exercise | Sets × Reps |
+|---|---|
+| Squat | 3 × 5 |
+| Bench Press | 3 × 5 |
+| Barbell Row | 3 × 5 |
+| Overhead Press | 2 × 8 |
+| Romanian Deadlift | 2 × 8–10 |
+
+---
+
+### Day B
+
+| Exercise | Sets × Reps |
+|---|---|
+| Deadlift | 3 × 5 |
+| Overhead Press | 3 × 5 |
+| Pull-Up or Lat Pulldown | 3 × 6–8 |
+| Back Squat (lighter) | 2 × 8 |
+| Incline Dumbbell Press | 2 × 8–10 |
+
+---
+
+The main compound movements do the majority of the development work. Each session takes **60–75 minutes** for most lifters. If you're consistently running over 90 minutes, you're either over-accessorizing or resting too long.
+
+## How to Progress the Program
+
+**Progressive overload is the only mechanism that builds strength and muscle over time.** Without it, you're maintaining, not growing. On this program:
+
+- Add **2.5–5 lb per session** on the main barbell lifts when you complete all prescribed reps
+- When you fail to complete reps across two consecutive sessions at the same weight, drop 10–15% and rebuild
+- Track every session: exact weight, sets completed, reps per set, and how each lift felt
+
+That last item is the one most lifters skip — and the one that matters most for long-term progress. If you don't have exact numbers from your last session, you're guessing. Logging after every set doesn't have to be disruptive; VoiceLift lets you log by voice between sets without breaking your focus. Over weeks, that data becomes the clearest picture of where you're progressing and where you're stalling.
+
+## Adding Accessories
+
+The program above handles most of the development work. Accessories add targeted volume:
+
+- **Biceps:** 2–3 sets of curls, one or two sessions per week
+- **Triceps:** 2–3 sets of pushdowns or skull crushers
+- **Core:** 2–3 sets of ab wheel rollouts, cable crunches, or hanging leg raises
+- **Rear delts:** 2–3 sets of face pulls or dumbbell reverse flyes
+
+Keep accessories to 15–20 minutes after the main work. The compound lifts are the program. Accessories support weak points — they aren't the program.
+
+## Rest Times
+
+- **Between heavy compound sets (5 rep work):** 3–5 minutes. Strength work requires near-full recovery.
+- **Between accessory sets:** 60–90 seconds is sufficient.
+
+Cutting rest short on the main lifts to save time is counterproductive. You'll move less weight, accumulate fatigue faster, and undermine the progressive overload that makes the program work.
+
+## Common Mistakes
+
+### Skipping the Squat or Deadlift
+
+These two movements build more total muscle and generate more training effect than anything else in the program. Avoiding them because they're hard is skipping the most productive part of the session.
+
+### Not Adding Weight Consistently
+
+Showing up and lifting the same weights for months isn't progressive training — it's maintenance. The program only produces results if you're systematically increasing load or volume. Log every session and add weight when you can.
+
+### Making Sessions Too Long
+
+Adding every exercise you enjoy defeats the purpose of a full body approach. Discipline the session. Do the compound work, add focused accessories, and leave. An unfocused 2-hour session produces less than a disciplined 70-minute one.
+
+## Reviewing Progress and Adjusting
+
+After 8–12 weeks on a full body routine:
+
+- Compare your starting numbers to current numbers across the main lifts
+- If each major lift is up 10–20%, the program is working — continue
+- If progression stalled early (after addressing technique and sleep), consider adding a fourth training day and transitioning to an Upper/Lower split
+- Review energy and fatigue trends across weeks — consistent high fatigue signals a need for reduced volume or a planned deload week
+
+Logging each session — not just the weight, but RPE and how each lift actually felt — gives you the data to make these decisions objectively. Without it, you're relying on memory and gut feeling, which degrade over weeks.
+
+## The Bottom Line
+
+**A full body workout routine is one of the most effective training structures for building strength and muscle**, especially on a 3-day-per-week schedule. Run the program consistently, add weight when you can, recover properly, and log every session. Progress lives in the details — and the details are the numbers you actually write down.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-14",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-calculate-macros-muscle-building",
     slug: "how-to-calculate-macros-muscle-building",
     title: "How to Calculate Macros for Muscle Building: Complete Guide",
