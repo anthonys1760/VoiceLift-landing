@@ -1,5 +1,100 @@
 export const blogPosts = [
   {
+    id: "hiit-vs-weight-training-fat-loss",
+    slug: "hiit-vs-weight-training-fat-loss",
+    title: "HIIT vs Weight Training for Fat Loss: What the Research Says",
+    excerpt: "Most lifters face this question when cutting: should you do HIIT or weight training for fat loss? The research gives a clearer answer than most people expect.",
+    metaDescription: "HIIT vs weight training for fat loss: which burns more calories, preserves muscle, and improves body composition? Here's what the research actually shows.",
+    content: `
+# HIIT vs Weight Training for Fat Loss: What the Research Says
+
+When the goal shifts to dropping body fat, a familiar debate resurfaces: **HIIT vs weight training**. Both approaches produce real results — but they don't produce the same results, and treating them as interchangeable costs you progress. Here's what the research actually shows.
+
+## What Is HIIT and How Does It Burn Fat?
+
+**High-intensity interval training (HIIT)** alternates between short bursts of near-maximal effort and brief rest periods. A typical HIIT session: 20–30 minutes of 20–40 second all-out intervals with equal or shorter rest. Formats include sprint intervals, assault bike tabatas, and kettlebell circuits.
+
+HIIT burns significant calories during the session itself:
+
+- A 20-minute HIIT session burns roughly **250–400 kcal** for a 180 lb individual — a high rate relative to time invested
+- HIIT triggers **EPOC** (excess post-exercise oxygen consumption), where metabolism stays elevated for 12–24 hours post-session
+- The session format is time-efficient: meaningful cardiovascular and metabolic stimulus in 30 minutes or less
+
+## What Weight Training Does for Fat Loss
+
+Weight training burns fewer calories per session than HIIT — typically **180–300 kcal** in a 60-minute session depending on intensity, rest times, and body weight. On paper, that looks like the inferior option.
+
+It's not.
+
+**Weight training changes your body composition by building lean muscle mass.** Muscle tissue is metabolically active — each pound of muscle burns approximately 6–7 kcal per day at rest. Add 10 lb of muscle over 6–12 months and your resting metabolic rate rises by 60–70 kcal per day. Compounded over years, this fundamentally changes how many calories your body burns without deliberate effort.
+
+More critically: **weight training preserves muscle mass during a caloric deficit.** Without a resistance training stimulus, a caloric deficit produces both fat loss and muscle loss — sometimes in a near-50/50 ratio. With consistent lifting, that ratio shifts sharply in favor of fat.
+
+## Calorie Burn: The Side-by-Side Numbers
+
+In-session calorie burn for a 180 lb individual:
+
+- **HIIT (20–25 min):** 250–400 kcal
+- **Weight training (60 min, moderate intensity):** 180–300 kcal
+- **Steady-state cardio (45 min at moderate pace):** 300–400 kcal
+
+HIIT wins on calories burned per minute of training. But this is where most people stop the analysis — and where the comparison breaks down.
+
+## The Afterburn Effect (EPOC) Explained
+
+EPOC describes the elevated metabolic state that continues after a workout ends. Both HIIT and heavy weight training produce EPOC:
+
+- HIIT produces **60–150 kcal of EPOC** over the following 12–24 hours
+- Heavy resistance training produces **comparable or slightly higher EPOC** due to the muscle repair and protein synthesis demands
+- Steady-state cardio produces minimal EPOC — once you stop, metabolic rate returns to baseline quickly
+
+The afterburn effect is real. But it doesn't turn your body into a furnace for the next day — the numbers are useful, not dramatic.
+
+## Body Composition: The Metric That Actually Matters
+
+Scale weight is an incomplete measure of progress. **Body composition** — the ratio of lean muscle to fat — determines how you look, perform, and how easily you maintain your weight over time.
+
+Research on body composition outcomes after 8–12 week interventions:
+
+- Studies comparing HIIT-only to resistance training-only (with equated calories) generally show **similar total fat loss**
+- Resistance training produces **significantly better lean mass retention** than HIIT alone
+- HIIT-only programs sometimes produce lean mass loss — muscle catabolism from sustained cardio stress without a resistance stimulus
+
+The practical consequence: if you do HIIT to lose fat but skip weight training, you may lose muscle alongside fat. The result is a lighter body with roughly the same body fat percentage. You're not leaner — you're just smaller.
+
+## What the Research Actually Recommends
+
+No major review concludes that one modality is categorically superior for fat loss. The consistent finding is that **both work, and combining them outperforms either alone** for body composition outcomes.
+
+A 2021 meta-analysis in the *British Journal of Sports Medicine* found that concurrent training — resistance work combined with cardio or HIIT — produced greater reductions in body fat percentage than either alone, while preserving lean mass better than cardio-only protocols.
+
+The conclusion isn't "do both all the time." It's that **resistance training is non-negotiable when body composition is the goal**, and HIIT can supplement it efficiently when structured correctly.
+
+## How to Structure Training for Fat Loss
+
+A practical approach for most lifters in a cutting phase:
+
+- **Priority 1:** 3–4 resistance training sessions per week. Maintain or progress your main compound lifts — do not drop weight to "do higher reps for fat loss." Progressive overload still matters during a cut.
+- **Priority 2:** 2–3 HIIT sessions per week, 20–30 minutes each. Schedule them on rest days or after lifting — never before, where fatigue will impair strength performance.
+- **Monitor recovery load:** Both HIIT and weight training create systemic fatigue. During a caloric deficit, recovery capacity is reduced — total weekly training stress needs to stay manageable. If you're using VoiceLift to log RPE after each set, the pattern of rising perceived effort at the same weights is your early signal to back off HIIT frequency before performance takes a visible hit.
+
+**Track every lifting session through a cut.** When you're eating less, strength regression starts subtly — a missed rep here, a weight dropped there — before it becomes a real problem. Set-by-set logging tells you whether you're holding your numbers or declining. VoiceLift makes this fast enough to do between every set without disrupting your rhythm, so you catch regressions early and adjust before meaningful muscle is lost.
+
+## The Bottom Line
+
+**HIIT vs weight training for fat loss isn't a binary choice, and treating it like one costs results.**
+
+Weight training is the foundation — it drives body composition changes, protects muscle during a deficit, and builds the metabolic base that makes fat loss sustainable. HIIT is the efficient supplement: high calorie burn in limited time, with cardiovascular benefit on top.
+
+If you're forced to choose only one: **weight training wins.** A HIIT session burns more calories in the moment and builds nothing lasting. The muscle added through consistent resistance training keeps working for you long after the session ends.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-18",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1461896836934-bd45ba26dac7?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "full-body-workout-routine",
     slug: "full-body-workout-routine",
     title: "Full Body Workout Routine: Build Strength 3 Days a Week",
