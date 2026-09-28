@@ -1,5 +1,101 @@
 export const blogPosts = [
   {
+    id: "how-to-build-muscle-after-30",
+    slug: "how-to-build-muscle-after-30",
+    title: "How to Build Muscle After 30: What Changes and What Doesn't",
+    excerpt: "Building muscle after 30 is absolutely possible — but the margin for error shrinks. Here's what actually shifts with age and how to adjust your training to keep making progress.",
+    metaDescription: "Build muscle after 30 with the right training adjustments. Learn how hormones, recovery, and volume change with age and how to program around them effectively.",
+    content: `
+# How to Build Muscle After 30: What Changes and What Doesn't
+
+**Building muscle after 30** is possible — the research and decades of real-world evidence confirm it. What changes is the margin for error. At 22, you could train hard, sleep badly, eat inconsistently, and still make progress. After 30, those same habits become genuine limiters.
+
+The good news: the principles of muscle building don't change. Progressive overload, sufficient protein, adequate recovery — these drive adaptation at every age. What changes is the *management* around those principles.
+
+## How Your Body Changes After 30
+
+### Testosterone and Anabolic Hormone Decline
+
+**Natural testosterone levels begin declining around 1% per year after age 30.** This isn't dramatic on a year-to-year basis, but it's meaningful over a decade. Lower testosterone means slower protein synthesis, slower recovery, and a reduced ability to add muscle at the rate you could in your early 20s.
+
+This doesn't make muscle building impossible — it means the gap between optimal and suboptimal training practices widens. Sleep deprivation, chronic stress, and poor nutrition suppress testosterone further; prioritizing these inputs matters more as you age.
+
+### Slower Recovery Between Sessions
+
+Recovery time between hard sessions increases with age. The same leg day that you bounced back from in 48 hours at 22 might need 72–96 hours at 35. This isn't a flaw — it's a signal to program around. Training each muscle group twice a week with moderate volume is often more productive than three times per week for most lifters over 30.
+
+### Loss of Fast-Twitch Muscle Fibers
+
+Sarcopenia — age-related muscle loss — disproportionately affects **fast-twitch (Type II) muscle fibers**, the ones most involved in heavy, explosive movements. Resistance training is the most effective intervention for maintaining Type II fiber density, which is one of the strongest arguments for lifting heavy consistently throughout your 30s and beyond.
+
+### Increased Injury Risk
+
+Joint health, connective tissue recovery, and baseline inflammation all shift after 30. Injuries that would have healed quickly at 22 take longer and occur more easily if you skip warm-up protocols or ignore early warning signals.
+
+## What Actually Works for Building Muscle After 30
+
+### Keep Lifting Heavy on Compound Movements
+
+The single most important thing you can do is maintain heavy compound movements with consistent progressive overload. **Heavy barbell work — squats, deadlifts, rows, presses — is the primary stimulus for preserving Type II fiber density and maintaining anabolic hormone output.**
+
+Don't switch to bands and light cables because you think you're "not 22 anymore." The load doesn't have to be maximal, but it should be challenging. Working in the 5–8 rep range on compound lifts at 75–85% of your 1RM is effective and sustainable long-term.
+
+### Prioritize Frequency Over Volume in Single Sessions
+
+After 30, high-volume single sessions are harder to recover from. A workout with 25 sets for one muscle group will leave you sore for days without necessarily producing better results than 12–16 well-executed sets.
+
+**Recommended approach:**
+- Train each muscle group 2x per week with moderate volume (12–16 sets total)
+- Use upper/lower splits or push/pull/legs run twice per week — both fit this model
+- Avoid the once-per-week "destroy it" approach that works for 22-year-olds with fast recovery
+
+### Make Sleep Non-Negotiable
+
+**Growth hormone is primarily secreted during deep sleep** — cutting to 5–6 hours doesn't just make you feel bad, it actively reduces your anabolic capacity. After 30, sleep is as important as training itself.
+
+Target 7–9 hours per night. If life makes that hard, protecting sleep quality (dark room, consistent schedule, no screens before bed) matters more than it did a decade ago.
+
+### Hit Your Protein Targets Consistently
+
+Protein requirements don't decrease with age — they increase slightly. **Target 0.8–1g of protein per pound of bodyweight** when building muscle after 30. Older muscle tissue is slightly less sensitive to the anabolic effects of protein, so adequate intake matters more, not less.
+
+Spread protein across 3–4 meals rather than front- or back-loading. A 180 lb lifter targeting 160g of protein should aim for roughly 40g per meal.
+
+### Use RIR to Manage Fatigue
+
+Reps in Reserve (RIR) is the number of reps you could have done before failure. After 30, training to failure on every set creates more cumulative fatigue than the extra stimulus is worth.
+
+**Leave 1–2 RIR on most working sets.** You'll still drive adaptation, but CNS fatigue accumulates more slowly — meaning you can train consistently without the crash that comes from always going to the limit. Save true failure-level effort for a final set on isolation movements.
+
+### Deload Regularly
+
+A planned deload every 6–8 weeks — reducing volume and intensity by 40–50% for one week — allows accumulated fatigue to dissipate before it becomes injury. After 30, the body sends clearer signals that it needs this; the mistake is waiting until something hurts before backing off.
+
+## What Doesn't Change
+
+The fundamentals stay constant regardless of age:
+
+- **Progressive overload still drives growth.** More weight, more reps, or more sets over time — without it, adaptation stops.
+- **Compound movements remain the priority.** Squats, deadlifts, bench press, rows, overhead press. These produce the most systemic stimulus per unit of effort.
+- **Consistency beats everything.** Three solid sessions per week for 52 weeks outperforms any optimized program run inconsistently.
+
+## Tracking Progress Matters More After 30
+
+After 30, you have less margin for wasted effort. If you've been stuck at the same weight for 8 weeks, something needs to change — but you can only identify that if you have data.
+
+This is where consistent workout logging pays off. Knowing your squat has been stuck at 225 for 8 sessions is actionable; having a vague sense it's been "about the same lately" isn't. Logging with VoiceLift between sets takes 10 seconds — fast enough that there's no excuse to skip it even on hard days when writing anything feels like too much.
+
+## The Bottom Line
+
+**Building muscle after 30** requires the same inputs as any training stage — progressive overload, sufficient protein, consistent sleep — applied with better management of recovery and fatigue. The ceiling is lower than at 22, but for most lifters the ceiling was never the limiting factor. Consistency and intelligent programming were. Those don't degrade with age.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-09-28",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "5x5-workout-program",
     slug: "5x5-workout-program",
     title: "5x5 Workout Program: Build Serious Strength in 3 Days a Week",
