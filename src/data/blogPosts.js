@@ -1,5 +1,104 @@
 export const blogPosts = [
   {
+    id: "how-to-maintain-muscle-while-cutting",
+    slug: "how-to-maintain-muscle-while-cutting",
+    title: "How to Maintain Muscle While Cutting (Proven Strategies)",
+    excerpt: "Cutting without losing muscle is possible — but it requires specific inputs most lifters skip. Here's how to run a deficit and walk out the other side with your gains intact.",
+    metaDescription: "Learn how to maintain muscle while cutting with proven strategies: training volume, protein targets, deficit size, and what to track to preserve your gains.",
+    content: `
+# How to Maintain Muscle While Cutting (Proven Strategies)
+
+Most lifters have run a cut and come out the other side lighter but somehow looking the same. The scale moved, but the muscle didn't stay. This is the most common cutting mistake: treating a caloric deficit as a passive process and expecting the body to selectively burn fat while leaving muscle untouched. It doesn't work that way by default.
+
+**Maintaining muscle while cutting** requires specific inputs. Get them right and you'll end a cut looking visibly leaner with your strength largely intact. Get them wrong and you'll just be a smaller version of yourself.
+
+## Why Muscle Is Lost During a Cut
+
+Muscle loss during a deficit happens for two reasons: your body uses amino acids from muscle tissue as an energy substrate when calories are low, and reduced training stimulus signals that existing muscle mass is no longer needed.
+
+Neither is inevitable. Both are addressable.
+
+The key insight is that muscle is metabolically expensive. Your body only maintains it if there's a consistent training signal demanding it and sufficient protein available to prevent catabolism. Remove either of those inputs and muscle loss accelerates — even in a mild deficit.
+
+## Keep Training Volume and Intensity High
+
+The single biggest mistake lifters make when cutting is switching to "toning" mode: light weights, high reps, lots of cardio. This removes the primary stimulus for muscle retention.
+
+**Your strength training during a cut should look almost identical to your training during a bulk.** Same exercises, same intensity, similar volume. You're not training to build muscle — you're training to signal that the muscle you have is still being used.
+
+Practical guidelines:
+- Maintain the same compound movements (squat, deadlift, bench, row, press)
+- Keep working sets in the 4–8 rep range at 70–85% of 1RM on at least some lifts
+- Don't slash total weekly volume by more than 10–15% even if fatigue increases
+- If strength starts dropping on key lifts, that's an early warning sign — not a normal outcome to accept
+
+You can reduce volume slightly when cutting because recovery is slower in a deficit. But the load should stay heavy. A 20% reduction in sets is fine; cutting your working weight by 30% is not.
+
+## Protein Needs Are Higher, Not Lower
+
+Paradoxically, **protein requirements increase when you're in a caloric deficit.** When total calories are restricted, the body is more likely to use dietary protein for energy rather than directing it toward muscle repair and synthesis. You need more protein to compensate.
+
+Recommendations for muscle preservation during a cut:
+- **0.8–1.2g of protein per pound of bodyweight** (higher end if the deficit is aggressive or you carry less total muscle mass)
+- Spread intake across 3–4 meals — protein synthesis is blunted when a large bolus arrives all at once
+- Prioritize protein at breakfast; skipping it often means you spend the first 6–8 hours fasting in a deficit, which accelerates muscle catabolism
+
+For a 180 lb lifter, that's 144–216g of protein per day. If you're cutting calories and dropping protein simultaneously, you're creating the worst possible environment for muscle retention.
+
+## Don't Cut Too Aggressively
+
+The faster the weight comes off, the more of that weight is muscle. A deficit of 500–750 calories per day targets roughly 1–1.5 lb of weight loss per week — a rate that has solid research support for predominantly fat loss with minimal muscle tissue lost.
+
+Larger deficits (1,000+ calories/day targeting 2+ lbs/week) consistently show higher rates of lean mass loss. The exception is very overweight individuals where larger deficits are more appropriate, but for most trained lifters trying to drop 10–20 lbs, aggressive cuts are counterproductive.
+
+**Target 0.5–1% of bodyweight loss per week.** At this rate, most of the weight loss is fat, and muscle retention is maximized.
+
+## Limit Cardio — Especially High-Intensity Cardio
+
+Cardio creates additional caloric expenditure and — when overdone — competes with the recovery resources your strength training needs. It also signals to the body to become more efficient (read: smaller and lighter) over time.
+
+This doesn't mean avoid cardio entirely. 2–3 sessions per week of 20–30 minutes of low-to-moderate intensity work (incline walking, cycling) is compatible with muscle retention and improves nutrient partitioning. Daily HIIT on top of 4 strength sessions isn't.
+
+If your primary goal is maintaining muscle, cardio is a tool for a small additional deficit — not the main event.
+
+## Sleep and Stress Matter More During a Cut
+
+In a caloric surplus, the body has resources to buffer poor sleep and high stress. In a deficit, those buffers shrink. Cortisol — elevated by insufficient sleep and chronic stress — directly drives muscle catabolism and impairs protein synthesis.
+
+Cutting while sleep-deprived is a reliable way to lose disproportionate amounts of muscle. **Target 7–9 hours consistently.** If life makes that hard, protect sleep quality: dark room, consistent schedule, no high-intensity training within 4 hours of bed.
+
+## Track Your Lifts to Catch Muscle Loss Early
+
+Strength is a leading indicator of muscle mass. If your squat drops 15% over a 6-week cut, muscle loss is happening — not just fatigue. If your main lifts stay within 5–8% of your pre-cut numbers, muscle retention is good.
+
+This is where consistent workout logging pays off on a cut. You can't tell from feel or from the mirror whether your bench has quietly dropped 20 lbs across 8 weeks — but you can see it immediately in your log. Logging verbally between sets with VoiceLift takes 10 seconds and gives you an exact record of what your lifts are doing over the course of a cut.
+
+A strength drop that starts small and goes unnoticed for weeks turns into real muscle loss. A strength drop caught in week 2 is fixable with a protein adjustment or a slight reduction in the deficit.
+
+## The Cutting Checklist
+
+Before starting a cut, confirm:
+
+- **Deficit size:** 500–750 cal/day maximum for most lifters
+- **Protein:** 0.8–1.2g per pound of bodyweight, every day
+- **Training:** Same lifts, same intensity, slightly reduced volume
+- **Cardio:** 2–3 low-intensity sessions, not daily HIIT
+- **Sleep:** 7+ hours, consistent schedule
+- **Tracking:** Log every strength session so you can catch early strength decline
+
+## The Bottom Line
+
+**Maintaining muscle while cutting** comes down to three non-negotiable inputs: sufficient protein, consistent heavy training, and a deficit that isn't so aggressive it forces the body to cannibalize lean tissue. Everything else — cardio, timing, specific program structure — is secondary.
+
+The lifters who come out of a cut visibly leaner with their muscle intact aren't doing anything exotic. They're eating enough protein, training hard, and not starving themselves into a faster result that costs them everything they built.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-02",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-build-muscle-after-30",
     slug: "how-to-build-muscle-after-30",
     title: "How to Build Muscle After 30: What Changes and What Doesn't",
