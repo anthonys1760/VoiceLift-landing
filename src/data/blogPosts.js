@@ -1,5 +1,112 @@
 export const blogPosts = [
   {
+    id: "strength-training-for-beginners",
+    slug: "strength-training-for-beginners",
+    title: "Strength Training for Beginners: Your Complete Starting Guide",
+    excerpt: "Starting strength training doesn't have to be complicated. This guide covers the essential movements, rep schemes, and the one principle that drives all beginner progress.",
+    metaDescription: "Learn strength training for beginners: the 4 essential movements, how to program 3 days a week, and how to add weight each session to build real strength.",
+    content: `
+# Strength Training for Beginners: Your Complete Starting Guide
+
+If you're new to lifting, you're facing the same problem every beginner faces: a lot of information, most of it contradictory, and almost none of it tells you the minimum you need to get started and make real progress.
+
+**Strength training for beginners** doesn't require complex programming or advanced exercise science. It requires picking a few compound movements, learning to perform them safely, adding weight over time, and not doing anything that gets you hurt in the first six months. That's the entire framework.
+
+## Why Strength Training Works
+
+The mechanism behind all strength training is **progressive overload** — exposing your muscles to a stimulus they aren't accustomed to, recovering from it, and repeating at a slightly higher load. Over time, this results in muscles that are bigger and stronger.
+
+Beginners have a distinct advantage: they respond to virtually any training stimulus. You don't need to optimize training variables at the start. You just need to train consistently and add weight when you can. This window of rapid progress — often called "beginner gains" — typically lasts 6–18 months before programming nuance starts to matter.
+
+## The 4 Movement Patterns Every Beginner Should Learn First
+
+Before you build a program, learn these four patterns:
+
+- **Squat** (goblet squat or barbell back squat): targets quads, glutes, hamstrings
+- **Hip hinge** (Romanian deadlift or conventional deadlift): targets hamstrings, glutes, lower back
+- **Horizontal push** (bench press or dumbbell press): targets chest, shoulders, triceps
+- **Vertical or horizontal pull** (lat pulldown or barbell row): targets lats, biceps, upper back
+
+These four patterns, done consistently with progressive overload, build total-body strength and muscle. Everything else is secondary at the beginner stage.
+
+## How to Structure a Beginner Strength Program
+
+### Start with 3 Days Per Week
+
+Three full-body sessions per week is the ideal starting frequency for beginners. It allows each movement pattern to be practiced frequently enough that you learn it quickly, while leaving recovery time between sessions.
+
+A simple structure:
+- **Monday:** Squat, bench press, barbell row
+- **Wednesday:** Deadlift, overhead press, lat pulldown
+- **Friday:** Squat variation, bench variation, row variation
+
+Alternating between two or three variations reduces repetitiveness without adding complexity.
+
+### Sets and Reps for the First 8–12 Weeks
+
+- **3 working sets per movement**
+- **5–8 reps per set** on compound lifts
+- **Rest 2–3 minutes between sets** to allow full recovery before the next one
+
+Starting in the 5-rep range lets you focus on form without fatigue degrading technique mid-set. It also leaves room to progress without rapidly approaching failure.
+
+### How Much Weight to Start With
+
+**Start lighter than you think you need to.** This is the instruction every beginner hears, ignores, and later regrets. Your first sessions should feel too easy. Use them to learn the movement patterns before the load is high enough to force technical compromises.
+
+For most lifts, add 5–10 lbs per session when you complete all reps with good form. This **linear progression** — adding weight every session — is the defining feature of beginner programs. It works because beginners adapt fast enough to recover between sessions and handle more load at the next one.
+
+## The Most Common Beginner Mistakes
+
+### Loading Too Much, Too Soon
+
+Adding weight before you've earned it with solid technique is the fastest route to an injury that sets you back months. Your numbers will go up quickly on their own — don't rush it by loading plates that force form breaks.
+
+### Skipping Compound Movements for Machines
+
+Machines are useful tools. They're not substitutes for free-weight compound movements at the beginner stage. The neuromuscular coordination, stabilizer activation, and full range of motion from a barbell squat or deadlift can't be replicated on a leg press. Learn the barbell movements early — they compound in value over time.
+
+### Program Hopping
+
+Beginners often switch programs every two to three weeks when they don't see dramatic results immediately. This is the wrong instinct. Progress at the beginner stage is almost entirely dependent on consistency over 3–6 months. Pick a simple program, run it for at least eight weeks, and track whether it's working before changing anything.
+
+### Skipping the Warm-Up
+
+A proper warm-up — 5 minutes of low-intensity movement plus two or three progressively heavier warm-up sets before your first working set — reduces injury risk substantially. At the beginner stage, skipping it to save time creates the exact injury that costs you weeks.
+
+## Why Tracking Your Workouts Matters From Day One
+
+Tracking is especially important at the beginner stage. Here's why:
+
+**You're building a baseline.** Every logged session is data showing how fast you're progressing. Without it, you're navigating by feel — and feel is unreliable when every session is harder than the last.
+
+**Progressive overload requires knowing where you were.** If you don't know what you lifted last session, you can't make an intelligent decision about what to attempt this session. A training log removes the guesswork.
+
+**It catches problems early.** A note that your squat felt unstable in three consecutive sessions is a signal to address something — technique, mobility, stance. Without a log, that pattern stays invisible.
+
+Most beginners give up on tracking because it feels like extra work. The fix is removing friction: VoiceLift lets you log a set verbally in under 10 seconds without pulling out a notebook or touching your phone. You get the full record of a training log with none of the administrative overhead that makes most beginners abandon it after week two.
+
+## How Long Until You See Results?
+
+- **Strength gains:** Noticeable within 2–4 weeks. Early increases are largely neural — your brain getting better at recruiting motor units, not just muscle growth.
+- **Visible muscle change:** 8–12 weeks of consistent training with sufficient protein (0.7–1g per pound of bodyweight daily).
+- **Meaningful physique change:** 6+ months of consistent work. Strength training requires patience; the timeline is longer than most beginners expect.
+
+This is exactly why tracking from the start matters. You'll see your numbers improving consistently in the early weeks — even when physical changes aren't yet visible. Those strength gains are real progress, and seeing them in your log keeps you training through the period when the mirror hasn't caught up yet.
+
+## The Starting Point Is Simple
+
+**Strength training for beginners** works because beginners respond rapidly to almost any coherent stimulus. Your job in the first six months is straightforward: learn four to five movements, do them three times per week, add weight when you can complete all reps cleanly, and track everything so you know where you stand.
+
+The complexity comes later. Right now, consistency and progressive overload are the whole game.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-05",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-maintain-muscle-while-cutting",
     slug: "how-to-maintain-muscle-while-cutting",
     title: "How to Maintain Muscle While Cutting (Proven Strategies)",
