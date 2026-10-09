@@ -1,5 +1,123 @@
 export const blogPosts = [
   {
+    id: "hypertrophy-training-guide",
+    slug: "hypertrophy-training-guide",
+    title: "Hypertrophy Training Guide: How to Build Muscle Effectively",
+    excerpt: "Hypertrophy training is distinct from strength training, and the difference matters for your results. This guide covers optimal rep ranges, weekly volume targets, exercise selection, and rest times backed by current research.",
+    metaDescription: "Learn hypertrophy training: optimal rep ranges, sets per muscle group, exercise selection, and how to structure a training block for consistent muscle growth.",
+    content: `
+# Hypertrophy Training Guide: How to Build Muscle Effectively
+
+**Hypertrophy training** is the specific application of resistance training to maximize muscle growth — and it's distinct enough from strength training that following the wrong approach will limit your results long-term.
+
+The principles aren't complicated, but there's enough nuance that getting them right separates people who train for years without visible progress from those who build consistent, measurable size.
+
+## What Is Hypertrophy Training?
+
+Hypertrophy refers to an increase in muscle cell size through the accumulation of contractile protein. Hypertrophy training deliberately uses mechanical tension, metabolic stress, and muscle damage — the three primary drivers of the adaptation — to force that response.
+
+The distinction from pure strength training matters. Powerlifters train the nervous system to produce maximal force at low reps. Bodybuilders train for maximal muscle size across a broader rep range. The overlap is substantial, but the programming priorities differ.
+
+## The Optimal Rep Range for Hypertrophy
+
+Research supports a wide effective rep range for muscle growth: **6–30 reps**, provided sets are taken close to muscular failure. This overturned the old "8–12 is the hypertrophy range" rule.
+
+In practice:
+
+- **6–10 reps** (heavier loads): emphasize mechanical tension, effective for compound lifts
+- **10–20 reps** (moderate loads): the most commonly used range, practical for most exercises
+- **20–30 reps** (lighter loads): produce more metabolic stress, effective for isolation work and exercises where heavy loading is limited (lateral raises, cable curls)
+
+The most robust finding is that **proximity to failure matters more than rep count**. A set of 5 taken 5 reps from failure produces less hypertrophic stimulus than a set of 15 taken 1–2 reps from failure.
+
+## How Many Sets Per Week for Hypertrophy?
+
+Volume — total weekly sets per muscle group — is the primary driver of hypertrophy in trained lifters. Current evidence suggests:
+
+- **Minimum effective volume:** ~10 sets per muscle group per week
+- **Moderate volume for most people:** 12–18 sets per week
+- **Maximum adaptive volume:** varies by individual and training history, often cited as 20+ sets, with diminishing returns before this for most lifters
+
+Volume only drives growth if you can recover from it. Progressive volume increases over a training block followed by a deload period is the standard approach for managing accumulating fatigue.
+
+## Exercise Selection for Maximum Hypertrophy
+
+Hypertrophy training rewards exercise specificity: matching selection to the muscle's function and the joint angles where it's under the most tension.
+
+### Prioritize Lengthened-Position Loading
+
+Research has shown that exercises where the muscle is maximally stretched under load produce a stronger hypertrophic stimulus than exercises emphasizing the shortened position. Examples:
+
+- **Chest:** Cable flyes or lengthened-range dumbbell flyes over partial-range pec deck
+- **Biceps:** Incline dumbbell curl (stretch position) over concentration curl
+- **Hamstrings:** Romanian deadlift and Nordic curl over lying leg curl
+- **Quads:** Full-depth squats and sissy squats over partial-range leg extensions
+
+### Include Both Compound and Isolation Work
+
+Compound movements (squat, row, press, deadlift) provide simultaneous stimulus across multiple muscle groups. Isolation movements allow direct targeting of lagging muscles with high reps and focused tension.
+
+For hypertrophy, a practical ratio:
+
+- **60–70% compound movements** — primary movers trained with heavier loads
+- **30–40% isolation work** — targeted accessories, higher reps, full stretch
+
+## Tracking Is Non-Negotiable for Hypertrophy Progress
+
+Hypertrophy progress is slow and non-linear. Without tracking, you're operating on feel — which leads to stagnation you won't notice until months have passed.
+
+What to log per set:
+
+- **Weight used**
+- **Reps completed**
+- **Proximity to failure** (1 rep in reserve vs. 3 reps in reserve matters for interpreting session quality)
+
+Progressive overload for hypertrophy doesn't always mean adding weight. It can mean adding reps at the same weight, adding sets over a training block, or improving technique that increases range of motion. Without a log, you can't see these trends.
+
+VoiceLift handles this with voice logging — recording a working set takes under 10 seconds verbally, which removes the friction that causes most lifters to either stop logging mid-session or skip it altogether. Consistent logging across months builds a detailed map of where your weak points are and how your volume has changed.
+
+## Rest Times Between Sets for Hypertrophy
+
+The common recommendation to rest 60–90 seconds for hypertrophy is outdated. Research shows longer rest periods (2–4 minutes between sets) produce greater volume capacity and better hypertrophy outcomes because:
+
+1. You can maintain closer proximity to failure across more sets
+2. Performance degradation across a session is lower
+3. Total training volume ends up higher
+
+Short rest periods feel harder but produce less total work. **Rest fully enough to perform the next set with comparable quality to the first.**
+
+## Structuring a Hypertrophy Training Block
+
+A standard hypertrophy mesocycle runs 4–8 weeks, with weekly volume progressing across the block before a deload:
+
+**Example structure:**
+- **Weeks 1–2:** 12 sets per muscle group per week — moderate intensity, establishing baseline loads
+- **Weeks 3–4:** 15 sets per muscle group per week — progressive overload applied session-to-session
+- **Weeks 5–6:** 18 sets per muscle group per week — peak volume, high accumulated fatigue
+- **Week 7:** Deload — 50–60% volume reduction to allow full recovery
+
+After the deload, start the next block with higher baseline loads and a program adjusted from the data of the previous cycle.
+
+## The Bottom Line on Hypertrophy Training
+
+**Hypertrophy training** requires:
+
+- Training within the 6–30 rep range with consistent proximity to failure
+- Sufficient weekly volume (minimum 10 sets per muscle group, 12–18 for most)
+- Exercise selection that emphasizes the stretched position of the target muscle
+- Full rest between sets (2–4 minutes on compound work)
+- Systematic volume progression over a training block
+- A training log you actually use to track overload across weeks
+
+None of this is complicated. The lifters who build consistent size over years apply these principles without deviation — not by finding a novel program. Get the fundamentals right, track everything, and repeat.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-09",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "strength-training-for-beginners",
     slug: "strength-training-for-beginners",
     title: "Strength Training for Beginners: Your Complete Starting Guide",
