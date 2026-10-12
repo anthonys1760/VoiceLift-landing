@@ -1,5 +1,114 @@
 export const blogPosts = [
   {
+    id: "getting-back-to-gym-after-break",
+    slug: "getting-back-to-gym-after-break",
+    title: "Getting Back to the Gym After a Break: How to Restart Training",
+    excerpt: "Taking time off from the gym is inevitable. Here's how to return after a break without getting injured, hitting a wall, or losing what you built.",
+    metaDescription: "Returning to the gym after a break? Learn how to restart training, how fast you lose strength, and the exact week-by-week plan to rebuild without injury.",
+    content: `
+# Getting Back to the Gym After a Break: How to Restart Training
+
+Everyone takes time away from training. Illness, injury, travel, a brutal work stretch — it happens. The problem isn't the break itself. The problem is what most lifters do when they come back: they return at their old intensity, their body isn't ready, and they either get hurt or get so destroyed by DOMS that they fall off again.
+
+**Getting back to the gym after a break** doesn't have to go that way. If you understand what actually happened to your body and follow a structured return, most lifters are back to their pre-break numbers faster than they expect.
+
+## What Actually Happens During a Training Break
+
+Understanding detraining tells you what to expect when you return — and why returning at full intensity is a mistake.
+
+### How Fast You Lose Strength
+
+Strength declines in two stages:
+
+- **Weeks 1–2 off**: Primarily a drop in neuromuscular drive — your nervous system loses its sharpness. Actual muscle tissue remains largely intact.
+- **Weeks 3–4 off**: 5–10% reduction in trained lifters. Still mostly neural, but atrophy starts.
+- **2+ months off**: Significant strength loss, particularly in the big compound lifts.
+
+The critical thing to understand: **muscle memory is real**. The neuromuscular pathways you built don't vanish with your muscle. You'll regain strength dramatically faster the second time than it took to build it originally. A lifter who spent a year getting to a 315 squat doesn't spend another year getting back to 315. More like 6–8 weeks.
+
+### How Fast You Lose Muscle
+
+Slower than most people fear:
+
+- In the first 2–3 weeks, performance decline is almost entirely neural, not structural
+- Real atrophy becomes significant after 4+ weeks of zero resistance training
+- Trained lifters retain muscle longer than beginners due to more established satellite cell activity
+
+**If you took less than 3 weeks off, you've lost almost no muscle.** What you feel is neuromuscular dulling and reduced cardiovascular readiness — both of which come back fast.
+
+## The Right Way to Return: Week-by-Week
+
+The principle is simple: **reduce volume and intensity, then rebuild over 2–4 weeks**. The reason isn't your muscles — it's your connective tissue. Tendons and ligaments adapt slower than muscle. Full-intensity loading before they're ready is the most common cause of comeback injuries.
+
+### Week 1: Re-Establish Patterns
+
+Drop all working weights to **50–60% of your pre-break loads**.
+
+This week isn't about pushing. It's about:
+
+- Reactivating motor patterns without overtaxing tendons
+- Getting accurate baseline data on where you actually are now
+- Avoiding the catastrophic DOMS that ruins week 2 of every aggressive comeback
+
+Keep total sets low — roughly 50–60% of your normal weekly volume. Prioritize movement quality. Use the sessions to identify anything that tightened up or weakened during the break.
+
+### Weeks 2–3: Progressive Reload
+
+This is where muscle memory kicks in. Increase working weights 5–10% each session on your main lifts, provided the previous session felt solid.
+
+Guidelines for this phase:
+
+- **Stop 2–3 reps short of failure** — full-effort sets too early extend DOMS and slow recovery
+- **Run 60–70% of your normal weekly volume** — not back to full yet
+- **Lead with compound movements** before reintroducing isolation work
+- Add one accessory exercise back per session as capacity allows
+
+Most trained lifters are surprised by how quickly the numbers come back in this phase. The nervous system remembers, and the stimulus-response loop reactivates fast.
+
+### Weeks 3–4: Return to Full Training
+
+By week 3 or 4 (depending on how long the break was), most lifters are back near their pre-break weights on the main lifts. Now:
+
+- Resume your standard weekly volume
+- Push sets close to failure again
+- Add all accessories back in
+- Resume your normal progression scheme
+
+This is also the point where logging becomes especially valuable. Changes happen quickly during a comeback — logging with VoiceLift lets you capture every session in real time and see exactly how fast you're recovering, so you can pace the progression accurately instead of guessing. Speaking a set takes under 10 seconds. Seeing three weeks of data on your phone tells you whether you're on track.
+
+## Mistakes That Kill Comebacks
+
+**Going too heavy in week 1.** Your muscles will handle it. Your joints won't. Tendinitis from a rushed comeback can sideline you for weeks or months. The week-1 reduction in load is non-negotiable.
+
+**Skipping warmups.** Pre-break you may have gotten away with minimal warm-up. Post-break, your tissues are less resilient and need more preparation. Take extra time.
+
+**Comparing to your pre-break peak.** Your comeback week 2 shouldn't look like your previous peak month. Compare to last session, not last year.
+
+**Ignoring pain signals.** Expected: general muscle soreness, fatigue, some creakiness. Not expected: sharp joint pain, pain that doesn't subside after warm-up, anything localized and stabbing. Respect those signals.
+
+## Comeback Timelines: A Realistic Guide
+
+| Break Duration | Estimated Recovery to Pre-Break Levels |
+|---|---|
+| 1–2 weeks | 1–2 weeks |
+| 3–4 weeks | 3–4 weeks |
+| 2–3 months | 6–10 weeks |
+| 4–6 months | 3–4 months |
+| 6+ months | 4–6+ months |
+
+These assume consistent training during the rebuild, adequate protein (0.7–1g per lb bodyweight), and sufficient sleep. Same factors that drove your original progress drive the comeback.
+
+## The Takeaway
+
+A training break doesn't erase your progress — it delays it. Return at reduced intensity, build back over 2–4 weeks, respect connective tissue timelines, and track every session to ride the comeback momentum. Most lifters are back at their pre-break numbers faster than they thought possible. The ones who stall are usually the ones who rushed week 1.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-12",
+    category: "Training",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "hypertrophy-training-guide",
     slug: "hypertrophy-training-guide",
     title: "Hypertrophy Training Guide: How to Build Muscle Effectively",
