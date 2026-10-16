@@ -1,5 +1,87 @@
 export const blogPosts = [
   {
+    id: "how-to-train-around-an-injury",
+    slug: "how-to-train-around-an-injury",
+    title: "How to Train Around an Injury Without Making It Worse",
+    excerpt: "Getting injured doesn't mean stopping. Most gym injuries allow significant continued training — you just need to know what's off-limits and how to adapt.",
+    metaDescription: "Learn how to train around an injury without making it worse. Covers shoulder, knee, and back injuries with specific movement substitutions and training strategies.",
+    content: `
+# How to Train Around an Injury Without Making It Worse
+
+Getting injured doesn't have to mean stopping. Most **training injuries** allow for significant continued lifting — you just need to know which movements are off-limits, how to load around the issue, and how long to respect the timeline. The lifters who handle injuries well don't stop training; they adapt. The ones who either push through stupidly or quit entirely both lose.
+
+## The Rule: Pain Is Information, Not a Goal
+
+The dividing line between working around an injury and making it worse is simple: **never train into sharp, acute pain that's specific to the injured area**. A dull, achy tiredness in a healing structure is often acceptable. Sharp, stabbing, or worsening pain during movement is not. This isn't about being soft — it's about protecting the tissue while keeping everything else moving.
+
+Before loading any exercise near an injured area, run through the movement with no weight. If it produces sharp pain, it's off the menu for now. If it's fine or produces only mild discomfort, it may be safe to load lightly.
+
+## Common Injuries and How to Train Around Them
+
+### Shoulder Injuries (Rotator Cuff, AC Joint, Impingement)
+
+Shoulder injuries are the most common upper-body setback for lifters. The key is identifying which movements provoke pain:
+
+- **Overhead pressing**: Often the first to go. Swap barbell overhead press for a neutral-grip dumbbell press, or eliminate overhead work entirely and maintain shoulder training via lateral raises and cable flyes in non-painful ranges.
+- **Bench press**: A wide grip increases impingement; a closer grip with elbows tucked often reduces pain significantly. Try a slight decline angle — it shifts loading off the AC joint.
+- **Keep pulling**: Horizontal and vertical pulls (rows, lat pulldowns, pull-up variations) often remain pain-free and should be maintained at full volume during a shoulder injury.
+- **Prioritize posterior shoulder**: External rotations, face pulls, and band pull-aparts help stabilize the joint and keep it in better alignment.
+
+### Knee Injuries (Patellar Tendinitis, Meniscus, General Knee Pain)
+
+Knee pain often comes from squatting depth, foot position, or volume that exceeds the joint's current capacity.
+
+- **Reduce depth**: Pain at the bottom of a squat doesn't mean you stop squatting — quarter squats or box squats are often accessible. Limit range of motion to what's pain-free.
+- **Hip hinges remain**: Romanian deadlifts, good mornings, and hip thrusts typically place minimal stress on the knee and can run at full intensity during a knee injury.
+- **Leg press over squat**: For many knee issues, a leg press with controlled range of motion is well-tolerated when a free squat isn't.
+- **Avoid deep flexion**: Step-ups, walking lunges, and Bulgarian split squats are often problematic during acute phases.
+
+### Lower Back Injuries (Disc Issues, Strains, Sciatica)
+
+Lower back injuries are among the most frightening for lifters — and the most likely to be overtreated with complete rest, which often makes recovery slower.
+
+- **Cut spinal compression**: Remove squats and deadlifts from the acute phase. Don't remove all training.
+- **Upper body remains intact**: Bench, overhead press, curls, and lat work can typically continue at normal intensity. An injured back doesn't mean an injured everything.
+- **Maintain hip hinge pattern cautiously**: Unloaded hip hinges (bodyweight RDLs, hip bridges) help maintain pattern without loading the spine. Add load slowly as pain permits.
+- **Core without spine flexion**: Planks, dead bugs, and pallof presses maintain trunk stability without flexing or rotating the spine under load.
+
+## Logging Modified Training Is More Important, Not Less
+
+When you're training around an injury, your normal plan is disrupted. Exercises change, loads shift, and what's accessible varies session to session depending on how the injury is responding. This is exactly when **workout logging matters most** — not just for progress, but for understanding what your body can handle and how it's recovering.
+
+Tracking modified sessions with VoiceLift takes under 10 seconds per set and builds a log of which substitutions are progressing and which are stalling. That data tells you when you're ready to load heavier again — not just whether you feel okay that day. A feeling changes session to session. Three weeks of logged data doesn't lie.
+
+## How to Maintain as Much as Possible
+
+The goal during an injury isn't to maintain everything — it's to lose as little as possible while the affected area heals.
+
+- **Maximize volume in unaffected areas**: A shoulder injury is an opportunity to bring up legs and back. A knee injury is when upper body work gets extra attention. Redirect, don't stop.
+- **Continue aerobic base maintenance**: Swimming, cycling, or rowing (depending on the injury) preserve cardiovascular fitness without further stressing the injury site.
+- **Maintain protein intake**: Healing tissue requires adequate protein. Don't cut intake because you're training less — if anything, keep it higher (1g per lb of bodyweight).
+- **Apply progressive overload to your working movements**: The exercises you can do can still be progressed. Staying in a progression mindset prevents the psychological spiral that ends training blocks.
+
+## When to See a Professional
+
+If pain is severe, persistent, or worsening despite reduced training, you need a professional assessment. Signs that warrant a medical evaluation:
+
+- **Sharp pain during rest, not just movement**
+- **Swelling that isn't reducing after 48–72 hours**
+- **Numbness, tingling, or radiating pain** (often nerve involvement)
+- **Any mechanism of injury involving a pop, snap, or significant impact**
+
+A sports medicine doctor, physical therapist, or orthopedic specialist can tell you what's actually damaged and what movements are safe. Guessing costs more time than getting assessed.
+
+## The Takeaway
+
+**Training around an injury means adapting, not stopping.** Identify what's off-limits, keep everything else moving at full intensity, log your modified sessions to track what's improving, and respect the timeline. Most injuries don't end training careers — they only end careers when handled wrong in the first few weeks.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-16",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "getting-back-to-gym-after-break",
     slug: "getting-back-to-gym-after-break",
     title: "Getting Back to the Gym After a Break: How to Restart Training",
