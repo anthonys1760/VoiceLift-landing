@@ -1,5 +1,114 @@
 export const blogPosts = [
   {
+    id: "best-bicep-exercises-for-size",
+    slug: "best-bicep-exercises-for-size",
+    title: "Best Bicep Exercises for Size: 7 Picks That Actually Work",
+    excerpt: "Not all bicep exercises are equal. Here are the 7 best exercises for building bigger biceps, why they work anatomically, and how to structure them in a program.",
+    metaDescription: "The best bicep exercises for size, ranked by effectiveness. Covers barbell curls, incline curls, hammer curls, cables, and more — with programming guidance.",
+    content: `
+# Best Bicep Exercises for Size: 7 Picks That Actually Work
+
+When lifters ask about the **best bicep exercises for size**, the answer usually defaults to barbell curls. That's not wrong — but it's incomplete. Building peak bicep development requires understanding the anatomy, hitting the muscle through its full range, and choosing exercises that let you load progressively over time.
+
+This guide covers seven exercises that consistently produce the most growth, why they work, and how to use them.
+
+## Understanding Bicep Anatomy Before You Train It
+
+The bicep is actually two muscles: the **biceps brachii** (long head and short head) and the **brachialis** underneath. The long head creates the "peak" you see when you flex. The short head adds width. The brachialis, when developed, pushes the bicep up from below and makes arms look thicker from every angle.
+
+Most lifters only train curling movements that bias the short head. Getting the best results means hitting all three structures.
+
+## 1. Barbell Curl
+
+The barbell curl remains the best mass-builder for biceps because it allows the heaviest load in a supinated (palms up) position. **Heavier loads over time = more muscle.**
+
+- Use a weight that lets you complete 8–12 reps with a full range of motion — no half-reps
+- A little hip drive at the top of heavy sets is fine; turning it into a full-body movement defeats the purpose
+- An EZ-bar slightly reduces wrist stress with minimal impact on activation — use it if straight bar bothers your wrists
+
+## 2. Incline Dumbbell Curl
+
+This is the single best exercise for isolating the **long head** — the peak of the bicep. When you lie back on a 45–60° incline bench, your shoulder is extended behind your body. This stretches the long head under load, which research consistently links to greater hypertrophy.
+
+- Arms hang straight down before initiating the curl
+- Don't let your elbows drift forward at any point
+- Control the lowering phase — the stretch at the bottom is where the growth stimulus is highest
+
+Most lifters skip this because it requires more setup. That's a mistake.
+
+## 3. Hammer Curl
+
+The hammer curl — neutral grip, palms facing each other — shifts emphasis from the biceps brachii to the **brachialis and brachioradialis**. These muscles don't show up on a flexed arm from the front, but they make a significant difference to overall arm thickness.
+
+- Use dumbbells or a rope attachment on cable
+- Can be done alternating or simultaneously — both work
+- If your arms look flat despite consistent bicep work, adding hammer curls typically fixes it
+
+## 4. Cable Curl
+
+Cables maintain constant tension through the entire range of motion, unlike free weights which have tension peaks and valleys. For biceps specifically, the cable curl keeps tension at the bottom of the range — where a barbell has almost none.
+
+- Use a straight bar or EZ-bar attachment from a low pulley
+- A high pulley "overhead cable curl" biases the long head with a different stretch angle
+- Ideal as a second or third movement when you want volume without taxing your joints with heavy free weights
+
+## 5. Preacher Curl
+
+The preacher curl eliminates momentum entirely. The angled pad forces your arms forward, removing the ability to swing or recruit the shoulders. This places intense stress on the **short head** and the distal tendon insertion — which is why most lifters feel it differently than any other curl.
+
+- Use an EZ-bar or dumbbells on the pad
+- Don't lock out at the bottom — that stresses the tendon at its most vulnerable point
+- Partial reps on preacher curls are a common and costly mistake; use full range
+
+## 6. Concentration Curl
+
+The concentration curl allows no momentum. Bracing your elbow against your inner thigh and curling in strict isolation, EMG studies consistently show high bicep activation with an extremely strong peak contraction.
+
+- Best done as a finishing movement after heavier work
+- 3 sets of 12–15 reps
+- Focus on squeezing at the top rather than just completing the rep count
+
+## 7. Chin-Up
+
+Chin-ups are a **compound movement** that trains the biceps under very heavy load — often heavier than any isolation work you'd do. A supinated grip (palms facing you) places the biceps in a mechanically strong position throughout the pull.
+
+- Weighted chin-ups are among the best overall arm mass builders available
+- If bodyweight chin-ups are not yet achievable, use a band or assisted machine
+- Include them in back sessions regardless of your arm training — they build arm size faster than most lifters expect
+
+## How to Structure These in a Program
+
+You don't need all seven in a single session. A practical structure:
+
+**Session A (heavy focus):**
+- Barbell curl: 4 × 6–8
+- Incline dumbbell curl: 3 × 10–12
+- Hammer curl: 3 × 12–15
+
+**Session B (volume focus):**
+- Cable curl: 4 × 12–15
+- Preacher curl: 3 × 10–12
+- Concentration curl: 3 × 12–15
+
+Include chin-ups on your back days regardless of which session you're on.
+
+## Why Logging Bicep Work Matters More Than It Seems
+
+**Progressive overload drives growth.** Picking good exercises is step one — but if you're not tracking whether you curled more weight or completed more reps than last session, you're guessing.
+
+Logging every bicep set, including weight, reps, and which variation you used, is what turns exercise selection into actual programming. With VoiceLift you can say "barbell curl, 4 sets, 95 pounds, 8 6 6 5 reps" and the entire session is captured in under 10 seconds — no app to navigate between sets when your arms are pumped.
+
+## The Takeaway
+
+The **best bicep exercises for size** span multiple categories: heavy compound loading (barbell curl, chin-up), long-head stretch work (incline dumbbell curl), brachialis development (hammer curl), and isolation volume (cable, preacher, concentration). Cover all three muscles across multiple angles, load progressively, and track your sessions. The arms will follow.
+    `,
+    author: "VoiceLift Team",
+    date: "2026-10-19",
+    category: "Training",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&h=400&fit=crop&q=80",
+  },
+  {
     id: "how-to-train-around-an-injury",
     slug: "how-to-train-around-an-injury",
     title: "How to Train Around an Injury Without Making It Worse",
