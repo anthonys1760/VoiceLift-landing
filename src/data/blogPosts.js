@@ -1,5 +1,125 @@
 export const blogPosts = [
   {
+    id: "best-tricep-exercises-for-size",
+    slug: "best-tricep-exercises-for-size",
+    title: "Best Tricep Exercises for Size: 7 Movements That Build Mass",
+    excerpt: "Triceps make up two-thirds of your arm. Here are the 7 best tricep exercises for size, how each one targets the muscle differently, and how to program them.",
+    metaDescription: "The best tricep exercises for building size and mass, ranked by effectiveness. Covers close-grip bench, skull crushers, cable pushdowns, dips, and more.",
+    content: `
+# Best Tricep Exercises for Size: 7 Movements That Build Mass
+
+If you want bigger arms, the **best tricep exercises** matter more than most lifters realize. Triceps make up roughly two-thirds of your upper arm — which means prioritizing biceps over triceps is one of the most common and costly arm training mistakes. Fix that, and arm growth tends to follow.
+
+This guide covers seven exercises that consistently produce the most tricep mass, why each one works, and how to structure them into a program.
+
+## Understanding Tricep Anatomy Before You Train It
+
+The triceps brachii has three heads: the **long head**, the **lateral head**, and the **medial head**. Most pressing movements bias the lateral and medial heads. The long head — which runs along the back of the arm and contributes most to arm thickness — requires overhead positioning to be fully stretched and maximally loaded.
+
+Neglecting the long head is why many lifters have decent "horse shoe" definition on the back of the arm but lack overall tricep mass. Effective tricep training hits all three heads.
+
+## 1. Close-Grip Bench Press
+
+The close-grip bench press is the best **compound mass builder** for triceps. It allows you to load the triceps heavier than any isolation movement, and progressive overload here translates directly to arm size.
+
+- Grip slightly inside shoulder width — not wrist-breakingly narrow
+- Keep elbows tucked at roughly 45°, not flared
+- Full range of motion: touch the chest, lock out at the top
+- Works as a primary movement or after your main bench variation
+
+The ability to use heavier loads makes this the foundation of any serious tricep program.
+
+## 2. Skull Crusher (EZ-Bar Lying Tricep Extension)
+
+The skull crusher places the long head under a strong stretch at the bottom of the movement. This stretch-under-load stimulus is consistently linked to greater hypertrophy in recent research.
+
+- An EZ-bar reduces wrist and elbow strain compared to a straight bar
+- Lower the bar to your forehead or slightly behind your head — further back = more long head stretch
+- Don't lock out at the top; keep tension on the tricep throughout
+- 3–4 sets of 8–12 reps is a reliable rep range here
+
+If your elbows are sensitive, dumbbells in a neutral grip often reduce discomfort while maintaining the training effect.
+
+## 3. Tricep Dip
+
+Dips are a **compound movement** that trains the triceps through a long range of motion under significant load. Bodyweight dips are challenging enough for most lifters; weighted dips are one of the most effective tricep mass builders available.
+
+- Lean slightly forward to increase tricep emphasis (more upright = more chest)
+- Full range: arms straight at the top, upper arm parallel to the floor at the bottom
+- Weighted dips with a belt are among the fastest ways to add tricep mass for intermediate lifters
+- If shoulder discomfort limits your depth, adjust rather than avoiding dips entirely
+
+## 4. Cable Pushdown (Straight Bar)
+
+Cables maintain constant tension through the full range of motion. The straight-bar cable pushdown keeps the lateral and medial heads loaded at both the top and the stretched position — something free weights cannot replicate.
+
+- Elbows pinned at your sides throughout the rep
+- Full extension at the bottom, full stretch at the top
+- Don't use momentum; if you are, drop the weight
+- Best used as a second or third movement for higher-rep volume work (12–20 reps)
+
+Logging cable work is easy to skip because the weights feel lighter. Tracking it with VoiceLift between sets — "cable pushdown, 150 pounds, 4 sets, 15 reps" — keeps the volume accountable.
+
+## 5. Overhead Tricep Extension
+
+This is the most direct way to target the **long head** under a full stretch. Whether done with a cable, dumbbell, or EZ-bar, overhead positioning is the only way to fully lengthen the long head and load it through its complete range of motion.
+
+- Cable overhead extension (facing away from the stack) maintains constant tension
+- Dumbbell overhead extension works well for home gym or dumbbell-only settings
+- Keep your elbows pointing forward — they will want to flare outward as you fatigue
+- 3–4 sets of 10–15 reps
+
+If your upper arm lacks thickness, this is likely the missing piece.
+
+## 6. Rope Pushdown
+
+The rope attachment allows a natural rotation at the bottom of the rep, which increases peak contraction compared to a straight bar. It also reduces wrist strain for lifters who find bar attachments uncomfortable.
+
+- Spread the rope at the bottom of each rep to maximize contraction
+- Keep elbows stationary — the movement should come from the elbow joint only
+- Pairs well with straight-bar pushdowns: one for strength focus, one for contraction focus
+- High-rep finisher: 3 × 15–20 reps with a controlled squeeze
+
+## 7. Diamond Push-Up
+
+Diamond push-ups are underrated for tricep development, particularly for lifters who train at home or want to add volume without additional joint stress. The narrow hand position concentrates the work on the triceps rather than the chest.
+
+- Hands form a diamond shape directly under your sternum
+- Full range of motion: chest nearly touches your hands, full lockout at the top
+- **Loaded progressions** — feet elevated, weighted vest, slow eccentric — extend the useful life of this exercise beyond early training stages
+- Useful as a finisher or for sessions when equipment access is limited
+
+## How to Structure These in a Program
+
+You don't need all seven in a session. Two or three exercises per session, trained 1–2 times per week, covers most of the volume needed for growth.
+
+**Session A (strength focus):**
+- Close-grip bench press: 4 × 5–8
+- Skull crusher: 3 × 8–12
+- Cable pushdown: 3 × 12–15
+
+**Session B (volume focus):**
+- Overhead tricep extension: 4 × 10–15
+- Rope pushdown: 3 × 15–20
+- Tricep dip: 3 × 8–12 (weighted if possible)
+
+Diamond push-ups work as a finisher in either session or as a standalone on days when equipment isn't available.
+
+## Why Tracking Tricep Work Matters
+
+Tricep exercises benefit from precise tracking more than most lifters apply. The difference between skull crushers at 65 lbs and 75 lbs over three months is meaningful — but only if you're tracking it.
+
+Logging cable and dumbbell work mid-session is where most people fail: weights get rounded, sets get forgotten, and progress becomes invisible. With VoiceLift, you can log a full tricep session verbally between sets in under 20 seconds — no stopping to navigate an app when your arms are pumped from a heavy close-grip set.
+
+**The bottom line:** pick two or three of these movements, learn to load them progressively, and prioritize the long head with at least one overhead exercise each session. That combination, consistently tracked, builds the tricep mass most arm programs miss.
+    `,
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&h=400&fit=crop&q=80",
+    date: "2026-10-23",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "6 min read",
+  },
+  {
     id: "best-bicep-exercises-for-size",
     slug: "best-bicep-exercises-for-size",
     title: "Best Bicep Exercises for Size: 7 Picks That Actually Work",
