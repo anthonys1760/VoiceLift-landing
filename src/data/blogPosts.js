@@ -1,5 +1,126 @@
 export const blogPosts = [
   {
+    id: "how-to-log-workouts-for-muscle-growth",
+    slug: "how-to-log-workouts-for-muscle-growth",
+    title: "How to Log Workouts for Muscle Growth: A Complete Guide",
+    excerpt: "Most lifters train without a log and wonder why they stop progressing. Here's exactly how to log workouts in a way that drives consistent muscle growth.",
+    metaDescription: "Learn how to log workouts for muscle growth. What to track, how to structure your training log, and why most lifters skip it — and pay the price.",
+    content: `
+# How to Log Workouts for Muscle Growth: A Complete Guide
+
+If you've been training consistently but struggling to make progress, the missing piece is probably not your program — it's your **workout log**. Most lifters rely on memory to track their sets, reps, and weights. Memory is unreliable. Without a log, progressive overload becomes guesswork, and guesswork stalls muscle growth.
+
+This guide covers what a workout log needs to contain, how to structure it, and how to build the habit of tracking so it actually sticks.
+
+## Why Logging Workouts Drives Muscle Growth
+
+Muscle grows in response to progressive overload — adding more stress over time through weight, reps, sets, or reduced rest. But you can't progressively overload what you can't measure. A training log turns every session into usable data:
+
+- **What you lifted last week** (so you know exactly what to beat this week)
+- **Which exercises are stalling** (so you can adjust before wasting months spinning your wheels)
+- **How your fatigue accumulates over a training block** (so you can deload before you dig yourself into a hole)
+
+Research on resistance training consistently shows that lifters who track their training make faster strength and hypertrophy gains than those who don't. The log is the mechanism — it converts effort into a feedback loop. Without one, you're just hoping the effort translates.
+
+## What to Track in Every Workout
+
+Not everything needs to be logged. Track the data that directly informs your next session.
+
+### Exercise, Sets, Reps, and Weight
+
+This is the core. For each working set, record:
+
+- **Exercise name** — be specific. "Bench" isn't enough. "Flat barbell bench press" is.
+- **Weight used** — in lbs or kg, stay consistent
+- **Reps completed** — actual reps, not target reps
+- **Sets completed**
+
+Example: *Flat barbell bench press — 185 lbs × 4 × 8*
+
+### Rest Time
+
+Rest duration directly affects performance. If you rested 90 seconds between sets last week and 3 minutes this week, any strength increase might be recovery, not adaptation. Log your rest — at minimum note whether it was short, moderate, or long.
+
+### RPE or RIR
+
+**Rating of Perceived Exertion (RPE)** or **Reps in Reserve (RIR)** captures how hard a set actually was. Two lifters who both hit 185 × 8 had very different training stimuli if one was at a 9 RPE and the other at a 6. A quick RPE number after each hard set makes your log significantly more interpretable over time.
+
+### Notes
+
+One or two words noting anything relevant: "left shoulder tight," "good sleep," "gym crowded." These become valuable context when you look back at a training block and try to understand why a week went badly or unusually well.
+
+## What You Don't Need to Track
+
+Keep the log lean. You don't need:
+
+- **Warm-up sets** unless you're managing an injury or testing mobility
+- **Cardio metrics** unless they directly affect your recovery
+- **Lengthy emotional journal entries** — keep it data-driven
+
+More data isn't always better data. A lean log you fill in consistently beats a detailed log you abandon after two weeks every time.
+
+## How to Structure a Training Log
+
+### Option 1: Paper Log
+
+A dedicated notebook is still effective. One page per session, date at the top, exercises listed vertically, sets/reps/weight in columns. Fast, no battery required, no distractions.
+
+The limitation: paper doesn't let you search across sessions or spot trends without manual effort.
+
+### Option 2: Spreadsheet
+
+Google Sheets or Excel works well for lifters who want to visualize trends. A spreadsheet lets you graph weight over time, compare weeks, and calculate volume automatically.
+
+The limitation: entering data on a phone between sets is slow and breaks your rest period focus.
+
+### Option 3: Voice Logging
+
+Logging by voice — speaking your data out loud immediately after a set — removes the friction almost entirely. Say the set, move on. No typing, no unlocking your phone, no losing a rep because you were navigating an app.
+
+VoiceLift is built specifically for this use case: speak your workout naturally and it structures the data automatically. "Bench press, 185, 4 sets of 8" logs instantly, hands-free. For lifters who've tried paper or apps and fallen off the habit, voice logging is often what finally makes it stick.
+
+## Building the Logging Habit
+
+The most technically perfect log that sits unused is worthless. Here's how to make logging automatic.
+
+### Log Immediately After Each Set
+
+The moment you rack the bar, note the data. Don't wait until the end of the session — details blur, and you'll unconsciously round numbers in your favor.
+
+### Review Before Every Session
+
+Before you touch a weight, check what you did last session for the same exercises. Set a clear target: same weight with one more rep, one more set, or a small weight jump. Walking into a session without a target is walking in blind.
+
+### Do a Weekly Review
+
+Once a week, spend 5 minutes scanning your log. Look for exercises that have stalled for 3+ consecutive weeks. Those are candidates for a technique check, a weight reset, or a variation swap. Stalls caught early are easy to fix. Stalls ignored for months become plateaus.
+
+### Reduce Friction as Much as Possible
+
+The best log is the one you'll actually use. If the method is too slow or awkward between sets, the habit breaks. Evaluate your logging friction honestly and eliminate whatever slows you down.
+
+## Common Logging Mistakes to Avoid
+
+- **Logging targets instead of actuals** — write what you did, not what you planned. A failed set is still useful data; an inflated number is useless
+- **Skipping rest times** — makes it impossible to compare performance across sessions accurately
+- **Inconsistent logging** — even one missed session creates gaps that degrade trend analysis
+- **Not logging deload weeks** — deload data gives you a baseline for what recovered performance looks like
+
+## The Takeaway
+
+**Logging workouts is the difference between training and just going to the gym.** If you're not tracking your sessions, progressive overload is guesswork — and guesswork produces inconsistent results at best, prolonged stalls at worst.
+
+Start simple: exercise, weight, sets, reps, rest time. Review before every session. Adjust when something stops working. That cycle — log, review, adjust — is the actual mechanism behind long-term muscle growth.
+
+If friction has been the barrier, try voice logging. A five-second verbal note after each set is all it takes to build a training history that actually tells you something.
+    `,
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&q=80",
+    date: "2026-10-26",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "6 min read",
+  },
+  {
     id: "best-tricep-exercises-for-size",
     slug: "best-tricep-exercises-for-size",
     title: "Best Tricep Exercises for Size: 7 Movements That Build Mass",
