@@ -1,5 +1,120 @@
 export const blogPosts = [
   {
+    id: "eccentric-training-for-muscle-growth",
+    slug: "eccentric-training-for-muscle-growth",
+    title: "Eccentric Training for Muscle Growth: How to Use Negatives",
+    excerpt: "The lowering phase of a lift — the part most lifters rush through — is where the strongest muscle growth signals happen. Here's how to use eccentric training to break plateaus and build more size.",
+    metaDescription: "Eccentric training targets the lowering phase to maximize muscle growth. Learn how to add negatives to your program and break through size plateaus effectively.",
+    content: `
+# Eccentric Training for Muscle Growth: How to Use Negatives
+
+The phase of a lift most lifters rush through — the lowering phase — is where some of the most powerful muscle growth signals happen. **Eccentric training** specifically targets this portion of the movement, and research consistently shows it produces superior muscle damage, greater protein synthesis, and more hypertrophy per unit of effort compared to standard lifting.
+
+If you've been grinding through a plateau or looking for a fresh training variable to manipulate, eccentric-focused work is one of the most underused tools in most lifters' programs.
+
+## What Is Eccentric Training?
+
+Every resistance exercise has two primary phases:
+
+- **Concentric (positive)**: the muscle shortens against resistance. The push in a bench press, the stand in a squat.
+- **Eccentric (negative)**: the muscle lengthens while producing force. Lowering the bar in a bench press, sitting back into a squat.
+
+Most lifters focus on the concentric and let gravity handle the eccentric. That's leaving growth on the table.
+
+**Eccentric training** means deliberately controlling, slowing, or overloading the lowering phase to maximize the stimulus from that portion of the rep.
+
+## Why Eccentrics Build More Muscle
+
+The eccentric phase produces more muscle tension per unit of motor unit recruitment than the concentric. Here's what that means practically:
+
+### Greater Mechanical Tension
+
+Your muscles can handle significantly more load during the eccentric phase — research suggests up to 40% more. This means greater mechanical tension, which is the primary driver of muscle hypertrophy.
+
+### More Muscle Damage (the Right Kind)
+
+Controlled eccentrics cause more micro-trauma to muscle fibers than concentric-only training. This triggers a more robust repair response — the process that leads to bigger, stronger fibers.
+
+### Extended Time Under Tension
+
+A 4-second eccentric means each set lasts longer, increasing total time under tension without adding more sets. A five-rep set with a 4-second negative delivers significantly more hypertrophic stimulus than the same five reps dropped carelessly.
+
+### Research Backing
+
+Studies comparing eccentric-only, concentric-only, and combined training consistently show eccentric training produces greater increases in muscle size and strength, particularly in the lengthened portion of the muscle's range.
+
+## How to Implement Eccentric Training
+
+There are three main methods, each suited to different goals.
+
+### 1. Slow Eccentric (Tempo Training)
+
+The simplest approach: **slow down the lowering phase** of your regular lifts. Use a 3-5 second count.
+
+- Squat: take 4 seconds to reach the bottom
+- Bench press: take 3-4 seconds to lower the bar
+- Pull-up: take 4-5 seconds to lower yourself
+
+Use your normal working weight to start. Expect the sets to feel significantly harder — your effective load tolerance drops until you adapt. Most lifters should reduce their working weight by 10-15% when first introducing slow eccentrics.
+
+### 2. Pure Negative Reps
+
+Skip the concentric entirely and focus only on the lowering phase. Best suited for bodyweight movements:
+
+- **Pull-up negatives**: jump or use a box to get to the top, then lower yourself as slowly as possible (5-10 seconds)
+- **Push-up negatives**: lower as slowly as possible over 5 seconds, then reset
+- **Dip negatives**: use a bench to get to lockout, lower for 5-8 seconds
+
+This is particularly useful for building toward movements you can't yet do concentrically — like strict pull-ups — or for adding intensity without adding weight.
+
+### 3. Eccentric Overloading
+
+Load the eccentric phase heavier than you can lift concentrically. This requires a training partner or specific equipment:
+
+- **Forced negatives**: your partner adds light downward pressure during the lowering phase
+- **Weight releasers**: specialty equipment that detaches at the bottom so you lift a lighter concentric load
+- **Manual resistance**: a partner applies resistance during your lowering movement
+
+This is an advanced technique. Use it sparingly — once every few weeks on a primary lift.
+
+## Which Exercises Respond Best
+
+Most compound movements benefit from eccentric emphasis. These respond particularly well:
+
+- **Romanian deadlift** — already eccentric-focused by nature; slowing the lowering phase further produces superior hamstring stimulus
+- **Bench press** — 3-4 second negatives build chest and tricep thickness effectively
+- **Squat** — slow eccentrics reinforce technique and build significant quad mass
+- **Pull-ups and rows** — the controlled negative is often where lat and bicep growth happens most
+- **Dumbbell curls** — a 4-second lowering is one of the most effective bicep builders with minimal weight required
+
+## How Often to Use Eccentric Training
+
+Eccentric work produces more muscle damage, which demands more recovery:
+
+- **2-3 eccentric-focused exercises per session**, not the entire session
+- **Not every session** — rotate between standard training and eccentric emphasis across the week
+- **Monitor soreness carefully**: DOMS from eccentric training is more intense and longer-lasting than standard lifting
+- **Introduce gradually** — drop to 70% of your normal working weight for the first 2-3 weeks. Eccentric-naive muscles get trashed quickly
+
+## Logging Eccentric Work Accurately
+
+The detail that makes eccentric training actually pay off over time is tracking tempo. "Bench press 175 x 5" is far less useful than "bench press 175 x 5 at 4-second eccentric, RPE 8." The tempo is a training variable — if you logged it, you know whether to increase the weight, extend the negative, or add a rep next session.
+
+This is exactly where voice logging earns its keep. Speak the details out loud right after the set — "Romanian deadlift, 185, 4 sets of 6, four-second negative" — and VoiceLift structures it automatically. You don't lose the tempo data, which is what makes the session directly comparable to the next one.
+
+## The Takeaway
+
+You don't need to overhaul your program to benefit from eccentric training. Pick one exercise per session — ideally a compound movement you want to bring up — slow the lowering phase to 3-4 seconds on every rep. Log the tempo. Reassess in four weeks.
+
+**Most lifters rush through the part of the rep where the most tension happens.** That's an opportunity. Slow it down, track it, and let the data show you what changes.
+    `,
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+    date: "2026-10-30",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "6 min read",
+  },
+  {
     id: "how-to-log-workouts-for-muscle-growth",
     slug: "how-to-log-workouts-for-muscle-growth",
     title: "How to Log Workouts for Muscle Growth: A Complete Guide",
