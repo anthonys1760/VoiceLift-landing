@@ -1,5 +1,111 @@
 export const blogPosts = [
   {
+    id: "glute-training-guide",
+    slug: "glute-training-guide",
+    title: "Glute Training Guide: How to Build Bigger, Stronger Glutes",
+    excerpt: "The glutes are the largest muscle group in your body — and one of the most undertrained. Here's how to actually build them with the right exercises, loading strategies, and training frequency.",
+    metaDescription: "Build bigger, stronger glutes with this complete training guide. Best exercises, sets and reps, frequency, and how to track glute progress for real results.",
+    content: `
+# Glute Training Guide: How to Build Bigger, Stronger Glutes
+
+The glutes are the largest muscle group in your body — and statistically one of the most undertrained. Most lifters either avoid direct **glute training** entirely or tack on a few hip extensions at the end of leg day and call it done. That's not a glute program; that's an afterthought.
+
+If you want to actually build the glutes — whether for strength, performance, or aesthetics — you need to understand the anatomy, pick exercises that load the muscle through its full range, and apply the same progressive principles you'd use for any other major muscle group.
+
+## Understanding Glute Anatomy
+
+The gluteal complex is made up of three muscles:
+
+- **Gluteus maximus**: the primary driver of hip extension and external rotation. Responds to both heavy compound loading and moderate-to-high rep isolation work.
+- **Gluteus medius**: sits on the outer hip, responsible for hip abduction and pelvis stabilization during single-leg movements.
+- **Gluteus minimus**: the smallest of the three, assists the medius in abduction and lateral stability.
+
+A complete program addresses all three — not just the maximus.
+
+## The Best Glute Exercises by Category
+
+### Hip Extension Exercises (Gluteus Maximus)
+
+These load the maximus hardest through the range where it produces peak force:
+
+- **Hip thrust**: the gold standard for glute isolation. Heavy, controlled hip thrusts with a 1-2 second pause at the top produce as direct a stimulus as any exercise available.
+- **Romanian deadlift**: excellent for the lower glutes and hamstrings under a stretch. Maintain the hip-hinge pattern throughout — don't round the lower back.
+- **Bulgarian split squat**: single-leg loading forces the glutes to work harder than bilateral squats, especially with a long stance and slight forward lean.
+- **Step-ups**: underrated. Load them heavy with a box height that puts the hip in significant flexion at the start of each rep.
+
+### Squat-Pattern Exercises
+
+Squats aren't the best pure glute exercise — the quads are the prime mover — but they contribute:
+
+- **Low-bar back squat**: more hip-dominant than high-bar, produces more glute activation through the movement
+- **Sumo squat / wide-stance goblet squat**: hip abduction combined with extension makes this better for glute engagement than a narrow stance
+- **Hack squat (deep range)**: taken to full depth, this loads the glutes meaningfully through the bottom portion of the range
+
+### Abduction Exercises (Gluteus Medius and Minimus)
+
+Often neglected, essential for full development and hip stability:
+
+- **Cable hip abduction**: better than bands for progressive overload — you can add weight, which you can't reliably do with bands
+- **Banded side step (monster walks)**: effective for medius activation when done with consistent band tension and controlled steps
+- **Side-lying hip abduction**: a clean isolation movement; use slow eccentrics for better stimulus
+- **Single-leg glute bridge with abduction**: combines extension and abduction for maximal medius work in one movement
+
+## Sets, Reps, and Training Frequency
+
+The glutes have a high-endurance fiber profile and respond to a wide rep range:
+
+- **Heavier loading (4-8 reps)** for hip thrust and compound movements to build maximal tension
+- **Moderate to high reps (10-20)** for isolation work like cable abduction and single-leg movements
+
+**Weekly volume**: 12-20 working sets per week supports glute hypertrophy for most lifters. Start at 12-16 and increase only if recovery is solid.
+
+**Training frequency**: 2-3 sessions per week is the sweet spot. The glutes recover reasonably well, but stacking too much volume with heavy leg work can interfere with recovery quality.
+
+**Sample weekly structure**:
+- Session 1: Hip thrust 4x6-8, Romanian deadlift 3x10-12, cable hip abduction 3x15-20
+- Session 2: Bulgarian split squat 3x8-10, weighted step-up 3x10-12, side-lying abduction 3x15-20
+- Session 3 (optional): Sumo squat 3x8-10, banded hip thrust 3x15-20, cable abduction 3x15
+
+## The Mistake That Stalls Most Lifters
+
+The most common error: **not loading the glute through a full range of motion**.
+
+A hip thrust where you don't reach full hip extension at the top — glutes don't fully contract. A squat where the hips shoot up faster than the shoulders out of the hole — quad dominant. A cable hip extension where you swing the weight — momentum, not muscle.
+
+Every rep needs controlled loading from a stretched position through to full contraction. The glutes respond particularly well to **peak contraction emphasis** — a 1-2 second hold at full hip extension on thrusts and bridges makes a measurable difference in stimulus.
+
+## How to Track Glute Progress
+
+Glute development is slow and hard to self-assess. You can't easily see it mid-session, and "it felt like it worked" is not a reliable indicator.
+
+**What to actually track**:
+- Weight and reps on every working set of every exercise
+- Range of motion quality — note it, especially on split squats and RDLs where form can slip under fatigue
+- Load progression over 4-6 week blocks
+
+This is where logging pays off most. Voice-logging hip thrust sets mid-session with VoiceLift is particularly practical — you can speak your sets at the rack without losing position or breaking concentration, and the app captures the exact progression data you need. Without a record, you're guessing whether last week's hip thrust was 185 or 195 for four sets.
+
+When you hit a plateau on a specific exercise, rotate to a similar pattern with a different loading angle before assuming you need more volume — the glutes often respond better to variety in stimulus than to simply adding sets.
+
+## Actionable Takeaway
+
+Building bigger, stronger glutes comes down to five principles:
+
+1. **Prioritize hip extension first** — hip thrust and RDL are your primary drivers; they should be in every week
+2. **Don't skip abduction work** — medius development changes the shape and fullness of the glutes more than most lifters realize
+3. **Full range of motion on every rep** — partial reps on hip extension exercises waste sets
+4. **Apply progressive overload** — the glutes respond to load like any other muscle group; track and increase weight consistently
+5. **Log every working set** — without records, you can't confirm you're actually progressing
+
+Treat glute training with the same structure you'd give chest or back — consistent programming, tracked progression, and adequate recovery — and you'll build the foundation most gym-goers never reach.
+    `,
+    image: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?w=800&h=400&fit=crop&q=80",
+    date: "2026-11-02",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "7 min read",
+  },
+  {
     id: "eccentric-training-for-muscle-growth",
     slug: "eccentric-training-for-muscle-growth",
     title: "Eccentric Training for Muscle Growth: How to Use Negatives",
