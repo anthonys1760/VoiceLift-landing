@@ -1,5 +1,120 @@
 export const blogPosts = [
   {
+    id: "how-to-build-bigger-calves",
+    slug: "how-to-build-bigger-calves",
+    title: "How to Build Bigger Calves: The Complete Training Guide",
+    excerpt: "Calves are the most commonly lagging muscle group in lifting — undertrained in the same predictable ways. Here's the complete guide to building bigger calves with the right exercises, programming, and progression.",
+    metaDescription: "Build bigger calves with this complete training guide. Best exercises, sets and reps, frequency, and the calf training mistakes keeping most lifters stuck.",
+    content: `
+# How to Build Bigger Calves: The Complete Training Guide
+
+The calves are the most complained-about lagging muscle group in lifting — and there's a reason for that. Most lifters give them two or three sets at the end of leg day, crank out some half-hearted reps on the calf raise machine, and wonder why they never grow.
+
+**Building bigger calves** is achievable for most lifters. It requires applying the same progressive principles you use for every other muscle group, understanding the anatomy, and training through a full range of motion with meaningful load.
+
+## Understanding Calf Anatomy
+
+The calf is two distinct muscles, and treating them as one is the most common programming error:
+
+- **Gastrocnemius**: the larger, two-headed muscle that creates the visible shape of the calf. It crosses both the knee and ankle, meaning it's best trained with the leg straight — standing calf raise, donkey calf raise.
+- **Soleus**: sits beneath the gastrocnemius, broader and flatter. It only crosses the ankle, so it's best isolated with the knee bent — seated calf raise. The soleus makes up a significant portion of lower-leg thickness, and neglecting it means leaving half your calf underdeveloped.
+
+Training only the gastroc — which is what most lifters do if they're only using the standing calf raise — addresses only part of the muscle group.
+
+## Why Most Lifters' Calves Don't Grow
+
+Before fixing programming, diagnose the most common failures:
+
+### Insufficient Range of Motion
+
+A calf raise that starts and ends near neutral — no real heel drop, no stretch at the bottom — is effectively a partial rep. Both muscles respond best to training through full dorsiflexion to full plantarflexion. That means heels dropping well below the platform at the bottom, and full extension at the top.
+
+### Too Little Load
+
+Calves are endurance-dominant muscles — they carry your bodyweight all day. This leads many lifters to train them exclusively with high reps and light load. That underestimates what it takes to overload them. Heavy-to-moderate loading (8–15 reps) with strict form outperforms endless sets of 20+ done with sloppy range.
+
+### No Progressive Overload
+
+The same 20 reps on the same weight for months isn't training — it's maintenance. Calves respond to progressive load like any other muscle. If you can't track what you did last session, you can't confirm you're making progress.
+
+### Not Enough Volume
+
+Calves are often trained as an afterthought with 2–3 sets total. For a genuinely lagging muscle group, **15–20 weekly sets** is a more realistic starting point.
+
+## Best Calf Exercises
+
+### Standing Calf Raise
+
+The primary movement for gastrocnemius development. Done on a machine or a step:
+
+- Full range: deep stretch to full extension on every rep
+- 1–2 second pause at the top
+- Slow, controlled descent — 3–4 seconds down
+- Heavy enough that 10–15 reps is genuinely challenging
+
+### Seated Calf Raise
+
+Non-negotiable for soleus development. With the knee bent at 90 degrees, the gastrocnemius is slack — all the load goes to the soleus. This is what gives calves thickness and width from the front. Use real weight; the soleus is strong. Same full-range emphasis as standing work.
+
+### Donkey Calf Raise
+
+The gastrocnemius is stretched further at the hip in this position, increasing the range of motion and stimulus. Use a donkey calf raise machine, or lean forward with hips flexed over a step.
+
+### Single-Leg Calf Raise
+
+Doubles the loading per leg using just bodyweight, and identifies bilateral asymmetries. Hold a dumbbell once bodyweight is too easy. These work well as a finisher when equipment isn't available.
+
+## Programming Calves for Growth
+
+### Frequency
+
+**2–3 sessions per week.** Calves recover quickly given their high endurance fiber composition. Twice weekly is the minimum for a lagging group; three times works well when volume is distributed across sessions.
+
+### Volume
+
+12–20 working sets per week:
+- 2 sessions: 6–10 sets per session
+- 3 sessions: 4–7 sets per session
+
+A sample session: standing calf raise 4x10–12, seated calf raise 3x12–15, single-leg calf raise 2x15.
+
+### Rep Ranges
+
+Avoid training calves exclusively in one rep range:
+
+- **6–10 reps** with heavier load on standing calf raise
+- **10–15 reps** for seated calf raise with moderate load
+- **15–20 reps** for finishing sets or single-leg work
+
+### Progression
+
+Add load when you complete all sets at the top of the rep range with clean form and full range. Increase by 5–10 lbs and work back up from the bottom of the range. The same progression model that applies to bench press or squat applies here — there's no special rule for calves.
+
+## Tracking Calf Training
+
+Calves benefit from the same logging discipline as any other muscle group. Without tracking sets, weight, and reps, you can't confirm whether you're actually loading them progressively or just repeating the same session indefinitely.
+
+Using VoiceLift to log calf raises mid-workout keeps the data accurate without breaking flow between sets. Saying your weight and reps after each set takes a few seconds — and over a 12-week block, you'll know exactly whether load has climbed or whether you've been spinning your wheels on the same weight since week two.
+
+## Actionable Takeaway
+
+Building bigger calves is a programming problem as much as a genetics one. The changes that actually produce results:
+
+1. **Train both muscles** — standing calf raise (gastroc) and seated calf raise (soleus) are both required; skipping the seated version means leaving half the muscle unworked
+2. **Full range of motion on every rep** — heels below the platform at the bottom, locked extension at the top
+3. **Apply real load** — calves are strong; train them heavy enough to create an actual stimulus
+4. **Hit them 2–3 times per week** — not once as an afterthought at the end of leg day
+5. **Track and progress** — the same weight for the same reps every week is maintenance, not growth
+
+Give calves the same structured approach you give to any other lagging muscle group and they will respond.
+    `,
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=400&fit=crop&q=80",
+    date: "2026-11-06",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "6 min read",
+  },
+  {
     id: "glute-training-guide",
     slug: "glute-training-guide",
     title: "Glute Training Guide: How to Build Bigger, Stronger Glutes",
