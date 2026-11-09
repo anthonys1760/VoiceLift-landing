@@ -1,5 +1,143 @@
 export const blogPosts = [
   {
+    id: "arnold-split-workout-program",
+    slug: "arnold-split-workout-program",
+    title: "Arnold Split Workout: The 6-Day Program for Building Mass",
+    excerpt: "The Arnold split pairs antagonistic muscle groups across 6 days per week — a structure that generates high training volume and frequency for experienced lifters chasing mass.",
+    metaDescription: "Learn the Arnold split workout: a 6-day program pairing chest+back, shoulders+arms, and legs. Full schedule, exercises, and who it's right for.",
+    content: `
+# Arnold Split Workout: The 6-Day Program for Building Mass
+
+The **Arnold split** is a 6-day-per-week training program that pairs antagonistic muscle groups — chest with back, shoulders with arms, and legs — cycling through the sequence twice per week. It was popularized by Arnold Schwarzenegger's training approach during his competitive years and has remained one of the most discussed high-volume programs in strength training.
+
+This isn't a beginner program. It's designed for lifters who can handle significant weekly volume, recover from it, and are specifically pursuing hypertrophy. If that's you, here's exactly how it works.
+
+## What Makes the Arnold Split Different
+
+Most high-frequency splits either repeat the same session (full body, 3x/week) or divide the body in a way that keeps muscle groups separate (push-pull-legs). The Arnold split does something different: it pairs **opposing muscle groups** in the same session.
+
+Chest and back. Shoulders and arms. Each pairing trains muscles that are functionally antagonistic — when one contracts, the other is stretched and recovering. This allows you to maintain intensity across both muscle groups in a single session without the second group suffering from residual fatigue.
+
+The result: 6 training days, each muscle group hit twice per week, with a structure that sustains quality work throughout each session.
+
+## The 6-Day Arnold Split Schedule
+
+The rotation is a 3-day sequence repeated twice per week:
+
+| Day | Muscle Groups |
+|-----|---------------|
+| Day 1 | Chest + Back |
+| Day 2 | Shoulders + Arms |
+| Day 3 | Legs |
+| Day 4 | Chest + Back |
+| Day 5 | Shoulders + Arms |
+| Day 6 | Legs |
+| Day 7 | Rest |
+
+Both iterations of the schedule typically use the same exercise selection — though loading, volume, or exercise variation can differ between the first and second exposure to give the week some contrast.
+
+## Sample Exercises by Day
+
+### Day 1 & 4: Chest + Back
+
+The pairing works because pressing movements fatigue the pecs while the back is relatively fresh, and the reverse is true when you switch to pulling. Supersets are common here and productive:
+
+**Chest:**
+- Barbell bench press: 4x6–10
+- Incline dumbbell press: 3x8–12
+- Cable fly or pec deck: 3x12–15
+
+**Back:**
+- Barbell row or T-bar row: 4x6–10
+- Pull-up or lat pulldown: 3x8–12
+- Cable row: 3x10–15
+
+Superset chest and back movements where possible — bench press paired with rows, incline press paired with lat pulldown. Rest times stay shorter and volume per unit of time increases significantly.
+
+### Day 2 & 5: Shoulders + Arms
+
+Shoulders come first while energy is highest; arms receive indirect work from pressing and pulling sessions and are then finished with direct isolation work:
+
+**Shoulders:**
+- Overhead press (barbell or dumbbell): 4x6–10
+- Lateral raise: 4x12–15
+- Rear delt fly: 3x12–15
+
+**Arms:**
+- Barbell curl: 3x8–12
+- Skull crusher or close-grip bench: 3x8–12
+- Incline dumbbell curl: 2x10–12
+- Overhead tricep extension: 2x12–15
+
+The arm volume here is in addition to the indirect arm work from pressing and pulling sessions. Total weekly bicep and tricep volume is high — monitor recovery and reduce direct arm sets if performance drops.
+
+### Day 3 & 6: Legs
+
+Both leg sessions are standalone days. This is where you can go heavy and prioritize compound movements:
+
+- Barbell squat: 4x6–10
+- Romanian deadlift: 3x8–12
+- Leg press: 3x10–15
+- Leg curl: 3x10–12
+- Calf raise: 4x12–15
+
+Leg days in a 6-day program need recovery consideration. If squats on Day 3 significantly impair Day 4 chest-back performance, adjust the loading on squats or alternate squat days with leg press days.
+
+## Who the Arnold Split Is Right For
+
+This program is appropriate for **intermediate to advanced lifters** with:
+
+- At least 2–3 years of consistent, structured training
+- Established recovery capacity for 6 weekly sessions
+- Clear hypertrophy as the primary goal
+- A schedule that realistically supports 6 workouts per week
+
+If you're running a calorie surplus, sleeping adequately, and sessions are under 75 minutes, the Arnold split has the structure to generate serious volume without each session becoming a slog.
+
+**It's not right for you if:**
+- You're still making linear progress on a beginner program — there's no need to increase frequency yet
+- You can only realistically commit to 3–4 sessions per week
+- Strength performance on the main lifts is the primary goal — this is a hypertrophy program
+
+## Volume and Intensity Considerations
+
+The total weekly volume on the Arnold split is high:
+
+- **Chest**: 10–12 working sets per week
+- **Back**: 10–12 working sets per week
+- **Shoulders**: 8–10 working sets per week
+- **Arms**: 10–14 working sets per week (direct + indirect)
+- **Legs**: 12–15 working sets per week
+
+This is on the higher end of typical hypertrophy volume ranges. Run the program for 8–10 weeks, then take a structured deload. Attempting to run this indefinitely without a planned deload is how the program produces overtraining rather than adaptation.
+
+Intensity: most work should land in the 7–12 rep range. Use RPE 7–9 for compound movements and RPE 8–10 for isolation work at the end of sets.
+
+## Tracking 6 Sessions Per Week
+
+The Arnold split generates a large data footprint — 6 sessions per week, multiple exercises per session, two passes through each muscle group. The difference between adapting and stagnating is whether you can confirm that loading is climbing from week to week.
+
+This is exactly where voice logging earns its place. With VoiceLift, you log each set mid-session by saying your weight and reps out loud — no stopping to type between exercises. On a 6-day program, that matters: having an accurate record of both Day 1 and Day 4 chest sessions lets you immediately see whether the second weekly exposure is trending up or down.
+
+## Actionable Takeaway
+
+The Arnold split delivers high frequency and volume for lifters who are ready for it. The structure — antagonistic pairings, 6 days, twice-per-week frequency — is sound. The key variables to get right:
+
+1. **Don't start it in a caloric deficit** — the volume requires recovery support from adequate calories
+2. **Use supersets on chest+back and shoulders+arms days** — that's where the efficiency of the pairing lives
+3. **Plan leg days around compound movement loading** — heavy squats twice a week need intentional load management
+4. **Track both weekly passes of each muscle group** — if Day 4 chest performance drops versus Day 1 every week, volume or recovery is off
+5. **Deload at 8–10 weeks** — this isn't a program to run indefinitely without a planned reduction
+
+If you have the training base and recovery capacity, the Arnold split is one of the most effective high-volume structures available.
+    `,
+    image: "https://images.unsplash.com/photo-1549476464-37392f717541?w=800&h=400&fit=crop&q=80",
+    date: "2026-11-09",
+    author: "VoiceLift Team",
+    category: "Training",
+    readTime: "7 min read",
+  },
+  {
     id: "how-to-build-bigger-calves",
     slug: "how-to-build-bigger-calves",
     title: "How to Build Bigger Calves: The Complete Training Guide",
