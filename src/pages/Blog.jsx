@@ -128,7 +128,7 @@ const NAV_STYLES = `
     background: rgba(10,10,10,0.95);
     backdrop-filter: blur(10px);
     border-left: 1px solid var(--border);
-    width: min(280px, calc(100vw - 20px));
+    width: min(280px, calc(100% - 20px));
     z-index: 999;
   }
   .mobile-menu.open {

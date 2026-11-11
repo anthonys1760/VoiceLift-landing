@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./voicelift-logo.png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="/voicelift-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary Meta Tags -->
@@ -125,12 +126,14 @@
       }
       html {
         scroll-behavior: smooth;
+        overflow-x: clip;
       }
       body {
         background: var(--bg);
         color: var(--text);
         font-family: var(--font-body);
         line-height: 1.6;
+        overflow-x: clip;
       }
       a {
         color: inherit;
