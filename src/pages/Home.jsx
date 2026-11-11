@@ -139,8 +139,8 @@ function useInView(threshold) {
 const CSS = [
   ":root { --bg: #0A0A0A; --text: #F5F5F5; --muted: #999; --border: #222; --card: #1a1a1a; --lime: #e8ff47; --black: #0A0A0A; --font-display: 'Inter', system-ui; --font-body: 'Inter', system-ui; }",
   "* { margin: 0; padding: 0; box-sizing: border-box; }",
-  "html { scroll-behavior: smooth; }",
-  "body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; }",
+  "html { scroll-behavior: smooth; overflow-x: clip; }",
+  "body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; overflow-x: clip; }",
   "a { color: inherit; text-decoration: none; }",
   "button { font-family: inherit; }",
   "nav { display: flex; align-items: center; justify-content: space-between; padding: 0px 40px; background: transparent; transition: all 0.3s; position: fixed; width: 100%; top: 0; left: 0; right: 0; z-index: 1000; }",
@@ -157,7 +157,7 @@ const CSS = [
   ".logo-text-lift { color: var(--lime); }",
   "section { padding: 100px 40px; max-width: 1200px; margin: 0 auto; }",
   ".hero { padding: 220px 40px 20px; max-width: 1200px; margin: 0 auto; text-align: center; position: relative; }",
-  ".hero-bg { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(232,255,71,0.1) 0%, transparent 70%); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; }",
+  ".hero-bg { position: absolute; width: min(600px, 100%); aspect-ratio: 1; height: auto; background: radial-gradient(circle, rgba(232,255,71,0.1) 0%, transparent 70%); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; }",
   ".grid-overlay { position: fixed; width: 100%; height: 100%; background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 50px 50px; pointer-events: none; z-index: 0; top: 0; left: 0; }",
   ".hero-inner { position: relative; z-index: 1; }",
   ".eyebrow { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 8px; opacity: 0; transform: translateY(20px); transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); }",
@@ -264,13 +264,13 @@ const CSS = [
   ".roadmap-title { font-size: 17px; font-weight: 600; margin-bottom: 10px; }",
   ".roadmap-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }",
   ".hamburger { display: none; background: transparent; border: none; color: var(--text); font-size: 24px; cursor: pointer; padding: 0; width: 28px; height: 28px; }",
-  ".mobile-menu { display: none; position: fixed; top: 60px; right: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-left: 1px solid var(--border); width: min(280px, calc(100vw - 20px)); z-index: 999; }",
+  ".mobile-menu { display: none; position: fixed; top: 60px; right: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-left: 1px solid var(--border); width: min(280px, calc(100% - 20px)); z-index: 999; }",
   ".mobile-menu.open { display: block; }",
   ".mobile-menu a { display: block; width: 100%; padding: 16px 20px; color: var(--muted); text-align: left; text-decoration: none; font-size: 15px; cursor: pointer; transition: color 0.2s; }",
   ".mobile-menu a:hover { color: var(--text); }",
   ".mobile-menu-cta { background: var(--lime); color: var(--black); font-weight: 600; margin: 12px; padding: 12px 16px; border: none; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; width: calc(100% - 24px); }",
   ".mobile-menu-cta:hover { opacity: 0.88; }",
-  "@media (max-width: 640px) { nav { padding: 8px 10px; } .logo-img { height: 80px; } .logo-text { display: none; } .hamburger { display: block; } .nav-links { display: none; } .nav-cta { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phones { flex-direction: column; gap: 20px; } .hero-phone-item { width: 100%; } .hero-phone-item img { max-width: 130vw; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
+  "@media (max-width: 640px) { nav { padding: 8px 10px; } .logo-img { height: 80px; } .logo-text { display: none; } .hamburger { display: block; } .nav-links { display: none; } .nav-cta { display: none; } .hero { padding: 120px 20px 60px; } section { padding: 70px 20px; } .waitlist-form, .cta-form { flex-direction: column; } .step-num { font-size: 48px; width: 60px; } .step-row--upcoming { margin-left: 0; padding-left: 16px; } footer { flex-direction: column; gap: 12px; text-align: center; } .feature-card { border-right: none; border-bottom: 1px solid var(--border); } .feature-card:last-child { border-bottom: none; } .price-card.highlight { transform: scale(1); } .hero h1 { font-size: clamp(32px, 8vw, 48px); } .hero .subtitle { font-size: clamp(14px, 2.5vw, 16px); } .hero-phones { flex-direction: column; gap: 20px; } .phone-frame { max-width: 100%; } .problem-grid { grid-template-columns: 1fr; } .feature-grid { grid-template-columns: 1fr; } .testimonial-grid { grid-template-columns: 1fr; } .roadmap-grid { grid-template-columns: 1fr; } .pricing-grid { grid-template-columns: 1fr; } }",
 ].join("\n");
 
 export default function Home() {
