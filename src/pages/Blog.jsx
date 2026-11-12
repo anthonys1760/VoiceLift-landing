@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { blogPosts } from "../data/blogPosts";
+import SiteFooter from "../components/SiteFooter";
 
 const NAV_STYLES = `
   nav {
@@ -389,6 +390,7 @@ export default function Blog() {
         ))}
       </div>
     </div>
+    <SiteFooter />
     </>
   );
 }
