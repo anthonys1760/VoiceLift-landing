@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getBlogPostBySlug, blogPosts } from "../data/blogPosts";
+import SiteFooter from "../components/SiteFooter";
 
 const NAV_LINKS = ["Features", "How It Works", "Roadmap", "FAQ"];
 
@@ -199,6 +200,54 @@ export default function BlogPost() {
 
       let ogDesc = document.querySelector('meta[property="og:description"]');
       if (ogDesc) ogDesc.content = post.metaDescription || post.excerpt;
+
+      const authorPerson = {
+        "@type": "Person",
+        "@id": "https://anthonysdigital.net/#person",
+        name: "Anthony Smith",
+        url: "https://anthonysdigital.net/",
+      };
+      const serialized = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.metaDescription || post.excerpt,
+        datePublished: post.date,
+        author: authorPerson,
+        creator: authorPerson,
+        image: post.image,
+        mainEntityOfPage: `https://voicelift.app/blog/${post.slug}`,
+        publisher: {
+          "@type": "Organization",
+          name: "VoiceLift",
+          logo: { "@type": "ImageObject", url: "https://voicelift.app/logo.svg" },
+        },
+      });
+      const scripts = [...document.querySelectorAll('script[type="application/ld+json"]')];
+      let script = scripts.find((node) => {
+        try {
+          return JSON.parse(node.textContent)["@type"] === "BlogPosting";
+        } catch {
+          return false;
+        }
+      });
+      let created = false;
+      let original = null;
+      if (script) {
+        original = script.textContent;
+        script.textContent = serialized;
+      } else {
+        script = document.createElement("script");
+        script.type = "application/ld+json";
+        script.dataset.blogPosting = post.slug;
+        script.textContent = serialized;
+        document.head.appendChild(script);
+        created = true;
+      }
+      return () => {
+        if (created) script.remove();
+        else if (original != null) script.textContent = original;
+      };
     }
   }, [post]);
 
@@ -212,13 +261,16 @@ export default function BlogPost() {
 
   if (!post) {
     return (
-      <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <div style={{ textAlign: "center" }}>
-          <h2>Post not found</h2>
-          <Link to="/blog" style={{ color: "var(--lime)", marginTop: "20px", display: "inline-block" }}>
-            ← Back to blog
-          </Link>
+      <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ textAlign: "center" }}>
+            <h2>Post not found</h2>
+            <Link to="/blog" style={{ color: "var(--lime)", marginTop: "20px", display: "inline-block" }}>
+              ← Back to blog
+            </Link>
+          </div>
         </div>
+        <SiteFooter />
       </div>
     );
   }
@@ -388,6 +440,23 @@ export default function BlogPost() {
           border-radius: 12px;
           margin: 50px 0;
         }
+        .blog-post-author {
+          margin-top: 20px;
+          padding: 14px 16px;
+          background: var(--card);
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          font-size: 14px;
+          color: var(--muted);
+          display: inline-block;
+        }
+        .blog-post-author a {
+          color: var(--text);
+          font-weight: 600;
+        }
+        .blog-post-author a:hover {
+          color: var(--lime);
+        }
         @media (max-width: 640px) {
           nav {
             padding: 8px 10px;
@@ -447,12 +516,16 @@ export default function BlogPost() {
           <div className="blog-post-category">{post.category}</div>
           <h1 className="blog-post-title">{post.title}</h1>
           <div className="blog-post-meta">
-            <span>{post.author}</span>
-            <span>•</span>
             <span>{post.date}</span>
             <span>•</span>
             <span>{post.readTime}</span>
           </div>
+          <p className="blog-post-author">
+            Written by{" "}
+            <a href="https://anthonysdigital.net/about.html" rel="author">
+              Anthony Smith
+            </a>
+          </p>
         </div>
 
         <img
@@ -483,6 +556,7 @@ export default function BlogPost() {
           )}
         </div>
       </div>
+      <SiteFooter />
     </div>
     </>
   );

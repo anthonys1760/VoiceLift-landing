@@ -6,6 +6,12 @@ import { blogPosts } from '../src/data/blogPosts.js'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const dist = join(root, 'dist')
 const origin = 'https://voicelift.app'
+const authorPerson = {
+  '@type': 'Person',
+  '@id': 'https://anthonysdigital.net/#person',
+  name: 'Anthony Smith',
+  url: 'https://anthonysdigital.net/',
+}
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 
 function escapeText(value) {
@@ -121,11 +127,15 @@ const blogHtml = withRouteMeta(indexHtml, {
   name: 'VoiceLift Blog',
   description: blogDescription,
   url: `${origin}/blog`,
+  author: authorPerson,
+  creator: authorPerson,
   blogPost: blogPosts.map((post) => ({
     '@type': 'BlogPosting',
     headline: post.title,
     url: `${origin}/blog/${post.slug}`,
     datePublished: post.date,
+    author: authorPerson,
+    creator: authorPerson,
   })),
 })}
   </head>`)
@@ -153,7 +163,8 @@ for (const post of blogPosts) {
     headline: post.title,
     description,
     datePublished: post.date,
-    author: { '@type': 'Organization', name: post.author || 'VoiceLift Team' },
+    author: authorPerson,
+    creator: authorPerson,
     image: post.image,
     mainEntityOfPage: url,
     publisher: {

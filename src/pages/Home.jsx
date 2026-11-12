@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import SiteFooter from "../components/SiteFooter";
 
 const NAV_LINKS = ["Features", "How It Works", "Roadmap", "FAQ"];
 
@@ -705,9 +706,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer style={{ background: "var(--card)", border: "1px solid var(--border)", marginTop: "60px", padding: "40px", textAlign: "center", fontSize: "13px", color: "var(--muted)" }}>
-        <p>© 2026 VoiceLift</p>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
